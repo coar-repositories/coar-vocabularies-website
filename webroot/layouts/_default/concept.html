@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ .Scratch.Set "conceptSchemeName" .Section }}
+<div class="row">
+  <div class="col">
+    <h1 class="page-title">{{(.Site.GetPage ($.Scratch.Get "conceptSchemeName")).Title}}: {{ .Title }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3 tree">
+    {{ $tree_file_path := (print .File.Dir "../tree.txt")}}
+    {{ readFile $tree_file_path | markdownify }}
+  </div>
+  <div class="col-md-9">
+    {{partial "concept" .}}
+  </div>
+</div>
+{{ end }}

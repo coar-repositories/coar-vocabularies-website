@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="row">
+  <div class="col">
+    <h1 class="page-title">{{ .Title }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    {{partial "concept_scheme" .}}
+    <h2>Concepts</h2>
+    {{ range .CurrentSection.RegularPages }}
+      <h2 class="concept-title">{{ .Title }}</h2>
+      {{ partial "concept" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
