@@ -1,4 +1,7 @@
 # coar-vocabularies-website
+
+These notes are in development...
+
 1. Sources for the COAR Vocabularies website
 2. Sources and binaries for the tool used to generate the website
 
