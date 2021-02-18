@@ -27,7 +27,7 @@
             {{ if ne $linkTitle "" }}
               <li><a href="{{ $path}}">{{ $linkTitle }}</a></li>
             {{ else }}
-              <li>{{ . }}</li>
+              <li><a href="{{ . }}">{{ . }}</a></li>
             {{ end }}
           {{ end }}
         </ul>
@@ -44,7 +44,7 @@
             {{ if ne $linkTitle "" }}
               <li><a href="{{ $path}}">{{ $linkTitle }}</a></li>
             {{ else }}
-              <li>{{ . }}</li>
+              <li><a href="{{ . }}">{{ . }}</a></li>
             {{ end }}
           {{ end }}
         </ul>
