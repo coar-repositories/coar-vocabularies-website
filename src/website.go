@@ -65,7 +65,7 @@ func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error
 		for _, concept := range conceptSchemeVersion.Concepts {
 			if currentConceptSchemeVersion.GetConceptById(concept.ID) == nil {
 				//	this is an orphan concept
-				concept.HugoLayout = "concept_orphan.html"
+				concept.HugoLayout = "concept_orphan"
 				conceptPage, conceptMarshalErr := concept.marshal()
 				if conceptMarshalErr != nil {
 					zapLogger.Error(conceptMarshalErr.Error())

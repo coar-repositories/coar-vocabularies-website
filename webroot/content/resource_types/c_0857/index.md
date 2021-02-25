@@ -2,7 +2,7 @@
 title: letter
 uri: http://purl.org/coar/resource_type/c_0857
 description: A brief description of important new research, also known as “communication”. (adapted from EuroCRIS)
-layout: concept_orphan.html
+layout: concept_orphan
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text

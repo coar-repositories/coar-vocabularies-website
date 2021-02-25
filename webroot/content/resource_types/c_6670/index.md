@@ -2,7 +2,7 @@
 title: conference poster
 uri: http://purl.org/coar/resource_type/c_6670
 description: A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is published in proceedings.
-layout: concept_orphan.html
+layout: concept_orphan
 related:
     - type: Broad Match
       uri: http://purl.org/ontology/bibo/Conference

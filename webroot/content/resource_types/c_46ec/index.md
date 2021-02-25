@@ -2,7 +2,7 @@
 title: thesis
 uri: http://purl.org/coar/resource_type/c_46ec
 description: 'A thesis or dissertation is a document submitted in support of candidature for an academic degree or professional qualification presenting the author''s research and findings. [Source: https://en.wikipedia.org/wiki/Thesis ]'
-layout: concept_orphan.html
+layout: concept_orphan
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
