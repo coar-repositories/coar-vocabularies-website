@@ -2,7 +2,8 @@
 {{ .Scratch.Set "conceptSchemeName" .Section }}
 <div class="row">
   <div class="col">
-    <h1 class="page-title">{{(.Site.GetPage ($.Scratch.Get "conceptSchemeName")).Title}}: {{ .Title }}</h1>
+    {{ $conceptSchemePage := .Site.GetPage ($.Scratch.Get "conceptSchemeName") }}
+    <h1 class="page-title">{{$conceptSchemePage.Title}} {{$conceptSchemePage.Params.version}}: {{ .Title }}</h1>
   </div>
 </div>
 <div class="row">

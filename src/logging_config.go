@@ -5,6 +5,10 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
+func EnableDebugging() {
+	zapLogger, _ = configureZapLogger(true)
+}
+
 func configureZapLogger(debugging bool) (*zap.Logger, error) {
 	level := zapcore.InfoLevel
 	encoderConfig := zapcore.EncoderConfig{
