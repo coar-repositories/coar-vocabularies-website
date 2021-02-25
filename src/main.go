@@ -45,20 +45,11 @@ func main() {
 	}
 	zapLogger.Info("Building website...")
 	for _, conceptScheme := range conceptSchemes {
-		for _, conceptSchemeVersion := range conceptScheme.Versions {
-			err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, false)
-			if err != nil {
-				zapLogger.Fatal("Unable to process concept scheme version for website - halting immediately")
-			}
-			if conceptSchemeVersion.VersionNumber == conceptScheme.GetLatestVersion().VersionNumber {
-				err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, true)
-				if err != nil {
-					zapLogger.Fatal("Unable to process concept scheme version for website - halting immediately")
-				}
-			}
+		err = website.ProcessConceptScheme(conceptScheme)
+		if err != nil {
+			zapLogger.Fatal("Unable to process concept scheme for website - halting immediately")
 		}
 	}
 	zapLogger.Info("Website built OK")
 	zapLogger.Info("Process completed successfully")
-	conceptSchemes[0].GetLatestVersion()
 }

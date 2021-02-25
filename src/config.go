@@ -52,6 +52,11 @@ func (config *Config) unmarshal(filePath string) error {
 		EnableDebugging()
 		zapLogger.Info("Debugging enabled")
 	}
+	err = resetVolatileFolder(config.ProcessedSkosRootFolderPath)
+	if err != nil {
+		zapLogger.Error(err.Error())
+		return err
+	}
 	for _, conceptSchemeConfig := range config.ConceptSchemeConfigs {
 		for _, conceptSchemeVersionConfig := range conceptSchemeConfig.Versions {
 			conceptSchemeVersionDetails, err := ioutil.ReadFile(filepath.Join(conceptSchemeVersionConfig.SkosSourceFolderPath, "config.yaml"))

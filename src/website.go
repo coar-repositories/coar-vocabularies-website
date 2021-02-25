@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/goki/ki/ki"
+	"go.uber.org/zap"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -24,10 +25,62 @@ func (website *Website) Initialise(webrootPath string) error {
 		zapLogger.Error(err.Error())
 		return err
 	}
-	err = os.MkdirAll(website.StaticContentFolderPath, os.ModePerm)
+	err = resetVolatileFolder(website.StaticContentFolderPath)
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
+	}
+	if err != nil {
+		zapLogger.Error(err.Error())
+		return err
+	}
+	return err
+}
+
+func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error {
+	var err error
+	conceptSchemeFolderPath := filepath.Join(website.ContentFolderPath, conceptScheme.ID)
+	err = resetVolatileFolder(conceptSchemeFolderPath)
+	if err != nil {
+		zapLogger.Error(err.Error())
+		return err
+	}
+	zapLogger.Info("Reset concept scheme folder", zap.String("path", conceptSchemeFolderPath))
+	for _, conceptSchemeVersion := range conceptScheme.Versions {
+		err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, false)
+		if err != nil {
+			zapLogger.Error(err.Error())
+			return err
+		}
+		if conceptSchemeVersion.VersionNumber == conceptScheme.GetLatestVersion().VersionNumber {
+			err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, true)
+			if err != nil {
+				zapLogger.Error(err.Error())
+				return err
+			}
+		}
+	}
+	currentConceptSchemeVersion := conceptScheme.GetLatestVersion()
+	for _, conceptSchemeVersion := range conceptScheme.Versions {
+		for _, concept := range conceptSchemeVersion.Concepts {
+			if currentConceptSchemeVersion.GetConceptById(concept.ID) == nil {
+				//	this is an orphan concept
+				concept.HugoLayout = "concept_orphan.html"
+				conceptPage, conceptMarshalErr := concept.marshal()
+				if conceptMarshalErr != nil {
+					zapLogger.Error(conceptMarshalErr.Error())
+					return conceptMarshalErr
+				}
+				conceptPageFolderPath := filepath.Join(website.ContentFolderPath, conceptScheme.ID, concept.ID)
+				zapLogger.Debug("Writing orphan concept page to ", zap.String("path", conceptPageFolderPath))
+				os.MkdirAll(conceptPageFolderPath, os.ModePerm)
+				conceptFileWriteErr := ioutil.WriteFile(filepath.Join(conceptPageFolderPath, "index.md"), conceptPage, os.ModePerm)
+				if conceptFileWriteErr != nil {
+					zapLogger.Error(conceptFileWriteErr.Error())
+					return conceptFileWriteErr
+				}
+			}
+		}
 	}
 	return err
 }
@@ -64,7 +117,7 @@ func (website *Website) ProcessConceptSchemeVersion(conceptSchemeVersion *Concep
 		zapLogger.Error(err.Error())
 		return err
 	}
-	err = website.GenerateZip(conceptSchemeVersion, asCurrentVersion)
+	err = website.GenerateZip(conceptSchemeVersion)
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
@@ -108,7 +161,7 @@ func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptScheme
 	return err
 }
 
-func (website *Website) GenerateZip(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
+func (website *Website) GenerateZip(conceptSchemeVersion *ConceptSchemeVersion) error {
 	filesPathsToZip := []string{conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")}
 	err := zipFiles(filepath.Join(website.StaticContentFolderPath, fmt.Sprint(conceptSchemeVersion.ID, "_", conceptSchemeVersion.VersionNumberString, ".zip")), filesPathsToZip)
 	if err != nil {
