@@ -1,11 +1,9 @@
 ---
 title: lecture
 uri: http://purl.org/coar/resource_type/c_8544
-description: A transcription of a talk delivered during an academic event.
+description: 'Transcription of an oral presentation/talk intended to present information or teach people about a particular subject, for example by a university or college teacher. [Source: Adopted from https://en.wikipedia.org/wiki/Lecture]'
 layout: concept
 related:
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/lecture
     - type: Narrow Match
       uri: http://purl.org/spar/fabio/LectureNotes
 pref_labels:
@@ -42,9 +40,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: přednáška
-    - language_code: ru
-      language_name: русский
-      value: материалы лекций
     - language_code: ar
       language_name: العربية
       value: محاضرة
@@ -97,9 +92,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: preleção
-    - language_code: ru
-      language_name: русский
-      value: лекция
     - language_code: ar
       language_name: العربية
       value: محاضرات

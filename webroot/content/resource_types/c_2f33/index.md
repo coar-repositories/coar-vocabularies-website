@@ -1,27 +1,15 @@
 ---
 title: book
 uri: http://purl.org/coar/resource_type/c_2f33
-description: A non-serial publication that is complete in one volume or a designated finite number of volumes. (adapted from CiTO; EPrint Type vocabulary)
+description: 'A non-serial publication that is complete in one volume or a designated finite number of volumes. [Source: Adapted from http://purl.org/eprint/type/Book]'
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
     - type: Exact Match
       uri: http://purl.org/eprint/type/Book
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/book
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Book
-    - type: Exact Match
-      uri: https://dictionary.casrai.org/Book
-    - type: Exact Match
-      uri: http://purl.org/ontology/bibo/Book
-    - type: Narrow Match
-      uri: http://purl.org/ontology/bibo/BookSection
-    - type: Narrow Match
-      uri: http://purl.org/ontology/bibo/Chapter
     - type: Narrow Match
       uri: http://purl.org/eprint/type/BookReview
     - type: Related Match
@@ -42,11 +30,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: kniha
-    - language_code: it
-      language_name: italiano
-      value: libro
     - language_code: es
       language_name: español
+      value: libro
+    - language_code: it
+      language_name: italiano
       value: libro
     - language_code: pt
       language_name: português
@@ -60,9 +48,6 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: ouvrage
-    - language_code: ru
-      language_name: русский
-      value: книга
     - language_code: ar
       language_name: العربية
       value: كتاب
@@ -91,8 +76,8 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: livre
-    - language_code: pt
-      language_name: português
+    - language_code: it
+      language_name: italiano
       value: monografia
     - language_code: es
       language_name: español
@@ -100,8 +85,8 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: monografia
-    - language_code: it
-      language_name: italiano
+    - language_code: pt
+      language_name: português
       value: monografia
     - language_code: cs
       language_name: čeština
@@ -121,39 +106,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: obra monográfica
-    - language_code: ru
-      language_name: русский
-      value: брошюра
-    - language_code: ru
-      language_name: русский
-      value: монография
-    - language_code: ru
-      language_name: русский
-      value: рукопись
-    - language_code: ru
-      language_name: русский
-      value: сборник
-    - language_code: ru
-      language_name: русский
-      value: сборник научных трудов
-    - language_code: ru
-      language_name: русский
-      value: сборник трудов
-    - language_code: ru
-      language_name: русский
-      value: собрание сочинений
-    - language_code: ru
-      language_name: русский
-      value: справочник
-    - language_code: ru
-      language_name: русский
-      value: учебник
-    - language_code: ru
-      language_name: русский
-      value: учебное издание
-    - language_code: ru
-      language_name: русский
-      value: учебное пособие
     - language_code: ar
       language_name: العربية
       value: افرودة
@@ -177,11 +129,8 @@ isTopConcept: false
 narrower_concepts:
     - c_3248
     - http://purl.org/eprint/type/BookReview
-    - http://purl.org/ontology/bibo/BookSection
-    - http://purl.org/ontology/bibo/Chapter
 broader_concepts:
-    - http://purl.org/ontology/bibo/Document
-    - c_18cf
     - http://purl.org/dc/dcmitype/Text
+    - c_18cf
 ---
 

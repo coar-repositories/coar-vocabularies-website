@@ -9,9 +9,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/ontology/bibo/Document
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/review
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Review
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/review
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -37,11 +37,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: ressenya
-    - language_code: en
-      language_name: English
-      value: review
     - language_code: nl
       language_name: Nederlands
+      value: review
+    - language_code: en
+      language_name: English
       value: review
     - language_code: fr
       language_name: français
@@ -140,7 +140,9 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
+    - D97F-VB57
     - c_ba08
+    - H9BQ-739P
 broader_concepts:
     - http://purl.org/dc/dcmitype/Text
     - http://purl.org/ontology/bibo/Document

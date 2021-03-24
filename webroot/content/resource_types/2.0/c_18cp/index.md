@@ -1,7 +1,7 @@
 ---
 title: conference paper not in proceedings
 uri: http://purl.org/coar/resource_type/c_18cp
-description: 'A conference paper that is submitted to a conference and presented to the audience. The conference paper is not published in proceedings. [Source: http://academia.stackexchange.com/questions/18349/difference-between-conference-paper-and-journal-paper ]'
+description: 'A paper, published within a conference proceeding, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
 layout: concept
 related: []
 pref_labels:
@@ -38,9 +38,6 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: yayınlanmamış konferans bildirisi
-    - language_code: ru
-      language_name: русский
-      value: неопубликованный доклад конференции
     - language_code: ja
       language_name: 日本語
       value: 会議発表論文（会議録未掲載）
@@ -63,18 +60,6 @@ alt_labels:
     - language_code: en
       language_name: English
       value: conferencepaper not in proceedings
-    - language_code: ru
-      language_name: русский
-      value: неопубликованные доклады конференции
-    - language_code: ru
-      language_name: русский
-      value: неопубликованные доклады конференций
-    - language_code: ru
-      language_name: русский
-      value: неопубликованные материалы конференции
-    - language_code: ru
-      language_name: русский
-      value: неопубликованные работы конференции
     - language_code: zh
       language_name: 中文
       value: 未發表在會議論文集中的文章

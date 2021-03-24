@@ -1,21 +1,15 @@
 ---
 title: journal article
 uri: http://purl.org/coar/resource_type/c_6501
-description: 'An article on a particular topic and published in a journal issue. (adapted from fabio) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00423]'
+description: 'An article, typically the realization of a research paper reporting original research findings, published in a journal issue. [Source: http://purl.org/spar/fabio/JournalArticle]'
 layout: concept
 related:
     - type: Broad Match
       uri: https://schema.org/Article
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/article
-    - type: Exact Match
-      uri: http://purl.org/ontology/bibo/AcademicArticle
-    - type: Exact Match
-      uri: https://dictionary.casrai.org/Journal_Article
+      uri: http://purl.org/eprint/type/JournalArticle
     - type: Exact Match
       uri: https://scigraph.springernature.com/things/technical-article-types/original-paper
-    - type: Exact Match
-      uri: http://purl.org/eprint/type/JournalArticle
     - type: Related Match
       uri: http://purl.org/eprint/type/SubmittedJournalArticle
     - type: Related Match
@@ -54,9 +48,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: článek v odborném časopisu
-    - language_code: ru
-      language_name: русский
-      value: журнальная статья
     - language_code: ar
       language_name: العربية
       value: مقال في دورية
@@ -67,11 +58,11 @@ pref_labels:
       language_name: 日本語
       value: 学術雑誌論文
 alt_labels:
-    - language_code: ca
-      language_name: català
-      value: article
     - language_code: en
       language_name: English
+      value: article
+    - language_code: ca
+      language_name: català
       value: article
     - language_code: ca
       language_name: català
@@ -121,39 +112,6 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: papier
-    - language_code: ru
-      language_name: русский
-      value: журнальная публикация
-    - language_code: ru
-      language_name: русский
-      value: журнальные публикации
-    - language_code: ru
-      language_name: русский
-      value: журнальные статьи
-    - language_code: ru
-      language_name: русский
-      value: научная работа
-    - language_code: ru
-      language_name: русский
-      value: научная статья
-    - language_code: ru
-      language_name: русский
-      value: публикации
-    - language_code: ru
-      language_name: русский
-      value: публикация
-    - language_code: ru
-      language_name: русский
-      value: публикация данных
-    - language_code: ru
-      language_name: русский
-      value: статьи в научных журналах
-    - language_code: ru
-      language_name: русский
-      value: статья
-    - language_code: ru
-      language_name: русский
-      value: статья в научном журнале
     - language_code: zh
       language_name: 中文
       value: 學術論文
@@ -184,13 +142,13 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_dcae04bc
-    - c_7acd
     - c_7bab
-    - c_2df8fbb1
+    - c_dcae04bc
     - c_beb9
+    - c_7acd
+    - c_2df8fbb1
 broader_concepts:
     - https://schema.org/Article
-    - c_3e5a
+    - c_0640
 ---
 

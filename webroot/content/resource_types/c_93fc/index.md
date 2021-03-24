@@ -9,22 +9,22 @@ related:
     - type: Broad Match
       uri: http://purl.org/ontology/bibo/Document
     - type: Exact Match
-      uri: http://purl.org/eprint/type/Report
-    - type: Exact Match
-      uri: http://purl.org/ontology/bibo/Report
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Report
     - type: Exact Match
+      uri: http://purl.org/eprint/type/Report
+    - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/report
+    - type: Exact Match
+      uri: http://purl.org/ontology/bibo/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
-    - language_code: es
-      language_name: español
-      value: informe
     - language_code: ca
       language_name: català
+      value: informe
+    - language_code: es
+      language_name: español
       value: informe
     - language_code: sl
       language_name: slovenščina
@@ -144,18 +144,17 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18hj
-    - c_18ww
+    - c_18op
+    - c_ab20
+    - c_18wz
     - c_18ws
     - c_18gh
     - c_186u
-    - c_18op
-    - c_18wq
-    - c_18wz
-    - c_ba1f
+    - YZ1N-ZFT9
+    - c_7877
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Text
-    - c_18cf
     - http://purl.org/ontology/bibo/Document
+    - c_18cf
+    - http://purl.org/dc/dcmitype/Text
 ---
 

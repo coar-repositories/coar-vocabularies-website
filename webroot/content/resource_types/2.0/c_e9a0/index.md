@@ -1,7 +1,9 @@
 ---
 title: interactive resource
 uri: http://purl.org/coar/resource_type/c_e9a0
-description: 'A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://dublincore.org/documents/2010/10/11/dcmi-type-vocabulary/ ]'
+description: |-
+    A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
+    Source: http://purl.org/dc/dcmitype/InteractiveResource
 layout: concept
 related: []
 pref_labels:
@@ -35,9 +37,6 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: risorsa interattiva
-    - language_code: ru
-      language_name: русский
-      value: интерактивный ресурс
     - language_code: ar
       language_name: العربية
       value: مورد تفاعلي
@@ -57,21 +56,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: recurso interactivo
-    - language_code: ru
-      language_name: русский
-      value: интерактивный документ
-    - language_code: ru
-      language_name: русский
-      value: интерактивный электронный документ
-    - language_code: ru
-      language_name: русский
-      value: материалы конференций (неопубликованные)
-    - language_code: ru
-      language_name: русский
-      value: неопубликованные документы
-    - language_code: ru
-      language_name: русский
-      value: сборник статей
     - language_code: zh
       language_name: 中文
       value: 互動資源

@@ -1,7 +1,7 @@
 ---
 title: magazine
 uri: http://purl.org/coar/resource_type/c_2cd9
-description: A popular interest periodical usually containing articles on a variety of topics, written by various authors in a nonscholarly style or a trade publication, unlike a consumer publication, covers a specific topic for people who work in that particular field or industry. Adapted from https://www.thebalance.com/what-is-a-trade-publication-exactly-2316039 and http://www.abc-clio.com/ODLIS/odlis_m.aspx
+description: 'A popular interest periodical usually containing articles on a variety of topics, written by various authors in a nonscholarly style or a trade publication, unlike a consumer publication, covers a specific topic for people who work in that particular field or industry. [Source: Adapted from https://www.thebalance.com/what-is-a-trade-publication-exactly-2316039 and http://www.abc-clio.com/ODLIS/odlis_m.aspx]'
 layout: concept
 related:
     - type: Exact Match
@@ -16,11 +16,11 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: informativna revija
-    - language_code: en
-      language_name: English
-      value: magazine
     - language_code: fr
       language_name: français
+      value: magazine
+    - language_code: en
+      language_name: English
       value: magazine
     - language_code: ca
       language_name: català
@@ -34,9 +34,6 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: tijdschrift
-    - language_code: ru
-      language_name: русский
-      value: периодическое печатное издание
     - language_code: ja
       language_name: 日本語
       value: 雑誌
@@ -62,19 +59,10 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časopis
-    - language_code: ru
-      language_name: русский
-      value: брошюра
-    - language_code: ru
-      language_name: русский
-      value: журнал
-    - language_code: ru
-      language_name: русский
-      value: издание
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_2659
+    - c_18cf
 ---
 

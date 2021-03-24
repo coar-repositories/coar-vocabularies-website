@@ -1,19 +1,15 @@
 ---
 title: working paper
 uri: http://purl.org/coar/resource_type/c_8042
-description: 'An unpublished paper, usually circulated privately among a small group of peers, to provide information or with a request for comments or editorial improvement. (source: fabio)'
+description: 'A working or discussion paper circulated publicly or among a group of peers. Certain disciplines, for example economics, issue working papers in series. [Source: http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#ConferenceItem]'
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/WorkingPaper
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/workingPaper
-    - type: Exact Match
       uri: http://purl.org/eprint/type/WorkingPaper
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/WorkingPaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -30,12 +26,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: pracovní dokument
-    - language_code: fr
-      language_name: français
-      value: working paper
-    - language_code: en
-      language_name: English
-      value: working paper
     - language_code: pt
       language_name: português
       value: working paper
@@ -45,12 +35,15 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: working paper
+    - language_code: en
+      language_name: English
+      value: working paper
+    - language_code: fr
+      language_name: français
+      value: working paper
     - language_code: tr
       language_name: Türkçe
       value: ön rapor
-    - language_code: ru
-      language_name: русский
-      value: рабочий документ
     - language_code: ar
       language_name: العربية
       value: ورقة عمل
@@ -112,27 +105,6 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: ön makale
-    - language_code: ru
-      language_name: русский
-      value: дискуссионная статья
-    - language_code: ru
-      language_name: русский
-      value: материалы для обсуждения
-    - language_code: ru
-      language_name: русский
-      value: проект документа
-    - language_code: ru
-      language_name: русский
-      value: промежуточная рабочая документация
-    - language_code: ru
-      language_name: русский
-      value: рабочие материалы
-    - language_code: ru
-      language_name: русский
-      value: рабочий доклад
-    - language_code: ru
-      language_name: русский
-      value: рабочий отчёт
     - language_code: ar
       language_name: العربية
       value: ورقة مناقشة
@@ -149,8 +121,7 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_18cf
     - http://purl.org/dc/dcmitype/Text
-    - http://purl.org/ontology/bibo/Document
+    - c_18cf
 ---
 

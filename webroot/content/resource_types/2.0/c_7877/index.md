@@ -1,7 +1,7 @@
 ---
 title: clinical study
 uri: http://purl.org/coar/resource_type/c_7877
-description: ""
+description: 'A work that reports on the results of a research study to evaluate interventions or exposures on biomedical or health-related outcomes. The two main types of clinical studies are interventional studies (clinical trials) and observational studies. While most clinical studies concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans. [Source: https://www.ncbi.nlm.nih.gov/mesh/2009830]'
 layout: concept
 related:
     - type: Related Match
@@ -34,9 +34,6 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: étude clinique
-    - language_code: ru
-      language_name: русский
-      value: клиническое исследование
 alt_labels:
     - language_code: fr
       language_name: français
@@ -48,8 +45,9 @@ alt_labels:
       language_name: 日本語
       value: 臨床研究
 date: 2021-02-03T00:00:00Z
-isTopConcept: true
+isTopConcept: false
 narrower_concepts: []
-broader_concepts: []
+broader_concepts:
+    - c_93fc
 ---
 

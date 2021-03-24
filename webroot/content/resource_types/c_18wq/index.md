@@ -38,9 +38,6 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: sonstiger Report
-    - language_code: ru
-      language_name: русский
-      value: прочие отчёты
     - language_code: ar
       language_name: العربية
       value: نوع آخر من التقرير
@@ -66,19 +63,12 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: outro tipo de relatório
-    - language_code: ru
-      language_name: русский
-      value: прочие доклады
-    - language_code: ru
-      language_name: русский
-      value: прочие докумены и отчёты
     - language_code: zh
       language_name: 中文
       value: 其它報告
 date: 2021-02-03T00:00:00Z
-isTopConcept: false
+isTopConcept: true
 narrower_concepts: []
-broader_concepts:
-    - c_93fc
+broader_concepts: []
 ---
 

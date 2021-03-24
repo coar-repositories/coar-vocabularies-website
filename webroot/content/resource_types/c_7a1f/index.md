@@ -5,13 +5,13 @@ description: A thesis reporting a research project undertaken as part of an unde
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Thesis
-    - type: Broad Match
       uri: http://purl.org/eprint/type/Thesis
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/bachelorThesis
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Thesis
     - type: Exact Match
       uri: http://purl.org/spar/fabio/BachelorsThesis
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/bachelorThesis
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -111,8 +111,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
+    - http://purl.org/eprint/type/Thesis
     - c_46ec
     - http://purl.org/ontology/bibo/Thesis
-    - http://purl.org/eprint/type/Thesis
 ---
 

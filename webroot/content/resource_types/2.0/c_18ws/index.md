@@ -1,7 +1,7 @@
 ---
 title: research report
 uri: http://purl.org/coar/resource_type/c_18ws
-description: 'Research Reports are reports that typically provide an in-depth study of a particular topic or describe the results of a research project. [Source: http://www.buildingscience.com/doctypes/reports]'
+description: 'It is publication that reports on the findings of a research project or alternatively scientific observations on or about a subject. [Source: Adapted from https://en.wikipedia.org/wiki/Research_report]'
 layout: concept
 related: []
 pref_labels:
@@ -38,9 +38,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: výzkumná zpráva
-    - language_code: ru
-      language_name: русский
-      value: научно-исследовательский отчёт
     - language_code: ja
       language_name: 日本語
       value: 研究報告書
@@ -81,39 +78,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: reporte de investigación
-    - language_code: ru
-      language_name: русский
-      value: научно-технический отчёт
-    - language_code: ru
-      language_name: русский
-      value: научный отчёт
-    - language_code: ru
-      language_name: русский
-      value: отчёт о НИОКР
-    - language_code: ru
-      language_name: русский
-      value: отчёт о НИР
-    - language_code: ru
-      language_name: русский
-      value: отчёт о научно-исследовательской деятельности
-    - language_code: ru
-      language_name: русский
-      value: отчёт о научно-исследовательской работе
-    - language_code: ru
-      language_name: русский
-      value: отчёт о научном исследовании
-    - language_code: ru
-      language_name: русский
-      value: отчёт о научных исследованиях
-    - language_code: ru
-      language_name: русский
-      value: отчёт по научно-исследовательской работе
-    - language_code: ru
-      language_name: русский
-      value: отчёты о НИОКР
-    - language_code: ru
-      language_name: русский
-      value: отчёты о НИР
     - language_code: ar
       language_name: العربية
       value: تقرير بحث

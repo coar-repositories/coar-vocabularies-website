@@ -35,9 +35,6 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: tijdschrift bijdrage
-    - language_code: ru
-      language_name: русский
-      value: вклад в журнал
     - language_code: ar
       language_name: العربية
       value: مساهمة في دورية
@@ -66,27 +63,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de revista
-    - language_code: ru
-      language_name: русский
-      value: журнальная публикация
-    - language_code: ru
-      language_name: русский
-      value: журнальные статьи
-    - language_code: ru
-      language_name: русский
-      value: научные статьи
-    - language_code: ru
-      language_name: русский
-      value: публикация
-    - language_code: ru
-      language_name: русский
-      value: статьи для журнала
-    - language_code: ru
-      language_name: русский
-      value: статья в периодическом издании
-    - language_code: ru
-      language_name: русский
-      value: статья для журнала
     - language_code: ar
       language_name: العربية
       value: مقال في دورية
@@ -97,12 +73,8 @@ alt_labels:
       language_name: 中文
       value: 期刊论文
 date: 2021-02-03T00:00:00Z
-isTopConcept: false
-narrower_concepts:
-    - c_6501
-    - c_545b
-    - c_b239
-broader_concepts:
-    - c_0640
+isTopConcept: true
+narrower_concepts: []
+broader_concepts: []
 ---
 

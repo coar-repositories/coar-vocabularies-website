@@ -35,9 +35,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zpráva pro poskytovatele podpory
-    - language_code: ru
-      language_name: русский
-      value: финансовый отчёт
     - language_code: ar
       language_name: العربية
       value: تقرير لوكالة تمويل
@@ -72,28 +69,12 @@ alt_labels:
     - language_code: es
       language_name: español
       value: reporte a agencia de financiamento
-    - language_code: ru
-      language_name: русский
-      value: отчёт о финансовых результатах
-    - language_code: ru
-      language_name: русский
-      value: отчёт об исполнении плана финансирования
-    - language_code: ru
-      language_name: русский
-      value: отчёты о финансировании
-    - language_code: ru
-      language_name: русский
-      value: отчёты по финансированию
-    - language_code: ru
-      language_name: русский
-      value: финансовая отчётность
     - language_code: zh
       language_name: 中文
       value: 給資助機構的報告
 date: 2021-02-03T00:00:00Z
-isTopConcept: false
+isTopConcept: true
 narrower_concepts: []
-broader_concepts:
-    - c_93fc
+broader_concepts: []
 ---
 

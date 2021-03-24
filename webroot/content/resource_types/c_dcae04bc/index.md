@@ -1,7 +1,7 @@
 ---
 title: review article
 uri: http://purl.org/coar/resource_type/c_dcae04bc
-description: A review article is a secondary source, that is, it is written about other articles, and does not report original research of its own. (adapted from http://apus.libanswers.com/faq/2324)
+description: 'An article, is a primary source, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/JournalArticle]'
 layout: concept
 related:
     - type: Exact Match
@@ -27,9 +27,6 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Übersichtsartikel
-    - language_code: ru
-      language_name: русский
-      value: обзорная статья
     - language_code: ar
       language_name: العربية
       value: مقال نقد

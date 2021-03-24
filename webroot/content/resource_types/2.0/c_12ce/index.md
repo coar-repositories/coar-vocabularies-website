@@ -14,35 +14,35 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Video
-    - language_code: tr
-      language_name: Türkçe
-      value: video
-    - language_code: nl
-      language_name: Nederlands
-      value: video
-    - language_code: cs
-      language_name: čeština
-      value: video
     - language_code: en
       language_name: English
       value: video
     - language_code: it
       language_name: italiano
       value: video
+    - language_code: tr
+      language_name: Türkçe
+      value: video
     - language_code: sl
       language_name: slovenščina
+      value: video
+    - language_code: cs
+      language_name: čeština
+      value: video
+    - language_code: nl
+      language_name: Nederlands
       value: video
     - language_code: fr
       language_name: français
       value: vidéo
+    - language_code: ca
+      language_name: català
+      value: vídeo
     - language_code: pt
       language_name: português
       value: vídeo
     - language_code: es
       language_name: español
-      value: vídeo
-    - language_code: ca
-      language_name: català
       value: vídeo
     - language_code: ru
       language_name: русский
@@ -57,11 +57,11 @@ pref_labels:
       language_name: 日本語
       value: 録画資料
 alt_labels:
-    - language_code: es
-      language_name: español
-      value: video
     - language_code: pt
       language_name: português
+      value: video
+    - language_code: es
+      language_name: español
       value: video
     - language_code: ru
       language_name: русский
@@ -100,8 +100,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_8a7e
     - http://purl.org/dc/dcmitype/MovingImage
+    - c_8a7e
     - http://purl.org/spar/fabio/MovingImage
     - https://schema.org/Movie
 ---

@@ -28,11 +28,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: revista
-    - language_code: pt
-      language_name: português
-      value: revista
     - language_code: ca
       language_name: català
+      value: revista
+    - language_code: pt
+      language_name: português
       value: revista
     - language_code: fr
       language_name: français
@@ -46,9 +46,6 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: znanstvena revija
-    - language_code: ru
-      language_name: русский
-      value: журнал
     - language_code: ar
       language_name: العربية
       value: دورية
@@ -77,39 +74,24 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: revista acadèmica
-    - language_code: es
-      language_name: español
-      value: revista académica
     - language_code: pt
       language_name: português
       value: revista académica
     - language_code: es
       language_name: español
-      value: revista científica
-    - language_code: pt
-      language_name: português
-      value: revista científica
+      value: revista académica
     - language_code: ca
       language_name: català
+      value: revista científica
+    - language_code: pt
+      language_name: português
+      value: revista científica
+    - language_code: es
+      language_name: español
       value: revista científica
     - language_code: fr
       language_name: français
       value: revue scientifique
-    - language_code: ru
-      language_name: русский
-      value: научное издание
-    - language_code: ru
-      language_name: русский
-      value: научный журнал
-    - language_code: ru
-      language_name: русский
-      value: периодическое журнальное издание
-    - language_code: ru
-      language_name: русский
-      value: периодическое издание
-    - language_code: ru
-      language_name: русский
-      value: продолжающееся издание
     - language_code: ar
       language_name: العربية
       value: دورية علمية
@@ -134,10 +116,13 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - http://purl.org/ontology/bibo/AcademicArticle
-    - c_3e5a
+    - c_b239
+    - c_6501
     - http://purl.org/eprint/type/JournalArticle
+    - http://purl.org/ontology/bibo/AcademicArticle
+    - c_545b
 broader_concepts:
-    - c_2659
+    - http://purl.org/dc/dcmitype/Text
+    - c_18cf
 ---
 

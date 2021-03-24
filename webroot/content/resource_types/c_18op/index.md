@@ -1,7 +1,7 @@
 ---
 title: project deliverable
 uri: http://purl.org/coar/resource_type/c_18op
-description: 'A project deliverable is an “outcome” as a result of a project that is intended to be delivered to a customer (e.g. funder). Examples of deliverable are report, document, work package or any other building block of an overall project. [Source: https://en.wikipedia.org/wiki/Deliverable ]'
+description: 'A document containing a project report, intended to be delivered to a customer or funding agency describing the results achieved within a specific project. [Source: http://purl.org/spar/fabio/ProjectReportDocument]'
 layout: concept
 related: []
 pref_labels:
@@ -38,9 +38,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: výstup projektu
-    - language_code: ru
-      language_name: русский
-      value: результат проекта
     - language_code: ar
       language_name: العربية
       value: مشروع للتسليم
@@ -72,16 +69,12 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: risultato di progetto
-    - language_code: ru
-      language_name: русский
-      value: результаты проекта
     - language_code: zh
       language_name: 中文
       value: 項目可交付成果
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
-narrower_concepts:
-    - c_ab20
+narrower_concepts: []
 broader_concepts:
     - c_93fc
 ---

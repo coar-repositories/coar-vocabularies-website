@@ -1,25 +1,15 @@
 ---
 title: book part
 uri: http://purl.org/coar/resource_type/c_3248
-description: A defined chapter or section of a book, usually with a separate title or number.
+description: 'A defined chapter or section of a book, usually with a separate title or number. [Source: http://purl.org/spar/fabio/BookChapter]'
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Book
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Book
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/bookPart
-    - type: Exact Match
-      uri: http://purl.org/eprint/type/BookItem
-    - type: Exact Match
-      uri: https://dictionary.casrai.org/Book_Chapter
     - type: Exact Match
       uri: http://purl.org/spar/fabio/BookChapter
     - type: Exact Match
-      uri: http://purl.org/ontology/bibo/BookSection
-    - type: Narrow Match
-      uri: http://purl.org/ontology/bibo/Article
+      uri: http://purl.org/eprint/type/BookItem
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -54,9 +44,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: část knihy
-    - language_code: ru
-      language_name: русский
-      value: раздел книги
     - language_code: ar
       language_name: العربية
       value: جزء من كتاب
@@ -109,15 +96,6 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: sestavek v knjigi
-    - language_code: ru
-      language_name: русский
-      value: глава книги
-    - language_code: ru
-      language_name: русский
-      value: книжная глава
-    - language_code: ru
-      language_name: русский
-      value: часть книги
     - language_code: ar
       language_name: العربية
       value: فصل من كتاب
@@ -126,11 +104,9 @@ alt_labels:
       value: 章節
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
-narrower_concepts:
-    - http://purl.org/ontology/bibo/Article
+narrower_concepts: []
 broader_concepts:
-    - http://purl.org/ontology/bibo/Book
-    - http://purl.org/eprint/type/Book
     - c_2f33
+    - http://purl.org/eprint/type/Book
 ---
 

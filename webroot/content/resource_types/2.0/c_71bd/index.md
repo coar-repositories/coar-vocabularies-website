@@ -115,8 +115,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Text
     - http://purl.org/ontology/bibo/Document
     - c_18cf
+    - http://purl.org/dc/dcmitype/Text
 ---
 

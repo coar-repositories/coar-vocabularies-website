@@ -1,7 +1,7 @@
 ---
 title: research software
 uri: http://purl.org/coar/resource_type/c_c950
-description: 'Research software (as opposed to simply software) is software that is developed within academia and used for the purposes of research: to generate, process and analyse results. (Adapted from Knowledge Exchange)'
+description: 'Software that is used to generate, process or analyse results that you intend to appear in a publication (either in a journal, conference paper, monograph, book or thesis). Research software can be anything from a few lines of code written by yourself, to a professionally developed software package. [Source: https://datashare.ed.ac.uk/handle/10283/785]'
 layout: concept
 related: []
 pref_labels:
@@ -29,9 +29,6 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: software per la ricerca
-    - language_code: ru
-      language_name: русский
-      value: научное программное обеспечение
     - language_code: ja
       language_name: 日本語
       value: 研究用ソフトウェア
@@ -42,15 +39,6 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programari per recerca
-    - language_code: ru
-      language_name: русский
-      value: исследовательское вычислительное программное обеспечение
-    - language_code: ru
-      language_name: русский
-      value: исследовательское программное обеспечение
-    - language_code: ru
-      language_name: русский
-      value: научно-исследовательское программное обеспечение
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []

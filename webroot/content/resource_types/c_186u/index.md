@@ -1,7 +1,7 @@
 ---
 title: policy report
 uri: http://purl.org/coar/resource_type/c_186u
-description: 'A policy report is a type of report that provides an in-depth look at major policy developments and events [Source: http://www.ifpri.org/topic/global-food-policy-report]'
+description: 'A policy report presents what is known about a particular issue or problem. It assembles facts and evidence to help readers understand complex issues and form a response. It might aim to be neutral, or it might aim to persuade readers in a particular direction. [Source: https://www.uow.edu.au/student/learning-co-op/assessments/policy-report/#]'
 layout: concept
 related: []
 pref_labels:
@@ -38,9 +38,6 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zpráva k politice nebo strategii
-    - language_code: ru
-      language_name: русский
-      value: общие положения
     - language_code: ar
       language_name: العربية
       value: تقرير عن السياسات
@@ -72,15 +69,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: memoria de protocolo de actuación
-    - language_code: ru
-      language_name: русский
-      value: доклад о политике
-    - language_code: ru
-      language_name: русский
-      value: доклад о политике в области развития
-    - language_code: ru
-      language_name: русский
-      value: отчёт о политике
     - language_code: zh
       language_name: 中文
       value: 政策報告

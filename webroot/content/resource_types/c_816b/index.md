@@ -1,19 +1,15 @@
 ---
 title: preprint
 uri: http://purl.org/coar/resource_type/c_816b
-description: ""
+description: 'A preprint is a scientific manuscript without peer-review and has not yet been accepted by a journal, typicaly submitted to a public server/ repository by the author. [Source: Adapted from https://asapbio.org/preprint-info/preprint-faq#qaef-637]'
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
-    - type: Exact Match
-      uri: https://dictionary.casrai.org/Preprint
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Preprint
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/preprint
+      uri: https://dictionary.casrai.org/Preprint
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -24,14 +20,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo preliminar
+    - language_code: nl
+      language_name: Nederlands
+      value: preprint
     - language_code: pt
       language_name: português
       value: preprint
     - language_code: en
       language_name: English
-      value: preprint
-    - language_code: nl
-      language_name: Nederlands
       value: preprint
     - language_code: fr
       language_name: français
@@ -42,9 +38,6 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ön baskı
-    - language_code: ru
-      language_name: русский
-      value: препринт
     - language_code: ja
       language_name: 日本語
       value: プレプリント
@@ -88,15 +81,6 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: voordruk
-    - language_code: ru
-      language_name: русский
-      value: предпечатная версия публикации
-    - language_code: ru
-      language_name: русский
-      value: препринт статьи
-    - language_code: ru
-      language_name: русский
-      value: сигнальный экземпляр
     - language_code: zh
       language_name: 中文
       value: 先印本
@@ -105,7 +89,6 @@ isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_18cf
-    - http://purl.org/ontology/bibo/Document
     - http://purl.org/dc/dcmitype/Text
 ---
 

@@ -1,5 +1,0 @@
-baseURL: ""
-buildDrafts: false
-googleAnalytics: ""
-params:
-  showDebugInfo: false

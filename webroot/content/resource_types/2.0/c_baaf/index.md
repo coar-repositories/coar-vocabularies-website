@@ -112,7 +112,7 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_18cf
     - http://purl.org/dc/dcmitype/Text
+    - c_18cf
 ---
 

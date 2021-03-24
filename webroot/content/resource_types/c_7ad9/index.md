@@ -1,13 +1,15 @@
 ---
 title: website
 uri: http://purl.org/coar/resource_type/c_7ad9
-description: 'A website, also written as web site or simply site, is a set of related web pages typically served from a single web domain. A website is hosted on at least one web server, accessible via a network such as the Internet or a private local area network through an Internet address known as a uniform resource locator (URL). All publicly accessible websites collectively constitute the World Wide Web. [Source: https://en.wikipedia.org/wiki/Website ]'
+description: |-
+    A collection of related web pages containing text, images, videos and/or other digital assets that are addressed relative to a common Uniform Resource Locator (URL). A web site is hosted on at least one web server, accessible via a network such as the Internet or a private local area network.
+    Source: http://purl.org/spar/fabio/WebSite
 layout: concept
 related:
     - type: Exact Match
-      uri: https://dictionary.casrai.org/Website
-    - type: Exact Match
       uri: https://schema.org/WebSite
+    - type: Exact Match
+      uri: https://dictionary.casrai.org/Website
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -36,11 +38,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: webové sídlo
-    - language_code: en
-      language_name: English
-      value: website
     - language_code: nl
       language_name: Nederlands
+      value: website
+    - language_code: en
+      language_name: English
       value: website
     - language_code: ar
       language_name: العربية
@@ -76,11 +78,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: pàgina web
-    - language_code: pt
-      language_name: português
-      value: página web
     - language_code: es
       language_name: español
+      value: página web
+    - language_code: pt
+      language_name: português
       value: página web
     - language_code: es
       language_name: español
@@ -103,42 +105,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: website
-    - language_code: ru
-      language_name: русский
-      value: вебсайт
-    - language_code: ru
-      language_name: русский
-      value: интернет-сайт
-    - language_code: ru
-      language_name: русский
-      value: конгресс
-    - language_code: ru
-      language_name: русский
-      value: конференция
-    - language_code: ru
-      language_name: русский
-      value: научная конференция
-    - language_code: ru
-      language_name: русский
-      value: портал
-    - language_code: ru
-      language_name: русский
-      value: практикум
-    - language_code: ru
-      language_name: русский
-      value: сайт
-    - language_code: ru
-      language_name: русский
-      value: семинар
-    - language_code: ru
-      language_name: русский
-      value: симпозиум
-    - language_code: ru
-      language_name: русский
-      value: совещание
-    - language_code: ru
-      language_name: русский
-      value: съезд
     - language_code: ar
       language_name: العربية
       value: صفحة الويب

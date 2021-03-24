@@ -118,8 +118,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_46ec
     - http://purl.org/ontology/bibo/Thesis
     - http://purl.org/eprint/type/Thesis
+    - c_46ec
 ---
 
