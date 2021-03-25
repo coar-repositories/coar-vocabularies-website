@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://coarvocabs.antleaf.com"
 buildDrafts: false
 googleAnalytics: ""
 params:
