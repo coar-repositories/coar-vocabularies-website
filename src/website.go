@@ -15,12 +15,12 @@ type Website struct {
 	StaticContentFolderPath string
 }
 
-func (website *Website) Initialise(webrootPath string) error {
+func (website *Website) Initialise(webPageSourcesPath,webrootPath string) error {
 	var err error
 	website.WebrootFolderPath = webrootPath
 	website.ContentFolderPath = filepath.Join(website.WebrootFolderPath, "content")
 	website.StaticContentFolderPath = filepath.Join(website.WebrootFolderPath, "static")
-	err = os.MkdirAll(website.ContentFolderPath, os.ModePerm)
+	err = resetVolatileFolder(website.ContentFolderPath)
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
@@ -30,6 +30,12 @@ func (website *Website) Initialise(webrootPath string) error {
 		zapLogger.Error(err.Error())
 		return err
 	}
+	_,err = copyFile(filepath.Join(webPageSourcesPath,"_index.md"), filepath.Join(website.ContentFolderPath,"_index.md") )
+	if err != nil {
+		zapLogger.Error(err.Error())
+		return err
+	}
+	_,err = copyFile(filepath.Join(webPageSourcesPath,"about.md"), filepath.Join(website.ContentFolderPath,"about.md") )
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
@@ -39,20 +45,21 @@ func (website *Website) Initialise(webrootPath string) error {
 
 func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error {
 	var err error
-	conceptSchemeFolderPath := filepath.Join(website.ContentFolderPath, conceptScheme.ID)
-	err = resetVolatileFolder(conceptSchemeFolderPath)
-	if err != nil {
-		zapLogger.Error(err.Error())
-		return err
-	}
-	zapLogger.Info("Reset concept scheme folder", zap.String("path", conceptSchemeFolderPath))
+	//conceptSchemeFolderPath := filepath.Join(website.ContentFolderPath, conceptScheme.ID)
+	//err = resetVolatileFolder(conceptSchemeFolderPath)
+	//if err != nil {
+	//	zapLogger.Error(err.Error())
+	//	return err
+	//}
+	//zapLogger.Info("Reset concept scheme folder", zap.String("path", conceptSchemeFolderPath))
+	zapLogger.Debug("VERSION COUNT",zap.Int("count",len(conceptScheme.Versions)))
 	for _, conceptSchemeVersion := range conceptScheme.Versions {
 		err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, false)
 		if err != nil {
 			zapLogger.Error(err.Error())
 			return err
 		}
-		if conceptSchemeVersion.VersionNumber == conceptScheme.GetLatestVersion().VersionNumber {
+		if conceptSchemeVersion.Version == conceptScheme.GetLatestVersion().Version {
 			err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, true)
 			if err != nil {
 				zapLogger.Error(err.Error())
@@ -163,7 +170,7 @@ func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptScheme
 
 func (website *Website) GenerateZip(conceptSchemeVersion *ConceptSchemeVersion) error {
 	filesPathsToZip := []string{conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")}
-	err := zipFiles(filepath.Join(website.StaticContentFolderPath, fmt.Sprint(conceptSchemeVersion.ID, "_", conceptSchemeVersion.VersionNumberString, ".zip")), filesPathsToZip)
+	err := zipFiles(filepath.Join(website.StaticContentFolderPath, fmt.Sprint(conceptSchemeVersion.ID, "_", conceptSchemeVersion.Version, ".zip")), filesPathsToZip)
 	if err != nil {
 		zapLogger.Debug(err.Error())
 		return err
@@ -193,7 +200,7 @@ func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVers
 			if asCurrentVersion {
 				html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
 			} else {
-				html += fmt.Sprintf("<li><a href=\"/%s/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, conceptSchemeVersion.VersionNumberString, concept.ID, concept.Title)
+				html += fmt.Sprintf("<li><a href=\"/%s/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, conceptSchemeVersion.Version, concept.ID, concept.Title)
 			}
 		}
 		return true

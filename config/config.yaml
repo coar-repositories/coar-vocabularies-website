@@ -1,24 +1,16 @@
 debugging: true
+web_page_sources: "../web_page_sources"
 webroot: "../webroot"
 processed_skos_root: "../processed_skos"
 concept_schemes:
   - name: 'access_rights'
     versions:
-      - version: 1.0
-        folder_path: "../concept_scheme_sources/access_rights/1.0"
-#      - version: 2.0
-#        folder_path: "../concept_scheme_sources/access_rights/2.0"
+      - folder_path: "../concept_scheme_sources/access_rights/1.0"
   - name: 'version_types'
     versions:
-      - version: 1.0
-        folder_path: "../concept_scheme_sources/version_types/1.0_draft"
-#      - version: 2.0
-#        folder_path: "../concept_scheme_sources/version_types/2.0"
+      - folder_path: "../concept_scheme_sources/version_types/1.0_draft"
   - name: 'resource_types'
     versions:
-      - version: 1.1
-        folder_path: "../concept_scheme_sources/resource_types/1.1"
-      - version: 2.0
-        folder_path: "../concept_scheme_sources/resource_types/2.0"
-      - version: 3.0
-        folder_path: "../concept_scheme_sources/resource_types/3.0"
+      - folder_path: "../concept_scheme_sources/resource_types/1.1"
+      - folder_path: "../concept_scheme_sources/resource_types/2.0"
+      - folder_path: "../concept_scheme_sources/resource_types/3.0"

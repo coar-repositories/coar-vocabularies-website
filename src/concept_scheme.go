@@ -8,7 +8,6 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
-	"strconv"
 )
 
 type ConceptScheme struct {
@@ -21,25 +20,19 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 	var err error
 	conceptScheme.ID = config.ID
 	for _, versionConfig := range config.Versions {
-		zapLogger.Debug("Title", zap.String("title", versionConfig.Details.Title))
+		zapLogger.Debug("Title", zap.String("title", versionConfig.Details.Title), zap.String("version", versionConfig.Details.Version))
 		var version = ConceptSchemeVersion{
-			ID:                  conceptScheme.ID,
-			VersionNumberString: versionConfig.VersionNumber,
-			Title:               versionConfig.Details.Title,
-			Description:         versionConfig.Details.Description,
-			Namespace:           versionConfig.Details.Namespace,
-			Updated:             versionConfig.Details.Updated,
-			Creators:            versionConfig.Details.Creators,
-			Contributors:        versionConfig.Details.Contributors,
-			HugoLayout:          "",
+			ID:           conceptScheme.ID,
+			Title:        versionConfig.Details.Title,
+			Version:      versionConfig.Details.Version,
+			Description:  versionConfig.Details.Description,
+			Namespace:    versionConfig.Details.Namespace,
+			Released:     versionConfig.Details.Released,
+			Creators:     versionConfig.Details.Creators,
+			Contributors: versionConfig.Details.Contributors,
+			HugoLayout:   "",
 		}
-		version.VersionNumber, err = strconv.ParseFloat(version.VersionNumberString, 64)
-		if err != nil {
-			zapLogger.Error("Unable to convert version number to string" + err.Error())
-			return err
-		}
-
-		version.SkosProcessedFolderPath = filepath.Join(processedSkosRootFolderPath, conceptScheme.ID, version.VersionNumberString)
+		version.SkosProcessedFolderPath = filepath.Join(processedSkosRootFolderPath, conceptScheme.ID, version.Version)
 		err = resetVolatileFolder(version.SkosProcessedFolderPath)
 		if err != nil {
 			zapLogger.Error(err.Error())
@@ -115,6 +108,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 				triples = append(triples, newTriple)
 			}
 		} else {
+			zapLogger.Error("ConceptScheme triple NOT found in triples")
 			return errors.New("ConceptScheme triple NOT found in triples")
 		}
 		err = writeTriplesToDisk(triples, version.WorkingFilePathNTriples, rdf.NTriples)
@@ -131,7 +125,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 					}
 				}
 				concept := new(Concept)
-				concept.initialise(conceptUriString, version.Namespace, version.Uri, triplesForThisConcept, version.Updated)
+				concept.initialise(conceptUriString, version.Namespace, version.Uri, triplesForThisConcept, version.Released)
 				version.Concepts = append(version.Concepts, concept)
 			}
 		}
@@ -155,9 +149,9 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 		}
 		conceptScheme.Versions = append(conceptScheme.Versions, version)
 		zapLogger.Info(fmt.Sprintf("Initialised concept scheme version: '%s: %s'", config.ID, version.ID))
-		zapLogger.Debug("version is ",zap.String("version",version.VersionNumberString))
+		zapLogger.Debug("version is ",zap.String("version",version.Version))
 	}
-	sort.Sort(ByVersion(conceptScheme.Versions))
+	sort.Sort(ByReleaseDate(conceptScheme.Versions))
 	return err
 }
 

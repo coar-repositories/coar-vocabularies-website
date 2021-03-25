@@ -9,7 +9,7 @@ import (
 )
 
 type ConceptSchemeVersionConfig struct {
-	VersionNumber        string                     `yaml:"version"`
+	//VersionNumber        string                     `yaml:"version"`
 	SkosSourceFolderPath string                     `yaml:"folder_path"`
 	Details              *ConceptSchemeDetailConfig `yaml:"-"`
 }
@@ -21,9 +21,10 @@ type ConceptSchemeConfig struct {
 
 type ConceptSchemeDetailConfig struct {
 	Title        string    `yaml:"title"`
+	Version      string    `yaml:"version"`
 	Description  string    `yaml:"description"`
 	Namespace    string    `yaml:"namespace"`
-	Updated      time.Time `yaml:"updated"`
+	Released     time.Time `yaml:"released"`
 	Creators     []string  `yaml:"creators"`
 	Contributors []string  `yaml:"contributors"`
 }
@@ -31,6 +32,7 @@ type ConceptSchemeDetailConfig struct {
 type Config struct {
 	Debugging                   bool                   `yaml:"debugging"`
 	WebrootFolderPath           string                 `yaml:"webroot"`
+	WebPageSourcesFolderPath    string                 `yaml:"web_page_sources"`
 	ProcessedSkosRootFolderPath string                 `yaml:"processed_skos_root"`
 	ConceptSchemeConfigs        []*ConceptSchemeConfig `yaml:"concept_schemes"`
 }

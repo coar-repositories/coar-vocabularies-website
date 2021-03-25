@@ -39,7 +39,7 @@ func main() {
 		conceptSchemes = append(conceptSchemes, &conceptScheme)
 	}
 	// ### Initialise Hugo content and static folders
-	err = (&website).Initialise(config.WebrootFolderPath)
+	err = (&website).Initialise(config.WebPageSourcesFolderPath,config.WebrootFolderPath)
 	if err != nil {
 		zapLogger.Fatal("Unable to initialise website - halting execution")
 	}

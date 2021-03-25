@@ -21,21 +21,32 @@ func (s ByVersion) Swap(i, j int) {
 	s[i], s[j] = s[j], s[i]
 }
 func (s ByVersion) Less(i, j int) bool {
-	return s[i].VersionNumber < s[j].VersionNumber
+	return s[i].Version < s[j].Version
+}
+
+type ByReleaseDate []ConceptSchemeVersion
+
+func (s ByReleaseDate) Len() int {
+	return len(s)
+}
+func (s ByReleaseDate) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+func (s ByReleaseDate) Less(i, j int) bool {
+	return s[i].Released.Before(s[j].Released)
 }
 
 type ConceptSchemeVersion struct {
 	ki.Node                 `yaml:"-"`
 	ID                      string     `yaml:"-"`
-	VersionNumber           float64    `yaml:"-"`
-	VersionNumberString     string     `yaml:"version"`
+	Version                 string     `yaml:"version"`
 	Title                   string     `yaml:"title"`
 	Description             string     `yaml:"description"`
 	Namespace               string     `yaml:"namespace"`
 	Uri                     string     `yaml:"uri"`
 	SkosProcessedFolderPath string     `yaml:"-"`
 	WorkingFilePathNTriples string     `yaml:"-"`
-	Updated                 time.Time  `yaml:"date"`
+	Released                time.Time  `yaml:"date"`
 	Creators                []string   `yaml:"creators"`
 	Contributors            []string   `yaml:"contributors"`
 	Concepts                []*Concept `yaml:"-"`
@@ -62,7 +73,7 @@ func (conceptSchemeVersion *ConceptSchemeVersion) CalculateFolderPath(webRootCon
 	if asCurrentVersion {
 		return filepath.Join(webRootContentPath, conceptSchemeVersion.ID)
 	} else {
-		return filepath.Join(webRootContentPath, conceptSchemeVersion.ID, conceptSchemeVersion.VersionNumberString)
+		return filepath.Join(webRootContentPath, conceptSchemeVersion.ID, conceptSchemeVersion.Version)
 	}
 }
 
@@ -78,7 +89,7 @@ func (conceptSchemeVersion *ConceptSchemeVersion) CalculateFolderPath(webRootCon
 
 func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXml() error {
 	dSpaceXmlFilePath := filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")
-	zapLogger.Debug(fmt.Sprintf("Creating DSpace XML file for '%s: %s' at %s", conceptSchemeVersion.ID, conceptSchemeVersion.VersionNumber, dSpaceXmlFilePath))
+	zapLogger.Debug(fmt.Sprintf("Creating DSpace XML file for '%s: %s' at %s", conceptSchemeVersion.ID, conceptSchemeVersion.Version, dSpaceXmlFilePath))
 	var err error
 	xml := "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 	xml += "<!-- This XML was automatically generated from the SKOS sources for the COAR Vocabulary. It follows the schema developed by 4Science (https://www.4science.it/) for DSpace -->"
