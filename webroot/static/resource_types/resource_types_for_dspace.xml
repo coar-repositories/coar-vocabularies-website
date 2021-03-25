@@ -12,10 +12,6 @@
         </node>
       </isComposedBy>
     </node>
-    <node id="c_3e5a" label="contribution to journal">
-      <hasNote>A contribution to a journal denotes a work published in a journal. If applicable sub-terms should be chosen.
-      </hasNote>
-    </node>
     <node id="c_ddb1" label="dataset">
       <hasNote>A collection of related facts and data encoded in a defined structure. [Source: Adapted from http://purl.org/spar/fabio/Dataset]
       </hasNote>
@@ -66,24 +62,12 @@ Source: http://purl.org/spar/fabio/WebSite
         </node>
       </isComposedBy>
     </node>
-    <node id="c_18ww" label="internal report">
-      <hasNote>An internal report is a record of findings collected for internal use. It is not designed to be made public and may include confidential or proprietary information.
-      </hasNote>
-    </node>
-    <node id="c_26e4" label="interview">
-      <hasNote>A discussion between a reporter, host, panel, or audience and a newsmaker, author, or celebrity, recorded (edited or unedited) in print, on film or video, as transcript or as a sound recording. (Adapted from ODLIS)
-      </hasNote>
-    </node>
     <node id="c_e059" label="learning object">
       <hasNote>A digital resource that can be reused to enhance teaching and learning. [Source: https://icas-ca.org/archive/projects/coerc/oer-glossary]
       </hasNote>
     </node>
     <node id="c_1843" label="other">
       <hasNote>A resource type that is not included in existing terms. [COAR definition]
-      </hasNote>
-    </node>
-    <node id="c_18wq" label="other type of report">
-      <hasNote>Other types of report may include Business Plans Technical Specifications, data management plans, recommendation reports, white papers, annual reports, auditor's reports, workplace reports, census reports, trip reports, progress reports, investigative reports, budget reports, policy reports, demographic reports, credit reports, appraisal reports, inspection reports, military reports, bound reports, etc. [Source: https://en.wikipedia.org/wiki/Report]
       </hasNote>
     </node>
     <node id="c_15cd" label="patent">
@@ -115,10 +99,6 @@ Source: http://purl.org/spar/fabio/WebSite
           </hasNote>
         </node>
       </isComposedBy>
-    </node>
-    <node id="c_18hj" label="report to funding agency">
-      <hasNote>A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‘Project deliverable’. [Source: http://ec.europa.eu/research/participants/fp7documents/funding-guide/6_projects/reports/reports_en.htm ]
-      </hasNote>
     </node>
     <node id="EHVM-H119" label="research data">
       <hasNote>Data that are used as primary sources to support technical or scientific enquiry, research, scholarship, or artistic activity, and that are used as evidence in the research process and/or are commonly accepted in the research community as necessary to validate research findings and results. [Source: https://casrai.org/term/research-data]

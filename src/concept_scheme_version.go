@@ -100,13 +100,15 @@ func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXml() error {
 	finalNodeDepth := 0
 	conceptSchemeVersion.FuncDownMeFirst(0, nil, func(k ki.Ki, level int, d interface{}) bool {
 		xmlNode := ""
+		concept := conceptSchemeVersion.GetConceptById(k.Name())
 		if k.Name() == conceptSchemeVersion.ID {
 			xmlNode = fmt.Sprintf("<node id=\"%s\" label=\"%s\">", conceptSchemeVersion.Uri, conceptSchemeVersion.Title)
 		} else {
-			concept := conceptSchemeVersion.GetConceptById(k.Name())
-			xmlNode = fmt.Sprintf("<node id=\"%s\" label=\"%s\">", concept.ID, concept.Title)
-			if concept.Definition != "" {
-				xmlNode += fmt.Sprintf("<hasNote>%s</hasNote>", concept.Definition)
+			if concept.Deprecated != true {
+				xmlNode = fmt.Sprintf("<node id=\"%s\" label=\"%s\">", concept.ID, concept.Title)
+				if concept.Definition != "" {
+					xmlNode += fmt.Sprintf("<hasNote>%s</hasNote>", concept.Definition)
+				}
 			}
 		}
 		if level < currentLevel {
@@ -118,7 +120,9 @@ func (conceptSchemeVersion *ConceptSchemeVersion) generateDspaceXml() error {
 		if k.HasChildren() {
 			xml += "<isComposedBy>"
 		} else {
-			xml += "</node>"
+			if concept.Deprecated != true {
+				xml += "</node>"
+			}
 		}
 		currentLevel = level
 		finalNodeDepth = level
