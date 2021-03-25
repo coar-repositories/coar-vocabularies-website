@@ -1,10 +1,11 @@
 ---
-title: About COAR Vocabularies Documentation
-description: 
+title: "About COAR Vocabularies Documentation"
+description: ""
 date: 2021-02-08
 ---
 
-The COAR Vocabularies have been developed by many volunteers - the creators and contributors are listed for each vocabulary.
+The COAR Vocabularies have been developed by many volunteers - the creators and contributors are listed for each
+vocabulary.
 
 <div class="row">
     <div class="col">
@@ -41,6 +42,12 @@ The COAR Vocabularies have been developed by many volunteers - the creators and 
         <p>The Editorial System (based on iQVoc) is hosted by the University of Vienna, and managed by Janos Bekesi.</p>
         <h3>Publication</h3>
         <p>The publication pipeline, which generates this website, was developed by Paul Walk at Antleaf.</p>
-        <img src="/images/antleaf_logo.png" style="max-width: 25%;"/>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div style="text-align: right;">
+            <img src="/images/antleaf_logo.png" style="max-width: 150px;"/>
+        </div>
     </div>
 </div>

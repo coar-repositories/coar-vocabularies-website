@@ -1,45 +1,61 @@
-<h2>Description</h2>
-<p>{{ .Description }}</p>
 <div class="row">
-  <div class="col">
-    <h2>URI</h2>
-    <p>{{ .Params.uri }}</p>
-    <h2>Released</h2>
-    <p>{{ dateFormat "2006-01-02" .Date }}</p>
-  </div>
-  <div class="col">
-    <h2>Other views</h2>
-    <p>
-    <ul>
-      <li><a href="/{{ .File.Dir }}printable">HTML - single page for printing</a></li>
-      {{ if eq .Params.version "" }}
-        <li><a href="/{{ .Section }}.zip">Zip file including RDF (.nt) and vocab file for DSpace (.xml)</a></li>
-      {{ else }}
-        <li><a href="/{{ .Section }}_{{ .Params.version }}.zip">Zip file including RDF (.nt) and vocab file for DSpace (.xml)</a></li>
-      {{ end }}
-    </ul>
-    </p>
-  </div>
+    <div class="col">
+        <div style="text-align: right;">
+        {{ if eq .Params.latest true }}
+            <span class="badge bg-success page-annotation">This is the latest version of this vocabulary</span>
+        {{ else }}
+            <span class="badge bg-danger page-annotation"><a class="page-annotation" href="{{ .FirstSection.Permalink }}">There is a newer version of this vocabulary</a></span>
+            {{ end }}
+        </div>
+        <h2>Description</h2>
+        <p>{{ .Description }}</p>
+    </div>
 </div>
 <div class="row">
-  {{ with .Params.creators }}
-  <div class="col">
-    <h2>Creators</h2>
-    <ul>
-      {{ range . }}
-      <li>{{ . }}</li>
-      {{ end }}
-    </ul>
-  </div>
-  {{ end }}
-  {{ with .Params.contributors }}
-  <div class="col">
-    <h2>Contributors</h2>
-    <ul>
-      {{ range . }}
-      <li>{{ . }}</li>
-      {{ end }}
-    </ul>
-  </div>
-  {{ end }}
+    <div class="col">
+        <h2>Released</h2>
+        <p>{{ dateFormat "2006-01-02" .Date }}</p>
+        <h2>Namespace URI</h2>
+        <p>{{ .Params.namespace }}</p>
+        <h2>Vocabulary PID</h2>
+        <p><a href="{{ .FirstSection.Permalink }}">{{ .FirstSection.Permalink }}</a></p>
+        <h2>Versions</h2>
+        <ul>
+            {{ range .FirstSection.Sections }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Params.version }}</a>
+                    {{ if eq .Params.latest true }}
+                        (latest version)
+                    {{ end }}
+                </li>
+            {{ end }}
+        </ul>
+
+        <h2>Other views</h2>
+        <p>
+        <ul>
+            <li><a href="/{{ .File.Dir }}printable">Single page for printing (.html)</a></li>
+            <li><a href="/{{ .File.Dir }}{{ .Section }}.nt">RDF (.nt)</a></li>
+            <li><a href="/{{ .File.Dir }}{{ .Section }}_for_dspace.xml">DSpace Vocab file (.xml)</a></li>
+        </ul>
+        </p>
+    </div>
+    <div class="col">
+        {{ with .Params.creators }}
+            <h2>Creators</h2>
+            <ul>
+                {{ range . }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        {{ end }}
+        {{ with .Params.contributors }}
+            <h2>Contributors</h2>
+            <ul>
+                {{ range . }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    </div>
 </div>

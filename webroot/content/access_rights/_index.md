@@ -1,5 +1,7 @@
 ---
 version: "1.0"
+current: true
+latest: true
 title: Access Rights
 description: The Access Rights vocabulary defines concepts to declare the access status of a resource. Multilingual labels regard regional distinctions in language and term.
 namespace: http://purl.org/coar/access_right/

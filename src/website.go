@@ -53,6 +53,9 @@ func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error
 	//}
 	//zapLogger.Info("Reset concept scheme folder", zap.String("path", conceptSchemeFolderPath))
 	for _, conceptSchemeVersion := range conceptScheme.Versions {
+		if conceptSchemeVersion.Version == conceptScheme.GetLatestVersion().Version {
+			conceptSchemeVersion.Latest = true
+		}
 		err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, false)
 		if err != nil {
 			zapLogger.Error(err.Error())
@@ -93,6 +96,7 @@ func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error
 
 func (website *Website) ProcessConceptSchemeVersion(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
 	var err error
+	conceptSchemeVersion.Current = asCurrentVersion
 	err = os.MkdirAll(conceptSchemeVersion.CalculateFolderPath(website.ContentFolderPath, asCurrentVersion), os.ModePerm)
 	if err != nil {
 		zapLogger.Error(err.Error())
@@ -123,7 +127,7 @@ func (website *Website) ProcessConceptSchemeVersion(conceptSchemeVersion *Concep
 		zapLogger.Error(err.Error())
 		return err
 	}
-	err = website.GenerateZip(conceptSchemeVersion)
+	err = website.GenerateDownloadFiles(conceptSchemeVersion, asCurrentVersion)
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
@@ -167,15 +171,38 @@ func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptScheme
 	return err
 }
 
-func (website *Website) GenerateZip(conceptSchemeVersion *ConceptSchemeVersion) error {
-	filesPathsToZip := []string{conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")}
-	err := zipFiles(filepath.Join(website.StaticContentFolderPath, fmt.Sprint(conceptSchemeVersion.ID, "_", conceptSchemeVersion.Version, ".zip")), filesPathsToZip)
+func (website *Website) GenerateDownloadFiles(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
+	destinationFolderPath := filepath.Join(website.StaticContentFolderPath, conceptSchemeVersion.ID, conceptSchemeVersion.Version)
+	if asCurrentVersion {
+		destinationFolderPath = filepath.Join(website.StaticContentFolderPath, conceptSchemeVersion.ID)
+	}
+	err := os.MkdirAll(destinationFolderPath, os.ModePerm)
+	if err != nil {
+		zapLogger.Debug(err.Error())
+		return err
+	}
+	_, err = copyFile(filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml"), filepath.Join(destinationFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml"))
+	if err != nil {
+		zapLogger.Debug(err.Error())
+		return err
+	}
+	_, err = copyFile(conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(destinationFolderPath, conceptSchemeVersion.ID+".nt"))
 	if err != nil {
 		zapLogger.Debug(err.Error())
 		return err
 	}
 	return err
 }
+
+//func (website *Website) GenerateZip(conceptSchemeVersion *ConceptSchemeVersion) error {
+//	filesPathsToZip := []string{conceptSchemeVersion.WorkingFilePathNTriples, filepath.Join(conceptSchemeVersion.SkosProcessedFolderPath, conceptSchemeVersion.ID+"_for_dspace.xml")}
+//	err := zipFiles(filepath.Join(website.StaticContentFolderPath, fmt.Sprint(conceptSchemeVersion.ID, "_", conceptSchemeVersion.Version, ".zip")), filesPathsToZip)
+//	if err != nil {
+//		zapLogger.Debug(err.Error())
+//		return err
+//	}
+//	return err
+//}
 
 func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
 	var err error

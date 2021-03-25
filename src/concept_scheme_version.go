@@ -40,6 +40,8 @@ type ConceptSchemeVersion struct {
 	ki.Node                 `yaml:"-"`
 	ID                      string     `yaml:"-"`
 	Version                 string     `yaml:"version"`
+	Current                 bool       `yaml:"current"`
+	Latest                  bool       `yaml:"latest"`
 	Title                   string     `yaml:"title"`
 	Description             string     `yaml:"description"`
 	Namespace               string     `yaml:"namespace"`
