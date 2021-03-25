@@ -2,6 +2,7 @@
 title: journal article
 uri: http://purl.org/coar/resource_type/c_6501
 description: 'An article, typically the realization of a research paper reporting original research findings, published in a journal issue. [Source: http://purl.org/spar/fabio/JournalArticle]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

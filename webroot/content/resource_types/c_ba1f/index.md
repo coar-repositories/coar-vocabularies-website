@@ -2,6 +2,7 @@
 title: report part
 uri: http://purl.org/coar/resource_type/c_ba1f
 description: part of a report
+deprecated: true
 layout: concept
 related:
     - type: Broad Match

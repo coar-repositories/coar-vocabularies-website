@@ -2,6 +2,7 @@
 title: review
 uri: http://purl.org/coar/resource_type/c_efa0
 description: A review of others' published work.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

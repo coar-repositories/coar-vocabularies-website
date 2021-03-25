@@ -2,6 +2,7 @@
 title: book part
 uri: http://purl.org/coar/resource_type/c_3248
 description: 'A defined chapter or section of a book, usually with a separate title or number. [Source: http://purl.org/spar/fabio/BookChapter]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

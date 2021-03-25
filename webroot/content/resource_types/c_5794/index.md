@@ -2,6 +2,7 @@
 title: conference paper
 uri: http://purl.org/coar/resource_type/c_5794
 description: 'A paper, typically the realization of a research paper reporting original research findings. Use this label when the paper is not published in a proceeding. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

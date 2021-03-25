@@ -4,6 +4,7 @@ uri: http://purl.org/coar/version/c_71e4c1898caa6e32
 description: |-
     Any version of a resource that is under formal review managed by a socially recognized publishing entity. The entity recognizes its responsibility to provide objective expert review and feedback to the author, and, ultimately, to pass judgment on the fitness of the resource for publication with an “accept” or “reject” decision. May have a version number or date stamp. Content and layout follow publisher’s submission requirements.
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

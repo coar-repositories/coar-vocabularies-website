@@ -4,6 +4,7 @@ uri: http://purl.org/coar/resource_type/c_e9a0
 description: |-
     A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.
     Source: http://purl.org/dc/dcmitype/InteractiveResource
+deprecated: false
 layout: concept
 related: []
 pref_labels:

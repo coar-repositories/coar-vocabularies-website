@@ -2,6 +2,7 @@
 title: letter to the editor
 uri: http://purl.org/coar/resource_type/c_545b
 description: 'A letter addressed to the editor and comments on or discussed an item previously published by that periodical, or of interest to its readership. [Source: Adapted from http://purl.org/spar/fabio/Letter]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

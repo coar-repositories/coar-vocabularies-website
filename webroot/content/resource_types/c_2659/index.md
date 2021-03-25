@@ -2,6 +2,7 @@
 title: periodical
 uri: http://purl.org/coar/resource_type/c_2659
 description: 'A periodical is a serial publication with its own distinctive title, characterized by a variety of contents and contributors, and issued at regular intervals. (Adapted from ODLIS) [Source: http://www.abc-clio.com/ODLIS/odlis_p.aspx]'
+deprecated: true
 layout: concept
 related:
     - type: Broad Match

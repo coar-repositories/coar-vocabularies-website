@@ -2,6 +2,7 @@
 title: policy report
 uri: http://purl.org/coar/resource_type/c_186u
 description: 'A policy report presents what is known about a particular issue or problem. It assembles facts and evidence to help readers understand complex issues and form a response. It might aim to be neutral, or it might aim to persuade readers in a particular direction. [Source: https://www.uow.edu.au/student/learning-co-op/assessments/policy-report/#]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

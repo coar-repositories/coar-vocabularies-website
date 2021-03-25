@@ -2,6 +2,7 @@
 title: open access
 uri: http://purl.org/coar/access_right/c_abf2
 description: Open access refers to a resource that is immediately and permanently online, and free for all on the Web, without financial and technical barriers.The resource is either stored in the repository or referenced to an external journal or trustworthy archive.
+deprecated: false
 layout: concept
 related:
     - type: Related Match

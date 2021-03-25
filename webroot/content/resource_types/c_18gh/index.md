@@ -2,6 +2,7 @@
 title: technical report
 uri: http://purl.org/coar/resource_type/c_18gh
 description: A technical report is a document that records the procedure adopted and results obtained from a scientific or technical activity or investigation.
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -2,6 +2,7 @@
 title: workflow
 uri: http://purl.org/coar/resource_type/c_393c
 description: 'A recorded sequence of connected steps, which may be automated, specifying a reliably repeatable sequence of operations to be undertaken when conducting a particular job, for example an in silico investigation that extracts and processes information from a number of bioinformatics databases. [Source: Adapted from http://purl.org/spar/fabio/Workflow]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

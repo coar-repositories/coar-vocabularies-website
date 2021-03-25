@@ -2,6 +2,7 @@
 title: book
 uri: http://purl.org/coar/resource_type/c_2f33
 description: 'A non-serial publication that is complete in one volume or a designated finite number of volumes. [Source: Adapted from http://purl.org/eprint/type/Book]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

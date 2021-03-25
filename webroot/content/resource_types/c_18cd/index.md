@@ -2,6 +2,7 @@
 title: musical composition
 uri: http://purl.org/coar/resource_type/c_18cd
 description: 'Musical composition can refer to an original piece of music, the structure of a musical piece, or the process of creating a new piece of music. [Source: https://en.wikipedia.org/wiki/Musical_composition ]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -45,13 +45,6 @@ func (website *Website) Initialise(webPageSourcesPath, webrootPath string) error
 
 func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error {
 	var err error
-	//conceptSchemeFolderPath := filepath.Join(website.ContentFolderPath, conceptScheme.ID)
-	//err = resetVolatileFolder(conceptSchemeFolderPath)
-	//if err != nil {
-	//	zapLogger.Error(err.Error())
-	//	return err
-	//}
-	//zapLogger.Info("Reset concept scheme folder", zap.String("path", conceptSchemeFolderPath))
 	for _, conceptSchemeVersion := range conceptScheme.Versions {
 		if conceptSchemeVersion.Version == conceptScheme.GetLatestVersion().Version {
 			conceptSchemeVersion.Latest = true
@@ -223,7 +216,9 @@ func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVers
 		}
 		treeDepth = level
 		if k.Name() != conceptSchemeVersion.ID {
-			html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
+			if concept.Deprecated != true {
+				html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
+			}
 			//if asCurrentVersion {
 			//	html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
 			//} else {

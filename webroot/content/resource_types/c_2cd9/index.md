@@ -2,6 +2,7 @@
 title: magazine
 uri: http://purl.org/coar/resource_type/c_2cd9
 description: 'A popular interest periodical usually containing articles on a variety of topics, written by various authors in a nonscholarly style or a trade publication, unlike a consumer publication, covers a specific topic for people who work in that particular field or industry. [Source: Adapted from https://www.thebalance.com/what-is-a-trade-publication-exactly-2316039 and http://www.abc-clio.com/ODLIS/odlis_m.aspx]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

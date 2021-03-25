@@ -2,6 +2,7 @@
 title: patent
 uri: http://purl.org/coar/resource_type/c_15cd
 description: A patent or patent application.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

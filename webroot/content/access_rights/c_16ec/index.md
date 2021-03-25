@@ -6,6 +6,7 @@ description: |-
     The user must log-in to the system in order to access the resource
     The user must send an email to the author or system administrator to access the resource
     Access to the resource is restricted to a specific community (e.g. limited to a university community)
+deprecated: false
 layout: concept
 related:
     - type: Related Match

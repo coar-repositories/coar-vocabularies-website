@@ -2,6 +2,7 @@
 title: corrigendum
 uri: http://purl.org/coar/resource_type/c_7acd
 description: A formal correction to an error introduced by the author into a previously published document. (adapted from https://sparontologies.github.io/fabio/current/fabio.html#d4e2712)
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

@@ -1,3 +1,16 @@
+{{ if eq .Params.deprecated true }}
+<div class="row">
+  <div class="col">
+    <div class="alert alert-danger" role="alert" style="text-align: center; font-weight: bold; padding: 2px;">
+      This concept is deprecated
+    </div>
+{{/*    <div style="text-align: right;">*/}}
+{{/*      <span class="badge bg-danger page-annotation">This concept is deprecated and is not used in the current version of this vocabulary</span>*/}}
+{{/*    </div>*/}}
+  </div>
+</div>
+{{ end }}
+
 <h2>Definition</h2>
 {{ $currentSectionPath := .CurrentSection.File.Dir }}
 <p>{{ .Description }}</p>

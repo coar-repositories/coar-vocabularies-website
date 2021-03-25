@@ -2,6 +2,7 @@
 title: project deliverable
 uri: http://purl.org/coar/resource_type/c_18op
 description: 'A document containing a project report, intended to be delivered to a customer or funding agency describing the results achieved within a specific project. [Source: http://purl.org/spar/fabio/ProjectReportDocument]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

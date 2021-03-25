@@ -2,6 +2,7 @@
 title: memorandum
 uri: http://purl.org/coar/resource_type/c_18wz
 description: 'A formal note distributed internally to one or more persons in a company, agency, organization, or institution, with a header indicating the date it was sent and stating to whom it is addressed (To:), from whom it is sent (From:), and the subject of the text (Re:). Unlike a letter, a memo does not require a full salutation or signature at the end of the text--the sender may simply initial his or her name in the header. [Source: https://products.abc-clio.com/ODLIS/odlis_m.aspx#memorandum]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

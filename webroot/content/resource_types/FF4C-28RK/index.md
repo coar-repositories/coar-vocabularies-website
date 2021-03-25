@@ -2,6 +2,7 @@
 title: observational data
 uri: http://purl.org/coar/resource_type/FF4C-28RK
 description: ""
+deprecated: false
 layout: concept
 related: []
 pref_labels:

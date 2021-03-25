@@ -2,6 +2,7 @@
 title: preprint
 uri: http://purl.org/coar/resource_type/c_816b
 description: 'A preprint is a scientific manuscript without peer-review and has not yet been accepted by a journal, typicaly submitted to a public server/ repository by the author. [Source: Adapted from https://asapbio.org/preprint-info/preprint-faq#qaef-637]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

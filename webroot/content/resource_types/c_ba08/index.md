@@ -2,6 +2,7 @@
 title: book review
 uri: http://purl.org/coar/resource_type/c_ba08
 description: A written review and critical analysis of the content, scope and quality of a book or other monographic work.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

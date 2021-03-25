@@ -2,6 +2,7 @@
 title: metadata only access
 uri: http://purl.org/coar/access_right/c_14cb
 description: Metadata only access refers to a resource in which access is limited to metadata only. The resource itself is described by the metadata, but neither is directly available through the system or platform nor can be referenced to an open access copy in an external journal or trustworthy archive.
+deprecated: false
 layout: concept
 related:
     - type: Related Match

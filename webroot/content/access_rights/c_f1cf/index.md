@@ -2,6 +2,7 @@
 title: embargoed access
 uri: http://purl.org/coar/access_right/c_f1cf
 description: Embargoed access refers to a resource that is metadata only access until released for open access on a certain date. Embargoes can be required by publishers and funders policies, or set by the author (e.g such as in the case of theses and dissertations).
+deprecated: false
 layout: concept
 related: []
 pref_labels:

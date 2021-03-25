@@ -2,6 +2,7 @@
 title: image
 uri: http://purl.org/coar/resource_type/c_c513
 description: 'A visual representation other than text, including all types of moving image and still image. [Source: Adapted from  http://purl.org/dc/dcmitype/Image]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

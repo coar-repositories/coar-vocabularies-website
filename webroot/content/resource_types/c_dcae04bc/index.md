@@ -2,6 +2,7 @@
 title: review article
 uri: http://purl.org/coar/resource_type/c_dcae04bc
 description: 'An article, is a primary source, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/JournalArticle]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

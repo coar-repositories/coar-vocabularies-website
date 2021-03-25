@@ -2,6 +2,7 @@
 title: conference poster
 uri: http://purl.org/coar/resource_type/c_6670
 description: 'A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: http://purl.org/spar/fabio/ConferencePoster]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

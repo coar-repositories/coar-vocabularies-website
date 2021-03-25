@@ -2,6 +2,7 @@
 title: report to funding agency
 uri: http://purl.org/coar/resource_type/c_18hj
 description: 'A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‘Project deliverable’. [Source: http://ec.europa.eu/research/participants/fp7documents/funding-guide/6_projects/reports/reports_en.htm ]'
+deprecated: true
 layout: concept
 related: []
 pref_labels:

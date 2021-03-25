@@ -2,6 +2,7 @@
 title: measurement and test data
 uri: http://purl.org/coar/resource_type/DD58-GFSX
 description: 'Data resulting from assessing specific properties (or characteristics) of beings, things, phenomena, (and/ or processes) by applying pre-established standards and/or specialized instruments or techniques. [Source: Adapted from  https://ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

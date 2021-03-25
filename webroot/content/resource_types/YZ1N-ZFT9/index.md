@@ -2,6 +2,7 @@
 title: research protocol
 uri: http://purl.org/coar/resource_type/YZ1N-ZFT9
 description: 'The protocol is a detailed plan of the research study including a project summary, project description covering the rationale, objectives, methodology, data management and analysis, ethical considerations, gender issues and references. [Source: Adapted from https://www.who.int/publications/i/item/a-practical-guide-for-health-researchers]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

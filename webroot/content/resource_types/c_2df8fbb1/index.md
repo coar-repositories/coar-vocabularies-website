@@ -2,6 +2,7 @@
 title: research article
 uri: http://purl.org/coar/resource_type/c_2df8fbb1
 description: A research article is a primary source, that is, it reports the methods and results of an original study performed by the authors. (adapted from http://apus.libanswers.com/faq/2324)
+deprecated: false
 layout: concept
 related: []
 pref_labels:

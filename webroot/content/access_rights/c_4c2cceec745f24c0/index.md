@@ -2,6 +2,7 @@
 title: udc
 uri: http://purl.org/coar/access_right/c_4c2cceec745f24c0
 description: available in SKOS Used by DCTERMS
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

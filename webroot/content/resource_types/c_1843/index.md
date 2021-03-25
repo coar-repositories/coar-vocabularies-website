@@ -2,6 +2,7 @@
 title: other
 uri: http://purl.org/coar/resource_type/c_1843
 description: A resource type that is not included in existing terms. [COAR definition]
+deprecated: false
 layout: concept
 related: []
 pref_labels:

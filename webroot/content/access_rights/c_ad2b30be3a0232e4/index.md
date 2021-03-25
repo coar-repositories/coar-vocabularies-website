@@ -2,6 +2,7 @@
 title: lcc
 uri: http://purl.org/coar/access_right/c_ad2b30be3a0232e4
 description: available in SKOS Used by DCTERMS
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

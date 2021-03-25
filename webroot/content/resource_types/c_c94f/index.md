@@ -2,6 +2,7 @@
 title: conference output
 uri: http://purl.org/coar/resource_type/c_c94f
 description: All kind of digital resources contributed to a conference, like conference presentation (slides), conference report, conference lecture, abstracts, demonstrations. For conference papers, posters or proceedings the specific sub-concepts should be used. [COAR definition]
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

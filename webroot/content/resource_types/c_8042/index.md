@@ -2,6 +2,7 @@
 title: working paper
 uri: http://purl.org/coar/resource_type/c_8042
 description: 'A working or discussion paper circulated publicly or among a group of peers. Certain disciplines, for example economics, issue working papers in series. [Source: http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#ConferenceItem]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

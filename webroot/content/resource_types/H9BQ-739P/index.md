@@ -2,6 +2,7 @@
 title: peer review
 uri: http://purl.org/coar/resource_type/H9BQ-739P
 description: 'A process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted. [Source: https://casrai.org/rdm-glossary]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

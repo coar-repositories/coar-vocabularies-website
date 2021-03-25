@@ -2,6 +2,7 @@
 title: lcsh
 uri: http://purl.org/coar/access_right/c_4e2ae189f89acf28
 description: available in SKOS Used by DCTERMS
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -2,6 +2,7 @@
 title: swd
 uri: http://purl.org/coar/access_right/c_d47422a3bf77a87b
 description: available in SKOS
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -2,6 +2,7 @@
 title: PCT application
 uri: http://purl.org/coar/resource_type/SB3Y-W4EH
 description: 'A patent application filed through the WIPO-administered Plant Cooperation Treaty (PCT), also known as an international application. [Source: Adapted from https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

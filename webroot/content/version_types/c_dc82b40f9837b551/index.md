@@ -2,6 +2,7 @@
 title: EVoR
 uri: http://purl.org/coar/version/c_dc82b40f9837b551
 description: "A version of the Version of Record of a resource that has been updated or \nenhanced by the provision of supplementary material.\n(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)"
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -2,6 +2,7 @@
 title: lecture
 uri: http://purl.org/coar/resource_type/c_8544
 description: 'Transcription of an oral presentation/talk intended to present information or teach people about a particular subject, for example by a university or college teacher. [Source: Adopted from https://en.wikipedia.org/wiki/Lecture]'
+deprecated: false
 layout: concept
 related:
     - type: Narrow Match

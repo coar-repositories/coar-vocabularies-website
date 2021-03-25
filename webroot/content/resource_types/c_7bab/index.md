@@ -2,6 +2,7 @@
 title: software paper
 uri: http://purl.org/coar/resource_type/c_7bab
 description: A software paper should include the rationale for the development of the tool and details of the code used for its construction. (Adapted from f1000)
+deprecated: false
 layout: concept
 related: []
 pref_labels:

@@ -2,6 +2,7 @@
 title: blog post
 uri: http://purl.org/coar/resource_type/c_6947
 description: 'A piece of writing or other item of content published on a blog. [Source: https://www.lexico.com/definition/blog_post]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

@@ -2,6 +2,7 @@
 title: data paper
 uri: http://purl.org/coar/resource_type/c_beb9
 description: A data paper is a scholarly publication describing a particular dataset or group of dataset, published in the form of a peer-reviewed article in a scholarly journal. The main purpose of a data paper is to describe data, the circumstances of their collection, and information related to data features, access and potential reuse. Adapted from https://en.wikipedia.org/wiki/Data_paper and http://www.gbif.org/publishing-data/data-papers
+deprecated: false
 layout: concept
 related: []
 pref_labels:

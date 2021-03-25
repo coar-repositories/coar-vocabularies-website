@@ -2,6 +2,7 @@
 title: bibliography
 uri: http://purl.org/coar/resource_type/c_86bc
 description: Систематизированный перечень или список письменных работ/источников конкретного автора или на заданную тему.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

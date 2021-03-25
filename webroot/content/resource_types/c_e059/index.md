@@ -2,6 +2,7 @@
 title: learning object
 uri: http://purl.org/coar/resource_type/c_e059
 description: 'A digital resource that can be reused to enhance teaching and learning. [Source: https://icas-ca.org/archive/projects/coerc/oer-glossary]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

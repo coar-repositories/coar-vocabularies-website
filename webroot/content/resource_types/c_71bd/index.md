@@ -2,6 +2,7 @@
 title: technical documentation
 uri: http://purl.org/coar/resource_type/c_71bd
 description: 'Technical documentation refers to any type of documentation that describes handling, functionality and architecture of a technical product or a product under development or use. [Source: https://en.wikipedia.org/wiki/Technical_documentation]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

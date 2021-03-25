@@ -2,6 +2,7 @@
 title: still image
 uri: http://purl.org/coar/resource_type/c_ecc8
 description: 'A recorded static visual representation. This class of image includes diagrams, drawings, graphs, graphic designs, plans, photographs and prints. [Source: Adapted from  http://purl.org/spar/fabio/StillImage]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

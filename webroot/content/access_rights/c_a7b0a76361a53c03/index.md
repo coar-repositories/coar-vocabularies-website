@@ -2,6 +2,7 @@
 title: jel
 uri: http://purl.org/coar/access_right/c_a7b0a76361a53c03
 description: URI available at the Linked Data Service of LC
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

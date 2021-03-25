@@ -2,6 +2,7 @@
 title: manuscript
 uri: http://purl.org/coar/resource_type/c_0040
 description: A manuscript is a work of any kind (text, inscription, music score, map, etc.) written entirely by hand. (Adapted from ODLIS)
+deprecated: false
 layout: concept
 related: []
 pref_labels:

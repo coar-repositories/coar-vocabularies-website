@@ -4,6 +4,7 @@ uri: http://purl.org/coar/version/c_ab4af688f83e57aa
 description: |-
     The version of a resource that has been accepted for publication. A second party takes permanent responsibility for the resource. Content and layout follow publisher’s submission requirements.
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -2,6 +2,7 @@
 title: editorial
 uri: http://purl.org/coar/resource_type/c_b239
 description: 'A brief essay expressing the opinion or position of the chief editor(s) of a (academic) journal with respect to a current political, social, cultural, or professional issue. [Source: Adapted from ODLIS [Source: http://www.abc-clio.com/ODLIS/odlis_e.aspx ]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

@@ -2,6 +2,7 @@
 title: annotation
 uri: http://purl.org/coar/resource_type/c_1162
 description: An annotation in the sense of a legal note is a legally explanatory comment on a decision handed down by a court or arbitral tribunal.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

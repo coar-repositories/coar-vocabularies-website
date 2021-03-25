@@ -2,6 +2,7 @@
 title: experimental data
 uri: http://purl.org/coar/resource_type/63NG-B465
 description: 'Data resulting from the experimental research method involving the manipulation of some or all of the independent variables included in the hypotheses. [Source: Adapted from https://ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

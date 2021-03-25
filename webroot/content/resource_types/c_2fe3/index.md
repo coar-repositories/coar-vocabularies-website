@@ -2,6 +2,7 @@
 title: newspaper
 uri: http://purl.org/coar/resource_type/c_2fe3
 description: 'A non-peer reviewed periodical, usually published daily or weekly, consisting primarily of editorials and news items concerning current or recent events and matters of public interest. [Source: http://purl.org/spar/fabio/Newspaper]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

@@ -2,6 +2,7 @@
 title: other type of report
 uri: http://purl.org/coar/resource_type/c_18wq
 description: 'Other types of report may include Business Plans Technical Specifications, data management plans, recommendation reports, white papers, annual reports, auditor''s reports, workplace reports, census reports, trip reports, progress reports, investigative reports, budget reports, policy reports, demographic reports, credit reports, appraisal reports, inspection reports, military reports, bound reports, etc. [Source: https://en.wikipedia.org/wiki/Report]'
+deprecated: true
 layout: concept
 related: []
 pref_labels:

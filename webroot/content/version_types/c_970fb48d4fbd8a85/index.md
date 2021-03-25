@@ -4,6 +4,7 @@ uri: http://purl.org/coar/version/c_970fb48d4fbd8a85
 description: |-
     A fixed version of a resource that has been made available by any organization that acts as a publisher by formally and exclusively declaring the resource “published”. This includes any “early release” resource that is formally identified as being published even before the compilation of a volume issue and assignment of associated metadata, as long as it is citable via some permanent identifier(s). This does not include any “early release” resource that has not yet been “fixed” by processes that are still to be applied, such as copy-editing, proof corrections, layout, and typesetting.
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

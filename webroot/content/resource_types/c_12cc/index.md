@@ -2,6 +2,7 @@
 title: cartographic material
 uri: http://purl.org/coar/resource_type/c_12cc
 description: 'Any material representing the whole or part of the earth or any celestial body at any scale. Cartographic materials include two- and three-dimensional maps and plans (including maps of imaginary places); aeronautical, navigational, and celestial charts; atlases; globes; block diagrams; sections; aerial photographs with a cartographic purpose; bird''s-eye views (map views), etc. [Source: http://www.loc.gov/marc/cfmap.html]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

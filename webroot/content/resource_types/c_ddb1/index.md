@@ -2,6 +2,7 @@
 title: dataset
 uri: http://purl.org/coar/resource_type/c_ddb1
 description: 'A collection of related facts and data encoded in a defined structure. [Source: Adapted from http://purl.org/spar/fabio/Dataset]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

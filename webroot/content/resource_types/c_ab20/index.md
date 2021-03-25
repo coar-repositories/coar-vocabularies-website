@@ -2,6 +2,7 @@
 title: data management plan
 uri: http://purl.org/coar/resource_type/c_ab20
 description: 'A formal statement describing how research data will be managed and documented throughout a research project and the terms regarding the subsequent deposit of the data with a data repository for long-term management and preservation. [Source: https://casrai.org/rdm-glossary]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

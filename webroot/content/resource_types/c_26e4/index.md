@@ -2,6 +2,7 @@
 title: interview
 uri: http://purl.org/coar/resource_type/c_26e4
 description: A discussion between a reporter, host, panel, or audience and a newsmaker, author, or celebrity, recorded (edited or unedited) in print, on film or video, as transcript or as a sound recording. (Adapted from ODLIS)
+deprecated: true
 layout: concept
 related:
     - type: Narrow Match

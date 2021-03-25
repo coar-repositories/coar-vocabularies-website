@@ -2,6 +2,7 @@
 title: map
 uri: http://purl.org/coar/resource_type/c_12cd
 description: 'Defined as a representation normally to scale and on a flat medium, of a selection of material or abstract features on, or in relation to, the surface of the earth or of another celestial body. [Source: https://www.loc.gov/marc/bibliographic/bd007a.html]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

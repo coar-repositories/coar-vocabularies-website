@@ -2,6 +2,7 @@
 title: nbc
 uri: http://purl.org/coar/access_right/c_7be167c4f9adce25
 description: URI available at the Linked Data Service of LC
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

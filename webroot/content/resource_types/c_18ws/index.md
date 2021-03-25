@@ -2,6 +2,7 @@
 title: research report
 uri: http://purl.org/coar/resource_type/c_18ws
 description: 'It is publication that reports on the findings of a research project or alternatively scientific observations on or about a subject. [Source: Adapted from https://en.wikipedia.org/wiki/Research_report]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

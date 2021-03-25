@@ -2,6 +2,7 @@
 title: doctoral thesis
 uri: http://purl.org/coar/resource_type/c_db06
 description: A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

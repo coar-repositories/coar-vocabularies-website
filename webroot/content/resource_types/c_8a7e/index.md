@@ -2,6 +2,7 @@
 title: moving image
 uri: http://purl.org/coar/resource_type/c_8a7e
 description: 'A moving display, either generated dynamically by a computer program or formed from a series of pre-recorded still images imparting an impression of motion when shown in succession. [Source: http://purl.org/spar/fabio/MovingImage]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

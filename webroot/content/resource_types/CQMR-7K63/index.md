@@ -2,6 +2,7 @@
 title: recorded data
 uri: http://purl.org/coar/resource_type/CQMR-7K63
 description: 'Data registered by mechanical or electronic means, in a form that allows the information to be retrieved and/or reproduced. For example, images or sounds on disc or magnetic tape. [Source: Adapted from https://ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

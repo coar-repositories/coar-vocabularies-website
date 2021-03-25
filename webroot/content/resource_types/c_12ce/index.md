@@ -2,6 +2,7 @@
 title: video
 uri: http://purl.org/coar/resource_type/c_12ce
 description: 'A recording of visual images, usually in motion and with sound accompaniment. [Source: http://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf ]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

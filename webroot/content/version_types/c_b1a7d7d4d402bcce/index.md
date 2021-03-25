@@ -4,6 +4,7 @@ uri: http://purl.org/coar/version/c_b1a7d7d4d402bcce
 description: |-
     Any version of a resource that is considered by the author to be of sufficient quality to be submitted for formal peer review by a second party. The author accepts full responsibility for the resource . May have a version number or date stamp. Content and layout as set out by the author.
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

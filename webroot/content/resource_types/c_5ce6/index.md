@@ -2,6 +2,7 @@
 title: software
 uri: http://purl.org/coar/resource_type/c_5ce6
 description: A computer program in source code (text) or compiled form.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

@@ -4,6 +4,7 @@ uri: http://purl.org/coar/resource_type/c_18cw
 description: |-
     Symbols used to write music, as in a music score, and to express mathematical concepts.
     [Source: Adapted from https://products.abc-clio.com/ODLIS/odlis_n.aspx]
+deprecated: false
 layout: concept
 related: []
 pref_labels:

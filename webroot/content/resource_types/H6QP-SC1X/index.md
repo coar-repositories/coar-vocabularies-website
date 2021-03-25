@@ -6,6 +6,7 @@ description: |-
     of others. A trademark may consist of words and combinations of words (for
     instance, names or slogans), logos, figures and images, letters, numbers,
     sounds, or, in rare instances, smells or moving images, or a combination thereof. [Source: https://www.wipo.int/trademarks/en]
+deprecated: false
 layout: concept
 related: []
 pref_labels:

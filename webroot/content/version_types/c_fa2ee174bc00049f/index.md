@@ -4,6 +4,7 @@ uri: http://purl.org/coar/version/c_fa2ee174bc00049f
 description: |-
     A version of a resource that is created as part of the publication process. This includes the copy-edited manuscript, galley proofs (i.e., a typeset version that has not been made up into pages), page proofs, and revised proofs. Some of these versions may remain essentially internal process versions, but others are commonly released from the internal environment (e.g., proofs are sent to authors) and may thus become public, even though they are not authorized to be so. Content has been changed from Accepted Manuscript; layout is the publisher’s.
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+deprecated: false
 layout: concept
 related: []
 pref_labels:

@@ -4,6 +4,7 @@ uri: http://purl.org/coar/version/c_e19f295774971610
 description: |-
     A version of the Version of Record of a resource in which errors in the VoR have been corrected. The errors may be author errors, publisher errors, or other processing errors.
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

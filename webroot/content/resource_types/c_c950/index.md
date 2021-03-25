@@ -2,6 +2,7 @@
 title: research software
 uri: http://purl.org/coar/resource_type/c_c950
 description: 'Software that is used to generate, process or analyse results that you intend to appear in a publication (either in a journal, conference paper, monograph, book or thesis). Research software can be anything from a few lines of code written by yourself, to a professionally developed software package. [Source: https://datashare.ed.ac.uk/handle/10283/785]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

@@ -2,6 +2,7 @@
 title: research data
 uri: http://purl.org/coar/resource_type/EHVM-H119
 description: 'Data that are used as primary sources to support technical or scientific enquiry, research, scholarship, or artistic activity, and that are used as evidence in the research process and/or are commonly accepted in the research community as necessary to validate research findings and results. [Source: https://casrai.org/term/research-data]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:

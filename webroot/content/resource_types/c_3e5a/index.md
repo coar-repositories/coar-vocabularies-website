@@ -2,6 +2,7 @@
 title: contribution to journal
 uri: http://purl.org/coar/resource_type/c_3e5a
 description: A contribution to a journal denotes a work published in a journal. If applicable sub-terms should be chosen.
+deprecated: true
 layout: concept
 related: []
 pref_labels:

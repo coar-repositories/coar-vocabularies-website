@@ -2,6 +2,7 @@
 title: text
 uri: http://purl.org/coar/resource_type/c_18cf
 description: 'A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text. [Source: http://dublincore.org/documents/dcmi-terms/#dcmitype-Sound]'
+deprecated: false
 layout: concept
 related:
     - type: Exact Match

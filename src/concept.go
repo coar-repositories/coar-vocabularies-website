@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/goki/ki/ki"
 	"github.com/knakk/rdf"
+	"go.uber.org/zap"
 	"gopkg.in/yaml.v3"
 	"sort"
 	"strings"
@@ -15,6 +16,7 @@ type Concept struct {
 	Title            string    `yaml:"title"`
 	Uri              string    `yaml:"uri"`
 	Definition       string    `yaml:"description"`
+	Deprecated       bool      `yaml:"deprecated"`
 	HugoLayout       string    `yaml:"layout"`
 	EditorialNote    string    `yaml:"-"`
 	RelatedMatches   []Match   `yaml:"related"`
@@ -64,6 +66,10 @@ func (concept *Concept) initialise(conceptUri, namespace, conceptSchemeUri strin
 		}
 		if skosConcept.Pred.String() == "http://www.w3.org/2004/02/skos/core#topConceptOf" && skosConcept.Obj.String() == conceptSchemeUri {
 			concept.IsTopConcept = true
+		}
+		if skosConcept.Pred.String() == (namespace + "schema#expires") {
+			zapLogger.Info("Deprecating", zap.String("concept ID", concept.ID))
+			concept.Deprecated = true
 		}
 		if skosConcept.Pred.String() == "http://www.w3.org/2004/02/skos/core#narrower" {
 			concept.NarrowerConcepts = append(concept.NarrowerConcepts, getConceptNameFromUri(namespace, skosConcept.Obj.String()))

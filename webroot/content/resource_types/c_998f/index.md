@@ -2,6 +2,7 @@
 title: newspaper article
 uri: http://purl.org/coar/resource_type/c_998f
 description: Work consisting of a news item appearing in a general-interest newspaper or other general news periodical, containing information of current and timely interest in a field. (Adapted from http://www.reference.md/files/D018/mD018431.html )
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

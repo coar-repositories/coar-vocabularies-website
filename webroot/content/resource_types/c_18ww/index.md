@@ -2,6 +2,7 @@
 title: internal report
 uri: http://purl.org/coar/resource_type/c_18ww
 description: An internal report is a record of findings collected for internal use. It is not designed to be made public and may include confidential or proprietary information.
+deprecated: true
 layout: concept
 related: []
 pref_labels:

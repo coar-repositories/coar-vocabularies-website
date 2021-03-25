@@ -2,6 +2,7 @@
 title: master thesis
 uri: http://purl.org/coar/resource_type/c_bdcc
 description: A thesis reporting a research project undertaken as part of a graduate course of education leading to a master's degree.
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

@@ -2,6 +2,7 @@
 title: NA
 uri: http://purl.org/coar/version/c_be7fb7dd8ff6fe43
 description: Not Applicable (or Unknown)
+deprecated: false
 layout: concept
 related: []
 pref_labels:

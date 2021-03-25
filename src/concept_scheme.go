@@ -153,6 +153,15 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 		zapLogger.Debug("version is ", zap.String("version", version.Version))
 	}
 	sort.Sort(ByReleaseDate(conceptScheme.Versions))
+	latestConceptSchemeVersion := conceptScheme.GetLatestVersion()
+	for _, conceptSchemeVersion := range conceptScheme.Versions {
+		for _, concept := range conceptSchemeVersion.Concepts {
+			if latestConceptSchemeVersion.GetConceptById(concept.ID) == nil {
+				zapLogger.Info("Deprecating:", zap.String("scheme", conceptSchemeVersion.ID))
+				concept.Deprecated = true
+			}
+		}
+	}
 	return err
 }
 

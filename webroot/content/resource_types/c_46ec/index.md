@@ -2,6 +2,7 @@
 title: thesis
 uri: http://purl.org/coar/resource_type/c_46ec
 description: 'A book authored by a student containing a formal presentations of research outputs submitted for examination in completion of a course of study at an institution of higher education, to fulfil the requirements for an academic degree. Also know as a dissertation. [Source: http://purl.org/spar/fabio/Thesis]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

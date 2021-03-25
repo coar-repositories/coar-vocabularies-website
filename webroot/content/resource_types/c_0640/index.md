@@ -2,6 +2,7 @@
 title: journal
 uri: http://purl.org/coar/resource_type/c_0640
 description: 'A journal is a serial publication devoted to disseminating original research and current developments on a subject. (Adapted from ODLIS) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00422]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

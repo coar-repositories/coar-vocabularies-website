@@ -2,6 +2,7 @@
 title: sound
 uri: http://purl.org/coar/resource_type/c_18cc
 description: 'A resource primarily intended to be heard. Examples include a music playback file format, an audio compact disc, and recorded speech or sounds. [Source: http://dublincore.org/documents/dcmi-terms/#dcmitype-Sound]'
+deprecated: false
 layout: concept
 related:
     - type: Broad Match

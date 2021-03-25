@@ -2,6 +2,7 @@
 title: clinical trial data
 uri: http://purl.org/coar/resource_type/c_cb28
 description: 'Data resulting from a research study in which one or more human subjects are prospectively assigned to one or more interventions (which may include placebo or other control) to evaluate the effects of those interventions on health-related biomedical or behavioral outcomes. [Source: Adapted from https://grants.nih.gov/policy/clinical-trials/definition.htm]'
+deprecated: false
 layout: concept
 related: []
 pref_labels:
