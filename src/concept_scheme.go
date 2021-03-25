@@ -127,7 +127,9 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 				concept := new(Concept)
 				concept.initialise(conceptUriString, version.Namespace, version.Uri, triplesForThisConcept, version.Released)
 				version.Concepts = append(version.Concepts, concept)
-				version.ConceptIDList = append(version.ConceptIDList, concept.ID)
+				if concept.Deprecated == false {
+					version.NotDeprecatedConceptIDList = append(version.NotDeprecatedConceptIDList, concept.ID)
+				}
 			}
 		}
 		// ### Sort the concepts by title

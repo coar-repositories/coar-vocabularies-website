@@ -9,12 +9,10 @@
             {{partial "concept_scheme" .}}
             <h2>Concepts</h2>
             {{ $conceptSchemeID := .Section }}
-            {{ range .Params.concepts }}
+            {{ range .Params.not_deprecated_concepts }}
                 {{ $conceptPage := $.Site.GetPage (print "/" $conceptSchemeID "/" .) }}
-                {{ if ne $conceptPage.Params.deprecated true }}
-                    <h2 class="concept-title">{{ $conceptPage.Title }}</h2>
-                    {{ partial "concept" $conceptPage }}
-                {{ end }}
+                <h2 class="concept-title">{{ $conceptPage.Title }}</h2>
+                {{ partial "concept" $conceptPage }}
             {{ end }}
         </div>
     </div>

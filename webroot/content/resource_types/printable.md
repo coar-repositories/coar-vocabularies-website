@@ -32,17 +32,14 @@ creators:
     - Wang, Shenghui (departed)
 contributors:
     - COAR Controlled Vocabularies Interest Group
-concepts:
+not_deprecated_concepts:
     - NHD0-W6SY
     - c_1162
     - c_dcae04bc
-    - c_18wq
     - ACF7-8YT9
-    - c_ba1f
     - BW7T-YM2G
     - c_816b
     - W2XT-7017
-    - c_2659
     - c_7acd
     - QH80-2R4E
     - c_2cd9
@@ -66,10 +63,8 @@ concepts:
     - FXF3-D3G7
     - c_6501
     - c_393c
-    - c_26e4
     - C53B-JCY5
     - c_7bab
-    - c_18ww
     - c_5ce6
     - c_12cd
     - c_998f
@@ -81,7 +76,6 @@ concepts:
     - H6QP-SC1X
     - 542X-3S04
     - c_f744
-    - c_3e5a
     - c_7877
     - 2H0M-X761
     - c_efa0
@@ -116,7 +110,6 @@ concepts:
     - c_15cd
     - SB3Y-W4EH
     - c_86bc
-    - c_18hj
     - c_1843
     - CQMR-7K63
     - c_bdcc

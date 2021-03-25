@@ -33,7 +33,7 @@ creators:
     - Vedovotto, Nathalie
 contributors:
     - COAR Controlled Vocabularies Interest Group
-concepts:
+not_deprecated_concepts:
     - c_abf2
     - c_f1cf
     - c_d47422a3bf77a87b

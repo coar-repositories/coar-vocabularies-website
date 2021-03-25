@@ -32,7 +32,7 @@ creators:
     - Wang, Shenghui (departed)
 contributors:
     - COAR Controlled Vocabularies Interest Group
-concepts:
+not_deprecated_concepts:
     - c_dcae04bc
     - c_86bc
     - c_18cc
