@@ -31,6 +31,18 @@ creators:
     - Vedovotto, Nathalie
 contributors:
     - COAR Controlled Vocabularies Interest Group
+concepts:
+    - c_abf2
+    - c_f1cf
+    - c_d47422a3bf77a87b
+    - c_4e2ae189f89acf28
+    - c_7be167c4f9adce25
+    - c_14cb
+    - c_4c2cceec745f24c0
+    - c_a7b0a76361a53c03
+    - c_4e81d3665adec49b
+    - c_16ec
+    - c_ad2b30be3a0232e4
 layout: printable
 ---
 

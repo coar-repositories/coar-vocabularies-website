@@ -3,16 +3,11 @@
 <div class="row">
   <div class="col">
     {{ $conceptSchemePage := .Site.GetPage ($.Scratch.Get "conceptSchemeName") }}
-    <h1 class="page-title">{{$conceptSchemePage.Title}} {{$conceptSchemePage.Params.version}}: {{ .Title }}</h1>
+    <h1 class="page-title">{{$conceptSchemePage.Title}}: {{ .Title }}</h1>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3 tree">
-    <h2>Concepts</h2>
-    {{ $tree_file_path := (print .File.Dir "../tree.txt")}}
-    {{ readFile $tree_file_path | markdownify }}
-  </div>
-  <div class="col-md-9">
+  <div class="col">
     {{partial "concept" .}}
   </div>
 </div>

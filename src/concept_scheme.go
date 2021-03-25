@@ -127,6 +127,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 				concept := new(Concept)
 				concept.initialise(conceptUriString, version.Namespace, version.Uri, triplesForThisConcept, version.Released)
 				version.Concepts = append(version.Concepts, concept)
+				version.ConceptIDList = append(version.ConceptIDList, concept.ID)
 			}
 		}
 		// ### Sort the concepts by title
@@ -149,7 +150,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 		}
 		conceptScheme.Versions = append(conceptScheme.Versions, version)
 		zapLogger.Info(fmt.Sprintf("Initialised concept scheme version: '%s: %s'", config.ID, version.ID))
-		zapLogger.Debug("version is ",zap.String("version",version.Version))
+		zapLogger.Debug("version is ", zap.String("version", version.Version))
 	}
 	sort.Sort(ByReleaseDate(conceptScheme.Versions))
 	return err

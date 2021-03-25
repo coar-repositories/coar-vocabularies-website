@@ -50,6 +50,7 @@ type ConceptSchemeVersion struct {
 	Creators                []string   `yaml:"creators"`
 	Contributors            []string   `yaml:"contributors"`
 	Concepts                []*Concept `yaml:"-"`
+	ConceptIDList           []string   `yaml:"concepts"`
 	HugoLayout              string     `yaml:"layout,omitempty"`
 }
 

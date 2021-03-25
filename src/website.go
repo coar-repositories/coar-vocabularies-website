@@ -15,7 +15,7 @@ type Website struct {
 	StaticContentFolderPath string
 }
 
-func (website *Website) Initialise(webPageSourcesPath,webrootPath string) error {
+func (website *Website) Initialise(webPageSourcesPath, webrootPath string) error {
 	var err error
 	website.WebrootFolderPath = webrootPath
 	website.ContentFolderPath = filepath.Join(website.WebrootFolderPath, "content")
@@ -30,12 +30,12 @@ func (website *Website) Initialise(webPageSourcesPath,webrootPath string) error 
 		zapLogger.Error(err.Error())
 		return err
 	}
-	_,err = copyFile(filepath.Join(webPageSourcesPath,"_index.md"), filepath.Join(website.ContentFolderPath,"_index.md") )
+	_, err = copyFile(filepath.Join(webPageSourcesPath, "_index.md"), filepath.Join(website.ContentFolderPath, "_index.md"))
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
 	}
-	_,err = copyFile(filepath.Join(webPageSourcesPath,"about.md"), filepath.Join(website.ContentFolderPath,"about.md") )
+	_, err = copyFile(filepath.Join(webPageSourcesPath, "about.md"), filepath.Join(website.ContentFolderPath, "about.md"))
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
@@ -52,7 +52,6 @@ func (website *Website) ProcessConceptScheme(conceptScheme *ConceptScheme) error
 	//	return err
 	//}
 	//zapLogger.Info("Reset concept scheme folder", zap.String("path", conceptSchemeFolderPath))
-	zapLogger.Debug("VERSION COUNT",zap.Int("count",len(conceptScheme.Versions)))
 	for _, conceptSchemeVersion := range conceptScheme.Versions {
 		err = website.ProcessConceptSchemeVersion(&conceptSchemeVersion, false)
 		if err != nil {
@@ -109,7 +108,7 @@ func (website *Website) ProcessConceptSchemeVersion(conceptSchemeVersion *Concep
 		zapLogger.Error(fileWriteErr.Error())
 		return fileWriteErr
 	}
-	err = website.GenerateConceptPages(conceptSchemeVersion, asCurrentVersion)
+	err = website.GenerateConceptPages(conceptSchemeVersion)
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
@@ -149,7 +148,7 @@ func (website *Website) GeneratePrintableSinglePage(conceptSchemeVersion *Concep
 	return err
 }
 
-func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptSchemeVersion, asCurrentVersion bool) error {
+func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptSchemeVersion) error {
 	var err error
 	for _, concept := range conceptSchemeVersion.Concepts {
 		conceptPage, conceptMarshalErr := concept.marshal()
@@ -157,7 +156,7 @@ func (website *Website) GenerateConceptPages(conceptSchemeVersion *ConceptScheme
 			zapLogger.Error(conceptMarshalErr.Error())
 			return conceptMarshalErr
 		}
-		conceptPageFolderPath := filepath.Join(conceptSchemeVersion.CalculateFolderPath(website.ContentFolderPath, asCurrentVersion), concept.ID)
+		conceptPageFolderPath := filepath.Join(conceptSchemeVersion.CalculateFolderPath(website.ContentFolderPath, true), concept.ID)
 		os.MkdirAll(conceptPageFolderPath, os.ModePerm)
 		conceptFileWriteErr := ioutil.WriteFile(filepath.Join(conceptPageFolderPath, "index.md"), conceptPage, os.ModePerm)
 		if conceptFileWriteErr != nil {
@@ -197,11 +196,12 @@ func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVers
 		}
 		treeDepth = level
 		if k.Name() != conceptSchemeVersion.ID {
-			if asCurrentVersion {
-				html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
-			} else {
-				html += fmt.Sprintf("<li><a href=\"/%s/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, conceptSchemeVersion.Version, concept.ID, concept.Title)
-			}
+			html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
+			//if asCurrentVersion {
+			//	html += fmt.Sprintf("<li><a href=\"/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, concept.ID, concept.Title)
+			//} else {
+			//	html += fmt.Sprintf("<li><a href=\"/%s/%s/%s/\">%s</a></li>", conceptSchemeVersion.ID, conceptSchemeVersion.Version, concept.ID, concept.Title)
+			//}
 		}
 		return true
 	}
@@ -209,7 +209,7 @@ func (website *Website) GenerateHtmlTree(conceptSchemeVersion *ConceptSchemeVers
 	for i := 0; i <= finalNodeDepth; i++ {
 		html += "</ul>"
 	}
-	err = ioutil.WriteFile(filepath.Join(conceptSchemeVersion.CalculateFolderPath(website.ContentFolderPath, asCurrentVersion), "tree.txt"), []byte(html), os.ModePerm)
+	err = ioutil.WriteFile(filepath.Join(conceptSchemeVersion.CalculateFolderPath(website.ContentFolderPath, asCurrentVersion), "tree.html"), []byte(html), os.ModePerm)
 	if err != nil {
 		zapLogger.Error(err.Error())
 		return err
