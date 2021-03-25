@@ -89,27 +89,24 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_71bd
-    - c_c94f
-    - c_0857
-    - c_6947
-    - c_baaf
-    - c_93fc
-    - c_8042
-    - c_2fe3
-    - c_86bc
-    - c_2cd9
-    - c_18cw
-    - c_2f33
-    - 6NC7-GK9S
-    - c_1162
-    - c_0040
-    - c_0640
-    - c_8544
-    - c_816b
-    - c_46ec
     - c_efa0
-    - QX5C-AR31
+    - c_46ec
+    - c_8042
+    - c_2f33
+    - c_6947
+    - c_0040
+    - c_1162
+    - c_93fc
+    - c_86bc
+    - c_15cd
+    - c_816b
+    - c_baaf
+    - c_c94f
+    - c_8544
+    - c_18cw
+    - c_71bd
+    - c_0857
+    - c_2659
 broader_concepts: []
 ---
 

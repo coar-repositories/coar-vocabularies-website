@@ -42,6 +42,12 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: süreli yayın
+    - language_code: ru
+      language_name: русский
+      value: периодическое издание
+    - language_code: ar
+      language_name: العربية
+      value: دورية
     - language_code: zh
       language_name: 中文
       value: 期刊
@@ -88,6 +94,15 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: časopis
+    - language_code: ru
+      language_name: русский
+      value: периодика
+    - language_code: ru
+      language_name: русский
+      value: периодическая пресса
+    - language_code: ru
+      language_name: русский
+      value: периодический журнал
     - language_code: zh
       language_name: 中文
       value: 定期刊物
@@ -99,8 +114,12 @@ alt_labels:
       value: 連續出版刊物
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
-narrower_concepts: []
+narrower_concepts:
+    - c_0640
+    - c_2fe3
+    - c_2cd9
 broader_concepts:
+    - c_18cf
     - http://purl.org/dc/dcmitype/Text
 ---
 

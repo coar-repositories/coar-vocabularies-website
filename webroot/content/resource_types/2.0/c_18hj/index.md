@@ -1,7 +1,7 @@
 ---
 title: report to funding agency
 uri: http://purl.org/coar/resource_type/c_18hj
-description: 'A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‘Project deliverable’. [Source: http://ec.europa.eu/research/participants/fp7documents/funding-guide/6_projects/reports/reports_en.htm ]'
+description: 'A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‘Project deliverable’. [Source: http://ec.europa.eu/research/participants/fp7documents/funding-guide/6_projects/reports/reports_en.htm  ]'
 layout: concept
 related: []
 pref_labels:
@@ -35,6 +35,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zpráva pro poskytovatele podpory
+    - language_code: ru
+      language_name: русский
+      value: финансовый отчёт
     - language_code: ar
       language_name: العربية
       value: تقرير لوكالة تمويل
@@ -69,12 +72,28 @@ alt_labels:
     - language_code: es
       language_name: español
       value: reporte a agencia de financiamento
+    - language_code: ru
+      language_name: русский
+      value: отчёт о финансовых результатах
+    - language_code: ru
+      language_name: русский
+      value: отчёт об исполнении плана финансирования
+    - language_code: ru
+      language_name: русский
+      value: отчёты о финансировании
+    - language_code: ru
+      language_name: русский
+      value: отчёты по финансированию
+    - language_code: ru
+      language_name: русский
+      value: финансовая отчётность
     - language_code: zh
       language_name: 中文
       value: 給資助機構的報告
 date: 2021-02-03T00:00:00Z
-isTopConcept: true
+isTopConcept: false
 narrower_concepts: []
-broader_concepts: []
+broader_concepts:
+    - c_93fc
 ---
 

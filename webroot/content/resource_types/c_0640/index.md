@@ -1,7 +1,7 @@
 ---
 title: journal
 uri: http://purl.org/coar/resource_type/c_0640
-description: 'A journal is a serial publication devoted to disseminating original research and current developments on a subject. (Adapted from ODLIS) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00422]'
+description: 'A journal is a serial publication devoted to disseminating original research and current developments on a subject.  (Adapted from ODLIS) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00422]'
 layout: concept
 related:
     - type: Broad Match
@@ -25,14 +25,14 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: odborné periodikum
-    - language_code: es
-      language_name: español
+    - language_code: pt
+      language_name: português
       value: revista
     - language_code: ca
       language_name: català
       value: revista
-    - language_code: pt
-      language_name: português
+    - language_code: es
+      language_name: español
       value: revista
     - language_code: fr
       language_name: français
@@ -46,6 +46,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: znanstvena revija
+    - language_code: ru
+      language_name: русский
+      value: журнал
     - language_code: ar
       language_name: العربية
       value: دورية
@@ -83,15 +86,30 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: revista científica
-    - language_code: pt
-      language_name: português
-      value: revista científica
     - language_code: es
       language_name: español
+      value: revista científica
+    - language_code: pt
+      language_name: português
       value: revista científica
     - language_code: fr
       language_name: français
       value: revue scientifique
+    - language_code: ru
+      language_name: русский
+      value: научное издание
+    - language_code: ru
+      language_name: русский
+      value: научный журнал
+    - language_code: ru
+      language_name: русский
+      value: периодическое журнальное издание
+    - language_code: ru
+      language_name: русский
+      value: периодическое издание
+    - language_code: ru
+      language_name: русский
+      value: продолжающееся издание
     - language_code: ar
       language_name: العربية
       value: دورية علمية
@@ -116,13 +134,10 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_b239
-    - c_6501
     - http://purl.org/eprint/type/JournalArticle
     - http://purl.org/ontology/bibo/AcademicArticle
-    - c_545b
+    - c_3e5a
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Text
-    - c_18cf
+    - c_2659
 ---
 

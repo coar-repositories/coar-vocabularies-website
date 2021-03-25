@@ -7,11 +7,15 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
+      uri: http://purl.org/eprint/type/Patent
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/patent
+    - type: Exact Match
+      uri: http://purl.org/ontology/bibo/Patent
+    - type: Exact Match
       uri: http://purl.org/spar/fabio/Patent
     - type: Exact Match
       uri: https://dictionary.casrai.org/Patent
-    - type: Exact Match
-      uri: http://purl.org/eprint/type/Patent
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -25,14 +29,14 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: patent
-    - language_code: cs
-      language_name: čeština
+    - language_code: tr
+      language_name: Türkçe
       value: patent
     - language_code: en
       language_name: English
       value: patent
-    - language_code: tr
-      language_name: Türkçe
+    - language_code: cs
+      language_name: čeština
       value: patent
     - language_code: nl
       language_name: Nederlands
@@ -43,6 +47,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: patente
+    - language_code: ru
+      language_name: русский
+      value: патент
     - language_code: ar
       language_name: العربية
       value: براءة الاختراع
@@ -65,19 +72,38 @@ alt_labels:
     - language_code: en
       language_name: English
       value: patents
+    - language_code: ru
+      language_name: русский
+      value: авторское свидетельство на изобретение
+    - language_code: ru
+      language_name: русский
+      value: диплом на открытие
+    - language_code: ru
+      language_name: русский
+      value: патент (свидетельство) на полезную модель
+    - language_code: ru
+      language_name: русский
+      value: патент на изобретение
+    - language_code: ru
+      language_name: русский
+      value: патент на промышленный образец
+    - language_code: ru
+      language_name: русский
+      value: патентная информация
+    - language_code: ru
+      language_name: русский
+      value: патентное право
+    - language_code: ru
+      language_name: русский
+      value: патентный документ
     - language_code: zh
       language_name: 中文
       value: 專利
 date: 2021-02-03T00:00:00Z
-isTopConcept: true
-narrower_concepts:
-    - 9DKX-KSAF
-    - C53B-JCY5
-    - SB3Y-W4EH
-    - Z907-YMBB
-    - MW8G-3CR8
-    - GPQ7-G5VE
+isTopConcept: false
+narrower_concepts: []
 broader_concepts:
     - http://purl.org/dc/dcmitype/Text
+    - c_18cf
 ---
 

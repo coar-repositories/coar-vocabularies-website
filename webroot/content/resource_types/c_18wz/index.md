@@ -1,7 +1,7 @@
 ---
 title: memorandum
 uri: http://purl.org/coar/resource_type/c_18wz
-description: 'A formal note distributed internally to one or more persons in a company, agency, organization, or institution, with a header indicating the date it was sent and stating to whom it is addressed (To:), from whom it is sent (From:), and the subject of the text (Re:). Unlike a letter, a memo does not require a full salutation or signature at the end of the text--the sender may simply initial his or her name in the header. [Source: https://products.abc-clio.com/ODLIS/odlis_m.aspx#memorandum]'
+description: 'It is a note, document or other communication that helps the memory by recording events or observations on a topic. A memorandum can have only a certain number of formats; it may have a format specific to an office or institution.   [Source: https://en.wikipedia.org/wiki/Memorandum]'
 layout: concept
 related: []
 pref_labels:
@@ -14,20 +14,20 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: memorando
-    - language_code: sl
-      language_name: slovenščina
-      value: memorandum
-    - language_code: cs
-      language_name: čeština
-      value: memorandum
-    - language_code: nl
-      language_name: Nederlands
-      value: memorandum
     - language_code: it
       language_name: italiano
       value: memorandum
     - language_code: en
       language_name: English
+      value: memorandum
+    - language_code: nl
+      language_name: Nederlands
+      value: memorandum
+    - language_code: cs
+      language_name: čeština
+      value: memorandum
+    - language_code: sl
+      language_name: slovenščina
       value: memorandum
     - language_code: ca
       language_name: català
@@ -38,6 +38,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: mémo
+    - language_code: ru
+      language_name: русский
+      value: меморандум
     - language_code: ar
       language_name: العربية
       value: مذكرة
@@ -51,11 +54,11 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Denkschrift
-    - language_code: es
-      language_name: español
-      value: circular
     - language_code: ca
       language_name: català
+      value: circular
+    - language_code: es
+      language_name: español
       value: circular
     - language_code: pt
       language_name: português
@@ -78,6 +81,18 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: razprava
+    - language_code: ru
+      language_name: русский
+      value: докладная записка
+    - language_code: ru
+      language_name: русский
+      value: заметки
+    - language_code: ru
+      language_name: русский
+      value: меморандумы
+    - language_code: ru
+      language_name: русский
+      value: памятная записка
     - language_code: zh
       language_name: 中文
       value: 備忘錄

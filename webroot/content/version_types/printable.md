@@ -1,10 +1,10 @@
 ---
-version: "2.0"
+version: "1.0"
 title: Version Types
 description: 'The Version Type vocabulary defines concepts to declare the version of a resource. Multilingual labels regard regional distinctions in language and term. The concepts are adopted from the \"Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group\", https://www.niso.org/publications/niso-rp-8-2008-jav'
 namespace: http://purl.org/coar/version/
 uri: http://purl.org/coar/version/scheme
-date: 2021-02-03T00:00:00Z
+date: 2018-07-01T00:00:00Z
 creators:
     - Apollaro, Alberto
     - Aubin, Sophie

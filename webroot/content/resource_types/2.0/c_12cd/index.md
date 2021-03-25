@@ -26,11 +26,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: mapa
-    - language_code: es
-      language_name: español
-      value: mapa
     - language_code: pt
       language_name: português
+      value: mapa
+    - language_code: es
+      language_name: español
       value: mapa
     - language_code: it
       language_name: italiano

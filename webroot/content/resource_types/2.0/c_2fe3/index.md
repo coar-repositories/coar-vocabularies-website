@@ -1,7 +1,7 @@
 ---
 title: newspaper
 uri: http://purl.org/coar/resource_type/c_2fe3
-description: 'A non-peer reviewed periodical, usually published daily or weekly, consisting primarily of editorials and news items concerning current or recent events and matters of public interest. [Source: http://purl.org/spar/fabio/Newspaper]'
+description: A newspaper is a printed publication (usually issued daily or weekly) consisting of folded unstapled sheets and containing news, articles, advertisements, and correspondence. (Adapted from oxforddictionaries)
 layout: concept
 related:
     - type: Exact Match
@@ -34,6 +34,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: časopis
+    - language_code: ru
+      language_name: русский
+      value: газета
     - language_code: ja
       language_name: 日本語
       value: 新聞
@@ -44,11 +47,14 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časnik
+    - language_code: ru
+      language_name: русский
+      value: многотиражка
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_998f
 broader_concepts:
-    - c_18cf
+    - c_2659
 ---
 

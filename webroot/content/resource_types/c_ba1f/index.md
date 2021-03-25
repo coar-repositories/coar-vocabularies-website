@@ -5,11 +5,11 @@ description: part of a report
 layout: concept
 related:
     - type: Broad Match
-      uri: http://www.eurocris.org/ontologies/semcerif/1.3#Report
-    - type: Broad Match
       uri: http://purl.org/eprint/type/Report
     - type: Broad Match
       uri: http://purl.org/ontology/bibo/Report
+    - type: Broad Match
+      uri: http://www.eurocris.org/ontologies/semcerif/1.3#Report
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/reportPart
 pref_labels:
@@ -40,6 +40,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: report part
+    - language_code: ru
+      language_name: русский
+      value: часть доклада
     - language_code: ja
       language_name: 日本語
       value: 報告書（部分）
@@ -75,6 +78,7 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
+    - c_93fc
     - http://purl.org/eprint/type/Report
     - http://purl.org/ontology/bibo/Report
     - http://www.eurocris.org/ontologies/semcerif/1.3#Report

@@ -5,9 +5,9 @@ description: A thesis reporting a research project undertaken as part of a gradu
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/eprint/type/Thesis
-    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Thesis
+    - type: Broad Match
+      uri: http://purl.org/eprint/type/Thesis
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/masterThesis
 pref_labels:
@@ -119,7 +119,7 @@ isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - http://purl.org/ontology/bibo/Thesis
-    - http://purl.org/eprint/type/Thesis
     - c_46ec
+    - http://purl.org/eprint/type/Thesis
 ---
 

@@ -5,9 +5,9 @@ description: An annotation in the sense of a legal note is a legally explanatory
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Document
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/annotation
     - type: Related Match
@@ -19,11 +19,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: annotatie
-    - language_code: fr
-      language_name: français
-      value: annotation
     - language_code: en
       language_name: English
+      value: annotation
+    - language_code: fr
+      language_name: français
       value: annotation
     - language_code: ca
       language_name: català
@@ -80,23 +80,23 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: dipnot
-    - language_code: es
-      language_name: español
-      value: glosa
     - language_code: pt
       language_name: português
+      value: glosa
+    - language_code: es
+      language_name: español
       value: glosa
     - language_code: it
       language_name: italiano
       value: glossa
-    - language_code: pt
-      language_name: português
+    - language_code: it
+      language_name: italiano
       value: nota
     - language_code: es
       language_name: español
       value: nota
-    - language_code: it
-      language_name: italiano
+    - language_code: pt
+      language_name: português
       value: nota
     - language_code: es
       language_name: español

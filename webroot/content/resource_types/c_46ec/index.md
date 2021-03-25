@@ -1,7 +1,7 @@
 ---
 title: thesis
 uri: http://purl.org/coar/resource_type/c_46ec
-description: 'A book authored by a student containing a formal presentations of research outputs submitted for examination in completion of a course of study at an institution of higher education, to fulfil the requirements for an academic degree. Also know as a dissertation. [Source: http://purl.org/spar/fabio/Thesis]'
+description: 'A thesis or dissertation is a document submitted in support of candidature for an academic degree or professional qualification presenting the author''s research and findings. [Source: https://en.wikipedia.org/wiki/Thesis ]'
 layout: concept
 related:
     - type: Broad Match
@@ -46,6 +46,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: zaključno delo študija
+    - language_code: ru
+      language_name: русский
+      value: научно-исследовательская работа
     - language_code: ar
       language_name: العربية
       value: رسالة
@@ -65,6 +68,27 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: tesina
+    - language_code: ru
+      language_name: русский
+      value: диплом
+    - language_code: ru
+      language_name: русский
+      value: дипломная работа
+    - language_code: ru
+      language_name: русский
+      value: диссертация
+    - language_code: ru
+      language_name: русский
+      value: научная работа
+    - language_code: ru
+      language_name: русский
+      value: научный труд
+    - language_code: ru
+      language_name: русский
+      value: положение
+    - language_code: ru
+      language_name: русский
+      value: тезис
     - language_code: zh
       language_name: 中文
       value: 學位論文
@@ -77,10 +101,10 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - http://purl.org/spar/fabio/BachelorsThesis
+    - c_db06
     - c_7a1f
     - c_bdcc
-    - c_db06
+    - http://purl.org/spar/fabio/BachelorsThesis
 broader_concepts:
     - http://purl.org/dc/dcmitype/Text
     - c_18cf

@@ -1,9 +1,13 @@
 ---
 title: other
 uri: http://purl.org/coar/resource_type/c_1843
-description: A resource type that is not included in existing terms. [COAR definition]
+description: A rest category which may cover text, interactive, sound, or image-based resources not explicitly addressed in any concept in this vocabulary
 layout: concept
-related: []
+related:
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/other
+    - type: Related Match
+      uri: https://dictionary.casrai.org/Outputs_-_Other
 pref_labels:
     - language_code: ca
       language_name: català
@@ -38,6 +42,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: sonstige
+    - language_code: ru
+      language_name: русский
+      value: прочее
     - language_code: ar
       language_name: العربية
       value: آخر
@@ -48,6 +55,18 @@ pref_labels:
       language_name: 中文
       value: 其他
 alt_labels:
+    - language_code: ru
+      language_name: русский
+      value: другое
+    - language_code: ru
+      language_name: русский
+      value: прочие документы
+    - language_code: ru
+      language_name: русский
+      value: прочие издания
+    - language_code: ru
+      language_name: русский
+      value: прочие ресурсы
     - language_code: zh
       language_name: 中文
       value: 其它

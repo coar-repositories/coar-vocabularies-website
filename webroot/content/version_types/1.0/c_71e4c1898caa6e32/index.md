@@ -40,11 +40,11 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: preprint
-    - language_code: es
-      language_name: español
-      value: preprint
     - language_code: fr
       language_name: français
+      value: preprint
+    - language_code: es
+      language_name: español
       value: preprint
     - language_code: fr
       language_name: français
@@ -76,7 +76,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: рукопись принятая к рассмотрению
-date: 2018-07-18T00:00:00Z
+date: 2018-07-01T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

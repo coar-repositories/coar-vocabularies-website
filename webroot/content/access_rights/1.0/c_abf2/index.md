@@ -5,9 +5,9 @@ description: Open access refers to a resource that is immediately and permanentl
 layout: concept
 related:
     - type: Related Match
-      uri: http://purl.org/eprint/accessRights/OpenAccess
-    - type: Related Match
       uri: https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public
+    - type: Related Match
+      uri: http://purl.org/eprint/accessRights/OpenAccess
 pref_labels:
     - language_code: es
       language_name: español
@@ -76,7 +76,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: бесплатный доступ
-date: 2018-12-20T00:00:00Z
+date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

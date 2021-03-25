@@ -5,21 +5,21 @@ description: A written review and critical analysis of the content, scope and qu
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Chapter
-    - type: Broad Match
       uri: http://purl.org/eprint/type/BookItem
     - type: Broad Match
       uri: http://purl.org/ontology/bibo/BookSection
-    - type: Exact Match
-      uri: http://purl.org/eprint/type/BookReview
-    - type: Exact Match
-      uri: http://scigraph.springernature.com/things/technical-article-types/book-review
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/bookReview
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Chapter
     - type: Exact Match
       uri: http://purl.org/spar/fabio/BookReview
     - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/bookReview
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/BookReview
+    - type: Exact Match
       uri: https://dictionary.casrai.org/Book_Review
+    - type: Exact Match
+      uri: http://scigraph.springernature.com/things/technical-article-types/book-review
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -141,8 +141,8 @@ isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - http://purl.org/ontology/bibo/Chapter
-    - c_efa0
-    - http://purl.org/ontology/bibo/BookSection
     - http://purl.org/eprint/type/BookItem
+    - http://purl.org/ontology/bibo/BookSection
+    - c_efa0
 ---
 

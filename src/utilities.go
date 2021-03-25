@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go.uber.org/zap"
 	"golang.org/x/text/language"
 	"golang.org/x/text/language/display"
 	"io"
@@ -67,7 +68,12 @@ func regexReplaceInFile(filePath, regexString, replaceString string) error {
 
 func languageTagFromLiteral(serialisedLiteral string) string {
 	languageCode := regexp.MustCompile(`@\w\w$`).FindString(serialisedLiteral)
-	return languageCode[1:len(languageCode)]
+	if languageCode == "" {
+		zapLogger.Warn("serialised literal does not have language code",zap.String("literal",serialisedLiteral))
+		return languageCode
+	} else {
+		return languageCode[1:len(languageCode)]
+	}
 }
 
 func languageNameFromTag(languageTag string) string {

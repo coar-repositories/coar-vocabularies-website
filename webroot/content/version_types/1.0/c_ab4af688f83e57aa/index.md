@@ -49,11 +49,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: manuscrito aceptado
-    - language_code: es
-      language_name: español
-      value: postprint
     - language_code: fr
       language_name: français
+      value: postprint
+    - language_code: es
+      language_name: español
       value: postprint
     - language_code: en
       language_name: English
@@ -76,7 +76,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: статья принятая к публикации
-date: 2018-07-18T00:00:00Z
+date: 2018-07-01T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

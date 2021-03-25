@@ -1,7 +1,7 @@
 ---
 title: moving image
 uri: http://purl.org/coar/resource_type/c_8a7e
-description: 'A moving display, either generated dynamically by a computer program or formed from a series of pre-recorded still images imparting an impression of motion when shown in succession. [Source: http://purl.org/spar/fabio/MovingImage]'
+description: A moving display, either generated dynamically by a computer program or formed from a series of pre-recorded still images imparting an impression of motion when shown in succession. (adapted from fabio)
 layout: concept
 related:
     - type: Exact Match
@@ -42,6 +42,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: pohyblivý obraz
+    - language_code: ru
+      language_name: русский
+      value: движущееся изображение
     - language_code: ar
       language_name: العربية
       value: صورة متحركة
@@ -64,6 +67,27 @@ alt_labels:
     - language_code: es
       language_name: español
       value: imagen en movimiento
+    - language_code: ru
+      language_name: русский
+      value: аудиовизуальные материалы
+    - language_code: ru
+      language_name: русский
+      value: аудиовизуальные ресурсы
+    - language_code: ru
+      language_name: русский
+      value: аудиовизуальный документ
+    - language_code: ru
+      language_name: русский
+      value: аудиовизуальный ресурс
+    - language_code: ru
+      language_name: русский
+      value: динамические изображения
+    - language_code: ru
+      language_name: русский
+      value: динамическое изображение
+    - language_code: ru
+      language_name: русский
+      value: динамичное изображение
     - language_code: ar
       language_name: العربية
       value: سمعي بصري

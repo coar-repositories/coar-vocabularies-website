@@ -1,13 +1,17 @@
 ---
 title: conference poster
 uri: http://purl.org/coar/resource_type/c_6670
-description: 'A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: http://purl.org/spar/fabio/ConferencePoster]'
+description: A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is published in proceedings.
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Conference
     - type: Exact Match
       uri: http://purl.org/eprint/type/ConferencePoster
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/conferencePoster
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -42,6 +46,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: póster em conferência
+    - language_code: ru
+      language_name: русский
+      value: постер конференции
     - language_code: ar
       language_name: العربية
       value: ملصق مؤتمر
@@ -79,6 +86,12 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: póster em congresso
+    - language_code: ru
+      language_name: русский
+      value: плакат конференции
+    - language_code: ru
+      language_name: русский
+      value: стендовый доклад
     - language_code: ar
       language_name: العربية
       value: ملصق

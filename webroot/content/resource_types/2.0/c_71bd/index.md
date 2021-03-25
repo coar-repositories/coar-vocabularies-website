@@ -66,11 +66,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: documentation technique
-    - language_code: es
-      language_name: español
-      value: manual
     - language_code: ca
       language_name: català
+      value: manual
+    - language_code: es
+      language_name: español
       value: manual
     - language_code: pt
       language_name: português
@@ -115,8 +115,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/ontology/bibo/Document
     - c_18cf
+    - http://purl.org/ontology/bibo/Document
     - http://purl.org/dc/dcmitype/Text
 ---
 

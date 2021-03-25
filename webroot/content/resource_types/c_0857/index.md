@@ -1,13 +1,17 @@
 ---
 title: letter
 uri: http://purl.org/coar/resource_type/c_0857
-description: Бумага с написанным на ней от руки или напечатанным текстом, служащая средством общения между физическими лицами и/или представителями юридических лиц. Как правило, письмо доставляется почтовой службой или публикуется в периодическом издании. В последнем случае, письмо адресовывается редактору/редакции, и комментирует или обсуждает статью, опубликованную ранее в этом периодическом издании, или представляет интерес для конкретной читательской аудитории.
+description: A brief description of important new research, also known as “communication”. (adapted from EuroCRIS)
 layout: concept
 related:
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Document
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
       uri: http://purl.org/ontology/bibo/Letter
+    - type: Exact Match
+      uri: https://scigraph.springernature.com/things/technical-article-types/letter
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Letter
 pref_labels:
@@ -17,14 +21,14 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: pt
-      language_name: português
-      value: carta
     - language_code: ca
       language_name: català
       value: carta
     - language_code: es
       language_name: español
+      value: carta
+    - language_code: pt
+      language_name: português
       value: carta
     - language_code: it
       language_name: italiano
@@ -44,9 +48,12 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: pismo
+    - language_code: ru
+      language_name: русский
+      value: письмо
     - language_code: ar
       language_name: العربية
-      value: مراسلة
+      value: رسالة
     - language_code: zh
       language_name: 中文
       value: 信
@@ -72,6 +79,12 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: polemika
+    - language_code: ru
+      language_name: русский
+      value: письмо редактору
+    - language_code: ru
+      language_name: русский
+      value: сопроводительное письмо
     - language_code: zh
       language_name: 中文
       value: 讀者來信
@@ -82,7 +95,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_18cf
+    - http://purl.org/ontology/bibo/Document
     - http://purl.org/dc/dcmitype/Text
+    - c_18cf
 ---
 

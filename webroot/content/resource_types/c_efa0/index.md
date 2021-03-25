@@ -5,13 +5,13 @@ description: A review of others' published work.
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/dc/dcmitype/Text
-    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Document
-    - type: Exact Match
-      uri: http://purl.org/spar/fabio/Review
+    - type: Broad Match
+      uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/review
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Review
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -83,11 +83,11 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: rassegna
-    - language_code: fr
-      language_name: français
-      value: recension
     - language_code: es
       language_name: español
+      value: recension
+    - language_code: fr
+      language_name: français
       value: recension
     - language_code: ca
       language_name: català
@@ -140,9 +140,7 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - D97F-VB57
     - c_ba08
-    - H9BQ-739P
 broader_concepts:
     - http://purl.org/dc/dcmitype/Text
     - http://purl.org/ontology/bibo/Document

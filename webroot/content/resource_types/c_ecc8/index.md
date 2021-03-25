@@ -1,15 +1,15 @@
 ---
 title: still image
 uri: http://purl.org/coar/resource_type/c_ecc8
-description: 'A recorded static visual representation. This class of image includes diagrams, drawings, graphs, graphic designs, plans, photographs and prints. [Source: Adapted from  http://purl.org/spar/fabio/StillImage]'
+description: A recorded static visual representation. This class of image includes diagrams, drawings, graphs, graphic designs, plans, photographs and prints.
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/StillImage
-    - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/StillImage
     - type: Exact Match
       uri: http://purl.org/spar/fabio/StillImage
 pref_labels:
@@ -46,6 +46,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: stilstaandbeeld
+    - language_code: ru
+      language_name: русский
+      value: статическое изображение
     - language_code: ar
       language_name: العربية
       value: صورة ثابته
@@ -65,6 +68,48 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: imagem fixa
+    - language_code: ru
+      language_name: русский
+      value: графический дизайн
+    - language_code: ru
+      language_name: русский
+      value: графический документ
+    - language_code: ru
+      language_name: русский
+      value: графическое изображение
+    - language_code: ru
+      language_name: русский
+      value: картина
+    - language_code: ru
+      language_name: русский
+      value: неподвижное изображение
+    - language_code: ru
+      language_name: русский
+      value: неподвижный кадр
+    - language_code: ru
+      language_name: русский
+      value: план
+    - language_code: ru
+      language_name: русский
+      value: рисунок
+    - language_code: ru
+      language_name: русский
+      value: статичное изображение
+    - language_code: ru
+      language_name: русский
+      value: фотографический документ
+    - language_code: ru
+      language_name: русский
+      value: фотографическое изображение
+    - language_code: ru
+      language_name: русский
+      value: фотография
+    - language_code: ru
+      language_name: русский
+      value: фотодокумент
+    - language_code: ru
+      language_name: русский
+      value: фотоснимок
     - language_code: zh
       language_name: 中文
       value: 静止图像
@@ -78,7 +123,7 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Image
     - c_c513
+    - http://purl.org/dc/dcmitype/Image
 ---
 

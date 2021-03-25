@@ -38,6 +38,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: relatório interno
+    - language_code: ru
+      language_name: русский
+      value: внутренний отчёт
     - language_code: ar
       language_name: العربية
       value: تقرير داخلي
@@ -54,12 +57,19 @@ alt_labels:
     - language_code: es
       language_name: español
       value: reporte de uso interno
+    - language_code: ru
+      language_name: русский
+      value: отчёт для внутренней рассылки
+    - language_code: ru
+      language_name: русский
+      value: служебный отчёт
     - language_code: zh
       language_name: 中文
       value: 內部報告
 date: 2021-02-03T00:00:00Z
-isTopConcept: true
+isTopConcept: false
 narrower_concepts: []
-broader_concepts: []
+broader_concepts:
+    - c_93fc
 ---
 

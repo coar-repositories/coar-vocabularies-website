@@ -5,9 +5,9 @@ description: A thesis reporting the research undertaken during a period of gradu
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/eprint/type/Thesis
-    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Thesis
+    - type: Broad Match
+      uri: http://purl.org/eprint/type/Thesis
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/doctoralThesis
 pref_labels:
@@ -109,8 +109,8 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/eprint/type/Thesis
-    - c_46ec
     - http://purl.org/ontology/bibo/Thesis
+    - c_46ec
+    - http://purl.org/eprint/type/Thesis
 ---
 

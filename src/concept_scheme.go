@@ -38,6 +38,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			zapLogger.Error("Unable to convert version number to string" + err.Error())
 			return err
 		}
+
 		version.SkosProcessedFolderPath = filepath.Join(processedSkosRootFolderPath, conceptScheme.ID, version.VersionNumberString)
 		err = resetVolatileFolder(version.SkosProcessedFolderPath)
 		if err != nil {
@@ -52,6 +53,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			return err
 		}
 		// ### Open file and read triples into triple slice
+
 		var tripleDecoder rdf.TripleDecoder
 		skosFileReader, err := os.Open(version.WorkingFilePathNTriples)
 		defer skosFileReader.Close()
@@ -66,6 +68,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 			zapLogger.Error(err.Error())
 			return err
 		}
+
 		// ### Check for conceptScheme in triples
 		conceptSchemeTriples := getMatchingTriples(triples, "", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "http://www.w3.org/2004/02/skos/core#ConceptScheme")
 		if len(conceptSchemeTriples) > 0 {
@@ -152,6 +155,7 @@ func (conceptScheme *ConceptScheme) Initialise(config *ConceptSchemeConfig, proc
 		}
 		conceptScheme.Versions = append(conceptScheme.Versions, version)
 		zapLogger.Info(fmt.Sprintf("Initialised concept scheme version: '%s: %s'", config.ID, version.ID))
+		zapLogger.Debug("version is ",zap.String("version",version.VersionNumberString))
 	}
 	sort.Sort(ByVersion(conceptScheme.Versions))
 	return err

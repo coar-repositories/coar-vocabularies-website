@@ -1,7 +1,7 @@
 ---
 title: conference proceedings
 uri: http://purl.org/coar/resource_type/c_f744
-description: 'Conference proceedings is the official record of a conference meeting. It is a collection of documents which corresponds to the presentations given at the conference. It may include additional content. [Source: http://www.ieee.org/documents/confprocdefined.pdf ]'
+description: 'Conference proceedings is the official record of a conference meeting. It is a collection of documents which corresponds to the presentations given at the conference. It may include additional content. [Source: http://www.ieee.org/documents/confprocdefined.pdf  ]'
 layout: concept
 related: []
 pref_labels:
@@ -23,11 +23,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: atti di congresso
-    - language_code: en
-      language_name: English
-      value: conference proceedings
     - language_code: nl
       language_name: Nederlands
+      value: conference proceedings
+    - language_code: en
+      language_name: English
       value: conference proceedings
     - language_code: tr
       language_name: Türkçe

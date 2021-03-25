@@ -5,9 +5,9 @@ description: A computer program in source code (text) or compiled form.
 layout: concept
 related:
     - type: Broad Match
-      uri: http://id.loc.gov/vocabulary/contentTypes/cop
-    - type: Broad Match
       uri: https://schema.org/SoftwareApplication
+    - type: Broad Match
+      uri: http://id.loc.gov/vocabulary/contentTypes/cop
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Software
     - type: Related Match
@@ -25,23 +25,23 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: programska oprema
-    - language_code: pt
-      language_name: português
-      value: software
-    - language_code: en
-      language_name: English
+    - language_code: cs
+      language_name: čeština
       value: software
     - language_code: es
       language_name: español
       value: software
-    - language_code: nl
-      language_name: Nederlands
-      value: software
-    - language_code: cs
-      language_name: čeština
+    - language_code: pt
+      language_name: português
       value: software
     - language_code: it
       language_name: italiano
+      value: software
+    - language_code: nl
+      language_name: Nederlands
+      value: software
+    - language_code: en
+      language_name: English
       value: software
     - language_code: tr
       language_name: Türkçe
@@ -74,11 +74,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programa informàtic
-    - language_code: es
-      language_name: español
-      value: programa informático
     - language_code: pt
       language_name: português
+      value: programa informático
+    - language_code: es
+      language_name: español
       value: programa informático
     - language_code: it
       language_name: italiano
@@ -116,7 +116,6 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - QH80-2R4E
     - c_c950
 broader_concepts:
     - https://schema.org/SoftwareApplication

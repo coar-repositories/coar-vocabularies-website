@@ -1,13 +1,19 @@
 ---
 title: conference paper
 uri: http://purl.org/coar/resource_type/c_5794
-description: 'A paper, typically the realization of a research paper reporting original research findings. Use this label when the paper is not published in a proceeding. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
+description: A conference paper that is submitted to a conference and presented to the audience. The conference paper is published in proceedings.
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Conference
+    - type: Exact Match
+      uri: https://dictionary.casrai.org/Conference_Paper
     - type: Exact Match
       uri: http://purl.org/eprint/type/ConferencePaper
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/conferencePaper
     - type: Exact Match
       uri: http://purl.org/spar/fabio/ConferencePaper
 pref_labels:
@@ -44,6 +50,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: članek na konfrenci
+    - language_code: ru
+      language_name: русский
+      value: статья для конференции
     - language_code: ar
       language_name: العربية
       value: ورقة مؤتمر
@@ -89,6 +98,9 @@ alt_labels:
       value: comunicação em congresso
     - language_code: en
       language_name: English
+      value: conference papers
+    - language_code: en
+      language_name: English
       value: conferencePaper
     - language_code: es
       language_name: español
@@ -120,6 +132,24 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: článek ve sborníku konference
+    - language_code: ru
+      language_name: русский
+      value: доклад для конференции
+    - language_code: ru
+      language_name: русский
+      value: доклад конференции
+    - language_code: ru
+      language_name: русский
+      value: статьи конференции
+    - language_code: ru
+      language_name: русский
+      value: статья для научной конференции
+    - language_code: ru
+      language_name: русский
+      value: тезисы докладов
+    - language_code: ru
+      language_name: русский
+      value: тезисы конференции
     - language_code: ar
       language_name: العربية
       value: اوراق المؤتمر

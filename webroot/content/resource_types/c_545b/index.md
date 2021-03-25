@@ -1,18 +1,18 @@
 ---
 title: letter to the editor
 uri: http://purl.org/coar/resource_type/c_545b
-description: 'A letter addressed to the editor and comments on or discussed an item previously published by that periodical, or of interest to its readership. [Source: Adapted from http://purl.org/spar/fabio/Letter]'
+description: 'A letter to the editor is a letter sent to a periodical about issues of concern from its readers. (adapted from Wikipedia) [Source: http://dspacecris.eurocris.org/cris/classcerif/classcerif00429]'
 layout: concept
 related: []
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Leserbrief
-    - language_code: es
-      language_name: español
-      value: carta al director
     - language_code: ca
       language_name: català
+      value: carta al director
+    - language_code: es
+      language_name: español
       value: carta al director
     - language_code: pt
       language_name: português
@@ -35,6 +35,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: pismo uredniku
+    - language_code: ru
+      language_name: русский
+      value: письмо редактору
     - language_code: ar
       language_name: العربية
       value: رسالة الى المحرر
@@ -81,6 +84,27 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: newsletter
+    - language_code: ru
+      language_name: русский
+      value: бюллетень
+    - language_code: ru
+      language_name: русский
+      value: информационный бюллетень
+    - language_code: ru
+      language_name: русский
+      value: письма в журнал
+    - language_code: ru
+      language_name: русский
+      value: письма в редакцию
+    - language_code: ru
+      language_name: русский
+      value: письма журнала
+    - language_code: ru
+      language_name: русский
+      value: письмо в редакцию
+    - language_code: ru
+      language_name: русский
+      value: письмо редактору журнала
     - language_code: zh
       language_name: 中文
       value: 快報
@@ -94,6 +118,6 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - c_0640
+    - c_3e5a
 ---
 

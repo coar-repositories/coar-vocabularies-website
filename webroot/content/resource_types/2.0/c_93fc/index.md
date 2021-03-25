@@ -5,26 +5,26 @@ description: 'A report is a separately published record of research findings, re
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/dc/dcmitype/Text
-    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Document
+    - type: Broad Match
+      uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Report
     - type: Exact Match
       uri: http://purl.org/eprint/type/Report
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/report
-    - type: Exact Match
       uri: http://purl.org/ontology/bibo/Report
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/report
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
-    - language_code: ca
-      language_name: català
-      value: informe
     - language_code: es
       language_name: español
+      value: informe
+    - language_code: ca
+      language_name: català
       value: informe
     - language_code: sl
       language_name: slovenščina
@@ -32,11 +32,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: rapor
-    - language_code: nl
-      language_name: Nederlands
-      value: rapport
     - language_code: fr
       language_name: français
+      value: rapport
+    - language_code: nl
+      language_name: Nederlands
       value: rapport
     - language_code: it
       language_name: italiano
@@ -144,17 +144,18 @@ alt_labels:
 date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18op
-    - c_ab20
-    - c_18wz
     - c_18ws
-    - c_18gh
+    - c_18hj
     - c_186u
-    - YZ1N-ZFT9
-    - c_7877
+    - c_18op
+    - c_18wq
+    - c_18gh
+    - c_ba1f
+    - c_18wz
+    - c_18ww
 broader_concepts:
-    - http://purl.org/ontology/bibo/Document
     - c_18cf
+    - http://purl.org/ontology/bibo/Document
     - http://purl.org/dc/dcmitype/Text
 ---
 

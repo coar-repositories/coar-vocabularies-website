@@ -6,14 +6,12 @@ layout: concept
 related:
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/semantics/udc
-    - type: Exact Match
-      uri: http://purl.org/dc/terms/UDC
 pref_labels:
     - language_code: en
       language_name: English
       value: udc
 alt_labels: []
-date: 2018-12-20T00:00:00Z
+date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

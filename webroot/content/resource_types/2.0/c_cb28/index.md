@@ -1,9 +1,11 @@
 ---
-title: clinical trial data
+title: clinical trial
 uri: http://purl.org/coar/resource_type/c_cb28
-description: 'Data resulting from a research study in which one or more human subjects are prospectively assigned to one or more interventions (which may include placebo or other control) to evaluate the effects of those interventions on health-related biomedical or behavioral outcomes. [Source: Adapted from https://grants.nih.gov/policy/clinical-trials/definition.htm]'
+description: ""
 layout: concept
-related: []
+related:
+    - type: Related Match
+      uri: http://purl.org/spar/fabio/ClinicalTrialReport
 pref_labels:
     - language_code: tr
       language_name: Türkçe
@@ -13,7 +15,7 @@ pref_labels:
       value: assaig clínic
     - language_code: en
       language_name: English
-      value: clinical trial data
+      value: clinical trial
     - language_code: es
       language_name: español
       value: ensayo clínico
@@ -32,6 +34,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: saggio clinico
+    - language_code: ru
+      language_name: русский
+      value: клиническое испытание
     - language_code: ja
       language_name: 日本語
       value: 臨床試験
@@ -45,13 +50,9 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: klinično preskušanje
-    - language_code: en
-      language_name: English
-      value: randomized control trial
 date: 2021-02-03T00:00:00Z
-isTopConcept: false
+isTopConcept: true
 narrower_concepts: []
-broader_concepts:
-    - EHVM-H119
+broader_concepts: []
 ---
 

@@ -5,15 +5,15 @@ description: URI available at the Linked Data Service of LC
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/semantics/jel
-    - type: Exact Match
       uri: http://id.loc.gov/vocabulary/classSchemes/jelc
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/semantics/jel
 pref_labels:
     - language_code: en
       language_name: English
       value: jel
 alt_labels: []
-date: 2018-12-20T00:00:00Z
+date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

@@ -14,11 +14,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: manoscritto
-    - language_code: nl
-      language_name: Nederlands
-      value: manuscript
     - language_code: en
       language_name: English
+      value: manuscript
+    - language_code: nl
+      language_name: Nederlands
       value: manuscript
     - language_code: ca
       language_name: català

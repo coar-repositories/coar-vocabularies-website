@@ -1,7 +1,7 @@
 ---
 title: bibliography
 uri: http://purl.org/coar/resource_type/c_86bc
-description: 'A list of the books and articles that have been used by someone when writing a particular book or article [Source: https://dictionary.cambridge.org/dictionary/english/bibliography]'
+description: A systematic list or enumeration of written works by a specific author or on a given subject.
 layout: concept
 related:
     - type: Broad Match
@@ -10,20 +10,20 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bibliografie
-    - language_code: ca
-      language_name: català
-      value: bibliografia
     - language_code: it
       language_name: italiano
+      value: bibliografia
+    - language_code: ca
+      language_name: català
       value: bibliografia
     - language_code: pt
       language_name: português
       value: bibliografia
-    - language_code: cs
-      language_name: čeština
-      value: bibliografie
     - language_code: nl
       language_name: Nederlands
+      value: bibliografie
+    - language_code: cs
+      language_name: čeština
       value: bibliografie
     - language_code: sl
       language_name: slovenščina
@@ -40,6 +40,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: kaynakça
+    - language_code: ru
+      language_name: русский
+      value: библиография
     - language_code: ar
       language_name: العربية
       value: بيبليوغرافيا
@@ -59,6 +62,21 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: přehled literatury
+    - language_code: ru
+      language_name: русский
+      value: библиографический список
+    - language_code: ru
+      language_name: русский
+      value: список использованных источников
+    - language_code: ru
+      language_name: русский
+      value: список литературы
+    - language_code: ru
+      language_name: русский
+      value: список рекомендуемой литературы
+    - language_code: ru
+      language_name: русский
+      value: справочные материалы
     - language_code: ar
       language_name: العربية
       value: لائحة مراجع

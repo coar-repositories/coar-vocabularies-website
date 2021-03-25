@@ -1,15 +1,19 @@
 ---
 title: dataset
 uri: http://purl.org/coar/resource_type/c_ddb1
-description: 'A collection of related facts and data encoded in a defined structure. [Source: Adapted from http://purl.org/spar/fabio/Dataset]'
+description: A collection of related facts and data encoded in a defined structure. (adapted from fabio; DataCite)
 layout: concept
 related:
+    - type: Broad Match
+      uri: https://dictionary.casrai.org/Data_publication
+    - type: Broad Match
+      uri: https://dictionary.casrai.org/Research_data
+    - type: Exact Match
+      uri: https://schema.org/Dataset
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Dataset
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Dataset
-    - type: Exact Match
-      uri: https://schema.org/Dataset
     - type: Related Match
       uri: http://id.loc.gov/vocabulary/contentTypes/cod
 pref_labels:
@@ -25,14 +29,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: conjunto de datos
+    - language_code: nl
+      language_name: Nederlands
+      value: dataset
     - language_code: en
       language_name: English
       value: dataset
     - language_code: it
       language_name: italiano
-      value: dataset
-    - language_code: nl
-      language_name: Nederlands
       value: dataset
     - language_code: cs
       language_name: čeština
@@ -46,6 +50,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: veri seti
+    - language_code: ru
+      language_name: русский
+      value: набор данных
     - language_code: ar
       language_name: العربية
       value: مجموعة بيانات
@@ -86,6 +93,18 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: zbirka podatkov
+    - language_code: ru
+      language_name: русский
+      value: база данных
+    - language_code: ru
+      language_name: русский
+      value: картматериал
+    - language_code: ru
+      language_name: русский
+      value: массив данных
+    - language_code: ru
+      language_name: русский
+      value: наборы данных
     - language_code: ar
       language_name: العربية
       value: سلسلة بيانات
@@ -100,7 +119,10 @@ alt_labels:
       value: 资料组
 date: 2021-02-03T00:00:00Z
 isTopConcept: true
-narrower_concepts: []
-broader_concepts: []
+narrower_concepts:
+    - c_26e4
+broader_concepts:
+    - https://dictionary.casrai.org/Research_data
+    - https://dictionary.casrai.org/Data_publication
 ---
 

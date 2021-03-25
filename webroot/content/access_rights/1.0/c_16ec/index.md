@@ -86,7 +86,7 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: kısıtlı erişim
-date: 2018-12-20T00:00:00Z
+date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

@@ -1,9 +1,7 @@
 ---
 title: musical notation
 uri: http://purl.org/coar/resource_type/c_18cw
-description: |-
-    Symbols used to write music, as in a music score, and to express mathematical concepts.
-    [Source: Adapted from https://products.abc-clio.com/ODLIS/odlis_n.aspx]
+description: 'Musical notation is any system used to visually represent aurally perceived music through the use of written symbols, including ancient or modern musical symbols. [Source: https://en.wikipedia.org/wiki/Musical_notation]'
 layout: concept
 related: []
 pref_labels:
@@ -40,6 +38,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: partition
+    - language_code: ru
+      language_name: русский
+      value: музыкальная нотация
     - language_code: ar
       language_name: العربية
       value: تدوينة موسيقية
@@ -77,6 +78,12 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: partitura
+    - language_code: ru
+      language_name: русский
+      value: нотная запись
+    - language_code: ru
+      language_name: русский
+      value: ноты
     - language_code: ar
       language_name: العربية
       value: مدونة موسيقية

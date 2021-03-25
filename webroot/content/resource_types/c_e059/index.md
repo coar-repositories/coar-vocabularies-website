@@ -1,7 +1,7 @@
 ---
 title: learning object
 uri: http://purl.org/coar/resource_type/c_e059
-description: 'A digital resource that can be reused to enhance teaching and learning. [Source: https://icas-ca.org/archive/projects/coerc/oer-glossary]'
+description: ""
 layout: concept
 related: []
 pref_labels:
@@ -32,6 +32,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Öğrenim nesnesi
+    - language_code: ru
+      language_name: русский
+      value: учебный объект
     - language_code: ja
       language_name: 日本語
       value: 教材
@@ -51,6 +54,12 @@ alt_labels:
     - language_code: en
       language_name: English
       value: open education resource
+    - language_code: ru
+      language_name: русский
+      value: обучающие блоки
+    - language_code: ru
+      language_name: русский
+      value: учебные блоки
 date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []

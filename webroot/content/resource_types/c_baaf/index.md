@@ -7,9 +7,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/researchProposal
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/GrantApplicationDocument
+    - type: Exact Match
+      uri: http://purl.org/info:eu-repo/#semantics/researchProposal
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -112,7 +112,7 @@ date: 2021-02-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Text
     - c_18cf
+    - http://purl.org/dc/dcmitype/Text
 ---
 
