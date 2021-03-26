@@ -1,6 +1,0 @@
-TODO: filter out 'expired' concepts from iQVoc exports
-TODO: add "latest version" label to latest version of vocab
-TODO: add "deprecated" label to older versions of vocabs, with links to latest version
-TODO: add "deprecated" label to expired terms
-TODO: version dropdown or some kind of navigation
-TODO: make machine-readable versions available
