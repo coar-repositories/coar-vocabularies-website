@@ -35,6 +35,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: časopis
+    - language_code: ru
+      language_name: русский
+      value: газета
     - language_code: ja
       language_name: 日本語
       value: 新聞
@@ -45,7 +48,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časnik
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_998f

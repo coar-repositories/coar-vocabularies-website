@@ -14,7 +14,7 @@ pref_labels:
       value: article dans une conférence non publié dans les actes
     - language_code: ca
       language_name: català
-      value: comunicació no publicada en actes de congrés
+      value: comunicació de congrés no publicada
     - language_code: es
       language_name: español
       value: comunicación no publicada en actas de congreso
@@ -39,12 +39,15 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: yayınlanmamış konferans bildirisi
+    - language_code: ru
+      language_name: русский
+      value: конференционный доклад не включенный в материалы конференции
     - language_code: ja
       language_name: 日本語
       value: 会議発表論文（会議録未掲載）
     - language_code: zh
       language_name: 中文
-      value: 未发表在会议论文集中的文章
+      value: 非会议集里的会议论文
 alt_labels:
     - language_code: fr
       language_name: français
@@ -64,7 +67,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 未發表在會議論文集中的文章
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

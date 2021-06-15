@@ -38,6 +38,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: risorsa interattiva
+    - language_code: ru
+      language_name: русский
+      value: интерактивный ресурс
     - language_code: ar
       language_name: العربية
       value: مورد تفاعلي
@@ -66,7 +69,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 交互式资源
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - c_7ad9

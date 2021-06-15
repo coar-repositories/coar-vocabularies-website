@@ -40,7 +40,7 @@ pref_labels:
       value: zvuk
     - language_code: ru
       language_name: русский
-      value: фонодокумент
+      value: звук
     - language_code: ar
       language_name: العربية
       value: صوت
@@ -63,29 +63,16 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: zvok
-    - language_code: ru
-      language_name: русский
-      value: аудиальный документ
-    - language_code: ru
-      language_name: русский
-      value: звук
-    - language_code: ru
-      language_name: русский
-      value: звукозапись
-    - language_code: ru
-      language_name: русский
-      value: фонозапись
     - language_code: ar
       language_name: العربية
       value: تسجيل صوتي
     - language_code: zh
       language_name: 中文
       value: 聲音
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - c_18cd
-broader_concepts:
-    - https://schema.org/MediaObject
+broader_concepts: []
 ---
 

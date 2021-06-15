@@ -21,17 +21,17 @@ pref_labels:
     - language_code: en
       language_name: English
       value: map
+    - language_code: es
+      language_name: español
+      value: mapa
+    - language_code: cs
+      language_name: čeština
+      value: mapa
     - language_code: ca
       language_name: català
       value: mapa
     - language_code: pt
       language_name: português
-      value: mapa
-    - language_code: cs
-      language_name: čeština
-      value: mapa
-    - language_code: es
-      language_name: español
       value: mapa
     - language_code: it
       language_name: italiano
@@ -69,17 +69,11 @@ alt_labels:
       value: план
     - language_code: ru
       language_name: русский
-      value: планово-картографический материал
-    - language_code: ru
-      language_name: русский
-      value: схема
-    - language_code: ru
-      language_name: русский
       value: чертёж
     - language_code: zh
       language_name: 中文
       value: 地圖
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

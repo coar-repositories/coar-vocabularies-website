@@ -10,22 +10,9 @@ pref_labels:
       language_name: English
       value: research data
 alt_labels: []
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
-narrower_concepts:
-    - 2H0M-X761
-    - FXF3-D3G7
-    - 63NG-B465
-    - A8F1-NPV9
-    - H41Y-FW7B
-    - AM6W-6QAW
-    - c_cb28
-    - ACF7-8YT9
-    - FF4C-28RK
-    - DD58-GFSX
-    - CQMR-7K63
-    - W2XT-7017
-    - NHD0-W6SY
+narrower_concepts: []
 broader_concepts: []
 ---
 

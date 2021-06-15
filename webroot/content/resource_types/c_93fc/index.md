@@ -6,13 +6,7 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/report
-    - type: Exact Match
-      uri: http://purl.org/ontology/bibo/Report
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Report
     - type: Exact Match
@@ -21,11 +15,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
-    - language_code: es
-      language_name: español
-      value: informe
     - language_code: ca
       language_name: català
+      value: informe
+    - language_code: es
+      language_name: español
       value: informe
     - language_code: sl
       language_name: slovenščina
@@ -33,11 +27,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: rapor
-    - language_code: fr
-      language_name: français
-      value: rapport
     - language_code: nl
       language_name: Nederlands
+      value: rapport
+    - language_code: fr
+      language_name: français
       value: rapport
     - language_code: it
       language_name: italiano
@@ -53,7 +47,7 @@ pref_labels:
       value: zpráva
     - language_code: ru
       language_name: русский
-      value: отчёт
+      value: отчет
     - language_code: ar
       language_name: العربية
       value: تقرير
@@ -91,45 +85,6 @@ alt_labels:
     - language_code: en
       language_name: English
       value: reports
-    - language_code: ru
-      language_name: русский
-      value: акт
-    - language_code: ru
-      language_name: русский
-      value: доклад
-    - language_code: ru
-      language_name: русский
-      value: итоговый доклад
-    - language_code: ru
-      language_name: русский
-      value: итоговый документ
-    - language_code: ru
-      language_name: русский
-      value: итоговый отчёт
-    - language_code: ru
-      language_name: русский
-      value: научно-технический отчёт
-    - language_code: ru
-      language_name: русский
-      value: обзорный доклад
-    - language_code: ru
-      language_name: русский
-      value: отчётный доклад
-    - language_code: ru
-      language_name: русский
-      value: отчёты о НИОКР
-    - language_code: ru
-      language_name: русский
-      value: отчёты о НИР
-    - language_code: ru
-      language_name: русский
-      value: протокол
-    - language_code: ru
-      language_name: русский
-      value: рапорт
-    - language_code: ru
-      language_name: русский
-      value: реферат
     - language_code: zh
       language_name: 中文
       value: 報告
@@ -142,20 +97,18 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 调研报告
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18wz
-    - c_18gh
     - c_7877
-    - c_ab20
     - c_18op
+    - c_186u
     - c_18ws
     - YZ1N-ZFT9
-    - c_186u
+    - c_18gh
+    - c_ab20
+    - c_18wz
 broader_concepts:
-    - http://purl.org/ontology/bibo/Document
-    - http://purl.org/dc/dcmitype/Text
     - c_18cf
 ---
 

@@ -6,53 +6,65 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
-    - language_code: tr
-      language_name: Türkçe
-      value: Klinik deney
-    - language_code: ca
-      language_name: català
-      value: assaig clínic
     - language_code: en
       language_name: English
       value: clinical trial data
+    - language_code: ca
+      language_name: català
+      value: dades d'assajos clínics
+    - language_code: pt
+      language_name: português
+      value: dados de ensaios clínicos
+    - language_code: it
+      language_name: italiano
+      value: dati di trial clinico
+    - language_code: fr
+      language_name: français
+      value: donnée d'essai clinique
     - language_code: es
       language_name: español
       value: ensayo clínico
-    - language_code: fr
-      language_name: français
-      value: essai clinique
-    - language_code: nl
-      language_name: Nederlands
-      value: klinische trial
+    - language_code: tr
+      language_name: Türkçe
+      value: klinik deney verisi
     - language_code: de
       language_name: Deutsch
-      value: klinischer Versuch
+      value: klinische Daten
+    - language_code: nl
+      language_name: Nederlands
+      value: klinische studie data
     - language_code: sl
       language_name: slovenščina
-      value: klinična raziskava
-    - language_code: it
-      language_name: italiano
-      value: saggio clinico
+      value: podatki kliničnih preskušanj
+    - language_code: ru
+      language_name: русский
+      value: данные клинических испытаний
+    - language_code: zh
+      language_name: 中文
+      value: 临床试验数据
     - language_code: ja
       language_name: 日本語
-      value: 臨床試験
+      value: 臨床試験データ
 alt_labels:
     - language_code: ca
       language_name: català
-      value: assaig clínic comparatiu
+      value: dades d'estudis clínics
     - language_code: fr
       language_name: français
       value: essai thérapeutique
+    - language_code: nl
+      language_name: Nederlands
+      value: klinisch-wetenschappelijke data
     - language_code: sl
       language_name: slovenščina
       value: klinično preskušanje
     - language_code: en
       language_name: English
       value: randomized control trial
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - EHVM-H119
+    - c_ddb1
 ---
 

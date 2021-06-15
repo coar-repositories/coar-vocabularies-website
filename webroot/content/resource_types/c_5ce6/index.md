@@ -11,8 +11,6 @@ related:
       uri: https://schema.org/SoftwareApplication
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Software
-    - type: Related Match
-      uri: https://dictionary.casrai.org/Computer_code
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -32,17 +30,17 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: software
-    - language_code: cs
-      language_name: čeština
-      value: software
-    - language_code: en
-      language_name: English
-      value: software
     - language_code: nl
       language_name: Nederlands
       value: software
     - language_code: es
       language_name: español
+      value: software
+    - language_code: cs
+      language_name: čeština
+      value: software
+    - language_code: en
+      language_name: English
       value: software
     - language_code: tr
       language_name: Türkçe
@@ -87,21 +85,6 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: programme informatique
-    - language_code: ru
-      language_name: русский
-      value: документация программного продукта
-    - language_code: ru
-      language_name: русский
-      value: программа
-    - language_code: ru
-      language_name: русский
-      value: программная документация
-    - language_code: ru
-      language_name: русский
-      value: программные продукты
-    - language_code: ru
-      language_name: русский
-      value: программные средства
     - language_code: ar
       language_name: العربية
       value: برنامج كمبيوتر
@@ -114,13 +97,11 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 软体
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - QH80-2R4E
     - c_c950
-broader_concepts:
-    - http://id.loc.gov/vocabulary/contentTypes/cop
-    - https://schema.org/SoftwareApplication
+broader_concepts: []
 ---
 

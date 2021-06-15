@@ -72,12 +72,9 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 報告部分
-date: 2021-03-24T00:00:00Z
-isTopConcept: false
+date: 2021-06-15T00:00:00Z
+isTopConcept: true
 narrower_concepts: []
-broader_concepts:
-    - http://www.eurocris.org/ontologies/semcerif/1.3#Report
-    - http://purl.org/ontology/bibo/Report
-    - http://purl.org/eprint/type/Report
+broader_concepts: []
 ---
 

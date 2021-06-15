@@ -6,11 +6,41 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: tr
+      language_name: Türkçe
+      value: faydalı model
+    - language_code: nl
+      language_name: Nederlands
+      value: gebruiksmodel
+    - language_code: ca
+      language_name: català
+      value: model d'utilitat
+    - language_code: it
+      language_name: italiano
+      value: modello di utilità
+    - language_code: es
+      language_name: español
+      value: modelo de utilidad
+    - language_code: fr
+      language_name: français
+      value: modèle d'utilité
+    - language_code: sl
+      language_name: slovenščina
+      value: patent s skrajšanim trajanjem
     - language_code: en
       language_name: English
       value: utility model
+    - language_code: ru
+      language_name: русский
+      value: полезная модель
+    - language_code: zh
+      language_name: 中文
+      value: 实用新型专利
+    - language_code: ja
+      language_name: 日本語
+      value: 実用新案
 alt_labels: []
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

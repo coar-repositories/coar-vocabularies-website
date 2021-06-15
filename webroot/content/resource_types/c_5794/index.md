@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
     - type: Exact Match
-      uri: http://purl.org/eprint/type/ConferencePaper
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/ConferencePaper
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/ConferencePaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -35,7 +35,7 @@ pref_labels:
       value: conference paper
     - language_code: nl
       language_name: Nederlands
-      value: conferentie bijdrage
+      value: conferentie paper
     - language_code: tr
       language_name: Türkçe
       value: konferans belgesi
@@ -45,6 +45,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: članek na konfrenci
+    - language_code: ru
+      language_name: русский
+      value: конференционный доклад
     - language_code: ar
       language_name: العربية
       value: ورقة مؤتمر
@@ -133,7 +136,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 會議論文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

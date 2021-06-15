@@ -6,14 +6,53 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: ca
+      language_name: català
+      value: dades codificades
+    - language_code: pt
+      language_name: português
+      value: dados codificados
+    - language_code: it
+      language_name: italiano
+      value: dati codificati
+    - language_code: es
+      language_name: español
+      value: datos codificados
+    - language_code: fr
+      language_name: français
+      value: donnée encodée
     - language_code: en
       language_name: English
       value: encoded data
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: nl
+      language_name: Nederlands
+      value: geëncodeerde data
+    - language_code: de
+      language_name: Deutsch
+      value: kodierte Daten
+    - language_code: sl
+      language_name: slovenščina
+      value: kodirani podatki
+    - language_code: tr
+      language_name: Türkçe
+      value: kodlanmış veri
+    - language_code: ru
+      language_name: русский
+      value: кодированные данные
+    - language_code: ja
+      language_name: 日本語
+      value: 符号化データ
+    - language_code: zh
+      language_name: 中文
+      value: 编码数据
+alt_labels:
+    - language_code: fr
+      language_name: français
+      value: donnée codée
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - EHVM-H119
+    - c_ddb1
 ---
 

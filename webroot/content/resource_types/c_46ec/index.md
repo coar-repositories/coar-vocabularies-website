@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Thesis
-    - type: Exact Match
       uri: http://purl.org/eprint/type/Thesis
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Thesis
     - type: Narrow Match
       uri: http://purl.org/spar/fabio/BachelorsThesis
 pref_labels:
@@ -29,11 +29,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: tesi
-    - language_code: es
-      language_name: español
-      value: tesis
     - language_code: ca
       language_name: català
+      value: tesi
+    - language_code: es
+      language_name: español
       value: tesis
     - language_code: tr
       language_name: Türkçe
@@ -47,6 +47,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: zaključno delo študija
+    - language_code: ru
+      language_name: русский
+      value: диссертация
     - language_code: ar
       language_name: العربية
       value: رسالة
@@ -63,9 +66,6 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: rapport de thèse
-    - language_code: ca
-      language_name: català
-      value: tesina
     - language_code: zh
       language_name: 中文
       value: 學位論文
@@ -75,15 +75,13 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 畢業論文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_7a1f
-    - http://purl.org/spar/fabio/BachelorsThesis
-    - c_bdcc
     - c_db06
+    - c_bdcc
 broader_concepts:
     - c_18cf
-    - http://purl.org/dc/dcmitype/Text
 ---
 

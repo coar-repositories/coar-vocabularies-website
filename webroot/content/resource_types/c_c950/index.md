@@ -30,6 +30,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: software per la ricerca
+    - language_code: ru
+      language_name: русский
+      value: исследовательское программное обеспечение
     - language_code: ja
       language_name: 日本語
       value: 研究用ソフトウェア
@@ -40,7 +43,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programari per recerca
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

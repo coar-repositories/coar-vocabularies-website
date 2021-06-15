@@ -7,10 +7,6 @@ layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Thesis
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Thesis
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/bachelorThesis
     - type: Exact Match
       uri: http://purl.org/spar/fabio/BachelorsThesis
 pref_labels:
@@ -49,7 +45,7 @@ pref_labels:
       value: treball de fi de grau
     - language_code: ru
       language_name: русский
-      value: диплом бакалавра
+      value: бакалаврская диссертация
     - language_code: ar
       language_name: العربية
       value: رسالة بكالوريوس
@@ -96,9 +92,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: trabalho de fim de licenciatura
-    - language_code: ru
-      language_name: русский
-      value: диссертация бакалавра
     - language_code: zh
       language_name: 中文
       value: 學士學位論文
@@ -108,12 +101,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 本科畢業論文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/eprint/type/Thesis
     - c_46ec
-    - http://purl.org/ontology/bibo/Thesis
 ---
 

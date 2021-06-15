@@ -6,11 +6,7 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/review
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Review
 pref_labels:
@@ -108,18 +104,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: revisão
-    - language_code: ru
-      language_name: русский
-      value: критическая статья
-    - language_code: ru
-      language_name: русский
-      value: обзор
-    - language_code: ru
-      language_name: русский
-      value: обозрение
-    - language_code: ru
-      language_name: русский
-      value: отзыв
     - language_code: ar
       language_name: العربية
       value: نقد
@@ -138,15 +122,13 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 评审
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_ba08
-    - H9BQ-739P
     - D97F-VB57
+    - H9BQ-739P
 broader_concepts:
-    - http://purl.org/ontology/bibo/Document
-    - http://purl.org/dc/dcmitype/Text
     - c_18cf
 ---
 

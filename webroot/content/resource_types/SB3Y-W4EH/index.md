@@ -6,11 +6,50 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: ca
+      language_name: català
+      value: PCT
+    - language_code: es
+      language_name: español
+      value: PCT
     - language_code: en
       language_name: English
       value: PCT application
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: tr
+      language_name: Türkçe
+      value: PCT başvurusu
+    - language_code: nl
+      language_name: Nederlands
+      value: PCT-aanvraag
+    - language_code: ja
+      language_name: 日本語
+      value: PCT出願
+    - language_code: fr
+      language_name: français
+      value: demande PCT
+    - language_code: it
+      language_name: italiano
+      value: domanda internazionale di brevetto
+    - language_code: sl
+      language_name: slovenščina
+      value: patentna prijava
+    - language_code: ru
+      language_name: русский
+      value: Заявка РСТ
+    - language_code: zh
+      language_name: 中文
+      value: 国际专利合作条约PCT申请
+alt_labels:
+    - language_code: tr
+      language_name: Türkçe
+      value: Patent İşbirliği Anlaşması başvurusu
+    - language_code: ca
+      language_name: català
+      value: aplicació del PCT
+    - language_code: ca
+      language_name: català
+      value: tractat de cooperació en materia de patents
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

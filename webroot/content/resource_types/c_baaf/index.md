@@ -8,8 +8,6 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/researchProposal
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/GrantApplicationDocument
 pref_labels:
     - language_code: de
@@ -47,7 +45,7 @@ pref_labels:
       value: research proposal
     - language_code: ru
       language_name: русский
-      value: предложение по исследованию
+      value: исследовательское предложение
     - language_code: ar
       language_name: العربية
       value: اقتراح بحث
@@ -85,21 +83,6 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: réponse à appel à projet
-    - language_code: ru
-      language_name: русский
-      value: обоснование проблемы исследования
-    - language_code: ru
-      language_name: русский
-      value: обоснование проекта
-    - language_code: ru
-      language_name: русский
-      value: обоснование темы
-    - language_code: ru
-      language_name: русский
-      value: обоснование темы исследования
-    - language_code: ru
-      language_name: русский
-      value: предложение по тематике исследования
     - language_code: ar
       language_name: العربية
       value: مقترح بحث
@@ -109,11 +92,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 研究計劃
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Text
     - c_18cf
 ---
 

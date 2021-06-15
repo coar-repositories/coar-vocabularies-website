@@ -38,7 +38,7 @@ pref_labels:
       value: článek o datové sadě
     - language_code: ru
       language_name: русский
-      value: публикация данных
+      value: статья с цифровыми данными
     - language_code: ar
       language_name: العربية
       value: ورقة بيانات
@@ -79,7 +79,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 數據文章
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

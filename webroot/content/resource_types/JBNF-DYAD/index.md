@@ -6,11 +6,44 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: es
+      language_name: español
+      value: diseño industrial
+    - language_code: ca
+      language_name: català
+      value: disseny industrial
+    - language_code: tr
+      language_name: Türkçe
+      value: endüstriyel tasarım
     - language_code: en
       language_name: English
       value: industrial design
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: nl
+      language_name: Nederlands
+      value: industrieel ontwerp
+    - language_code: sl
+      language_name: slovenščina
+      value: industrijsko oblikovanje
+    - language_code: it
+      language_name: italiano
+      value: schema industriale
+    - language_code: fr
+      language_name: français
+      value: schéma industriel
+    - language_code: ru
+      language_name: русский
+      value: промышленный дизайн
+    - language_code: zh
+      language_name: 中文
+      value: 工业图纸
+    - language_code: ja
+      language_name: 日本語
+      value: 工業デザイン
+alt_labels:
+    - language_code: fr
+      language_name: français
+      value: dessin industriel
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

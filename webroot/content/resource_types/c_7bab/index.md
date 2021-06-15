@@ -26,7 +26,7 @@ pref_labels:
       value: članek o programski opremi
     - language_code: ru
       language_name: русский
-      value: статья о программном обеспечении
+      value: статья по программному обеспечению
     - language_code: ja
       language_name: 日本語
       value: ソフトウェア論文
@@ -49,13 +49,7 @@ alt_labels:
     - language_code: en
       language_name: English
       value: software tool article
-    - language_code: ru
-      language_name: русский
-      value: руководство по программному обеспечению
-    - language_code: ru
-      language_name: русский
-      value: статья о программировании и информационных технологиях
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

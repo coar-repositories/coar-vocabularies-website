@@ -5,22 +5,10 @@ description: A written review and critical analysis of the content, scope and qu
 deprecated: false
 layout: concept
 related:
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/BookSection
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Chapter
-    - type: Broad Match
-      uri: http://purl.org/eprint/type/BookItem
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/bookReview
-    - type: Exact Match
-      uri: http://purl.org/spar/fabio/BookReview
-    - type: Exact Match
-      uri: http://scigraph.springernature.com/things/technical-article-types/book-review
     - type: Exact Match
       uri: http://purl.org/eprint/type/BookReview
     - type: Exact Match
-      uri: https://dictionary.casrai.org/Book_Review
+      uri: http://purl.org/spar/fabio/BookReview
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -116,34 +104,16 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: resenha de livro
-    - language_code: ru
-      language_name: русский
-      value: аналитический обзор
-    - language_code: ru
-      language_name: русский
-      value: обзор книг
-    - language_code: ru
-      language_name: русский
-      value: обзорная статья
-    - language_code: ru
-      language_name: русский
-      value: обзоры книг
-    - language_code: ru
-      language_name: русский
-      value: рецензии на книги
     - language_code: ar
       language_name: العربية
       value: نقد كتاب
     - language_code: zh
       language_name: 中文
       value: 書評
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/ontology/bibo/BookSection
-    - http://purl.org/ontology/bibo/Chapter
-    - http://purl.org/eprint/type/BookItem
     - c_efa0
 ---
 

@@ -6,14 +6,50 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: ca
+      language_name: català
+      value: dades experimentals
+    - language_code: pt
+      language_name: português
+      value: dados experimentais
+    - language_code: it
+      language_name: italiano
+      value: dati sperimentali
+    - language_code: es
+      language_name: español
+      value: datos experimentales
+    - language_code: tr
+      language_name: Türkçe
+      value: deneysel veri
+    - language_code: fr
+      language_name: français
+      value: donnée expérimentale
+    - language_code: sl
+      language_name: slovenščina
+      value: eksperimentalni podatki
     - language_code: en
       language_name: English
       value: experimental data
+    - language_code: nl
+      language_name: Nederlands
+      value: experimentele data
+    - language_code: de
+      language_name: Deutsch
+      value: experimentelle Daten
+    - language_code: ru
+      language_name: русский
+      value: экспериментальные данные
+    - language_code: zh
+      language_name: 中文
+      value: 实验数据
+    - language_code: ja
+      language_name: 日本語
+      value: 実験データ
 alt_labels: []
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - EHVM-H119
+    - c_ddb1
 ---
 

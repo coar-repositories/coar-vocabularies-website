@@ -35,6 +35,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: étude clinique
+    - language_code: ru
+      language_name: русский
+      value: клиническое исследование
 alt_labels:
     - language_code: fr
       language_name: français
@@ -45,7 +48,7 @@ alt_labels:
     - language_code: ja
       language_name: 日本語
       value: 臨床研究
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -41,6 +41,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: partition
+    - language_code: ru
+      language_name: русский
+      value: нотная запись
     - language_code: ar
       language_name: العربية
       value: تدوينة موسيقية
@@ -84,7 +87,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 樂譜
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

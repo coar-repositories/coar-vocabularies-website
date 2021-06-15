@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/StillImage
+      uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
       uri: http://purl.org/spar/fabio/StillImage
     - type: Exact Match
-      uri: http://id.loc.gov/vocabulary/contentTypes/sti
+      uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -47,6 +47,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: stilstaandbeeld
+    - language_code: ru
+      language_name: русский
+      value: неподвижное изображение
     - language_code: ar
       language_name: العربية
       value: صورة ثابته
@@ -66,6 +69,9 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: imagem fixa
+    - language_code: ca
+      language_name: català
+      value: imatge estàtica
     - language_code: zh
       language_name: 中文
       value: 静止图像
@@ -75,11 +81,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 靜止圖像
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_c513
-    - http://purl.org/dc/dcmitype/Image
 ---
 

@@ -39,6 +39,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: sonstige
+    - language_code: ru
+      language_name: русский
+      value: другое
     - language_code: ar
       language_name: العربية
       value: آخر
@@ -52,7 +55,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 其它
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

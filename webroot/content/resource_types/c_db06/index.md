@@ -7,14 +7,10 @@ layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Thesis
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Thesis
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/doctoralThesis
 pref_labels:
     - language_code: de
       language_name: Deutsch
-      value: Dissertation oder Habilitation
+      value: Dissertation
     - language_code: cs
       language_name: čeština
       value: disertační práce
@@ -47,7 +43,7 @@ pref_labels:
       value: thèse de doctorat
     - language_code: ru
       language_name: русский
-      value: диссертация на соискание учёной степени
+      value: докторская диссертация
     - language_code: ar
       language_name: العربية
       value: اطروحة دكتوراه
@@ -58,6 +54,9 @@ pref_labels:
       language_name: 日本語
       value: 博士論文
 alt_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Habilitation
     - language_code: en
       language_name: English
       value: PhD Thesis
@@ -82,18 +81,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: tesis de doctorado
-    - language_code: ru
-      language_name: русский
-      value: диссертации на соискание учёной степени
-    - language_code: ru
-      language_name: русский
-      value: диссертация доктора наук
-    - language_code: ru
-      language_name: русский
-      value: диссертация кандидата наук
-    - language_code: ru
-      language_name: русский
-      value: докторская диссертация
     - language_code: ar
       language_name: العربية
       value: اطروحة
@@ -106,12 +93,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 博士研究生畢業論文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_46ec
-    - http://purl.org/eprint/type/Thesis
-    - http://purl.org/ontology/bibo/Thesis
 ---
 

@@ -9,8 +9,6 @@ related:
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Preprint
-    - type: Exact Match
-      uri: https://dictionary.casrai.org/Preprint
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -21,11 +19,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo preliminar
-    - language_code: nl
-      language_name: Nederlands
-      value: preprint
     - language_code: en
       language_name: English
+      value: preprint
+    - language_code: nl
+      language_name: Nederlands
       value: preprint
     - language_code: pt
       language_name: português
@@ -39,6 +37,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ön baskı
+    - language_code: ru
+      language_name: русский
+      value: препринт
     - language_code: ja
       language_name: 日本語
       value: プレプリント
@@ -67,11 +68,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: borrador
-    - language_code: es
-      language_name: español
-      value: preprint
     - language_code: it
       language_name: italiano
+      value: preprint
+    - language_code: es
+      language_name: español
       value: preprint
     - language_code: es
       language_name: español
@@ -85,11 +86,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 先印本
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_18cf
-    - http://purl.org/dc/dcmitype/Text
 ---
 

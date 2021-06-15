@@ -35,6 +35,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: tijdschrift
+    - language_code: ru
+      language_name: русский
+      value: периодическое печатное издание
     - language_code: ja
       language_name: 日本語
       value: 雑誌
@@ -60,7 +63,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časopis
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

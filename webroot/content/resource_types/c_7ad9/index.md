@@ -8,8 +8,6 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://dictionary.casrai.org/Website
-    - type: Exact Match
       uri: https://schema.org/WebSite
 pref_labels:
     - language_code: de
@@ -45,6 +43,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: website
+    - language_code: ru
+      language_name: русский
+      value: вебсайт
     - language_code: ar
       language_name: العربية
       value: موقع الكتروني
@@ -70,11 +71,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: portal
-    - language_code: es
-      language_name: español
-      value: portal web
     - language_code: ca
       language_name: català
+      value: portal web
+    - language_code: es
+      language_name: español
       value: portal web
     - language_code: ca
       language_name: català
@@ -115,7 +116,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 讨论会
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

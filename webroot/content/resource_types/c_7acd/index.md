@@ -35,7 +35,7 @@ pref_labels:
       value: popravek članka
     - language_code: ru
       language_name: русский
-      value: опечатка
+      value: исправление
     - language_code: ja
       language_name: 日本語
       value: 正誤表
@@ -52,38 +52,10 @@ alt_labels:
     - language_code: es
       language_name: español
       value: fe de erratas
-    - language_code: ru
-      language_name: русский
-      value: исправление
-    - language_code: ru
-      language_name: русский
-      value: исправление орфографических ошибок и опечаток
-    - language_code: ru
-      language_name: русский
-      value: исправленная опечатка
-    - language_code: ru
-      language_name: русский
-      value: описка
-    - language_code: ru
-      language_name: русский
-      value: ошибка
-    - language_code: ru
-      language_name: русский
-      value: поправка
-    - language_code: ru
-      language_name: русский
-      value: поправки
-    - language_code: ru
-      language_name: русский
-      value: список опечаток
-    - language_code: ru
-      language_name: русский
-      value: список опечаток и исправлений
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_6501
-    - http://purl.org/spar/fabio/Correction
 ---
 

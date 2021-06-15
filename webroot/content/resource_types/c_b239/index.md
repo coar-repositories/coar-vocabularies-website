@@ -15,15 +15,15 @@ pref_labels:
     - language_code: en
       language_name: English
       value: editorial
+    - language_code: ca
+      language_name: català
+      value: editorial
     - language_code: es
       language_name: español
       value: editorial
     - language_code: pt
       language_name: português
       value: editorial
-    - language_code: ca
-      language_name: català
-      value: editorial de revista
     - language_code: it
       language_name: italiano
       value: editoriale
@@ -39,6 +39,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: úvodník
+    - language_code: ru
+      language_name: русский
+      value: редакционная
     - language_code: ar
       language_name: العربية
       value: افتتاحية
@@ -55,12 +58,18 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de fondo
-    - language_code: pt
-      language_name: português
-      value: editorial de revista
     - language_code: es
       language_name: español
       value: editorial de revista
+    - language_code: pt
+      language_name: português
+      value: editorial de revista
+    - language_code: ca
+      language_name: català
+      value: editorial de revista
+    - language_code: ca
+      language_name: català
+      value: presentació
     - language_code: es
       language_name: español
       value: tribuna de opinión
@@ -76,7 +85,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 社评
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

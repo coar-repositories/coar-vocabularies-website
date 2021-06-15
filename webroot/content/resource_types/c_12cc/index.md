@@ -41,7 +41,7 @@ pref_labels:
       value: matériel cartographique
     - language_code: ru
       language_name: русский
-      value: картографические ресурсы
+      value: картографический материал
     - language_code: ar
       language_name: العربية
       value: مادة خرائطية
@@ -61,22 +61,10 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: materiale cartografico
-    - language_code: ru
-      language_name: русский
-      value: картматериал
-    - language_code: ru
-      language_name: русский
-      value: картографические материалы
-    - language_code: ru
-      language_name: русский
-      value: картографический материал
-    - language_code: ru
-      language_name: русский
-      value: картографическое произведение
     - language_code: zh
       language_name: 中文
       value: 地圖類資料
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - c_12cd

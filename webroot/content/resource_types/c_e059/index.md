@@ -33,6 +33,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Öğrenim nesnesi
+    - language_code: ru
+      language_name: русский
+      value: учебный объект
     - language_code: ja
       language_name: 日本語
       value: 教材
@@ -52,7 +55,7 @@ alt_labels:
     - language_code: en
       language_name: English
       value: open education resource
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

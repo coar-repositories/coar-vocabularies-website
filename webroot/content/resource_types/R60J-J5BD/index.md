@@ -6,11 +6,53 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Konferenzpräsentation
     - language_code: en
       language_name: English
       value: conference presentation
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: nl
+      language_name: Nederlands
+      value: conferentie presentatie
+    - language_code: tr
+      language_name: Türkçe
+      value: konferans sunumu
+    - language_code: sl
+      language_name: slovenščina
+      value: predstavitev na konferenci
+    - language_code: ca
+      language_name: català
+      value: presentació a congrés
+    - language_code: es
+      language_name: español
+      value: presentación de congreso
+    - language_code: it
+      language_name: italiano
+      value: presentazione a convegno
+    - language_code: fr
+      language_name: français
+      value: support de présentation à une conférence
+    - language_code: ru
+      language_name: русский
+      value: конференционная презентация
+    - language_code: ja
+      language_name: 日本語
+      value: 会議発表資料
+    - language_code: zh
+      language_name: 中文
+      value: 会议演示报告
+alt_labels:
+    - language_code: ca
+      language_name: català
+      value: presentació de comunicació
+    - language_code: ca
+      language_name: català
+      value: presentació de conferència
+    - language_code: es
+      language_name: español
+      value: presentación
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

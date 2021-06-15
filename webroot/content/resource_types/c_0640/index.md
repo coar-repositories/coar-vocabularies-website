@@ -10,8 +10,6 @@ related:
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Journal
     - type: Narrow Match
-      uri: http://purl.org/ontology/bibo/AcademicArticle
-    - type: Narrow Match
       uri: http://purl.org/eprint/type/JournalArticle
 pref_labels:
     - language_code: de
@@ -26,15 +24,15 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: odborné periodikum
-    - language_code: ca
-      language_name: català
-      value: revista
     - language_code: es
       language_name: español
       value: revista
     - language_code: pt
       language_name: português
       value: revista
+    - language_code: ca
+      language_name: català
+      value: revista científica
     - language_code: fr
       language_name: français
       value: revue
@@ -47,6 +45,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: znanstvena revija
+    - language_code: ru
+      language_name: русский
+      value: журнал
     - language_code: ar
       language_name: العربية
       value: دورية
@@ -74,18 +75,15 @@ alt_labels:
       value: périodique
     - language_code: ca
       language_name: català
-      value: revista acadèmica
-    - language_code: es
-      language_name: español
-      value: revista académica
+      value: revista
     - language_code: pt
       language_name: português
       value: revista académica
     - language_code: es
       language_name: español
-      value: revista científica
-    - language_code: ca
-      language_name: català
+      value: revista académica
+    - language_code: es
+      language_name: español
       value: revista científica
     - language_code: pt
       language_name: português
@@ -114,16 +112,13 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 科學期刊
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_6501
-    - http://purl.org/ontology/bibo/AcademicArticle
-    - c_545b
-    - http://purl.org/eprint/type/JournalArticle
     - c_b239
+    - c_545b
+    - c_6501
 broader_concepts:
-    - http://purl.org/dc/dcmitype/Text
     - c_18cf
 ---
 

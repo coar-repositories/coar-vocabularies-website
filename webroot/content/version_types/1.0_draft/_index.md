@@ -8,27 +8,48 @@ namespace: http://purl.org/coar/version/
 uri: http://purl.org/coar/version/scheme
 date: 2018-07-01T00:00:00Z
 creators:
-    - Apollaro, Alberto
-    - Aubin, Sophie
-    - Azrilevich, Paola
-    - Bernal, Isabel
-    - Dan, Liu
-    - Fava, Ilaria
-    - Fripp, Dom
-    - Gürdal, Gültekin
-    - Habre, Sawsan
-    - Holt, Ilkay
-    - Hua, Nie
-    - Jones, Hilary
-    - Kataoka, Tomoko
-    - Le Borgne, Laurence
-    - Liping, Ku (Alan)
-    - Príncipe, Pedro
-    - Schirrwagen, Jochen
-    - Shiota,Tomoya
-    - Solodovnik, Iryna
-    - Steinhoff, Wilko
-    - Vedovotto, Nathalie
+    - language: ""
+      name: Alberto Apollaro
+    - language: French
+      name: Sophie Aubin
+    - language: ""
+      name: Paola Azrilevich
+    - language: Spanish
+      name: Isabel Bernal
+    - language: ""
+      name: Dan Liu
+    - language: ""
+      name: Ilaria Fava
+    - language: English
+      name: Dom Fripp
+    - language: Turkish
+      name: Gültekin Gürdal
+    - language: ""
+      name: Sawsan Habre
+    - language: Turkish
+      name: Ilkay Holt
+    - language: ""
+      name: Nie Hua
+    - language: English
+      name: Hilary Jones
+    - language: Japanese
+      name: Tomoko Kataoka
+    - language: Japanese
+      name: Laurence Le Borgne
+    - language: Chinese
+      name: Ku (Alan) Liping
+    - language: Portugeuse
+      name: Pedro Príncipe
+    - language: German
+      name: Jochen Schirrwagen
+    - language: Japanese
+      name: Tomoya Shiota
+    - language: ""
+      name: Iryna Solodovnik
+    - language: Dutch
+      name: Wilko Steinhoff
+    - language: ""
+      name: Nathalie Vedovotto
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:

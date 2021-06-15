@@ -12,6 +12,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: araştırma makalesi
+    - language_code: ca
+      language_name: català
+      value: article de recerca
     - language_code: es
       language_name: español
       value: artículo original
@@ -40,6 +43,9 @@ pref_labels:
       language_name: 日本語
       value: 原著論文
 alt_labels:
+    - language_code: ca
+      language_name: català
+      value: article científic
     - language_code: fr
       language_name: français
       value: article de recherche
@@ -67,7 +73,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 原创研究论文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

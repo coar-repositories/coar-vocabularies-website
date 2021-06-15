@@ -45,6 +45,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: část knihy
+    - language_code: ru
+      language_name: русский
+      value: часть книги
     - language_code: ar
       language_name: العربية
       value: جزء من كتاب
@@ -103,11 +106,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 章節
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_2f33
-    - http://purl.org/eprint/type/Book
 ---
 

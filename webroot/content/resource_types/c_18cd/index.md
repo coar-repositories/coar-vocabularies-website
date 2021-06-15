@@ -43,7 +43,7 @@ pref_labels:
       value: skladba
     - language_code: ru
       language_name: русский
-      value: музыкальная композиция
+      value: музыкальное произведение
     - language_code: ar
       language_name: العربية
       value: تأليف موسيقي
@@ -87,9 +87,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: pieza musical
-    - language_code: ru
-      language_name: русский
-      value: музыкальное произведение
     - language_code: ar
       language_name: العربية
       value: قطعة موسيقية
@@ -102,7 +99,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 音樂作品
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

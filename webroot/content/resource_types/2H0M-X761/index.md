@@ -6,14 +6,59 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Geodaten
+    - language_code: tr
+      language_name: Türkçe
+      value: coğrafi uzamsal veri
+    - language_code: ca
+      language_name: català
+      value: dades geoespacials
+    - language_code: pt
+      language_name: português
+      value: dados geoespaciais
+    - language_code: it
+      language_name: italiano
+      value: dati geospaziali
+    - language_code: es
+      language_name: español
+      value: datos geoespaciales
+    - language_code: fr
+      language_name: français
+      value: donnée géospatiale
+    - language_code: sl
+      language_name: slovenščina
+      value: geoprostorski podatki
     - language_code: en
       language_name: English
       value: geospatial data
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: nl
+      language_name: Nederlands
+      value: geospatiale gegevens
+    - language_code: ru
+      language_name: русский
+      value: геопространственные данные
+    - language_code: ja
+      language_name: 日本語
+      value: 地理空間データ
+    - language_code: zh
+      language_name: 中文
+      value: 地理空间数据
+alt_labels:
+    - language_code: ca
+      language_name: català
+      value: dades geogràfiques
+    - language_code: tr
+      language_name: Türkçe
+      value: jeo uzamsal veri
+    - language_code: nl
+      language_name: Nederlands
+      value: locatie data
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - EHVM-H119
+    - c_ddb1
 ---
 

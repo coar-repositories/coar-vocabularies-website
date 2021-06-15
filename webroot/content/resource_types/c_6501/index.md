@@ -8,8 +8,6 @@ related:
     - type: Broad Match
       uri: https://schema.org/Article
     - type: Exact Match
-      uri: https://scigraph.springernature.com/things/technical-article-types/original-paper
-    - type: Exact Match
       uri: http://purl.org/eprint/type/JournalArticle
     - type: Related Match
       uri: http://purl.org/eprint/type/SubmittedJournalArticle
@@ -49,6 +47,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: článek v odborném časopisu
+    - language_code: ru
+      language_name: русский
+      value: журнальная статья
     - language_code: ar
       language_name: العربية
       value: مقال في دورية
@@ -140,16 +141,15 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 论文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_7acd
     - c_dcae04bc
     - c_7bab
     - c_beb9
+    - c_7acd
     - c_2df8fbb1
 broader_concepts:
-    - https://schema.org/Article
     - c_0640
 ---
 

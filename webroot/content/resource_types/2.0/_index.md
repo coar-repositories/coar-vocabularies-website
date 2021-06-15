@@ -8,28 +8,48 @@ namespace: http://purl.org/coar/resource_type/
 uri: http://purl.org/coar/resource_type
 date: 2021-02-03T00:00:00Z
 creators:
-    - Aubin, Sophie
-    - Azrilevich, Paola
-    - Bernal, Isabel
-    - Le Borgne, Laurence
-    - Habre, Sawsan
-    - Hayashi, Yutaka
-    - Holt, Ilkay
-    - Hua, Nie
-    - Jones, Hilary
-    - Kataoka, Tomoko
-    - Liping, Ku (Alan)
-    - Mornati, Susanna
-    - Ojsteršek, Milan
-    - Príncipe, Pedro
-    - Schirrwagen, Jochen
-    - Steinhoff, Wilko
-    - Vedovotto, Nathalie
-    - Fava, Ilaria (departed)
-    - Shiota,Tomoya (departed)
-    - Solodovnik, Iryna (departed
-    - Subirats, Imma (departed)
-    - Wang, Shenghui (departed)
+    - language: Catalan
+      name: Brigit Nonó
+    - language: Catalan
+      name: Cristina Azorín
+    - language: Turkish
+      name: Gültekin Gürdal
+    - language: English
+      name: Hilary Jones
+    - language: Turkish
+      name: Holt, Ilkay
+    - language: Russian
+      name: Iryna Solodovnik
+    - language: Spanish
+      name: Isabel Bernal
+    - language: German
+      name: Jochen Schirrwagen
+    - language: Chinese
+      name: Ku (Alan) Liping
+    - language: French
+      name: Laurence Le Borgne
+    - language: Catalan
+      name: Marina Losada
+    - language: Slovenian
+      name: Milan Ojsteršek
+    - language: French
+      name: Nathalie Vedovotto
+    - language: Chinese
+      name: Nie Hua
+    - language: Spanish
+      name: Paola Azrilevich
+    - language: Portuguese
+      name: Pedro Príncipe
+    - language: Arabic
+      name: Sawsan Habre
+    - language: Italian
+      name: Susanna Mornati
+    - language: Japanese
+      name: Tomoko Kataoka
+    - language: Dutch
+      name: Wilko Steinhoff
+    - language: Japanese
+      name: Yutaka Hayashi
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:

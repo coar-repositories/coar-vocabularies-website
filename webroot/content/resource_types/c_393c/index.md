@@ -32,15 +32,18 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: procedura
-    - language_code: nl
-      language_name: Nederlands
-      value: workflow
     - language_code: en
       language_name: English
+      value: workflow
+    - language_code: nl
+      language_name: Nederlands
       value: workflow
     - language_code: fr
       language_name: français
       value: workflow
+    - language_code: ru
+      language_name: русский
+      value: рабочий процесс
     - language_code: ar
       language_name: العربية
       value: سير العمل
@@ -81,7 +84,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 工作流
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

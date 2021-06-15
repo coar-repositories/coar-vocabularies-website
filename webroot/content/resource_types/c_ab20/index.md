@@ -11,11 +11,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Datenmanagementplan
-    - language_code: nl
-      language_name: Nederlands
-      value: data management plan
     - language_code: en
       language_name: English
+      value: data management plan
+    - language_code: nl
+      language_name: Nederlands
       value: data management plan
     - language_code: sl
       language_name: slovenščina
@@ -32,6 +32,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: plan de gestión de datos
+    - language_code: ru
+      language_name: русский
+      value: план управления данными
     - language_code: ja
       language_name: 日本語
       value: データ管理計画
@@ -42,7 +45,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: pla d’administració de dades
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

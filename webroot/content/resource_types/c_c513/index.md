@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: https://schema.org/MediaObject
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Image
-    - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Image
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Image
     - type: Narrow Match
       uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
@@ -23,11 +23,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: görüntü
-    - language_code: fr
-      language_name: français
-      value: image
     - language_code: en
       language_name: English
+      value: image
+    - language_code: fr
+      language_name: français
       value: image
     - language_code: pt
       language_name: português
@@ -47,6 +47,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: slika
+    - language_code: ru
+      language_name: русский
+      value: изображение
     - language_code: ar
       language_name: العربية
       value: صورة
@@ -87,13 +90,11 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 影像
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_8a7e
-    - http://purl.org/dc/dcmitype/StillImage
     - c_ecc8
-broader_concepts:
-    - https://schema.org/MediaObject
+    - c_8a7e
+broader_concepts: []
 ---
 

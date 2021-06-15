@@ -6,11 +6,7 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Thesis
-    - type: Broad Match
       uri: http://purl.org/eprint/type/Thesis
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/masterThesis
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -41,13 +37,13 @@ pref_labels:
       value: tesis de maestría
     - language_code: ca
       language_name: català
-      value: treball de fi de postgrau
+      value: treball final de màster
     - language_code: tr
       language_name: Türkçe
       value: yüksek lisans tezi
     - language_code: ru
       language_name: русский
-      value: диплом магистра
+      value: магистерская диссертация
     - language_code: ar
       language_name: العربية
       value: رسالة ماجستير
@@ -78,7 +74,7 @@ alt_labels:
       value: tese de mestrado
     - language_code: ca
       language_name: català
-      value: tesi de mestratge
+      value: tesina
     - language_code: es
       language_name: español
       value: tesina
@@ -99,13 +95,7 @@ alt_labels:
       value: trabajo final de posgrado
     - language_code: ca
       language_name: català
-      value: treball de fi de master
-    - language_code: ru
-      language_name: русский
-      value: диплом специалиста
-    - language_code: ru
-      language_name: русский
-      value: диссертация магистра
+      value: treball de fi de postgrau
     - language_code: zh
       language_name: 中文
       value: 硕士研究生毕业论文
@@ -115,12 +105,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 碩士研究生畢業論文
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - http://purl.org/eprint/type/Thesis
     - c_46ec
-    - http://purl.org/ontology/bibo/Thesis
 ---
 

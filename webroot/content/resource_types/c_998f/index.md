@@ -7,8 +7,6 @@ layout: concept
 related:
     - type: Broad Match
       uri: https://schema.org/Article
-    - type: Exact Match
-      uri: https://dictionary.casrai.org/Newspaper_Article
 pref_labels:
     - language_code: tr
       language_name: Türkçe
@@ -59,23 +57,10 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de diario
-    - language_code: ru
-      language_name: русский
-      value: газетная публикация
-    - language_code: ru
-      language_name: русский
-      value: газетное объявление
-    - language_code: ru
-      language_name: русский
-      value: газетное сообщение
-    - language_code: ru
-      language_name: русский
-      value: редакционная статья
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_2fe3
-    - https://schema.org/Article
 ---
 

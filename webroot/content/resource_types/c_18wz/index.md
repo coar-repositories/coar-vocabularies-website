@@ -15,20 +15,20 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: memorando
-    - language_code: it
-      language_name: italiano
-      value: memorandum
     - language_code: nl
       language_name: Nederlands
+      value: memorandum
+    - language_code: en
+      language_name: English
       value: memorandum
     - language_code: sl
       language_name: slovenščina
       value: memorandum
+    - language_code: it
+      language_name: italiano
+      value: memorandum
     - language_code: cs
       language_name: čeština
-      value: memorandum
-    - language_code: en
-      language_name: English
       value: memorandum
     - language_code: ca
       language_name: català
@@ -39,6 +39,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: mémo
+    - language_code: ru
+      language_name: русский
+      value: меморандум
     - language_code: ar
       language_name: العربية
       value: مذكرة
@@ -55,34 +58,31 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: circular
-    - language_code: ca
-      language_name: català
-      value: circular
     - language_code: es
       language_name: español
       value: circular
     - language_code: es
       language_name: español
       value: comunicación
-    - language_code: es
-      language_name: español
-      value: comunicado
     - language_code: pt
       language_name: português
       value: comunicado
-    - language_code: ca
-      language_name: català
-      value: comunicat
+    - language_code: es
+      language_name: español
+      value: comunicado
     - language_code: fr
       language_name: français
       value: memorandum
+    - language_code: ca
+      language_name: català
+      value: memòria
     - language_code: sl
       language_name: slovenščina
       value: razprava
     - language_code: zh
       language_name: 中文
       value: 備忘錄
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

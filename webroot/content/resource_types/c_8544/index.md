@@ -20,11 +20,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ders
-    - language_code: nl
-      language_name: Nederlands
-      value: lecture
     - language_code: en
       language_name: English
+      value: lecture
+    - language_code: nl
+      language_name: Nederlands
       value: lecture
     - language_code: it
       language_name: italiano
@@ -41,6 +41,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: přednáška
+    - language_code: ru
+      language_name: русский
+      value: лекция
     - language_code: ar
       language_name: العربية
       value: محاضرة
@@ -54,6 +57,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: charla magistral
+    - language_code: ca
+      language_name: català
+      value: classe magistral
     - language_code: es
       language_name: español
       value: conferencia
@@ -84,9 +90,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: lição
-    - language_code: ca
-      language_name: català
-      value: ponència
     - language_code: pt
       language_name: português
       value: prelecção
@@ -111,10 +114,9 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 讲课
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
-narrower_concepts:
-    - http://purl.org/spar/fabio/LectureNotes
+narrower_concepts: []
 broader_concepts:
     - c_18cf
 ---

@@ -6,11 +6,50 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Transkription
+    - language_code: ca
+      language_name: català
+      value: transcripció
+    - language_code: es
+      language_name: español
+      value: transcripción
+    - language_code: nl
+      language_name: Nederlands
+      value: transcriptie
+    - language_code: fr
+      language_name: français
+      value: transcription
     - language_code: en
       language_name: English
       value: transcription
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: sl
+      language_name: slovenščina
+      value: transkripcija
+    - language_code: tr
+      language_name: Türkçe
+      value: transkripsiyon
+    - language_code: it
+      language_name: italiano
+      value: trascrizione
+    - language_code: ru
+      language_name: русский
+      value: транскрипция
+    - language_code: ja
+      language_name: 日本語
+      value: 文字起こし
+    - language_code: zh
+      language_name: 中文
+      value: 转录资料
+alt_labels:
+    - language_code: sl
+      language_name: slovenščina
+      value: prepis
+    - language_code: zh
+      language_name: 中文
+      value: 誊写记录
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

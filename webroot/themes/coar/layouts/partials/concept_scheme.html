@@ -1,10 +1,10 @@
 <div class="row">
     <div class="col">
         <div style="text-align: right;">
-        {{ if eq .Params.latest true }}
-            <span class="badge bg-success page-annotation">This is the latest version of this vocabulary</span>
-        {{ else }}
-            <span class="badge bg-danger page-annotation"><a class="page-annotation" href="{{ .FirstSection.Permalink }}">There is a newer version of this vocabulary</a></span>
+            {{ if eq .Params.latest true }}
+                <span class="badge bg-success page-annotation">This is the latest version of this vocabulary</span>
+            {{ else }}
+                <span class="badge bg-danger page-annotation"><a class="page-annotation" href="{{ .FirstSection.Permalink }}">There is a newer version of this vocabulary</a></span>
             {{ end }}
         </div>
         <h2>Description</h2>
@@ -45,7 +45,11 @@
             <h2>Creators</h2>
             <ul>
                 {{ range . }}
-                    <li>{{ . }}</li>
+                    {{ $creatorString := .name }}
+                    {{ if ne .language "" }}
+                        {{ $creatorString = print .name " (" .language " translation)"}}
+                    {{end }}
+                    <li>{{ $creatorString }}</li>
                 {{ end }}
             </ul>
         {{ end }}

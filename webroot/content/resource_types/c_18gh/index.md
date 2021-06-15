@@ -43,7 +43,7 @@ pref_labels:
       value: teknik rapor
     - language_code: ru
       language_name: русский
-      value: технический отчёт
+      value: технический отчет
     - language_code: ar
       language_name: العربية
       value: تقرير تقني
@@ -63,19 +63,10 @@ alt_labels:
     - language_code: es
       language_name: español
       value: reporte técnico
-    - language_code: ru
-      language_name: русский
-      value: отчёт о техническом состоянии
-    - language_code: ru
-      language_name: русский
-      value: отчёт по техническим вопросам
-    - language_code: ru
-      language_name: русский
-      value: технический доклад
     - language_code: zh
       language_name: 中文
       value: 技術報告
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

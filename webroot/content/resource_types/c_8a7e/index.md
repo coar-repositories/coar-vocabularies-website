@@ -43,6 +43,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: pohyblivý obraz
+    - language_code: ru
+      language_name: русский
+      value: движущееся изображение
     - language_code: ar
       language_name: العربية
       value: صورة متحركة
@@ -77,7 +80,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 運動圖像
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_12ce

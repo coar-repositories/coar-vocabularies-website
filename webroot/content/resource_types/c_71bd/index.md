@@ -9,8 +9,6 @@ related:
       uri: http://purl.org/ontology/bibo/Document
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/#semantics/technicalDocumentation
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -67,11 +65,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: documentation technique
-    - language_code: es
-      language_name: español
-      value: manual
     - language_code: ca
       language_name: català
+      value: manual
+    - language_code: es
+      language_name: español
       value: manual
     - language_code: pt
       language_name: português
@@ -79,21 +77,6 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: manuale tecnico
-    - language_code: ru
-      language_name: русский
-      value: инструкция
-    - language_code: ru
-      language_name: русский
-      value: пособие
-    - language_code: ru
-      language_name: русский
-      value: руководство
-    - language_code: ru
-      language_name: русский
-      value: справочник
-    - language_code: ru
-      language_name: русский
-      value: технологические инструкции
     - language_code: ar
       language_name: العربية
       value: كتيب
@@ -112,12 +95,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 技術資料
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_18cf
-    - http://purl.org/ontology/bibo/Document
-    - http://purl.org/dc/dcmitype/Text
 ---
 

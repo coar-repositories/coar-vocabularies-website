@@ -26,7 +26,7 @@ pref_labels:
       value: poster dans une conférence non publié dans les actes
     - language_code: ca
       language_name: català
-      value: poster no publicat en actes de congrés
+      value: poster de congrés no publicat
     - language_code: it
       language_name: italiano
       value: poster non pubblicato in atti di congresso
@@ -39,12 +39,15 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: yayınlanmamış konferans posteri
+    - language_code: ru
+      language_name: русский
+      value: стендовый доклад не включенный в материалы конференции
     - language_code: ja
       language_name: 日本語
       value: 会議発表ポスター（会議録未掲載）
     - language_code: zh
       language_name: 中文
-      value: 未发表在会议论文集中的海报
+      value: 非会议集里的会议海报/会议板报
 alt_labels:
     - language_code: sl
       language_name: slovenščina
@@ -61,7 +64,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 未發表在會議論文集中的海報
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

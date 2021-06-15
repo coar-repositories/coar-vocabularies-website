@@ -1,7 +1,7 @@
 ---
 title: letter
 uri: http://purl.org/coar/resource_type/c_0857
-description: Бумага с написанным на ней от руки или напечатанным текстом, служащая средством общения между физическими лицами и/или представителями юридических лиц. Как правило, письмо доставляется почтовой службой или публикуется в периодическом издании. В последнем случае, письмо адресовывается редактору/редакции, и комментирует или обсуждает статью, опубликованную ранее в этом периодическом издании, или представляет интерес для конкретной читательской аудитории.
+description: 'A brief description of important new research, also known as “communication”. [Source: https://cerif.eurocris.org/vocab/html/OutputTypes.html#Letter]'
 deprecated: false
 layout: concept
 related:
@@ -18,11 +18,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: pt
-      language_name: português
-      value: carta
     - language_code: es
       language_name: español
+      value: carta
+    - language_code: pt
+      language_name: português
       value: carta
     - language_code: ca
       language_name: català
@@ -45,6 +45,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: pismo
+    - language_code: ru
+      language_name: русский
+      value: письмо
     - language_code: ar
       language_name: العربية
       value: مراسلة
@@ -79,11 +82,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 读者来信
-date: 2021-03-24T00:00:00Z
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
     - c_18cf
-    - http://purl.org/dc/dcmitype/Text
 ---
 

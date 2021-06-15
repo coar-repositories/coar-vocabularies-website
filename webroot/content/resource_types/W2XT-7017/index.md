@@ -6,14 +6,53 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Simulationsdaten
+    - language_code: ca
+      language_name: català
+      value: dades de simulacions
+    - language_code: pt
+      language_name: português
+      value: dados de simulação
+    - language_code: it
+      language_name: italiano
+      value: dati di simulazione
+    - language_code: es
+      language_name: español
+      value: datos de simulacion
+    - language_code: fr
+      language_name: français
+      value: donnée de simulation
+    - language_code: sl
+      language_name: slovenščina
+      value: simulacijski podatki
+    - language_code: nl
+      language_name: Nederlands
+      value: simulatiedata
     - language_code: en
       language_name: English
       value: simulation data
-alt_labels: []
-date: 2021-03-24T00:00:00Z
+    - language_code: tr
+      language_name: Türkçe
+      value: simülasyon verisi
+    - language_code: ru
+      language_name: русский
+      value: данные моделирования
+    - language_code: ja
+      language_name: 日本語
+      value: シミュレーションデータ
+    - language_code: zh
+      language_name: 中文
+      value: 模拟数据
+alt_labels:
+    - language_code: nl
+      language_name: Nederlands
+      value: simulatiegegevens
+date: 2021-06-15T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
-    - EHVM-H119
+    - c_ddb1
 ---
 
