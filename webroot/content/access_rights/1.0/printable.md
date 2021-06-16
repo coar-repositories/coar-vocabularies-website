@@ -8,51 +8,57 @@ namespace: http://purl.org/coar/access_right/
 uri: http://purl.org/coar/access_right/scheme
 date: 2021-02-03T00:00:00Z
 creators:
-    - language: ""
+    - language: Spanish
       name: Alberto Apollaro
     - language: French
       name: Sophie Aubin
-    - language: ""
+    - language: Catalan
+      name: Cristina Azorín
+    - language: Spanish
       name: Paola Azrilevich
     - language: Spanish
       name: Isabel Bernal
-    - language: ""
+    - language: Chinese
       name: Dan Liu
     - language: English
       name: Dom Fripp
     - language: Turkish
       name: Gültekin Gürdal
-    - language: ""
+    - language: Arabic
       name: Sawsan Habre
     - language: Japanese
       name: Yutaka Hayashi
     - language: Turkish
       name: Ilkay Holt
-    - language: ""
+    - language: Chinese
       name: Nie Hua
     - language: English
       name: Hilary Jones
     - language: Japanese
       name: Tomoko Kataoka
-    - language: Japanese
+    - language: French
       name: Laurence Le Borgne
     - language: Chinese
       name: Ku (Alan) Liping
+    - language: Catalan
+      name: Marina Losada
     - language: Italian
       name: Susanna Mornati
-    - language: ""
+    - language: Catalan
+      name: Brigit Nonó
+    - language: Slovenian
       name: Milan Ojsteršek
-    - language: Portugeuse
+    - language: Portuguese
       name: Pedro Príncipe
     - language: German
       name: Jochen Schirrwagen
     - language: Japanese
       name: Tomoya Shiota
-    - language: ""
+    - language: Russian
       name: Iryna Solodovnik
     - language: Dutch
       name: Wilko Steinhoff
-    - language: ""
+    - language: French
       name: Nathalie Vedovotto
 contributors:
     - COAR Controlled Vocabularies Interest Group

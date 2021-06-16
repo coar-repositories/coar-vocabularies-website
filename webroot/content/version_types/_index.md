@@ -8,47 +8,47 @@ namespace: http://purl.org/coar/version/
 uri: http://purl.org/coar/version/scheme
 date: 2018-07-01T00:00:00Z
 creators:
-    - language: ""
+    - language: Spanish
       name: Alberto Apollaro
     - language: French
       name: Sophie Aubin
-    - language: ""
+    - language: Spanish
       name: Paola Azrilevich
     - language: Spanish
       name: Isabel Bernal
-    - language: ""
+    - language: Chinese
       name: Dan Liu
-    - language: ""
+    - language: Italian
       name: Ilaria Fava
     - language: English
       name: Dom Fripp
     - language: Turkish
       name: Gültekin Gürdal
-    - language: ""
+    - language: Arabic
       name: Sawsan Habre
     - language: Turkish
       name: Ilkay Holt
-    - language: ""
+    - language: Chinese
       name: Nie Hua
     - language: English
       name: Hilary Jones
     - language: Japanese
       name: Tomoko Kataoka
-    - language: Japanese
+    - language: French
       name: Laurence Le Borgne
     - language: Chinese
       name: Ku (Alan) Liping
-    - language: Portugeuse
+    - language: Portuguese
       name: Pedro Príncipe
     - language: German
       name: Jochen Schirrwagen
     - language: Japanese
       name: Tomoya Shiota
-    - language: ""
+    - language: Russian
       name: Iryna Solodovnik
     - language: Dutch
       name: Wilko Steinhoff
-    - language: ""
+    - language: French
       name: Nathalie Vedovotto
 contributors:
     - COAR Controlled Vocabularies Interest Group
