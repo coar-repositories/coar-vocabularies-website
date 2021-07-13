@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Letter
-    - type: Exact Match
       uri: http://purl.org/ontology/bibo/Letter
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Letter
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -82,7 +82,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 读者来信
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

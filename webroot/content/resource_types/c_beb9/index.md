@@ -18,14 +18,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo de datos
-    - language_code: en
-      language_name: English
+    - language_code: it
+      language_name: italiano
       value: data paper
     - language_code: fr
       language_name: français
       value: data paper
-    - language_code: it
-      language_name: italiano
+    - language_code: en
+      language_name: English
       value: data paper
     - language_code: nl
       language_name: Nederlands
@@ -67,11 +67,11 @@ alt_labels:
     - language_code: en
       language_name: English
       value: data descriptor
-    - language_code: nl
-      language_name: Nederlands
-      value: data paper
     - language_code: pt
       language_name: português
+      value: data paper
+    - language_code: nl
+      language_name: Nederlands
       value: data paper
     - language_code: sl
       language_name: slovenščina
@@ -79,7 +79,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 數據文章
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

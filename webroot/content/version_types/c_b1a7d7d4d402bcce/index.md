@@ -28,6 +28,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: versione originale dell'autore
+    - language_code: ca
+      language_name: català
+      value: versió de l'autor
     - language_code: es
       language_name: español
       value: versión original del autor
@@ -47,6 +50,12 @@ alt_labels:
     - language_code: en
       language_name: English
       value: draft
+    - language_code: ca
+      language_name: català
+      value: esborrany
+    - language_code: ca
+      language_name: català
+      value: manuscrit
     - language_code: es
       language_name: español
       value: manuscrito
@@ -59,6 +68,9 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: version d'origine
+    - language_code: ca
+      language_name: català
+      value: versió original de l'autor
     - language_code: tr
       language_name: Türkçe
       value: Ön baskı

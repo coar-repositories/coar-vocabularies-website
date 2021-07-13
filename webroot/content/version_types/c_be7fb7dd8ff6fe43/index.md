@@ -18,6 +18,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: niet van toepassing (onbekend)
+    - language_code: ca
+      language_name: català
+      value: no aplicable
     - language_code: it
       language_name: italiano
       value: non applicabile
@@ -31,6 +34,9 @@ pref_labels:
       language_name: 日本語
       value: 適用外
 alt_labels:
+    - language_code: ca
+      language_name: català
+      value: altres
     - language_code: fr
       language_name: français
       value: autre version
@@ -46,6 +52,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: otros
+    - language_code: ca
+      language_name: català
+      value: versió desconeguda
 date: 2018-07-01T00:00:00Z
 isTopConcept: true
 narrower_concepts: []

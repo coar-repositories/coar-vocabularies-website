@@ -19,11 +19,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo preliminar
-    - language_code: en
-      language_name: English
-      value: preprint
     - language_code: nl
       language_name: Nederlands
+      value: preprint
+    - language_code: en
+      language_name: English
       value: preprint
     - language_code: pt
       language_name: português
@@ -68,11 +68,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: borrador
-    - language_code: it
-      language_name: italiano
-      value: preprint
     - language_code: es
       language_name: español
+      value: preprint
+    - language_code: it
+      language_name: italiano
       value: preprint
     - language_code: es
       language_name: español
@@ -86,7 +86,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 先印本
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

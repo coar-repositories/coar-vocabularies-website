@@ -48,13 +48,13 @@ pref_labels:
       language_name: 中文
       value: 会议对象
 alt_labels: []
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18cp
-    - R60J-J5BD
-    - c_18co
     - c_f744
+    - R60J-J5BD
+    - c_18cp
+    - c_18co
 broader_concepts:
     - c_18cf
 ---

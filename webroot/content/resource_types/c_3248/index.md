@@ -8,13 +8,13 @@ related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Book
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/BookChapter
-    - type: Exact Match
       uri: http://purl.org/eprint/type/BookItem
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/BookChapter
 pref_labels:
     - language_code: de
       language_name: Deutsch
-      value: Teil oder Kapitel eines Buches
+      value: Teil eines Buches
     - language_code: nl
       language_name: Nederlands
       value: boekdeel
@@ -58,12 +58,12 @@ pref_labels:
       language_name: 中文
       value: 章节
 alt_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Buchkapitel
     - language_code: en
       language_name: English
       value: book chapter
-    - language_code: en
-      language_name: English
-      value: book chapters
     - language_code: es
       language_name: español
       value: capitulo de libro
@@ -106,7 +106,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 章節
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

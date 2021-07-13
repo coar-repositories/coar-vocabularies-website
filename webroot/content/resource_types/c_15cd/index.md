@@ -25,17 +25,17 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: brevetto
+    - language_code: ca
+      language_name: català
+      value: patent
+    - language_code: cs
+      language_name: čeština
+      value: patent
     - language_code: tr
       language_name: Türkçe
       value: patent
     - language_code: en
       language_name: English
-      value: patent
-    - language_code: cs
-      language_name: čeština
-      value: patent
-    - language_code: ca
-      language_name: català
       value: patent
     - language_code: nl
       language_name: Nederlands
@@ -74,15 +74,15 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 專利
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - GPQ7-G5VE
     - MW8G-3CR8
-    - 9DKX-KSAF
-    - SB3Y-W4EH
-    - Z907-YMBB
     - C53B-JCY5
+    - SB3Y-W4EH
+    - 9DKX-KSAF
+    - Z907-YMBB
+    - GPQ7-G5VE
 broader_concepts: []
 ---
 

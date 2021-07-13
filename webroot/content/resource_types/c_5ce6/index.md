@@ -24,23 +24,23 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: programska oprema
-    - language_code: pt
-      language_name: português
-      value: software
-    - language_code: it
-      language_name: italiano
-      value: software
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: cs
+      language_name: čeština
       value: software
     - language_code: es
       language_name: español
       value: software
-    - language_code: cs
-      language_name: čeština
+    - language_code: it
+      language_name: italiano
+      value: software
+    - language_code: pt
+      language_name: português
       value: software
     - language_code: en
       language_name: English
+      value: software
+    - language_code: nl
+      language_name: Nederlands
       value: software
     - language_code: tr
       language_name: Türkçe
@@ -73,11 +73,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programa informàtic
-    - language_code: es
-      language_name: español
-      value: programa informático
     - language_code: pt
       language_name: português
+      value: programa informático
+    - language_code: es
+      language_name: español
       value: programa informático
     - language_code: it
       language_name: italiano
@@ -97,7 +97,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 软体
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - QH80-2R4E

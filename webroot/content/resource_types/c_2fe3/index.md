@@ -48,7 +48,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časnik
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_998f

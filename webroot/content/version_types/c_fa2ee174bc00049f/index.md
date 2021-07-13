@@ -23,6 +23,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: proefdruk
+    - language_code: ca
+      language_name: català
+      value: prova d'impremta
     - language_code: es
       language_name: español
       value: prueba de galera
@@ -39,6 +42,9 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: drukproef
+    - language_code: ca
+      language_name: català
+      value: galerada
     - language_code: es
       language_name: español
       value: manuscrito aceptado

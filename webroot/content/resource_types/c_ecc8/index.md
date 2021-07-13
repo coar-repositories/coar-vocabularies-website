@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
     - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/StillImage
+    - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
       uri: http://purl.org/spar/fabio/StillImage
-    - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -81,7 +81,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 靜止圖像
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

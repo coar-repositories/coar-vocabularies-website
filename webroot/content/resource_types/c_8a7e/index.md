@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/MovingImage
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/MovingImage
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/MovingImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -80,7 +80,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 運動圖像
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_12ce

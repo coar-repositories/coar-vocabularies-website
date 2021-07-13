@@ -12,7 +12,7 @@ related:
 pref_labels:
     - language_code: de
       language_name: Deutsch
-      value: Entscheidungs- oder Urteilsanmerkung
+      value: Urteilsanmerkung
     - language_code: nl
       language_name: Nederlands
       value: annotatie
@@ -58,7 +58,7 @@ pref_labels:
 alt_labels:
     - language_code: de
       language_name: Deutsch
-      value: Kommentierung
+      value: Entscheidungsanmerkung
     - language_code: it
       language_name: italiano
       value: annotazione
@@ -89,6 +89,12 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: glossa
+    - language_code: ca
+      language_name: català
+      value: nota
+    - language_code: es
+      language_name: español
+      value: nota
     - language_code: it
       language_name: italiano
       value: nota
@@ -97,13 +103,10 @@ alt_labels:
       value: nota
     - language_code: es
       language_name: español
-      value: nota
-    - language_code: ca
-      language_name: català
-      value: nota
-    - language_code: es
-      language_name: español
       value: nota a un texto de jurisprudencia
+    - language_code: en
+      language_name: English
+      value: note to a legal judgment
     - language_code: sl
       language_name: slovenščina
       value: opomba
@@ -131,7 +134,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 诠释
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

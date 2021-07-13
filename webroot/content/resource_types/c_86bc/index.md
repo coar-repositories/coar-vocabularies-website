@@ -1,7 +1,7 @@
 ---
 title: bibliography
 uri: http://purl.org/coar/resource_type/c_86bc
-description: Систематизированный перечень или список письменных работ/источников конкретного автора или на заданную тему.
+description: 'A list of the books and articles that have been used by someone when writing a particular book or article [Source: https://dictionary.cambridge.org/dictionary/english/bibliography]'
 deprecated: false
 layout: concept
 related:
@@ -11,20 +11,20 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bibliografie
-    - language_code: ca
-      language_name: català
+    - language_code: it
+      language_name: italiano
       value: bibliografia
     - language_code: pt
       language_name: português
       value: bibliografia
-    - language_code: it
-      language_name: italiano
+    - language_code: ca
+      language_name: català
       value: bibliografia
-    - language_code: cs
-      language_name: čeština
-      value: bibliografie
     - language_code: nl
       language_name: Nederlands
+      value: bibliografie
+    - language_code: cs
+      language_name: čeština
       value: bibliografie
     - language_code: sl
       language_name: slovenščina
@@ -75,7 +75,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 書目
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

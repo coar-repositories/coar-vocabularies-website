@@ -132,7 +132,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="PCT application">
-          <hasNote>A patent application filed through the WIPO-administered Plant Cooperation Treaty (PCT), also known as an international application. [Source: Adapted from https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]
+          <hasNote>A patent application filed through the WIPO-administered Patent Cooperation Treaty (PCT), also known as an international application. [Source: Adapted from https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]
           </hasNote>
         </node>
         <node id="C53B-JCY5" label="design patent">
@@ -194,7 +194,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
           </hasNote>
         </node>
         <node id="c_86bc" label="bibliography">
-          <hasNote>Систематизированный перечень или список письменных работ/источников конкретного автора или на заданную тему.
+          <hasNote>A list of the books and articles that have been used by someone when writing a particular book or article [Source: https://dictionary.cambridge.org/dictionary/english/bibliography]
           </hasNote>
         </node>
         <node id="c_6947" label="blog post">
@@ -377,7 +377,7 @@ exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/ed
               </hasNote>
             </node>
             <node id="H9BQ-739P" label="peer review">
-              <hasNote>A resource resulting from a process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted. [Source: Adopted from https://casrai.org/rdm-glossary]
+              <hasNote>An evaluation of scientific, academic, or professional work by others working in the same field. [Source: Adopted from https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf]
               </hasNote>
             </node>
           </isComposedBy>

@@ -6,9 +6,7 @@ description: |-
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
 deprecated: false
 layout: concept
-related:
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/semantics/updatedVersion
+related: []
 pref_labels:
     - language_code: en
       language_name: English
@@ -28,6 +26,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: versione corretta
+    - language_code: ca
+      language_name: català
+      value: versió corregida
     - language_code: es
       language_name: español
       value: versión corregida
@@ -44,6 +45,9 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: gecorrigeerde versie
+    - language_code: ca
+      language_name: català
+      value: versió publicada corregida
     - language_code: es
       language_name: español
       value: versión publicada corregida

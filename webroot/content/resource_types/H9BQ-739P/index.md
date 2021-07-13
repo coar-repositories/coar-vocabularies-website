@@ -1,7 +1,7 @@
 ---
 title: peer review
 uri: http://purl.org/coar/resource_type/H9BQ-739P
-description: 'A resource resulting from a process by which a scholarly work (such as a paper or a research proposal) is checked by a group of experts in the same field to make sure it meets the necessary standards before it is published or accepted. [Source: Adopted from https://casrai.org/rdm-glossary]'
+description: 'An evaluation of scientific, academic, or professional work by others working in the same field. [Source: Adopted from https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf]'
 deprecated: false
 layout: concept
 related: []
@@ -61,7 +61,7 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: validation par les pairs
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -6,9 +6,7 @@ description: |-
     (adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
 deprecated: false
 layout: concept
-related:
-    - type: Exact Match
-      uri: http://purl.org/info:eu-repo/semantics/submittedVersion
+related: []
 pref_labels:
     - language_code: tr
       language_name: Türkçe
@@ -28,6 +26,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: versione sottoposta a revisione
+    - language_code: ca
+      language_name: català
+      value: versió sotmesa a revisió
     - language_code: es
       language_name: español
       value: versión sometida a revisión
@@ -38,14 +39,14 @@ pref_labels:
       language_name: 日本語
       value: 査読版
 alt_labels:
+    - language_code: es
+      language_name: español
+      value: preprint
     - language_code: nl
       language_name: Nederlands
       value: preprint
     - language_code: fr
       language_name: français
-      value: preprint
-    - language_code: es
-      language_name: español
       value: preprint
     - language_code: fr
       language_name: français
@@ -56,6 +57,12 @@ alt_labels:
     - language_code: en
       language_name: English
       value: submitted version
+    - language_code: ca
+      language_name: català
+      value: versió enviada a revisió
+    - language_code: ca
+      language_name: català
+      value: versió no avaluada per experts
     - language_code: es
       language_name: español
       value: versión enviada a revisión

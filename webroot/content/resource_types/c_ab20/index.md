@@ -45,7 +45,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: pla d’administració de dades
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

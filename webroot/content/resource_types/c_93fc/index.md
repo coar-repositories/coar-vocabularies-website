@@ -8,18 +8,18 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Report
-    - type: Exact Match
       uri: http://purl.org/eprint/type/Report
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
-    - language_code: ca
-      language_name: català
-      value: informe
     - language_code: es
       language_name: español
+      value: informe
+    - language_code: ca
+      language_name: català
       value: informe
     - language_code: sl
       language_name: slovenščina
@@ -97,16 +97,16 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 调研报告
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_7877
-    - c_18op
-    - c_186u
+    - c_18gh
     - c_18ws
     - YZ1N-ZFT9
-    - c_18gh
+    - c_186u
     - c_ab20
+    - c_7877
+    - c_18op
     - c_18wz
 broader_concepts:
     - c_18cf

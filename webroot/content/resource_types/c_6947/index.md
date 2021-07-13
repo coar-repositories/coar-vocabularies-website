@@ -30,11 +30,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: blog post
-    - language_code: es
-      language_name: español
-      value: entrada de blog
     - language_code: ca
       language_name: català
+      value: entrada de blog
+    - language_code: es
+      language_name: español
       value: entrada de blog
     - language_code: sl
       language_name: slovenščina
@@ -64,7 +64,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: пост в блоге
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

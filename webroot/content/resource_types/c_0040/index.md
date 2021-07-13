@@ -15,11 +15,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: manoscritto
-    - language_code: en
-      language_name: English
-      value: manuscript
     - language_code: nl
       language_name: Nederlands
+      value: manuscript
+    - language_code: en
+      language_name: English
       value: manuscript
     - language_code: ca
       language_name: català
@@ -52,7 +52,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: манускрипт
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

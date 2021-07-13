@@ -6,6 +6,9 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
+    - language_code: de
+      language_name: Deutsch
+      value: Eingetragenes Design
     - language_code: fr
       language_name: français
       value: brevet de conception
@@ -46,7 +49,7 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: tasarım tescili
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -63,14 +63,14 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: beeldmateriaal
-    - language_code: pt
-      language_name: português
-      value: figura
     - language_code: es
       language_name: español
       value: figura
     - language_code: ca
       language_name: català
+      value: figura
+    - language_code: pt
+      language_name: português
       value: figura
     - language_code: tr
       language_name: Türkçe
@@ -90,11 +90,11 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 影像
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_ecc8
     - c_8a7e
+    - c_ecc8
 broader_concepts: []
 ---
 

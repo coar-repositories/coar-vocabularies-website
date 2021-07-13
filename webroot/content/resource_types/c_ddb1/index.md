@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/Dataset
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Dataset
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/Dataset
     - type: Exact Match
       uri: https://schema.org/Dataset
     - type: Related Match
@@ -26,14 +26,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: conjunto de datos
+    - language_code: en
+      language_name: English
+      value: dataset
     - language_code: it
       language_name: italiano
       value: dataset
     - language_code: nl
       language_name: Nederlands
-      value: dataset
-    - language_code: en
-      language_name: English
       value: dataset
     - language_code: cs
       language_name: čeština
@@ -102,22 +102,22 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 资料组
-date: 2021-06-15T00:00:00Z
+date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - 2H0M-X761
     - CQMR-7K63
-    - H41Y-FW7B
     - NHD0-W6SY
     - W2XT-7017
-    - FF4C-28RK
     - 63NG-B465
-    - A8F1-NPV9
-    - FXF3-D3G7
     - AM6W-6QAW
-    - c_cb28
     - ACF7-8YT9
+    - FXF3-D3G7
+    - 2H0M-X761
     - DD58-GFSX
+    - A8F1-NPV9
+    - H41Y-FW7B
+    - FF4C-28RK
+    - c_cb28
 broader_concepts: []
 ---
 
