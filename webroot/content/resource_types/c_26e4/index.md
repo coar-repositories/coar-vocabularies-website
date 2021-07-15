@@ -21,11 +21,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: entrevista
-    - language_code: en
-      language_name: English
-      value: interview
     - language_code: nl
       language_name: Nederlands
+      value: interview
+    - language_code: en
+      language_name: English
       value: interview
     - language_code: it
       language_name: italiano

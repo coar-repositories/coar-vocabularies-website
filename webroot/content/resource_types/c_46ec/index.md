@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/Thesis
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Thesis
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/Thesis
     - type: Narrow Match
       uri: http://purl.org/spar/fabio/BachelorsThesis
 pref_labels:
@@ -26,11 +26,11 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: tese
-    - language_code: it
-      language_name: italiano
-      value: tesi
     - language_code: ca
       language_name: català
+      value: tesi
+    - language_code: it
+      language_name: italiano
       value: tesi
     - language_code: es
       language_name: español

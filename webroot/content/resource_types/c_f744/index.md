@@ -91,8 +91,8 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_5794
     - c_6670
+    - c_5794
 broader_concepts:
     - c_c94f
 ---

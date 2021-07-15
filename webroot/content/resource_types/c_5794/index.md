@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
     - type: Exact Match
-      uri: http://purl.org/eprint/type/ConferencePaper
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/ConferencePaper
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/ConferencePaper
 pref_labels:
     - language_code: de
       language_name: Deutsch

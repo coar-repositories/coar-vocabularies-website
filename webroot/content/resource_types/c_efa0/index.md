@@ -34,11 +34,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: ressenya
-    - language_code: en
-      language_name: English
-      value: review
     - language_code: nl
       language_name: Nederlands
+      value: review
+    - language_code: en
+      language_name: English
       value: review
     - language_code: fr
       language_name: français
@@ -80,11 +80,11 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: rassegna
-    - language_code: fr
-      language_name: français
-      value: recension
     - language_code: es
       language_name: español
+      value: recension
+    - language_code: fr
+      language_name: français
       value: recension
     - language_code: ca
       language_name: català
@@ -125,8 +125,8 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - H9BQ-739P
     - D97F-VB57
+    - H9BQ-739P
     - c_ba08
 broader_concepts:
     - c_18cf

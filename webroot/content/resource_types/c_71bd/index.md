@@ -65,11 +65,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: documentation technique
-    - language_code: ca
-      language_name: català
-      value: manual
     - language_code: es
       language_name: español
+      value: manual
+    - language_code: ca
+      language_name: català
       value: manual
     - language_code: pt
       language_name: português

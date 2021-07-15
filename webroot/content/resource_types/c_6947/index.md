@@ -24,11 +24,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: articolo di blog
-    - language_code: en
-      language_name: English
-      value: blog post
     - language_code: nl
       language_name: Nederlands
+      value: blog post
+    - language_code: en
+      language_name: English
       value: blog post
     - language_code: es
       language_name: español

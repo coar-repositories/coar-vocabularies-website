@@ -71,20 +71,20 @@ alt_labels:
     - language_code: es
       language_name: español
       value: portal
-    - language_code: es
-      language_name: español
-      value: portal web
     - language_code: ca
       language_name: català
+      value: portal web
+    - language_code: es
+      language_name: español
       value: portal web
     - language_code: ca
       language_name: català
       value: pàgina web
-    - language_code: es
-      language_name: español
-      value: página web
     - language_code: pt
       language_name: português
+      value: página web
+    - language_code: es
+      language_name: español
       value: página web
     - language_code: es
       language_name: español

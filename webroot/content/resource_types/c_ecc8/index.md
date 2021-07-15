@@ -10,9 +10,9 @@ related:
     - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/StillImage
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/StillImage
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
     - language_code: de
       language_name: Deutsch

@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
-    - language_code: en
-      language_name: English
-      value: design
     - language_code: it
       language_name: italiano
+      value: design
+    - language_code: en
+      language_name: English
       value: design
     - language_code: es
       language_name: español
@@ -46,8 +46,8 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - JBNF-DYAD
     - BW7T-YM2G
+    - JBNF-DYAD
 broader_concepts: []
 ---
 

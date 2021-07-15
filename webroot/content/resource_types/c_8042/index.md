@@ -30,17 +30,17 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: working paper
+    - language_code: nl
+      language_name: Nederlands
+      value: working paper
     - language_code: it
       language_name: italiano
-      value: working paper
-    - language_code: pt
-      language_name: português
       value: working paper
     - language_code: en
       language_name: English
       value: working paper
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: pt
+      language_name: português
       value: working paper
     - language_code: tr
       language_name: Türkçe

@@ -15,17 +15,17 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: memorando
-    - language_code: cs
-      language_name: čeština
-      value: memorandum
-    - language_code: en
-      language_name: English
-      value: memorandum
     - language_code: sl
       language_name: slovenščina
       value: memorandum
+    - language_code: cs
+      language_name: čeština
+      value: memorandum
     - language_code: it
       language_name: italiano
+      value: memorandum
+    - language_code: en
+      language_name: English
       value: memorandum
     - language_code: nl
       language_name: Nederlands
