@@ -1,7 +1,7 @@
 ---
 title: source code
 uri: http://purl.org/coar/resource_type/QH80-2R4E
-description: 'Source code is any collection of code, with or without comments, written using[1] a human-readable programming language, usually as plain text. [Source: https://en.wikipedia.org/wiki/Source_code]'
+description: 'Source code is any collection of code, with or without comments, written using a human-readable programming language, usually as plain text. [Source: https://en.wikipedia.org/wiki/Source_code]'
 deprecated: false
 layout: concept
 related: []

@@ -24,11 +24,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: odborné periodikum
-    - language_code: pt
-      language_name: português
-      value: revista
     - language_code: es
       language_name: español
+      value: revista
+    - language_code: pt
+      language_name: português
       value: revista
     - language_code: ca
       language_name: català
@@ -76,17 +76,17 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: revista
-    - language_code: es
-      language_name: español
-      value: revista académica
     - language_code: pt
       language_name: português
       value: revista académica
     - language_code: es
       language_name: español
+      value: revista académica
+    - language_code: pt
+      language_name: português
       value: revista científica
-    - language_code: pt
-      language_name: português
+    - language_code: es
+      language_name: español
       value: revista científica
     - language_code: fr
       language_name: français
@@ -115,9 +115,9 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
+    - c_b239
     - c_545b
     - c_6501
-    - c_b239
 broader_concepts:
     - c_18cf
 ---

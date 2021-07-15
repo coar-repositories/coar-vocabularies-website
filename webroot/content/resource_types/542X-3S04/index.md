@@ -46,8 +46,8 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - BW7T-YM2G
     - JBNF-DYAD
+    - BW7T-YM2G
 broader_concepts: []
 ---
 

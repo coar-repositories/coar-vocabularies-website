@@ -19,14 +19,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo preliminar
-    - language_code: nl
-      language_name: Nederlands
-      value: preprint
     - language_code: en
       language_name: English
       value: preprint
     - language_code: pt
       language_name: português
+      value: preprint
+    - language_code: nl
+      language_name: Nederlands
       value: preprint
     - language_code: fr
       language_name: français

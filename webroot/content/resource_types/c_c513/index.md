@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: https://schema.org/MediaObject
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/Image
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Image
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/Image
     - type: Narrow Match
       uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
@@ -23,11 +23,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: görüntü
-    - language_code: en
-      language_name: English
-      value: image
     - language_code: fr
       language_name: français
+      value: image
+    - language_code: en
+      language_name: English
       value: image
     - language_code: pt
       language_name: português
@@ -63,14 +63,14 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: beeldmateriaal
+    - language_code: pt
+      language_name: português
+      value: figura
     - language_code: es
       language_name: español
       value: figura
     - language_code: ca
       language_name: català
-      value: figura
-    - language_code: pt
-      language_name: português
       value: figura
     - language_code: tr
       language_name: Türkçe

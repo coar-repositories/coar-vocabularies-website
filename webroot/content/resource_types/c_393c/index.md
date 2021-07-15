@@ -32,14 +32,14 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: procedura
+    - language_code: fr
+      language_name: français
+      value: workflow
     - language_code: nl
       language_name: Nederlands
       value: workflow
     - language_code: en
       language_name: English
-      value: workflow
-    - language_code: fr
-      language_name: français
       value: workflow
     - language_code: ru
       language_name: русский
@@ -75,11 +75,11 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: procedura
-    - language_code: it
-      language_name: italiano
-      value: workflow
     - language_code: pt
       language_name: português
+      value: workflow
+    - language_code: it
+      language_name: italiano
       value: workflow
     - language_code: zh
       language_name: 中文

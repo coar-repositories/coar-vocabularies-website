@@ -15,11 +15,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
-    - language_code: es
-      language_name: español
-      value: informe
     - language_code: ca
       language_name: català
+      value: informe
+    - language_code: es
+      language_name: español
       value: informe
     - language_code: sl
       language_name: slovenščina
@@ -100,14 +100,14 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18gh
-    - c_18ws
-    - YZ1N-ZFT9
-    - c_186u
-    - c_ab20
-    - c_7877
     - c_18op
     - c_18wz
+    - c_186u
+    - c_ab20
+    - c_18gh
+    - c_7877
+    - c_18ws
+    - YZ1N-ZFT9
 broader_concepts:
     - c_18cf
 ---

@@ -1,7 +1,7 @@
 ---
 title: doctoral thesis
 uri: http://purl.org/coar/resource_type/c_db06
-description: A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree.
+description: 'A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree. [Source: http://purl.org/spar/fabio/DoctoralThesis]'
 deprecated: false
 layout: concept
 related:

@@ -1,7 +1,7 @@
 ---
 title: review
 uri: http://purl.org/coar/resource_type/c_efa0
-description: A review of others' published work.
+description: 'A review of others'' published work. [Source: Adapted from http://purl.org/spar/fabio/Review]'
 deprecated: false
 layout: concept
 related:
@@ -34,11 +34,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: ressenya
-    - language_code: nl
-      language_name: Nederlands
-      value: review
     - language_code: en
       language_name: English
+      value: review
+    - language_code: nl
+      language_name: Nederlands
       value: review
     - language_code: fr
       language_name: français
@@ -125,9 +125,9 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
+    - H9BQ-739P
     - D97F-VB57
     - c_ba08
-    - H9BQ-739P
 broader_concepts:
     - c_18cf
 ---

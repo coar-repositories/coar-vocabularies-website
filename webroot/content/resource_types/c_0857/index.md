@@ -18,14 +18,14 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: es
-      language_name: español
+    - language_code: ca
+      language_name: català
       value: carta
     - language_code: pt
       language_name: português
       value: carta
-    - language_code: ca
-      language_name: català
+    - language_code: es
+      language_name: español
       value: carta
     - language_code: it
       language_name: italiano

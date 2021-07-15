@@ -21,14 +21,14 @@ pref_labels:
     - language_code: en
       language_name: English
       value: memorandum
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: sl
+      language_name: slovenščina
       value: memorandum
     - language_code: it
       language_name: italiano
       value: memorandum
-    - language_code: sl
-      language_name: slovenščina
+    - language_code: nl
+      language_name: Nederlands
       value: memorandum
     - language_code: ca
       language_name: català
@@ -55,11 +55,11 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Denkschrift
-    - language_code: es
-      language_name: español
-      value: circular
     - language_code: pt
       language_name: português
+      value: circular
+    - language_code: es
+      language_name: español
       value: circular
     - language_code: es
       language_name: español

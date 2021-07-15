@@ -3,7 +3,7 @@ title: website
 uri: http://purl.org/coar/resource_type/c_7ad9
 description: |-
     A collection of related web pages containing text, images, videos and/or other digital assets that are addressed relative to a common Uniform Resource Locator (URL). A web site is hosted on at least one web server, accessible via a network such as the Internet or a private local area network.
-    Source: http://purl.org/spar/fabio/WebSite
+    [Source: http://purl.org/spar/fabio/WebSite]
 deprecated: false
 layout: concept
 related:
@@ -71,11 +71,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: portal
-    - language_code: ca
-      language_name: català
-      value: portal web
     - language_code: es
       language_name: español
+      value: portal web
+    - language_code: ca
+      language_name: català
       value: portal web
     - language_code: ca
       language_name: català

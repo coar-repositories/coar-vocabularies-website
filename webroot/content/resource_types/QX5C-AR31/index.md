@@ -1,7 +1,7 @@
 ---
 title: other periodical
 uri: http://purl.org/coar/resource_type/QX5C-AR31
-description: A resource type that is not included in existing terms under the top concept "Text"
+description: A resource type that is not included in existing terms under the top concept "Text". [COAR definition]
 deprecated: false
 layout: concept
 related: []

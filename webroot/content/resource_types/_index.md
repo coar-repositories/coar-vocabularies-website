@@ -51,99 +51,99 @@ creators:
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:
-    - c_8a7e
-    - c_0040
-    - c_86bc
-    - c_c94f
-    - c_7ad9
-    - FXF3-D3G7
-    - c_8544
-    - c_545b
-    - c_3248
+    - BW7T-YM2G
+    - YZ1N-ZFT9
+    - c_efa0
     - c_1162
+    - c_2df8fbb1
+    - c_393c
+    - c_6947
+    - c_e9a0
+    - FXF3-D3G7
+    - c_cb28
+    - c_ecc8
+    - EHVM-H119
+    - c_18op
+    - GPQ7-G5VE
+    - c_18ws
+    - DD58-GFSX
+    - c_7a1f
+    - c_bdcc
+    - MW8G-3CR8
+    - c_3248
+    - NHD0-W6SY
+    - c_beb9
+    - c_86bc
+    - Z907-YMBB
+    - c_5ce6
+    - c_18cc
+    - 9DKX-KSAF
+    - c_18cw
+    - c_7acd
+    - c_18gh
     - H6QP-SC1X
-    - c_dcae04bc
+    - c_baaf
+    - CQMR-7K63
+    - c_0040
+    - c_e059
+    - c_db06
+    - c_7ad9
+    - c_2fe3
+    - c_46ec
+    - c_8544
+    - 6NC7-GK9S
+    - c_0640
+    - c_18cp
+    - 63NG-B465
+    - QH80-2R4E
+    - c_7bab
+    - AM6W-6QAW
+    - W2XT-7017
+    - QX5C-AR31
+    - c_8a7e
+    - c_2cd9
+    - c_18cd
+    - c_b239
+    - c_6670
+    - c_545b
+    - c_ab20
+    - c_71bd
+    - c_998f
+    - c_12cd
+    - JBNF-DYAD
+    - R60J-J5BD
+    - c_1843
     - c_18co
     - c_8042
-    - c_18cw
-    - CQMR-7K63
-    - c_18gh
-    - c_18ws
-    - AM6W-6QAW
-    - c_71bd
-    - SB3Y-W4EH
-    - 6NC7-GK9S
-    - c_18cp
-    - R60J-J5BD
-    - 63NG-B465
-    - EHVM-H119
-    - c_0857
     - c_18cf
-    - BW7T-YM2G
-    - c_ab20
-    - c_2df8fbb1
-    - c_c513
-    - c_bdcc
-    - c_18cd
-    - c_cb28
-    - c_efa0
-    - c_18wz
-    - c_ecc8
-    - QX5C-AR31
-    - MW8G-3CR8
-    - c_2cd9
-    - c_18op
-    - c_93fc
-    - c_2fe3
-    - c_6501
-    - c_6670
-    - c_e9a0
-    - c_12cd
-    - c_0640
-    - 542X-3S04
-    - DD58-GFSX
-    - D97F-VB57
-    - c_c950
-    - c_186u
-    - 9DKX-KSAF
-    - c_46ec
-    - c_b239
-    - c_7a1f
-    - c_998f
-    - c_18cc
-    - Z907-YMBB
-    - c_393c
-    - c_1843
     - ACF7-8YT9
-    - FF4C-28RK
-    - c_ba08
-    - W2XT-7017
+    - c_c513
     - C53B-JCY5
-    - c_e059
-    - A8F1-NPV9
-    - H41Y-FW7B
-    - 2H0M-X761
-    - c_baaf
-    - c_5794
-    - c_ddb1
-    - c_6947
-    - GPQ7-G5VE
+    - c_18wz
+    - FF4C-28RK
     - H9BQ-739P
+    - c_dcae04bc
+    - c_93fc
+    - A8F1-NPV9
     - c_816b
-    - c_15cd
-    - c_2f33
-    - c_7877
-    - NHD0-W6SY
-    - c_7acd
-    - c_7bab
-    - c_beb9
+    - c_ddb1
+    - c_0857
     - c_12cc
-    - JBNF-DYAD
-    - c_5ce6
-    - YZ1N-ZFT9
-    - QH80-2R4E
-    - c_db06
+    - c_7877
+    - SB3Y-W4EH
+    - H41Y-FW7B
     - c_f744
     - c_12ce
+    - c_186u
+    - D97F-VB57
+    - c_5794
+    - c_15cd
+    - c_c94f
+    - 542X-3S04
+    - 2H0M-X761
+    - c_ba08
+    - c_c950
+    - c_2f33
+    - c_6501
 ---
 

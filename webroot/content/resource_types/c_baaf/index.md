@@ -1,7 +1,7 @@
 ---
 title: research proposal
 uri: http://purl.org/coar/resource_type/c_baaf
-description: A research proposal is a document proposing a research project, generally in the sciences or academia, and generally constitutes a request for sponsorship of that research (https://en.wikipedia.org/wiki/Research_proposal)
+description: 'A research proposal is a document proposing a research project, generally in the sciences or academia, and generally constitutes a request for sponsorship of that research. [Source: https://en.wikipedia.org/wiki/Research_proposal]'
 deprecated: false
 layout: concept
 related:

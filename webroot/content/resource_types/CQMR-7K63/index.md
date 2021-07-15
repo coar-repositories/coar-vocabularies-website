@@ -48,7 +48,7 @@ pref_labels:
 alt_labels:
     - language_code: es
       language_name: español
-      value: atos grabados
+      value: datos grabados
     - language_code: nl
       language_name: Nederlands
       value: geregistreerde gegevens

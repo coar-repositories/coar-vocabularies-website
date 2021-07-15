@@ -20,7 +20,7 @@ pref_labels:
       value: dati di simulazione
     - language_code: es
       language_name: español
-      value: datos de simulacion
+      value: datos de simulación
     - language_code: fr
       language_name: français
       value: donnée de simulation

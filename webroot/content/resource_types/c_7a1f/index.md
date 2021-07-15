@@ -1,7 +1,7 @@
 ---
 title: bachelor thesis
 uri: http://purl.org/coar/resource_type/c_7a1f
-description: A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree. (adapted from fabio)
+description: 'A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor''s degree. [Source: http://purl.org/spar/fabio/BachelorsThesis]'
 deprecated: false
 layout: concept
 related:

@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/MovingImage
-    - type: Exact Match
       uri: http://purl.org/dc/dcmitype/MovingImage
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/MovingImage
 pref_labels:
     - language_code: de
       language_name: Deutsch

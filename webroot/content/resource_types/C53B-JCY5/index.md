@@ -1,7 +1,7 @@
 ---
 title: design patent
 uri: http://purl.org/coar/resource_type/C53B-JCY5
-description: 'A patent granted to any person who has invented any new and non-obvious ornamental design for an article of manufacture. The design patent protects only the appearance of an article, but not its structural or functional features. [Source: Adapted from https://www.uspto.gov/patents/basics#heading-30]'
+description: 'A patent granted to any person who has invented any new and non-obvious ornamental design for an article of manufacture. The design patent protects only the appearance of an article, but not its structural or functional features. [Source: Adapted from https://www.uspto.gov/patents/basics/types-patent-applications/design-patent-application-guide#def]'
 deprecated: false
 layout: concept
 related: []

@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/spar/fabio/WebContent
-    - type: Broad Match
       uri: https://schema.org/Blog
+    - type: Broad Match
+      uri: http://purl.org/spar/fabio/WebContent
     - type: Exact Match
       uri: http://purl.org/spar/fabio/BlogPost
 pref_labels:
@@ -24,17 +24,17 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: articolo di blog
-    - language_code: nl
-      language_name: Nederlands
-      value: blog post
     - language_code: en
       language_name: English
       value: blog post
-    - language_code: ca
-      language_name: català
-      value: entrada de blog
+    - language_code: nl
+      language_name: Nederlands
+      value: blog post
     - language_code: es
       language_name: español
+      value: entrada de blog
+    - language_code: ca
+      language_name: català
       value: entrada de blog
     - language_code: sl
       language_name: slovenščina

@@ -31,11 +31,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: poster in congresso
-    - language_code: cs
-      language_name: čeština
-      value: poster na konferenci
     - language_code: sl
       language_name: slovenščina
+      value: poster na konferenci
+    - language_code: cs
+      language_name: čeština
       value: poster na konferenci
     - language_code: es
       language_name: español

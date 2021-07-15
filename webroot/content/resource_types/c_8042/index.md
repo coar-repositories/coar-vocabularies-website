@@ -1,16 +1,16 @@
 ---
 title: working paper
 uri: http://purl.org/coar/resource_type/c_8042
-description: 'A working or discussion paper circulated publicly or among a group of peers. Certain disciplines, for example economics, issue working papers in series. [Source: http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#ConferenceItem]'
+description: 'A working or discussion paper circulated publicly or among a group of peers. Certain disciplines, for example economics, issue working papers in series. [Source: http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#:~:text=http%3A//purl.org/eprint/type/WorkingPaper]'
 deprecated: false
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/WorkingPaper
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/WorkingPaper
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/WorkingPaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -27,20 +27,20 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: pracovní dokument
-    - language_code: en
-      language_name: English
-      value: working paper
-    - language_code: pt
-      language_name: português
+    - language_code: fr
+      language_name: français
       value: working paper
     - language_code: it
       language_name: italiano
       value: working paper
+    - language_code: pt
+      language_name: português
+      value: working paper
+    - language_code: en
+      language_name: English
+      value: working paper
     - language_code: nl
       language_name: Nederlands
-      value: working paper
-    - language_code: fr
-      language_name: français
       value: working paper
     - language_code: tr
       language_name: Türkçe
