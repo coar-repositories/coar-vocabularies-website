@@ -49,7 +49,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: interviu
-date: 2021-07-13T00:00:00Z
+date: 2021-07-19T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

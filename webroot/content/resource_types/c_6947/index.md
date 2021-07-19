@@ -64,7 +64,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: пост в блоге
-date: 2021-07-13T00:00:00Z
+date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

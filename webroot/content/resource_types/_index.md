@@ -7,7 +7,7 @@ description: The Resource Type vocabulary defines concepts to identify the genre
 change_log: ""
 namespace: http://purl.org/coar/resource_type/
 uri: http://purl.org/coar/resource_type/scheme
-date: 2021-07-13T00:00:00Z
+date: 2021-07-19T00:00:00Z
 creators:
     - language: Catalan
       name: Brigit Nonó

@@ -82,7 +82,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 備忘錄
-date: 2021-07-13T00:00:00Z
+date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:
