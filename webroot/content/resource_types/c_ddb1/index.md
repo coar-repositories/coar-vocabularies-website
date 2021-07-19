@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://schema.org/Dataset
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Dataset
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Dataset
+    - type: Exact Match
+      uri: https://schema.org/Dataset
     - type: Related Match
       uri: http://id.loc.gov/vocabulary/contentTypes/cod
 pref_labels:
@@ -29,11 +29,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: dataset
-    - language_code: en
-      language_name: English
-      value: dataset
     - language_code: nl
       language_name: Nederlands
+      value: dataset
+    - language_code: en
+      language_name: English
       value: dataset
     - language_code: cs
       language_name: čeština
@@ -72,11 +72,11 @@ alt_labels:
     - language_code: en
       language_name: English
       value: data sets
-    - language_code: ca
-      language_name: català
-      value: dataset
     - language_code: pt
       language_name: português
+      value: dataset
+    - language_code: ca
+      language_name: català
       value: dataset
     - language_code: ca
       language_name: català
@@ -105,19 +105,19 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - DD58-GFSX
-    - ACF7-8YT9
-    - 2H0M-X761
-    - FF4C-28RK
-    - c_cb28
-    - A8F1-NPV9
-    - H41Y-FW7B
     - CQMR-7K63
-    - W2XT-7017
+    - FXF3-D3G7
+    - A8F1-NPV9
+    - 63NG-B465
+    - H41Y-FW7B
+    - FF4C-28RK
     - AM6W-6QAW
     - NHD0-W6SY
-    - FXF3-D3G7
-    - 63NG-B465
+    - 2H0M-X761
+    - c_cb28
+    - W2XT-7017
+    - ACF7-8YT9
+    - DD58-GFSX
 broader_concepts: []
 ---
 

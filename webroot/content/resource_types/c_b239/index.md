@@ -12,17 +12,17 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Vorwort
+    - language_code: es
+      language_name: español
+      value: editorial
+    - language_code: en
+      language_name: English
+      value: editorial
     - language_code: pt
       language_name: português
       value: editorial
     - language_code: ca
       language_name: català
-      value: editorial
-    - language_code: en
-      language_name: English
-      value: editorial
-    - language_code: es
-      language_name: español
       value: editorial
     - language_code: it
       language_name: italiano

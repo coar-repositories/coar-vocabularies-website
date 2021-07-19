@@ -9,11 +9,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Leserbrief
-    - language_code: ca
-      language_name: català
-      value: carta al director
     - language_code: es
       language_name: español
+      value: carta al director
+    - language_code: ca
+      language_name: català
       value: carta al director
     - language_code: pt
       language_name: português

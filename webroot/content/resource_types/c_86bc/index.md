@@ -11,14 +11,14 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bibliografie
+    - language_code: it
+      language_name: italiano
+      value: bibliografia
     - language_code: pt
       language_name: português
       value: bibliografia
     - language_code: ca
       language_name: català
-      value: bibliografia
-    - language_code: it
-      language_name: italiano
       value: bibliografia
     - language_code: nl
       language_name: Nederlands

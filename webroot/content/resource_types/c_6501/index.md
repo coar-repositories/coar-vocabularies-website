@@ -10,9 +10,9 @@ related:
     - type: Exact Match
       uri: http://purl.org/eprint/type/JournalArticle
     - type: Related Match
-      uri: http://purl.org/eprint/type/JournalItem
-    - type: Related Match
       uri: http://purl.org/eprint/type/SubmittedJournalArticle
+    - type: Related Match
+      uri: http://purl.org/eprint/type/JournalItem
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -60,11 +60,11 @@ pref_labels:
       language_name: 日本語
       value: 学術雑誌論文
 alt_labels:
-    - language_code: ca
-      language_name: català
-      value: article
     - language_code: en
       language_name: English
+      value: article
+    - language_code: ca
+      language_name: català
       value: article
     - language_code: ca
       language_name: català
@@ -144,11 +144,11 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_beb9
+    - c_7bab
     - c_dcae04bc
     - c_7acd
+    - c_beb9
     - c_2df8fbb1
-    - c_7bab
 broader_concepts:
     - c_0640
 ---

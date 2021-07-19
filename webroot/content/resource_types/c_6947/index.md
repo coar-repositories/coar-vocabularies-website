@@ -30,11 +30,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: blog post
-    - language_code: es
-      language_name: español
-      value: entrada de blog
     - language_code: ca
       language_name: català
+      value: entrada de blog
+    - language_code: es
+      language_name: español
       value: entrada de blog
     - language_code: sl
       language_name: slovenščina

@@ -24,11 +24,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: atti di congresso
-    - language_code: en
-      language_name: English
-      value: conference proceedings
     - language_code: nl
       language_name: Nederlands
+      value: conference proceedings
+    - language_code: en
+      language_name: English
       value: conference proceedings
     - language_code: tr
       language_name: Türkçe

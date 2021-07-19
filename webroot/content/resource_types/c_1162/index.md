@@ -16,11 +16,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: annotatie
-    - language_code: en
-      language_name: English
-      value: annotation
     - language_code: fr
       language_name: français
+      value: annotation
+    - language_code: en
+      language_name: English
       value: annotation
     - language_code: ca
       language_name: català
@@ -95,11 +95,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: nota
-    - language_code: es
-      language_name: español
-      value: nota
     - language_code: pt
       language_name: português
+      value: nota
+    - language_code: es
+      language_name: español
       value: nota
     - language_code: es
       language_name: español

@@ -24,11 +24,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: odborné periodikum
-    - language_code: es
-      language_name: español
-      value: revista
     - language_code: pt
       language_name: português
+      value: revista
+    - language_code: es
+      language_name: español
       value: revista
     - language_code: ca
       language_name: català

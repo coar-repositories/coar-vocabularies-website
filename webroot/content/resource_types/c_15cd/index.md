@@ -25,20 +25,20 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: brevetto
-    - language_code: tr
-      language_name: Türkçe
+    - language_code: nl
+      language_name: Nederlands
       value: patent
     - language_code: cs
       language_name: čeština
       value: patent
-    - language_code: en
-      language_name: English
-      value: patent
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: tr
+      language_name: Türkçe
       value: patent
     - language_code: ca
       language_name: català
+      value: patent
+    - language_code: en
+      language_name: English
       value: patent
     - language_code: es
       language_name: español
@@ -77,12 +77,12 @@ alt_labels:
 date: 2021-07-13T00:00:00Z
 isTopConcept: true
 narrower_concepts:
+    - C53B-JCY5
+    - MW8G-3CR8
+    - GPQ7-G5VE
     - 9DKX-KSAF
     - SB3Y-W4EH
     - Z907-YMBB
-    - GPQ7-G5VE
-    - MW8G-3CR8
-    - C53B-JCY5
 broader_concepts: []
 ---
 

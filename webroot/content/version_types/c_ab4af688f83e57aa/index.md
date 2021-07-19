@@ -51,11 +51,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: manuscrito aceptado
-    - language_code: es
-      language_name: español
-      value: postprint
     - language_code: fr
       language_name: français
+      value: postprint
+    - language_code: es
+      language_name: español
       value: postprint
     - language_code: en
       language_name: English

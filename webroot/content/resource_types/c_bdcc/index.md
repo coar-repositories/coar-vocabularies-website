@@ -72,11 +72,11 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: tese de mestrado
-    - language_code: ca
-      language_name: català
-      value: tesina
     - language_code: es
       language_name: español
+      value: tesina
+    - language_code: ca
+      language_name: català
       value: tesina
     - language_code: es
       language_name: español

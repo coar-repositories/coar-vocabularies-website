@@ -51,10 +51,10 @@ alt_labels: []
 date: 2021-07-13T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - R60J-J5BD
-    - c_18co
-    - c_f744
     - c_18cp
+    - R60J-J5BD
+    - c_f744
+    - c_18co
 broader_concepts:
     - c_18cf
 ---
