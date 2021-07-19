@@ -39,11 +39,6 @@
             <li><a href="/{{ .File.Dir }}{{ .Section }}_for_dspace.xml">DSpace Vocab file (.xml)</a></li>
         </ul>
         </p>
-
-        {{ with .Params.change_log }}
-            <h2>Change Log</h2>
-            {{ . | markdownify }}
-        {{ end }}
     </div>
     <div class="col">
         {{ with .Params.creators }}
@@ -68,3 +63,12 @@
         {{ end }}
     </div>
 </div>
+{{ with .Params.change_log }}
+    <div class="row">
+        <div class="col">
+            <h2>Change Log</h2>
+            {{ . | markdownify }}
+
+        </div>
+    </div>
+{{ end }}

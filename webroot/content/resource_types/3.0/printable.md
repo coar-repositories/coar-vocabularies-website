@@ -4,7 +4,12 @@ current: false
 latest: true
 title: Resource Types
 description: The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries.
-change_log: ""
+change_log: |-
+    * The *Dataset* top concept was expanded to include 13 sub-concepts: *aggregated data*, *clinical trial data*, *compiled data*, *encoded data*, *experimental data*, *genomic data*, *geospatial data*, *laboratory notebook*, *measurement and test data*, *observational data*, *recorded data*, *simulation data* and *survey data*.
+    * The *Patent* top concept was expanded to include 6 sub-concepts: *PCT application*, *design patent*, *plant patent*, *plant variety protection*, *software patent* and *utility model*.
+    * The *Design* top concept was expanded to include 2 sub-concepts: *industrial design* and *layout design*.
+    * The following concepts/sub-concepts were added: *source code*, *conference presentation*, *other periodical*, *research protocol*, *peer review*, *commentary*, *transcription* and *trademark*.
+    * The following concepts were removed from this version of the vocabulary:  *interview*, *report par*, *contribution to journal*, *internal report*, *other type of report*, *report to funding agency* and *periodical*. These concepts remains in the earlier versions of the vocabulary, and the PURL URIs continue to resolve.
 namespace: http://purl.org/coar/resource_type/
 uri: http://purl.org/coar/resource_type/scheme
 date: 2021-07-19T00:00:00Z
