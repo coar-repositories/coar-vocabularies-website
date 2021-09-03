@@ -30,6 +30,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: strokovna ocena
+    - language_code: fi
+      language_name: suomi
+      value: vertaisarviointi
     - language_code: fr
       language_name: français
       value: évaluation par les pairs

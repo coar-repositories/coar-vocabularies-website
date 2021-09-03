@@ -20,6 +20,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: gepubliceerde versie
+    - language_code: fi
+      language_name: suomi
+      value: julkaistu versio
     - language_code: fr
       language_name: français
       value: version publiée

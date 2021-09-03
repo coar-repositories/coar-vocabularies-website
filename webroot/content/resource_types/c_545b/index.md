@@ -24,6 +24,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: ingezonden brief
+    - language_code: fi
+      language_name: suomi
+      value: kirje päätoimittajalle
     - language_code: en
       language_name: English
       value: letter to the editor

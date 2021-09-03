@@ -21,6 +21,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: načrt postavitve
+    - language_code: fi
+      language_name: suomi
+      value: piirikaavio
     - language_code: fr
       language_name: français
       value: schéma de configuration
@@ -40,6 +43,9 @@ pref_labels:
       language_name: 中文
       value: 布图设计
 alt_labels:
+    - language_code: fi
+      language_name: suomi
+      value: kytkentäkaavio
     - language_code: ca
       language_name: català
       value: maquetació

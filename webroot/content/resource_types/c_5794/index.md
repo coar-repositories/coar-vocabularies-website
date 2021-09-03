@@ -1,16 +1,16 @@
 ---
 title: conference paper
 uri: http://purl.org/coar/resource_type/c_5794
-description: 'A paper, typically the realization of a research paper reporting original research findings. Use this label when the paper is not published in a proceeding. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
+description: 'A paper, published within a conference proceeding, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
 deprecated: false
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
     - type: Exact Match
-      uri: http://purl.org/eprint/type/ConferencePaper
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/ConferencePaper
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/ConferencePaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -18,6 +18,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: article dans une conférence
+    - language_code: fi
+      language_name: suomi
+      value: artikkeli konferenssijulkaisussa
     - language_code: ca
       language_name: català
       value: comunicació de congrés

@@ -16,11 +16,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: annotatie
-    - language_code: fr
-      language_name: français
-      value: annotation
     - language_code: en
       language_name: English
+      value: annotation
+    - language_code: fr
+      language_name: français
       value: annotation
     - language_code: ca
       language_name: català
@@ -34,6 +34,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: commento
+    - language_code: fi
+      language_name: suomi
+      value: kommentaari
     - language_code: es
       language_name: español
       value: nota de jurisprudencia
@@ -89,17 +92,17 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: glossa
-    - language_code: it
-      language_name: italiano
+    - language_code: es
+      language_name: español
       value: nota
     - language_code: ca
       language_name: català
       value: nota
+    - language_code: it
+      language_name: italiano
+      value: nota
     - language_code: pt
       language_name: português
-      value: nota
-    - language_code: es
-      language_name: español
       value: nota
     - language_code: es
       language_name: español

@@ -30,6 +30,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: blog post
+    - language_code: fi
+      language_name: suomi
+      value: blogiteksti
     - language_code: ca
       language_name: català
       value: entrada de blog

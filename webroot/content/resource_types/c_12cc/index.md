@@ -21,6 +21,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: kartografik malzeme
+    - language_code: fi
+      language_name: suomi
+      value: kartografinen aineisto
     - language_code: sl
       language_name: slovenščina
       value: kartografsko gradivo
@@ -30,11 +33,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: material cartogràfic
-    - language_code: pt
-      language_name: português
-      value: material cartográfico
     - language_code: es
       language_name: español
+      value: material cartográfico
+    - language_code: pt
+      language_name: português
       value: material cartográfico
     - language_code: fr
       language_name: français

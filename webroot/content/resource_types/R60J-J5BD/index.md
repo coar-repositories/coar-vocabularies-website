@@ -18,6 +18,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: konferans sunumu
+    - language_code: fi
+      language_name: suomi
+      value: konferenssiesitelmä
     - language_code: sl
       language_name: slovenščina
       value: predstavitev na konferenci

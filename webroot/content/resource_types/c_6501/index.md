@@ -38,6 +38,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: journal article
+    - language_code: fi
+      language_name: suomi
+      value: tieteellinen artikkeli
     - language_code: nl
       language_name: Nederlands
       value: wetenschappelijk artikel
@@ -60,11 +63,11 @@ pref_labels:
       language_name: 日本語
       value: 学術雑誌論文
 alt_labels:
-    - language_code: en
-      language_name: English
-      value: article
     - language_code: ca
       language_name: català
+      value: article
+    - language_code: en
+      language_name: English
       value: article
     - language_code: ca
       language_name: català
@@ -145,10 +148,10 @@ date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_7bab
-    - c_dcae04bc
     - c_7acd
     - c_beb9
     - c_2df8fbb1
+    - c_dcae04bc
 broader_concepts:
     - c_0640
 ---

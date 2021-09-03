@@ -39,6 +39,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: rivista
+    - language_code: fi
+      language_name: suomi
+      value: tieteellinen kausijulkaisu
     - language_code: nl
       language_name: Nederlands
       value: wetenschappelijk tijdschrift
@@ -76,17 +79,17 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: revista
+    - language_code: es
+      language_name: español
+      value: revista académica
     - language_code: pt
       language_name: português
       value: revista académica
-    - language_code: es
-      language_name: español
-      value: revista académica
-    - language_code: es
-      language_name: español
+    - language_code: pt
+      language_name: português
       value: revista científica
-    - language_code: pt
-      language_name: português
+    - language_code: es
+      language_name: español
       value: revista científica
     - language_code: fr
       language_name: français
@@ -115,8 +118,8 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_545b
     - c_b239
+    - c_545b
     - c_6501
 broader_concepts:
     - c_18cf

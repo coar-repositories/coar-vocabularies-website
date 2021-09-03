@@ -36,6 +36,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: sestavljeni podatki
+    - language_code: fi
+      language_name: suomi
+      value: yhdistetty data
     - language_code: ru
       language_name: русский
       value: компилированные данные

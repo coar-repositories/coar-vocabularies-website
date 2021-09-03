@@ -24,6 +24,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: policy report
+    - language_code: fi
+      language_name: suomi
+      value: politiikkaraportti
     - language_code: tr
       language_name: Türkçe
       value: politika raporu

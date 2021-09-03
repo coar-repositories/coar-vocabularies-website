@@ -20,6 +20,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: magistrsko delo
+    - language_code: fi
+      language_name: suomi
+      value: maisterintutkielma
     - language_code: en
       language_name: English
       value: master thesis

@@ -24,6 +24,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: ensayo clínico
+    - language_code: fi
+      language_name: suomi
+      value: kliinisellä kokeella tuotettu data
     - language_code: tr
       language_name: Türkçe
       value: klinik deney verisi

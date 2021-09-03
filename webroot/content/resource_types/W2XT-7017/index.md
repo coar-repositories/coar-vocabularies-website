@@ -24,6 +24,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: donnée de simulation
+    - language_code: fi
+      language_name: suomi
+      value: simulaatiolla tuotettu data
     - language_code: sl
       language_name: slovenščina
       value: simulacijski podatki

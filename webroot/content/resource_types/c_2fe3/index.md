@@ -32,6 +32,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: periódico
+    - language_code: fi
+      language_name: suomi
+      value: sanomalehti
     - language_code: sl
       language_name: slovenščina
       value: časopis

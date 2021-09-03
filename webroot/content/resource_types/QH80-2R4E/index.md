@@ -33,6 +33,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: kaynak kodu
+    - language_code: fi
+      language_name: suomi
+      value: lähdekoodi
     - language_code: en
       language_name: English
       value: source code

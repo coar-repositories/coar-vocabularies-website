@@ -1,7 +1,7 @@
 ---
 title: conference paper not in proceedings
 uri: http://purl.org/coar/resource_type/c_18cp
-description: 'A paper, published within a conference proceeding, typically the realization of a research paper reporting original research findings. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
+description: 'A paper, typically the realization of a research paper reporting original research findings. Use this label when the paper is not published in a proceeding. [Source: Adapted from http://purl.org/spar/fabio/ConferencePaper]'
 deprecated: false
 layout: concept
 related: []
@@ -30,6 +30,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: conferentie artikel niet in proceedings
+    - language_code: fi
+      language_name: suomi
+      value: konferenssiesitelmä erillisjulkaisuna
     - language_code: cs
       language_name: čeština
       value: konferenční příspěvek nezahrnutý ve sborníku

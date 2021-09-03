@@ -36,6 +36,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: kodlanmış veri
+    - language_code: fi
+      language_name: suomi
+      value: koodattu data
     - language_code: ru
       language_name: русский
       value: кодированные данные

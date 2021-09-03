@@ -30,6 +30,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: datadocumentatie
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusaineistoa kuvaava artikkeli
     - language_code: sl
       language_name: slovenščina
       value: članek o podatkovni zbirki

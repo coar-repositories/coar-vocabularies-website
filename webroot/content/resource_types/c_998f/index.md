@@ -32,6 +32,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: newspaper article
+    - language_code: fi
+      language_name: suomi
+      value: sanomalehtiartikkeli
     - language_code: sl
       language_name: slovenščina
       value: članek v časopisu

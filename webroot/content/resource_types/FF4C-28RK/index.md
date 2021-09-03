@@ -27,6 +27,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: gözlemsel veri
+    - language_code: fi
+      language_name: suomi
+      value: havaintoaineisto
     - language_code: nl
       language_name: Nederlands
       value: observatiedata

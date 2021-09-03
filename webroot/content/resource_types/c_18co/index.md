@@ -1,7 +1,7 @@
 ---
 title: conference poster not in proceedings
 uri: http://purl.org/coar/resource_type/c_18co
-description: 'A display poster, published with a conference proceeding, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: Adapted http://purl.org/spar/fabio/ConferencePoster]'
+description: 'A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. Use this label when the poster is not published in a proceeding. [Source: http://purl.org/spar/fabio/ConferencePoster]'
 deprecated: false
 layout: concept
 related: []
@@ -30,6 +30,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: poster non pubblicato in atti di congresso
+    - language_code: fi
+      language_name: suomi
+      value: posteri erillisjulkaisuna
     - language_code: es
       language_name: español
       value: póster no publicado en actas de congreso

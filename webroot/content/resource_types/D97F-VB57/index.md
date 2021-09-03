@@ -27,17 +27,20 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: komentar
+    - language_code: fi
+      language_name: suomi
+      value: kritiikki
     - language_code: ca
       language_name: català
       value: opinió
     - language_code: tr
       language_name: Türkçe
       value: yorum
-    - language_code: pt
-      language_name: português
-      value: комментарий
     - language_code: ru
       language_name: русский
+      value: комментарий
+    - language_code: pt
+      language_name: português
       value: комментарий
     - language_code: ja
       language_name: 日本語

@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: https://schema.org/MediaObject
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/Image
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Image
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/Image
     - type: Narrow Match
       uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
@@ -41,6 +41,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: immagine
+    - language_code: fi
+      language_name: suomi
+      value: kuva
     - language_code: cs
       language_name: čeština
       value: obraz
@@ -63,14 +66,14 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: beeldmateriaal
+    - language_code: ca
+      language_name: català
+      value: figura
     - language_code: pt
       language_name: português
       value: figura
     - language_code: es
       language_name: español
-      value: figura
-    - language_code: ca
-      language_name: català
       value: figura
     - language_code: tr
       language_name: Türkçe
@@ -93,8 +96,8 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_ecc8
     - c_8a7e
+    - c_ecc8
 broader_concepts: []
 ---
 

@@ -31,6 +31,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: sítio web
+    - language_code: fi
+      language_name: suomi
+      value: verkkosivusto
     - language_code: tr
       language_name: Türkçe
       value: web sitesi
@@ -71,11 +74,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: portal
-    - language_code: es
-      language_name: español
-      value: portal web
     - language_code: ca
       language_name: català
+      value: portal web
+    - language_code: es
+      language_name: español
       value: portal web
     - language_code: ca
       language_name: català
@@ -98,6 +101,9 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: sítio na internet
+    - language_code: fi
+      language_name: suomi
+      value: web-sivusto
     - language_code: cs
       language_name: čeština
       value: webové stránky

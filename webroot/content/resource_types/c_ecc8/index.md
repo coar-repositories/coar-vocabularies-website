@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/StillImage
-    - type: Exact Match
       uri: http://purl.org/dc/dcmitype/StillImage
     - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/StillImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -44,6 +44,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: still image
+    - language_code: fi
+      language_name: suomi
+      value: still-kuva
     - language_code: nl
       language_name: Nederlands
       value: stilstaandbeeld

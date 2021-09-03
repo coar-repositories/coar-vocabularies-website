@@ -15,6 +15,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: descripció de programari
+    - language_code: fi
+      language_name: suomi
+      value: ohjelmistoa kuvaava artikkeli
     - language_code: nl
       language_name: Nederlands
       value: software artikel

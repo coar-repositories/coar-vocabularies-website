@@ -13,6 +13,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Rezension
+    - language_code: fi
+      language_name: suomi
+      value: arvio
     - language_code: tr
       language_name: Türkçe
       value: eleştiri
@@ -80,11 +83,11 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: rassegna
-    - language_code: fr
-      language_name: français
-      value: recension
     - language_code: es
       language_name: español
+      value: recension
+    - language_code: fr
+      language_name: français
       value: recension
     - language_code: ca
       language_name: català

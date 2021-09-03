@@ -41,6 +41,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: teknik rapor
+    - language_code: fi
+      language_name: suomi
+      value: tekninen raportti
     - language_code: ru
       language_name: русский
       value: технический отчет

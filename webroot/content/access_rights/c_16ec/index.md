@@ -10,9 +10,9 @@ deprecated: false
 layout: concept
 related:
     - type: Related Match
-      uri: https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/restricted
-    - type: Related Match
       uri: http://purl.org/eprint/accessRights/RestrictedAccess
+    - type: Related Match
+      uri: https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/restricted
 pref_labels:
     - language_code: es
       language_name: español

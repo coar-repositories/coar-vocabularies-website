@@ -38,6 +38,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zvuk
+    - language_code: fi
+      language_name: suomi
+      value: ääni
     - language_code: ru
       language_name: русский
       value: звук

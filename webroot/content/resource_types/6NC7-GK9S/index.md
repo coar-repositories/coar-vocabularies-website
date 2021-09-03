@@ -9,6 +9,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Transkription
+    - language_code: fi
+      language_name: suomi
+      value: litteroitu teksti
     - language_code: ca
       language_name: català
       value: transcripció

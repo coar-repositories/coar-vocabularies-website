@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/Book
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Book
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/Book
     - type: Narrow Match
       uri: http://purl.org/eprint/type/BookReview
     - type: Related Match
@@ -25,6 +25,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: book
+    - language_code: fi
+      language_name: suomi
+      value: kirja
     - language_code: tr
       language_name: Türkçe
       value: kitap
@@ -80,17 +83,17 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: livre
+    - language_code: es
+      language_name: español
+      value: monografia
     - language_code: it
       language_name: italiano
-      value: monografia
-    - language_code: ca
-      language_name: català
       value: monografia
     - language_code: pt
       language_name: português
       value: monografia
-    - language_code: es
-      language_name: español
+    - language_code: ca
+      language_name: català
       value: monografia
     - language_code: cs
       language_name: čeština

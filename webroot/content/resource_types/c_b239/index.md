@@ -27,6 +27,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: editoriale
+    - language_code: fi
+      language_name: suomi
+      value: pääkirjoitus
     - language_code: sl
       language_name: slovenščina
       value: uvodnik
@@ -58,14 +61,14 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de fondo
-    - language_code: es
-      language_name: español
+    - language_code: pt
+      language_name: português
       value: editorial de revista
     - language_code: ca
       language_name: català
       value: editorial de revista
-    - language_code: pt
-      language_name: português
+    - language_code: es
+      language_name: español
       value: editorial de revista
     - language_code: ca
       language_name: català

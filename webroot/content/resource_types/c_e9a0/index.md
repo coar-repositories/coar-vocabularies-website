@@ -17,6 +17,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: interactive resource
+    - language_code: fi
+      language_name: suomi
+      value: interaktiivinen resurssi
     - language_code: de
       language_name: Deutsch
       value: interaktive Ressource

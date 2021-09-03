@@ -15,6 +15,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: gebruiksmodel
+    - language_code: fi
+      language_name: suomi
+      value: hyödyllisyysmalli
     - language_code: ca
       language_name: català
       value: model d'utilitat

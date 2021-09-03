@@ -21,6 +21,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: entregável de projeto
+    - language_code: fi
+      language_name: suomi
+      value: hankkeen suorite
     - language_code: sl
       language_name: slovenščina
       value: izdelek projekta

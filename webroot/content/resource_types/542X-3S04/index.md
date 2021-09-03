@@ -27,6 +27,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: schéma
+    - language_code: fi
+      language_name: suomi
+      value: suunnitelma
     - language_code: tr
       language_name: Türkçe
       value: tasarım

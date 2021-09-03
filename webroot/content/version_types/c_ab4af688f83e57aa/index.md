@@ -20,6 +20,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: geaccepteerde versie
+    - language_code: fi
+      language_name: suomi
+      value: julkaisukelpoinen versio
     - language_code: fr
       language_name: français
       value: version acceptée
@@ -51,11 +54,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: manuscrito aceptado
-    - language_code: fr
-      language_name: français
-      value: postprint
     - language_code: es
       language_name: español
+      value: postprint
+    - language_code: fr
+      language_name: français
       value: postprint
     - language_code: en
       language_name: English

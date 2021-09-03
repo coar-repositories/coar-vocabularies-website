@@ -11,6 +11,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo de revisión
+    - language_code: fi
+      language_name: suomi
+      value: katsausartikkeli
     - language_code: nl
       language_name: Nederlands
       value: overzichtsartikel

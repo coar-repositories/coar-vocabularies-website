@@ -36,6 +36,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: experimentelle Daten
+    - language_code: fi
+      language_name: suomi
+      value: kokeellinen data
     - language_code: ru
       language_name: русский
       value: экспериментальные данные

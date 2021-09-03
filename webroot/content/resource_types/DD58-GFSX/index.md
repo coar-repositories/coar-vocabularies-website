@@ -33,6 +33,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: merilni in testni podatki
+    - language_code: fi
+      language_name: suomi
+      value: mittaus- ja testausdata
     - language_code: tr
       language_name: Türkçe
       value: ölçüm ve test verisi

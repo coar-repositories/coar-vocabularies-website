@@ -12,6 +12,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: aggregierte Daten
+    - language_code: fi
+      language_name: suomi
+      value: aggregoitu tilastotieto
     - language_code: sl
       language_name: slovenščina
       value: agregirani podatki

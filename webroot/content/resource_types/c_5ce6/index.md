@@ -18,29 +18,32 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: logiciel
+    - language_code: fi
+      language_name: suomi
+      value: ohjelmisto
     - language_code: ca
       language_name: català
       value: programari
     - language_code: sl
       language_name: slovenščina
       value: programska oprema
-    - language_code: cs
-      language_name: čeština
+    - language_code: nl
+      language_name: Nederlands
       value: software
     - language_code: it
       language_name: italiano
       value: software
-    - language_code: en
-      language_name: English
+    - language_code: pt
+      language_name: português
       value: software
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: cs
+      language_name: čeština
       value: software
     - language_code: es
       language_name: español
       value: software
-    - language_code: pt
-      language_name: português
+    - language_code: en
+      language_name: English
       value: software
     - language_code: tr
       language_name: Türkçe

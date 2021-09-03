@@ -43,6 +43,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: research proposal
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusehdotus
     - language_code: ru
       language_name: русский
       value: исследовательское предложение

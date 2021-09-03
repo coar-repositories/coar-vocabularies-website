@@ -36,6 +36,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: research report
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusraportti
     - language_code: cs
       language_name: čeština
       value: výzkumná zpráva

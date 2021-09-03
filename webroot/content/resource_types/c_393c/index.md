@@ -32,14 +32,17 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: procedura
+    - language_code: fi
+      language_name: suomi
+      value: työnkulku
     - language_code: nl
       language_name: Nederlands
       value: workflow
-    - language_code: en
-      language_name: English
-      value: workflow
     - language_code: fr
       language_name: français
+      value: workflow
+    - language_code: en
+      language_name: English
       value: workflow
     - language_code: ru
       language_name: русский

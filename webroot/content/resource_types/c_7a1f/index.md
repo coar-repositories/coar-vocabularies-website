@@ -25,6 +25,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: diplomsko delo
+    - language_code: fi
+      language_name: suomi
+      value: kandidaatin tutkielma
     - language_code: tr
       language_name: Türkçe
       value: lisans tezi

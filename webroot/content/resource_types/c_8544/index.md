@@ -20,15 +20,18 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ders
-    - language_code: nl
-      language_name: Nederlands
-      value: lecture
     - language_code: en
       language_name: English
+      value: lecture
+    - language_code: nl
+      language_name: Nederlands
       value: lecture
     - language_code: it
       language_name: italiano
       value: lezione
+    - language_code: fi
+      language_name: suomi
+      value: luento
     - language_code: pt
       language_name: português
       value: palestra

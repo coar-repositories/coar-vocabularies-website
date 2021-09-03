@@ -15,6 +15,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: brevetto software
+    - language_code: fi
+      language_name: suomi
+      value: ohjelmistopatentti
     - language_code: ca
       language_name: català
       value: patent de programari

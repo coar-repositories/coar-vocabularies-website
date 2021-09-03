@@ -43,6 +43,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: teknik dokümantasyon
+    - language_code: fi
+      language_name: suomi
+      value: tekninen dokumentaatio
     - language_code: ru
       language_name: русский
       value: техническая документация
@@ -65,11 +68,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: documentation technique
-    - language_code: ca
-      language_name: català
-      value: manual
     - language_code: es
       language_name: español
+      value: manual
+    - language_code: ca
+      language_name: català
       value: manual
     - language_code: pt
       language_name: português

@@ -18,6 +18,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: brevetto di pianta
+    - language_code: fi
+      language_name: suomi
+      value: kasvinjalostepatentti
     - language_code: nl
       language_name: Nederlands
       value: kwekersrecht

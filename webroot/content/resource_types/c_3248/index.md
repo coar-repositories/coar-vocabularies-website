@@ -36,6 +36,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: chapitre d'ouvrage
+    - language_code: fi
+      language_name: suomi
+      value: kirjan osa
     - language_code: tr
       language_name: Türkçe
       value: kitap bölümü

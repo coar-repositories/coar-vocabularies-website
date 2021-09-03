@@ -38,6 +38,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: note
+    - language_code: fi
+      language_name: suomi
+      value: nuottikirjoitus
     - language_code: fr
       language_name: français
       value: partition

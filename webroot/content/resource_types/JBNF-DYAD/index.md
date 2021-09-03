@@ -30,6 +30,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: schéma industriel
+    - language_code: fi
+      language_name: suomi
+      value: tuotesuunnnitelma
     - language_code: ru
       language_name: русский
       value: промышленный дизайн

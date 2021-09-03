@@ -8,9 +8,9 @@ related:
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Dataset
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/Dataset
-    - type: Exact Match
       uri: https://schema.org/Dataset
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/Dataset
     - type: Related Match
       uri: http://id.loc.gov/vocabulary/contentTypes/cod
 pref_labels:
@@ -26,14 +26,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: conjunto de datos
+    - language_code: en
+      language_name: English
+      value: dataset
     - language_code: it
       language_name: italiano
       value: dataset
     - language_code: nl
       language_name: Nederlands
-      value: dataset
-    - language_code: en
-      language_name: English
       value: dataset
     - language_code: cs
       language_name: čeština
@@ -44,6 +44,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: podatkovna zbirka
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusaineisto
     - language_code: tr
       language_name: Türkçe
       value: veri seti
@@ -87,6 +90,9 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: série de données
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusdata
     - language_code: sl
       language_name: slovenščina
       value: zbirka podatkov
@@ -106,18 +112,18 @@ date: 2021-07-19T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - CQMR-7K63
-    - FXF3-D3G7
-    - A8F1-NPV9
     - 63NG-B465
-    - H41Y-FW7B
-    - FF4C-28RK
     - AM6W-6QAW
-    - NHD0-W6SY
-    - 2H0M-X761
-    - c_cb28
     - W2XT-7017
-    - ACF7-8YT9
+    - H41Y-FW7B
     - DD58-GFSX
+    - FF4C-28RK
+    - FXF3-D3G7
+    - 2H0M-X761
+    - ACF7-8YT9
+    - NHD0-W6SY
+    - c_cb28
+    - A8F1-NPV9
 broader_concepts: []
 ---
 

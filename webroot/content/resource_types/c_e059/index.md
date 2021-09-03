@@ -27,6 +27,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: objeto de aprendizaje
+    - language_code: fi
+      language_name: suomi
+      value: oppimateriaali
     - language_code: sl
       language_name: slovenščina
       value: učno gradivo

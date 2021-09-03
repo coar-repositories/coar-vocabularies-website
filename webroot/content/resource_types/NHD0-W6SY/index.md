@@ -30,6 +30,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: donnée d'enquête
+    - language_code: fi
+      language_name: suomi
+      value: haastatteluaineisto
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksdata
@@ -52,6 +55,9 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksgegevens
+    - language_code: fi
+      language_name: suomi
+      value: survey-aineisto
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts: []

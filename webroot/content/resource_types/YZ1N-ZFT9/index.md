@@ -30,6 +30,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: research protocol
+    - language_code: fi
+      language_name: suomi
+      value: tutkimussuunnitelma
     - language_code: ru
       language_name: русский
       value: протокол исследования

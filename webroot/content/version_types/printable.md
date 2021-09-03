@@ -27,6 +27,8 @@ creators:
       name: Gültekin Gürdal
     - language: Arabic
       name: Sawsan Habre
+    - language: Finnish
+      name: Juha Hakala
     - language: Turkish
       name: Ilkay Holt
     - language: Chinese
@@ -54,14 +56,14 @@ creators:
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:
-    - c_e19f295774971610
-    - c_970fb48d4fbd8a85
-    - c_be7fb7dd8ff6fe43
-    - c_71e4c1898caa6e32
     - c_fa2ee174bc00049f
-    - c_dc82b40f9837b551
-    - c_ab4af688f83e57aa
+    - c_e19f295774971610
     - c_b1a7d7d4d402bcce
+    - c_71e4c1898caa6e32
+    - c_dc82b40f9837b551
+    - c_be7fb7dd8ff6fe43
+    - c_ab4af688f83e57aa
+    - c_970fb48d4fbd8a85
 layout: printable
 ---
 

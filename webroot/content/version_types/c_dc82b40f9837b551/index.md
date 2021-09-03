@@ -15,6 +15,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: erweiterte Version
+    - language_code: fi
+      language_name: suomi
+      value: päivitetty julkaistu versio
     - language_code: nl
       language_name: Nederlands
       value: revisie

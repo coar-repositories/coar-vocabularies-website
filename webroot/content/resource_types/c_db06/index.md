@@ -41,6 +41,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: thèse de doctorat
+    - language_code: fi
+      language_name: suomi
+      value: väitöskirja
     - language_code: ru
       language_name: русский
       value: докторская диссертация

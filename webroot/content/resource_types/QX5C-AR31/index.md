@@ -18,6 +18,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: diğer süreli yayınlar
+    - language_code: fi
+      language_name: suomi
+      value: muu kausijulkaisu
     - language_code: sl
       language_name: slovenščina
       value: ostale serijske publikacije

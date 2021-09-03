@@ -20,6 +20,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: estudio clínico
+    - language_code: fi
+      language_name: suomi
+      value: kliininen tutkimus
     - language_code: de
       language_name: Deutsch
       value: klinische Studie

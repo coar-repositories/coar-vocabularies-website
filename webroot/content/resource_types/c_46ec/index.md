@@ -8,15 +8,18 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Thesis
-    - type: Exact Match
       uri: http://purl.org/eprint/type/Thesis
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Thesis
     - type: Narrow Match
       uri: http://purl.org/spar/fabio/BachelorsThesis
 pref_labels:
     - language_code: cs
       language_name: čeština
       value: kvalifikační práce
+    - language_code: fi
+      language_name: suomi
+      value: opinnäyte
     - language_code: de
       language_name: Deutsch
       value: schriftliche Abschlussarbeit

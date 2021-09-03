@@ -33,6 +33,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: recorded data
+    - language_code: fi
+      language_name: suomi
+      value: tallennettu data
     - language_code: nl
       language_name: Nederlands
       value: vastgelegde data

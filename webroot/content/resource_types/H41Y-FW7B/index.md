@@ -21,6 +21,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: laboratorijska beležka
+    - language_code: fi
+      language_name: suomi
+      value: laboratoriopäiväkirja
     - language_code: nl
       language_name: Nederlands
       value: laboratorium-notitieboek

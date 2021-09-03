@@ -20,26 +20,29 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: tekst
+    - language_code: fi
+      language_name: suomi
+      value: teksti
     - language_code: it
       language_name: italiano
       value: testo
-    - language_code: en
-      language_name: English
-      value: text
     - language_code: ca
       language_name: català
       value: text
     - language_code: cs
       language_name: čeština
       value: text
+    - language_code: en
+      language_name: English
+      value: text
     - language_code: fr
       language_name: français
       value: texte
-    - language_code: pt
-      language_name: português
-      value: texto
     - language_code: es
       language_name: español
+      value: texto
+    - language_code: pt
+      language_name: português
       value: texto
     - language_code: ru
       language_name: русский
@@ -66,27 +69,27 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: true
 narrower_concepts:
+    - c_816b
+    - c_baaf
     - c_2fe3
+    - c_0857
+    - c_8042
+    - c_0640
+    - c_46ec
+    - c_8544
+    - c_2cd9
+    - c_71bd
     - c_c94f
-    - c_efa0
-    - QX5C-AR31
-    - c_93fc
-    - c_1162
     - c_6947
     - c_18cw
     - c_86bc
-    - 6NC7-GK9S
-    - c_816b
-    - c_71bd
+    - QX5C-AR31
+    - c_efa0
     - c_2f33
-    - c_46ec
+    - c_1162
+    - c_93fc
+    - 6NC7-GK9S
     - c_0040
-    - c_2cd9
-    - c_8042
-    - c_8544
-    - c_0640
-    - c_0857
-    - c_baaf
 broader_concepts: []
 ---
 

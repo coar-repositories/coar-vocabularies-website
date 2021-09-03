@@ -30,6 +30,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: software per la ricerca
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusohjelmisto
     - language_code: ru
       language_name: русский
       value: исследовательское программное обеспечение
@@ -43,6 +46,9 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programari per recerca
+    - language_code: fi
+      language_name: suomi
+      value: tutkimussovellus
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts: []

@@ -15,6 +15,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: certificat d'obtention végétale
+    - language_code: fi
+      language_name: suomi
+      value: kasvinjalostajanoikeus
     - language_code: es
       language_name: español
       value: obtención de variedades vegetales

@@ -18,6 +18,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: design patent
+    - language_code: fi
+      language_name: suomi
+      value: mallipatentti
     - language_code: nl
       language_name: Nederlands
       value: modelbescherming

@@ -19,6 +19,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: book review
+    - language_code: fi
+      language_name: suomi
+      value: kirja-arvostelu
     - language_code: tr
       language_name: Türkçe
       value: kitap eleştirisi

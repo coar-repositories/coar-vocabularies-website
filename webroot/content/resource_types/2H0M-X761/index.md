@@ -36,6 +36,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: geospatiale gegevens
+    - language_code: fi
+      language_name: suomi
+      value: paikkatieto
     - language_code: ru
       language_name: русский
       value: геопространственные данные

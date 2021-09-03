@@ -21,6 +21,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: diğer
+    - language_code: fi
+      language_name: suomi
+      value: muu
     - language_code: sl
       language_name: slovenščina
       value: ostalo

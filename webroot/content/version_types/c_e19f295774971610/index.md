@@ -17,6 +17,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: herziene versie
+    - language_code: fi
+      language_name: suomi
+      value: korjattu julkaistu versio
     - language_code: de
       language_name: Deutsch
       value: korrigierte Version

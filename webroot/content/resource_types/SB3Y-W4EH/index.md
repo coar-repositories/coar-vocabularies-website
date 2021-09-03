@@ -33,6 +33,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: domanda internazionale di brevetto
+    - language_code: fi
+      language_name: suomi
+      value: kansainvälinen patenttihakemus
     - language_code: sl
       language_name: slovenščina
       value: patentna prijava

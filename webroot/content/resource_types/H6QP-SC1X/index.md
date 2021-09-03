@@ -34,6 +34,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: marque déposée
+    - language_code: fi
+      language_name: suomi
+      value: tavaramerkki
     - language_code: en
       language_name: English
       value: trademark

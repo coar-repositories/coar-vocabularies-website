@@ -27,6 +27,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: research article
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusartikkeli
     - language_code: sl
       language_name: slovenščina
       value: znanstveni članek

@@ -17,6 +17,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: data management plan
+    - language_code: fi
+      language_name: suomi
+      value: datanhallintasuunnitelma
     - language_code: sl
       language_name: slovenščina
       value: načrt ravnanja s podatki

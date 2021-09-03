@@ -1,7 +1,7 @@
 ---
 title: conference poster
 uri: http://purl.org/coar/resource_type/c_6670
-description: 'A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: http://purl.org/spar/fabio/ConferencePoster]'
+description: 'A display poster, published within a conference proceeding, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: Adapted http://purl.org/spar/fabio/ConferencePoster]'
 deprecated: false
 layout: concept
 related:
@@ -31,12 +31,15 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: poster in congresso
-    - language_code: sl
-      language_name: slovenščina
-      value: poster na konferenci
     - language_code: cs
       language_name: čeština
       value: poster na konferenci
+    - language_code: sl
+      language_name: slovenščina
+      value: poster na konferenci
+    - language_code: fi
+      language_name: suomi
+      value: posteri
     - language_code: es
       language_name: español
       value: póster de congreso

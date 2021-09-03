@@ -27,6 +27,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: genomic data
+    - language_code: fi
+      language_name: suomi
+      value: genomidata
     - language_code: tr
       language_name: Türkçe
       value: genomik veri

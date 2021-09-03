@@ -20,6 +20,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: bozza
+    - language_code: fi
+      language_name: suomi
+      value: koevedos
     - language_code: nl
       language_name: Nederlands
       value: proefdruk
@@ -45,12 +48,18 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: galerada
+    - language_code: fi
+      language_name: suomi
+      value: korjausvedos
     - language_code: es
       language_name: español
       value: manuscrito aceptado
     - language_code: es
       language_name: español
       value: manuscrito editado
+    - language_code: fi
+      language_name: suomi
+      value: oikovedos
     - language_code: en
       language_name: English
       value: proof

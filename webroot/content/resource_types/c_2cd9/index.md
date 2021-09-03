@@ -14,6 +14,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Magazin
+    - language_code: fi
+      language_name: suomi
+      value: aikakauslehti
     - language_code: sl
       language_name: slovenščina
       value: informativna revija

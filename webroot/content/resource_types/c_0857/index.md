@@ -18,11 +18,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: pt
-      language_name: português
-      value: carta
     - language_code: ca
       language_name: català
+      value: carta
+    - language_code: pt
+      language_name: português
       value: carta
     - language_code: es
       language_name: español
@@ -33,6 +33,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: dopis
+    - language_code: fi
+      language_name: suomi
+      value: kirje
     - language_code: en
       language_name: English
       value: letter

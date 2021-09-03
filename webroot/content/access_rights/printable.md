@@ -27,6 +27,8 @@ creators:
       name: Gültekin Gürdal
     - language: Arabic
       name: Sawsan Habre
+    - language: Finnish
+      name: Juha Hakala
     - language: Japanese
       name: Yutaka Hayashi
     - language: Turkish
@@ -64,10 +66,10 @@ creators:
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:
+    - c_16ec
+    - c_14cb
     - c_f1cf
     - c_abf2
-    - c_14cb
-    - c_16ec
 layout: printable
 ---
 

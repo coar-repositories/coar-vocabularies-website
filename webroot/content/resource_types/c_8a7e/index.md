@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/MovingImage
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/MovingImage
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/MovingImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -37,6 +37,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: immagine dinamica
+    - language_code: fi
+      language_name: suomi
+      value: liikkuva kuva
     - language_code: en
       language_name: English
       value: moving image

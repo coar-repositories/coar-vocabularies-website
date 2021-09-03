@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Report
-    - type: Exact Match
       uri: http://purl.org/eprint/type/Report
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -27,6 +27,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: rapor
+    - language_code: fi
+      language_name: suomi
+      value: raportti
     - language_code: nl
       language_name: Nederlands
       value: rapport
@@ -101,11 +104,11 @@ date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_ab20
-    - c_18wz
-    - c_7877
     - c_18op
-    - c_18ws
+    - c_7877
+    - c_18wz
     - YZ1N-ZFT9
+    - c_18ws
     - c_186u
     - c_18gh
 broader_concepts:
