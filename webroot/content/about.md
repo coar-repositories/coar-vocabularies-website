@@ -42,6 +42,7 @@ vocabulary.
         <p>The Editorial System (based on iQVoc) is hosted by the University of Vienna, and managed by Janos Bekesi.</p>
         <h3>Publication</h3>
         <p>The publication pipeline, which generates this website, was developed by Paul Walk at Antleaf.</p>
+        <p>In processing the SKOS, we were greatly assisted by Tom Baker</p>
     </div>
 </div>
 <div class="row">
