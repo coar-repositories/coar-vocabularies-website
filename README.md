@@ -1,5 +1,7 @@
 # COAR Vocabularies Website
 
+These are the sources for the COAR Vocabularies website at: [https://vocabularies.coar-repositories.org](https://vocabularies.coar-repositories.org)
+
 These sources are designed to be run or compiled with Hugo.
 
 To run view this website on a local server:
