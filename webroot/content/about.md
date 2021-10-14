@@ -10,31 +10,7 @@ vocabulary.
 <div class="row">
     <div class="col">
         <h2>Editorial Board</h2>
-        <h3>Co-Chairs</h3>
-        <ul>
-            <li>Isabel Bernal, Consejo Superior de Investigaciones Cientifícas (CSIC), Spain – (Co-Chair)</li>
-            <li>Jochen Schirrwagen, University of Bielefeld, Germany – (Co-Chair)</li>
-        </ul>
-        <h3>Board</h3>
-        <ul>
-            <li>Alberto Apollaro, Ministerio de Ciencia, Tecnología e Innovación Productiva (MinCyT), Argentina</li>
-            <li>Paola Azrilevich, Ministerio de Ciencia, Tecnología e Innovación Productiva (MinCyT), Argentina</li>
-            <li>Liu Dan, Peking University Library, China</li>
-            <li>Dom Fripp, Jisc, United Kingdom</li>
-            <li>Gültekin Gürdal, Izmir Institute of Technology Library, Turkey</li>
-            <li>Sawsan Habre, Lebanese American University, Lebanon</li>
-            <li>Yutaka Hayashi, JPCOAR, Japan</li>
-            <li>Ilkay Holt, COAR, United Kingdom</li>
-            <li>Nie Hua, Peking University Library, China</li>
-            <li>Hilary Jones, Jisc, United Kingdom</li>
-            <li>Tomoko Kataoka, JPCOAR, Japan</li>
-            <li>Laurence Le Borgne, ADBS, France</li>
-            <li>Ku (Alan) Liping, The National Science Library, CAS, China</li>
-            <li>Susanna Mornati, 4Science, Italy</li>
-            <li>Milan Ojsteršek, University of Maribor, Slovenia</li>
-            <li>Pedro Príncipe, Universidade do Minho, Portugal</li>
-            <li>Wilko Steinhoff, Data Archiving and Networked Services (DANS), Netherlands</li>
-        </ul>
+        <a href="https://www.coar-repositories.org/news-updates/what-we-do/controlled-vocabularies/">Members of the Editorial Board</a>
     </div>
     <div class="col">
         <h2>Systems Support</h2>
