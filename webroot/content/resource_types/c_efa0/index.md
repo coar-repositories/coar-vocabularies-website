@@ -128,9 +128,9 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_ba08
-    - H9BQ-739P
     - D97F-VB57
+    - H9BQ-739P
+    - c_ba08
 broader_concepts:
     - c_18cf
 ---

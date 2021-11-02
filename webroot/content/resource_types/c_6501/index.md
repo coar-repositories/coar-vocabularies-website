@@ -147,11 +147,11 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_7bab
     - c_7acd
-    - c_beb9
-    - c_2df8fbb1
     - c_dcae04bc
+    - c_beb9
+    - c_7bab
+    - c_2df8fbb1
 broader_concepts:
     - c_0640
 ---

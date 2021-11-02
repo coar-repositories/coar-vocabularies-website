@@ -24,6 +24,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ambargolu erişim
+    - language_code: fi
+      language_name: suomi
+      value: embargo
     - language_code: en
       language_name: English
       value: embargoed access

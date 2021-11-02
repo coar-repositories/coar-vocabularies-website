@@ -81,8 +81,8 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_bdcc
     - c_7a1f
+    - c_bdcc
     - c_db06
 broader_concepts:
     - c_18cf

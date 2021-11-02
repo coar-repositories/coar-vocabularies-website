@@ -10,9 +10,9 @@ deprecated: false
 layout: concept
 related:
     - type: Related Match
-      uri: http://purl.org/eprint/accessRights/RestrictedAccess
-    - type: Related Match
       uri: https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/restricted
+    - type: Related Match
+      uri: http://purl.org/eprint/accessRights/RestrictedAccess
 pref_labels:
     - language_code: es
       language_name: español
@@ -38,6 +38,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: omejen dostop
+    - language_code: fi
+      language_name: suomi
+      value: rajoitettu saatavuus
     - language_code: en
       language_name: English
       value: restricted access
@@ -87,6 +90,9 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: kısıtlı erişim
+    - language_code: fi
+      language_name: suomi
+      value: rajoitettu pääsy
 date: 2021-02-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []

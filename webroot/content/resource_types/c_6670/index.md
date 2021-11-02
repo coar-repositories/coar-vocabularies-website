@@ -25,9 +25,6 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: poster dans une conférence
-    - language_code: ca
-      language_name: català
-      value: poster de congrés
     - language_code: it
       language_name: italiano
       value: poster in congresso
@@ -40,6 +37,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: posteri
+    - language_code: ca
+      language_name: català
+      value: pòster de congrés
     - language_code: es
       language_name: español
       value: póster de congreso

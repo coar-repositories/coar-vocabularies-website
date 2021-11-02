@@ -18,11 +18,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo de datos
-    - language_code: fr
-      language_name: français
-      value: data paper
     - language_code: it
       language_name: italiano
+      value: data paper
+    - language_code: fr
+      language_name: français
       value: data paper
     - language_code: en
       language_name: English

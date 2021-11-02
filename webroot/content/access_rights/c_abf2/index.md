@@ -22,6 +22,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: acesso aberto
+    - language_code: fi
+      language_name: suomi
+      value: avoin saatavuus
     - language_code: tr
       language_name: Türkçe
       value: açık erişim
@@ -71,6 +74,9 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: open access
+    - language_code: fi
+      language_name: suomi
+      value: vapaa pääsy
     - language_code: nl
       language_name: Nederlands
       value: vrij beschikbaar

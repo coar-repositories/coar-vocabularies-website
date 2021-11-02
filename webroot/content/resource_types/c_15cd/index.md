@@ -12,9 +12,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Patent
-    - type: Exact Match
       uri: http://purl.org/eprint/type/Patent
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/Patent
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -40,11 +40,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: patent
-    - language_code: es
-      language_name: español
-      value: patente
     - language_code: pt
       language_name: português
+      value: patente
+    - language_code: es
+      language_name: español
       value: patente
     - language_code: fi
       language_name: suomi
@@ -81,11 +81,11 @@ date: 2021-07-19T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - 9DKX-KSAF
+    - C53B-JCY5
     - MW8G-3CR8
     - Z907-YMBB
-    - SB3Y-W4EH
     - GPQ7-G5VE
-    - C53B-JCY5
+    - SB3Y-W4EH
 broader_concepts: []
 ---
 

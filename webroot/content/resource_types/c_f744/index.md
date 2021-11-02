@@ -24,11 +24,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: atti di congresso
-    - language_code: en
-      language_name: English
-      value: conference proceedings
     - language_code: nl
       language_name: Nederlands
+      value: conference proceedings
+    - language_code: en
+      language_name: English
       value: conference proceedings
     - language_code: tr
       language_name: Türkçe
@@ -94,8 +94,8 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_5794
     - c_6670
+    - c_5794
 broader_concepts:
     - c_c94f
 ---

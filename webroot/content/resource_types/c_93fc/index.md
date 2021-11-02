@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/Report
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Report
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -104,13 +104,13 @@ date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_ab20
-    - c_18op
-    - c_7877
-    - c_18wz
-    - YZ1N-ZFT9
     - c_18ws
-    - c_186u
+    - c_18wz
     - c_18gh
+    - c_18op
+    - YZ1N-ZFT9
+    - c_186u
+    - c_7877
 broader_concepts:
     - c_18cf
 ---

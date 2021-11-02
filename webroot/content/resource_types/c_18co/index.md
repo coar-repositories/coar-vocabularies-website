@@ -24,15 +24,15 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: poster dans une conférence non publié dans les actes
-    - language_code: ca
-      language_name: català
-      value: poster de congrés no publicat
     - language_code: it
       language_name: italiano
       value: poster non pubblicato in atti di congresso
     - language_code: fi
       language_name: suomi
       value: posteri erillisjulkaisuna
+    - language_code: ca
+      language_name: català
+      value: pòster de congrés no publicat
     - language_code: es
       language_name: español
       value: póster no publicado en actas de congreso

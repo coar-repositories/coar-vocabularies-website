@@ -18,17 +18,17 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: correcció d’errors
-    - language_code: es
-      language_name: español
-      value: corrigenda
     - language_code: fi
       language_name: suomi
       value: corrigenda
-    - language_code: en
-      language_name: English
-      value: corrigendum
+    - language_code: es
+      language_name: español
+      value: corrigenda
     - language_code: nl
       language_name: Nederlands
+      value: corrigendum
+    - language_code: en
+      language_name: English
       value: corrigendum
     - language_code: fr
       language_name: français

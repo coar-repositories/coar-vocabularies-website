@@ -38,6 +38,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: samo metapodatki
+    - language_code: fi
+      language_name: suomi
+      value: vain metadata saatavissa
     - language_code: ru
       language_name: русский
       value: доступ к метаданным

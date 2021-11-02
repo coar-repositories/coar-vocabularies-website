@@ -11,11 +11,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Datenmanagementplan
-    - language_code: en
-      language_name: English
-      value: data management plan
     - language_code: nl
       language_name: Nederlands
+      value: data management plan
+    - language_code: en
+      language_name: English
       value: data management plan
     - language_code: fi
       language_name: suomi
@@ -35,6 +35,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: plan de gestión de datos
+    - language_code: pt
+      language_name: português
+      value: plano de gestão de dados
     - language_code: ru
       language_name: русский
       value: план управления данными

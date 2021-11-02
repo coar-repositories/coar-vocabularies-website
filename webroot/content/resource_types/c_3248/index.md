@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Book
     - type: Exact Match
-      uri: http://purl.org/eprint/type/BookItem
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/BookChapter
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/BookItem
 pref_labels:
     - language_code: de
       language_name: Deutsch

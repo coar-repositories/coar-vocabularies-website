@@ -66,8 +66,8 @@ creators:
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:
-    - c_16ec
     - c_14cb
+    - c_16ec
     - c_f1cf
     - c_abf2
 layout: printable

@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://id.loc.gov/vocabulary/contentTypes/cop
-    - type: Broad Match
       uri: https://schema.org/SoftwareApplication
+    - type: Broad Match
+      uri: http://id.loc.gov/vocabulary/contentTypes/cop
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Software
 pref_labels:
@@ -27,20 +27,20 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: programska oprema
-    - language_code: nl
-      language_name: Nederlands
-      value: software
     - language_code: it
       language_name: italiano
-      value: software
-    - language_code: pt
-      language_name: português
       value: software
     - language_code: cs
       language_name: čeština
       value: software
+    - language_code: nl
+      language_name: Nederlands
+      value: software
     - language_code: es
       language_name: español
+      value: software
+    - language_code: pt
+      language_name: português
       value: software
     - language_code: en
       language_name: English
@@ -76,11 +76,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programa informàtic
-    - language_code: pt
-      language_name: português
-      value: programa informático
     - language_code: es
       language_name: español
+      value: programa informático
+    - language_code: pt
+      language_name: português
       value: programa informático
     - language_code: it
       language_name: italiano

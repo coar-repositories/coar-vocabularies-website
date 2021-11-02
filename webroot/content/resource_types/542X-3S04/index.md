@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related: []
 pref_labels:
-    - language_code: en
-      language_name: English
-      value: design
     - language_code: it
       language_name: italiano
+      value: design
+    - language_code: en
+      language_name: English
       value: design
     - language_code: es
       language_name: español

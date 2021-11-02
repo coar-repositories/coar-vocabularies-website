@@ -80,26 +80,26 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: dipnot
+    - language_code: es
+      language_name: español
+      value: glosa
     - language_code: pt
       language_name: português
       value: glosa
-    - language_code: es
-      language_name: español
-      value: glosa
     - language_code: ca
       language_name: català
       value: glossa
     - language_code: it
       language_name: italiano
       value: glossa
+    - language_code: it
+      language_name: italiano
+      value: nota
     - language_code: es
       language_name: español
       value: nota
     - language_code: ca
       language_name: català
-      value: nota
-    - language_code: it
-      language_name: italiano
       value: nota
     - language_code: pt
       language_name: português

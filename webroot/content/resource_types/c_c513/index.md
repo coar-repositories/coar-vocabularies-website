@@ -23,11 +23,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: görüntü
-    - language_code: fr
-      language_name: français
-      value: image
     - language_code: en
       language_name: English
+      value: image
+    - language_code: fr
+      language_name: français
       value: image
     - language_code: pt
       language_name: português
@@ -96,8 +96,8 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_8a7e
     - c_ecc8
+    - c_8a7e
 broader_concepts: []
 ---
 

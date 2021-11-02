@@ -35,11 +35,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: työnkulku
-    - language_code: nl
-      language_name: Nederlands
-      value: workflow
     - language_code: fr
       language_name: français
+      value: workflow
+    - language_code: nl
+      language_name: Nederlands
       value: workflow
     - language_code: en
       language_name: English

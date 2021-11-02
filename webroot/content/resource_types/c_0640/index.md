@@ -79,11 +79,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: revista
-    - language_code: es
-      language_name: español
-      value: revista académica
     - language_code: pt
       language_name: português
+      value: revista académica
+    - language_code: es
+      language_name: español
       value: revista académica
     - language_code: pt
       language_name: português
@@ -118,8 +118,8 @@ alt_labels:
 date: 2021-07-19T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_b239
     - c_545b
+    - c_b239
     - c_6501
 broader_concepts:
     - c_18cf
