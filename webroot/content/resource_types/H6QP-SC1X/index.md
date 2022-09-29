@@ -40,6 +40,12 @@ pref_labels:
     - language_code: en
       language_name: English
       value: trademark
+    - language_code: sr
+      language_name: српски
+      value: zaštitni znak
+    - language_code: sr-cyrl
+      language_name: српски
+      value: заштитни знак
     - language_code: ru
       language_name: русский
       value: торговая марка
@@ -65,7 +71,7 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: ticari marka
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

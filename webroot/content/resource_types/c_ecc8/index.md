@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/StillImage
+      uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
       uri: http://purl.org/spar/fabio/StillImage
     - type: Exact Match
-      uri: http://id.loc.gov/vocabulary/contentTypes/sti
+      uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -38,6 +38,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: nepohyblivý obraz
+    - language_code: sr
+      language_name: српски
+      value: statična slika
     - language_code: sl
       language_name: slovenščina
       value: statična vizualna predstavitev
@@ -53,6 +56,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: неподвижное изображение
+    - language_code: sr-cyrl
+      language_name: српски
+      value: статична слика
     - language_code: ar
       language_name: العربية
       value: صورة ثابته
@@ -75,6 +81,12 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: imatge estàtica
+    - language_code: sr
+      language_name: српски
+      value: statična vizuelna predstava
+    - language_code: sr-cyrl
+      language_name: српски
+      value: статична визуелна представа
     - language_code: zh
       language_name: 中文
       value: 静止图像
@@ -84,7 +96,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 靜止圖像
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

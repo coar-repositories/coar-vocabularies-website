@@ -24,6 +24,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: kartografinen aineisto
+    - language_code: sr
+      language_name: српски
+      value: kartografska građa
     - language_code: sl
       language_name: slovenščina
       value: kartografsko gradivo
@@ -45,6 +48,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: картографический материал
+    - language_code: sr-cyrl
+      language_name: српски
+      value: картографска грађа
     - language_code: ar
       language_name: العربية
       value: مادة خرائطية
@@ -58,16 +64,22 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: kartografski material
+    - language_code: sr
+      language_name: српски
+      value: kartografski materijal
     - language_code: es
       language_name: español
       value: material cartografico
     - language_code: it
       language_name: italiano
       value: materiale cartografico
+    - language_code: sr-cyrl
+      language_name: српски
+      value: картографски материјал
     - language_code: zh
       language_name: 中文
       value: 地圖類資料
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - c_12cd

@@ -18,6 +18,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: hyödyllisyysmalli
+    - language_code: sr
+      language_name: српски
+      value: mali patent
     - language_code: ca
       language_name: català
       value: model d'utilitat
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: utility model
+    - language_code: sr-cyrl
+      language_name: српски
+      value: мали патент
     - language_code: ru
       language_name: русский
       value: полезная модель
@@ -46,7 +52,7 @@ pref_labels:
       language_name: 日本語
       value: 実用新案
 alt_labels: []
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -18,14 +18,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo de datos
-    - language_code: it
-      language_name: italiano
+    - language_code: en
+      language_name: English
       value: data paper
     - language_code: fr
       language_name: français
       value: data paper
-    - language_code: en
-      language_name: English
+    - language_code: it
+      language_name: italiano
       value: data paper
     - language_code: nl
       language_name: Nederlands
@@ -33,6 +33,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tutkimusaineistoa kuvaava artikkeli
+    - language_code: sr
+      language_name: српски
+      value: članak o skupu podataka
     - language_code: sl
       language_name: slovenščina
       value: članek o podatkovni zbirki
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: статья с цифровыми данными
+    - language_code: sr-cyrl
+      language_name: српски
+      value: чланак о скупу података
     - language_code: ar
       language_name: العربية
       value: ورقة بيانات
@@ -79,10 +85,16 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: opis podatkovne zbirke
+    - language_code: sr
+      language_name: српски
+      value: opis skupa podataka
+    - language_code: sr-cyrl
+      language_name: српски
+      value: опис скупа података
     - language_code: zh
       language_name: 中文
       value: 數據文章
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

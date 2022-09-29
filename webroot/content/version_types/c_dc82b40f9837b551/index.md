@@ -12,6 +12,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Eserin geliştirilmiş versiyonu
+    - language_code: sr
+      language_name: српски
+      value: dopunjena verzija
     - language_code: de
       language_name: Deutsch
       value: erweiterte Version
@@ -33,16 +36,25 @@ pref_labels:
     - language_code: es
       language_name: español
       value: versión mejorada
+    - language_code: sr-cyrl
+      language_name: српски
+      value: допуњена верзија
     - language_code: ru
       language_name: русский
       value: расширенная версия
     - language_code: ja
       language_name: 日本語
       value: 更新版
+    - language_code: zh
+      language_name: 中文
+      value: 最终审定稿
 alt_labels:
     - language_code: de
       language_name: Deutsch
       value: aktualisierte Version
+    - language_code: sr
+      language_name: српски
+      value: ažurirana verzija
     - language_code: en
       language_name: English
       value: enhanced version of record
@@ -58,7 +70,13 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: versió millorada
-date: 2018-07-01T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: ажурирана верзија
+    - language_code: zh
+      language_name: 中文
+      value: 增补稿、更新版、 追加增订版
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

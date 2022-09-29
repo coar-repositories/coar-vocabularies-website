@@ -16,12 +16,15 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: annotatie
-    - language_code: en
-      language_name: English
-      value: annotation
     - language_code: fr
       language_name: français
       value: annotation
+    - language_code: en
+      language_name: English
+      value: annotation
+    - language_code: sr
+      language_name: српски
+      value: anotacija
     - language_code: ca
       language_name: català
       value: anotació
@@ -49,6 +52,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: аннотация
+    - language_code: sr-cyrl
+      language_name: српски
+      value: анотација
     - language_code: ar
       language_name: العربية
       value: شرح
@@ -71,6 +77,9 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: apontamento
+    - language_code: sr
+      language_name: српски
+      value: beleška
     - language_code: es
       language_name: español
       value: comentario
@@ -80,11 +89,11 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: dipnot
-    - language_code: es
-      language_name: español
-      value: glosa
     - language_code: pt
       language_name: português
+      value: glosa
+    - language_code: es
+      language_name: español
       value: glosa
     - language_code: ca
       language_name: català
@@ -92,17 +101,20 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: glossa
-    - language_code: it
-      language_name: italiano
-      value: nota
-    - language_code: es
-      language_name: español
+    - language_code: sr
+      language_name: српски
+      value: komentar
+    - language_code: pt
+      language_name: português
       value: nota
     - language_code: ca
       language_name: català
       value: nota
-    - language_code: pt
-      language_name: português
+    - language_code: es
+      language_name: español
+      value: nota
+    - language_code: it
+      language_name: italiano
       value: nota
     - language_code: es
       language_name: español
@@ -119,6 +131,12 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: zaznamba
+    - language_code: sr-cyrl
+      language_name: српски
+      value: белешка
+    - language_code: sr-cyrl
+      language_name: српски
+      value: коментар
     - language_code: ru
       language_name: русский
       value: реферат
@@ -137,7 +155,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 诠释
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

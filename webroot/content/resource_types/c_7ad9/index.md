@@ -31,6 +31,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: sítio web
+    - language_code: sr
+      language_name: српски
+      value: veb-sajt
     - language_code: fi
       language_name: suomi
       value: verkkosivusto
@@ -40,12 +43,15 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: webové sídlo
-    - language_code: en
-      language_name: English
-      value: website
     - language_code: nl
       language_name: Nederlands
       value: website
+    - language_code: en
+      language_name: English
+      value: website
+    - language_code: sr-cyrl
+      language_name: српски
+      value: веб-сајт
     - language_code: ru
       language_name: русский
       value: вебсайт
@@ -59,6 +65,9 @@ pref_labels:
       language_name: 中文
       value: 网站
 alt_labels:
+    - language_code: sr
+      language_name: српски
+      value: internet prezentacija
     - language_code: es
       language_name: español
       value: pagina web
@@ -101,6 +110,9 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: sítio na internet
+    - language_code: sr
+      language_name: српски
+      value: veb-stranica
     - language_code: fi
       language_name: suomi
       value: web-sivusto
@@ -113,6 +125,12 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: website
+    - language_code: sr-cyrl
+      language_name: српски
+      value: веб-страница
+    - language_code: sr-cyrl
+      language_name: српски
+      value: интернет презентација
     - language_code: ar
       language_name: العربية
       value: صفحة الويب
@@ -122,7 +140,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 讨论会
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

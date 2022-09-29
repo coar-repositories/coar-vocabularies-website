@@ -23,6 +23,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: ingediende versie
+    - language_code: sr
+      language_name: српски
+      value: nerecenziranа verzija
     - language_code: fr
       language_name: français
       value: version soumise
@@ -38,15 +41,24 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: на рассмотрении на предмет публикации
+    - language_code: sr-cyrl
+      language_name: српски
+      value: нерецензирана верзија
     - language_code: ja
       language_name: 日本語
       value: 査読版
+    - language_code: zh
+      language_name: 中文
+      value: 预印本稿
 alt_labels:
-    - language_code: fr
-      language_name: français
-      value: preprint
+    - language_code: sr
+      language_name: српски
+      value: nerecenzirani rukopis
     - language_code: nl
       language_name: Nederlands
+      value: preprint
+    - language_code: fr
+      language_name: français
       value: preprint
     - language_code: es
       language_name: español
@@ -84,10 +96,16 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: на рассмотрении журнала
+    - language_code: sr-cyrl
+      language_name: српски
+      value: нерецензирани рукопис
     - language_code: ru
       language_name: русский
       value: рукопись принятая к рассмотрению
-date: 2018-07-01T00:00:00Z
+    - language_code: zh
+      language_name: 中文
+      value: 正式提交稿、出版前送审稿、出版社编修稿、审读稿
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

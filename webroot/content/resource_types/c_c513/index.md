@@ -23,11 +23,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: görüntü
-    - language_code: en
-      language_name: English
-      value: image
     - language_code: fr
       language_name: français
+      value: image
+    - language_code: en
+      language_name: English
       value: image
     - language_code: pt
       language_name: português
@@ -47,12 +47,21 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: obraz
+    - language_code: sr
+      language_name: српски
+      value: slika
     - language_code: sl
       language_name: slovenščina
       value: slika
+    - language_code: hu
+      language_name: magyar
+      value: test
     - language_code: ru
       language_name: русский
       value: изображение
+    - language_code: sr-cyrl
+      language_name: српски
+      value: слика
     - language_code: ar
       language_name: العربية
       value: صورة
@@ -66,14 +75,14 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: beeldmateriaal
-    - language_code: ca
-      language_name: català
+    - language_code: es
+      language_name: español
       value: figura
     - language_code: pt
       language_name: português
       value: figura
-    - language_code: es
-      language_name: español
+    - language_code: ca
+      language_name: català
       value: figura
     - language_code: tr
       language_name: Türkçe
@@ -81,6 +90,12 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: vizualna upodobitev
+    - language_code: sr
+      language_name: српски
+      value: vizuelni prikaz
+    - language_code: sr-cyrl
+      language_name: српски
+      value: визуелни приказ
     - language_code: zh
       language_name: 中文
       value: 图片
@@ -93,11 +108,11 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 影像
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_ecc8
     - c_8a7e
+    - c_ecc8
 broader_concepts: []
 ---
 

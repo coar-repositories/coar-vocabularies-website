@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/Book
-    - type: Exact Match
       uri: http://purl.org/spar/fabio/Book
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/Book
     - type: Narrow Match
       uri: http://purl.org/eprint/type/BookReview
     - type: Related Match
@@ -34,6 +34,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: kniha
+    - language_code: sr
+      language_name: српски
+      value: knjiga
     - language_code: es
       language_name: español
       value: libro
@@ -55,6 +58,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: книга
+    - language_code: sr-cyrl
+      language_name: српски
+      value: књига
     - language_code: ar
       language_name: العربية
       value: كتاب
@@ -83,14 +89,14 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: livre
-    - language_code: pt
-      language_name: português
+    - language_code: ca
+      language_name: català
       value: monografia
     - language_code: es
       language_name: español
       value: monografia
-    - language_code: ca
-      language_name: català
+    - language_code: pt
+      language_name: português
       value: monografia
     - language_code: it
       language_name: italiano
@@ -98,6 +104,9 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: monografie
+    - language_code: sr
+      language_name: српски
+      value: monografija
     - language_code: es
       language_name: español
       value: monografía
@@ -113,6 +122,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: obra monográfica
+    - language_code: sr-cyrl
+      language_name: српски
+      value: монографија
     - language_code: ar
       language_name: العربية
       value: افرودة
@@ -131,7 +143,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 書
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_3248

@@ -29,11 +29,11 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: tese
-    - language_code: ca
-      language_name: català
-      value: tesi
     - language_code: it
       language_name: italiano
+      value: tesi
+    - language_code: ca
+      language_name: català
       value: tesi
     - language_code: es
       language_name: español
@@ -41,6 +41,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: tez
+    - language_code: sr
+      language_name: српски
+      value: teza
     - language_code: en
       language_name: English
       value: thesis
@@ -53,6 +56,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: диссертация
+    - language_code: sr-cyrl
+      language_name: српски
+      value: теза
     - language_code: ar
       language_name: العربية
       value: رسالة
@@ -63,12 +69,18 @@ pref_labels:
       language_name: 中文
       value: 学位论文
 alt_labels:
+    - language_code: sr
+      language_name: српски
+      value: disertacija
     - language_code: fr
       language_name: français
       value: mémoire de thèse
     - language_code: fr
       language_name: français
       value: rapport de thèse
+    - language_code: sr-cyrl
+      language_name: српски
+      value: дисертација
     - language_code: zh
       language_name: 中文
       value: 學位論文
@@ -78,11 +90,11 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 畢業論文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_7a1f
     - c_bdcc
+    - c_7a1f
     - c_db06
 broader_concepts:
     - c_18cf

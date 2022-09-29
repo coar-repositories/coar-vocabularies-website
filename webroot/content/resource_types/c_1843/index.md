@@ -24,6 +24,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: muu
+    - language_code: sr
+      language_name: српски
+      value: ostalo
     - language_code: sl
       language_name: slovenščina
       value: ostalo
@@ -45,6 +48,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: другое
+    - language_code: sr-cyrl
+      language_name: српски
+      value: остало
     - language_code: ar
       language_name: العربية
       value: آخر
@@ -58,7 +64,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 其它
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

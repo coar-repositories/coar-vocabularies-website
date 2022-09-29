@@ -24,6 +24,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: commentary
+    - language_code: sr
+      language_name: српски
+      value: komentar
     - language_code: sl
       language_name: slovenščina
       value: komentar
@@ -36,11 +39,14 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: yorum
-    - language_code: pt
-      language_name: português
-      value: комментарий
+    - language_code: sr-cyrl
+      language_name: српски
+      value: коментар
     - language_code: ru
       language_name: русский
+      value: комментарий
+    - language_code: pt
+      language_name: português
       value: комментарий
     - language_code: ja
       language_name: 日本語
@@ -55,7 +61,7 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: değerlendirme
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

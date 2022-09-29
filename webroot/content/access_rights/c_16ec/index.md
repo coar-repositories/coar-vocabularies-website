@@ -35,6 +35,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: eingeschränkter Zugang
+    - language_code: sr
+      language_name: српски
+      value: ograničeni pristup
     - language_code: sl
       language_name: slovenščina
       value: omejen dostop
@@ -47,6 +50,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: sınırlı erişim
+    - language_code: sr-cyrl
+      language_name: српски
+      value: ограничени приступ
     - language_code: ru
       language_name: русский
       value: ограниченный доступ
@@ -90,10 +96,16 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: kısıtlı erişim
+    - language_code: sr
+      language_name: српски
+      value: pristup s lozinkom
     - language_code: fi
       language_name: suomi
       value: rajoitettu pääsy
-date: 2021-02-03T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: приступ с лозинком
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

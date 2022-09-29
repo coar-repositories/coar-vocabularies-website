@@ -21,6 +21,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: industrieel ontwerp
+    - language_code: sr
+      language_name: српски
+      value: industrijski dizajn
     - language_code: sl
       language_name: slovenščina
       value: industrijsko oblikovanje
@@ -33,6 +36,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tuotesuunnnitelma
+    - language_code: sr-cyrl
+      language_name: српски
+      value: индустријски дизајн
     - language_code: ru
       language_name: русский
       value: промышленный дизайн
@@ -46,7 +52,7 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: dessin industriel
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

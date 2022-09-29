@@ -24,17 +24,20 @@ pref_labels:
     - language_code: en
       language_name: English
       value: map
-    - language_code: cs
-      language_name: čeština
-      value: mapa
     - language_code: pt
       language_name: português
+      value: mapa
+    - language_code: ca
+      language_name: català
+      value: mapa
+    - language_code: cs
+      language_name: čeština
       value: mapa
     - language_code: es
       language_name: español
       value: mapa
-    - language_code: ca
-      language_name: català
+    - language_code: sr
+      language_name: српски
       value: mapa
     - language_code: it
       language_name: italiano
@@ -45,6 +48,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: карта
+    - language_code: sr-cyrl
+      language_name: српски
+      value: мапа
     - language_code: ar
       language_name: العربية
       value: خارطة
@@ -61,9 +67,15 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: geografska karta
+    - language_code: sr
+      language_name: српски
+      value: geografska karta
     - language_code: fr
       language_name: français
       value: plan
+    - language_code: sr-cyrl
+      language_name: српски
+      value: географска карта
     - language_code: ru
       language_name: русский
       value: отображение
@@ -76,7 +88,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 地圖
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

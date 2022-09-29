@@ -18,6 +18,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo original
+    - language_code: sr
+      language_name: српски
+      value: naučni članak
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksartikel
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: научная статья
+    - language_code: sr-cyrl
+      language_name: српски
+      value: научни чланак
     - language_code: ar
       language_name: العربية
       value: مقال بحث
@@ -67,16 +73,28 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de investigación
+    - language_code: sr
+      language_name: српски
+      value: originalni naučni rad
+    - language_code: sr
+      language_name: српски
+      value: originalni naučni članak
     - language_code: ru
       language_name: русский
       value: исследовательская статья
+    - language_code: sr-cyrl
+      language_name: српски
+      value: оригинални научни рад
+    - language_code: sr-cyrl
+      language_name: српски
+      value: оригинални научни чланак
     - language_code: ru
       language_name: русский
       value: публикация в научном журнале
     - language_code: zh
       language_name: 中文
       value: 原创研究论文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

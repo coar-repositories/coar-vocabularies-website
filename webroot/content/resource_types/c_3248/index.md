@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Book
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/BookChapter
-    - type: Exact Match
       uri: http://purl.org/eprint/type/BookItem
+    - type: Exact Match
+      uri: http://purl.org/spar/fabio/BookChapter
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -45,9 +45,15 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: poglavje v knjigi
+    - language_code: sr
+      language_name: српски
+      value: poglavlje u knjizi
     - language_code: cs
       language_name: čeština
       value: část knihy
+    - language_code: sr-cyrl
+      language_name: српски
+      value: поглавље у књизи
     - language_code: ru
       language_name: русский
       value: часть книги
@@ -100,16 +106,22 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: partie d'ouvrage
+    - language_code: sr
+      language_name: српски
+      value: poglavlje u monografiji
     - language_code: sl
       language_name: slovenščina
       value: sestavek v knjigi
+    - language_code: sr-cyrl
+      language_name: српски
+      value: поглавље у монографији
     - language_code: ar
       language_name: العربية
       value: فصل من كتاب
     - language_code: zh
       language_name: 中文
       value: 章節
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

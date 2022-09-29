@@ -21,6 +21,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: informe
+    - language_code: sr
+      language_name: српски
+      value: izveštaj
     - language_code: sl
       language_name: slovenščina
       value: poročilo
@@ -48,6 +51,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zpráva
+    - language_code: sr-cyrl
+      language_name: српски
+      value: извештај
     - language_code: ru
       language_name: русский
       value: отчет
@@ -100,17 +106,17 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 调研报告
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_ab20
-    - c_18ws
-    - c_18wz
     - c_18gh
+    - c_18wz
     - c_18op
     - YZ1N-ZFT9
     - c_186u
+    - c_18ws
     - c_7877
+    - c_ab20
 broader_concepts:
     - c_18cf
 ---

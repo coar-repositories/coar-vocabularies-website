@@ -44,6 +44,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: wetenschappelijk artikel
+    - language_code: sr
+      language_name: српски
+      value: članak u časopisu
     - language_code: sl
       language_name: slovenščina
       value: članek v reviji
@@ -53,6 +56,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: журнальная статья
+    - language_code: sr-cyrl
+      language_name: српски
+      value: чланак у часопису
     - language_code: ar
       language_name: العربية
       value: مقال في دورية
@@ -63,11 +69,11 @@ pref_labels:
       language_name: 日本語
       value: 学術雑誌論文
 alt_labels:
-    - language_code: ca
-      language_name: català
-      value: article
     - language_code: en
       language_name: English
+      value: article
+    - language_code: ca
+      language_name: català
       value: article
     - language_code: ca
       language_name: català
@@ -111,12 +117,24 @@ alt_labels:
     - language_code: en
       language_name: English
       value: journal articles
+    - language_code: sr
+      language_name: српски
+      value: naučni članak
     - language_code: en
       language_name: English
       value: paper
     - language_code: fr
       language_name: français
       value: papier
+    - language_code: sr
+      language_name: српски
+      value: rad u časopisu
+    - language_code: sr-cyrl
+      language_name: српски
+      value: научни чланак
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рад у часопису
     - language_code: zh
       language_name: 中文
       value: 學術論文
@@ -144,14 +162,14 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 论文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
+    - c_2df8fbb1
     - c_7acd
-    - c_dcae04bc
     - c_beb9
     - c_7bab
-    - c_2df8fbb1
+    - c_dcae04bc
 broader_concepts:
     - c_0640
 ---

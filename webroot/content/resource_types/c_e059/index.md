@@ -18,6 +18,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: materiale didattico
+    - language_code: sr
+      language_name: српски
+      value: nastavni materijal
     - language_code: fr
       language_name: français
       value: object d'apprentissage
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Öğrenim nesnesi
+    - language_code: sr-cyrl
+      language_name: српски
+      value: наставни материјал
     - language_code: ru
       language_name: русский
       value: учебный объект
@@ -58,7 +64,7 @@ alt_labels:
     - language_code: en
       language_name: English
       value: open education resource
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

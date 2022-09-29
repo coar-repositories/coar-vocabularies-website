@@ -32,6 +32,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: newspaper article
+    - language_code: sr
+      language_name: српски
+      value: novinski članak
     - language_code: fi
       language_name: suomi
       value: sanomalehtiartikkeli
@@ -41,6 +44,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: газетная статья
+    - language_code: sr-cyrl
+      language_name: српски
+      value: новински чланак
     - language_code: ja
       language_name: 日本語
       value: 新聞記事
@@ -60,7 +66,13 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de diario
-date: 2021-07-19T00:00:00Z
+    - language_code: sr
+      language_name: српски
+      value: članak u novinama
+    - language_code: sr-cyrl
+      language_name: српски
+      value: чланак у новинама
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

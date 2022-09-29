@@ -29,6 +29,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: klinische studie
+    - language_code: sr
+      language_name: српски
+      value: klinička studija
     - language_code: sl
       language_name: slovenščina
       value: klinična študija
@@ -41,6 +44,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: клиническое исследование
+    - language_code: sr-cyrl
+      language_name: српски
+      value: клиничка студија
 alt_labels:
     - language_code: fr
       language_name: français
@@ -51,7 +57,7 @@ alt_labels:
     - language_code: ja
       language_name: 日本語
       value: 臨床研究
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

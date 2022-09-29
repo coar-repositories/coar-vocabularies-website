@@ -21,6 +21,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: laboratorijska beležka
+    - language_code: sr
+      language_name: српски
+      value: laboratorijske beleške
     - language_code: fi
       language_name: suomi
       value: laboratoriopäiväkirja
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: quaderno di laboratorio
+    - language_code: sr-cyrl
+      language_name: српски
+      value: лабораторијске белешке
     - language_code: ru
       language_name: русский
       value: лабораторный блокнот
@@ -70,7 +76,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: quadern de laboratori
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

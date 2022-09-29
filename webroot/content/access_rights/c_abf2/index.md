@@ -40,9 +40,15 @@ pref_labels:
     - language_code: en
       language_name: English
       value: open access
+    - language_code: sr
+      language_name: српски
+      value: otvoreni pristup
     - language_code: nl
       language_name: Nederlands
       value: vrij toegankelijk
+    - language_code: sr-cyrl
+      language_name: српски
+      value: отворени приступ
     - language_code: ru
       language_name: русский
       value: открытый доступ
@@ -83,7 +89,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: бесплатный доступ
-date: 2021-02-03T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

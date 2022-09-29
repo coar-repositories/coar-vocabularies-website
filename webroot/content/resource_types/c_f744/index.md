@@ -24,11 +24,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: atti di congresso
-    - language_code: nl
-      language_name: Nederlands
-      value: conference proceedings
     - language_code: en
       language_name: English
+      value: conference proceedings
+    - language_code: nl
+      language_name: Nederlands
       value: conference proceedings
     - language_code: tr
       language_name: Türkçe
@@ -42,6 +42,12 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: zbornik prispevkov na konferenci
+    - language_code: sr
+      language_name: српски
+      value: zbornik saopštenja sa konferencije
+    - language_code: sr-cyrl
+      language_name: српски
+      value: зборник саопштења са конференције
     - language_code: ru
       language_name: русский
       value: материалы конференций
@@ -67,6 +73,9 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: actes de congrès
+    - language_code: sr
+      language_name: српски
+      value: akta kongresa
     - language_code: pt
       language_name: português
       value: atas de congresso
@@ -76,6 +85,15 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: llibre de ponències
+    - language_code: sr
+      language_name: српски
+      value: zbornik radova sa konferencije
+    - language_code: sr-cyrl
+      language_name: српски
+      value: акта конгреса
+    - language_code: sr-cyrl
+      language_name: српски
+      value: зборник радова са конференције
     - language_code: ar
       language_name: العربية
       value: اعمال المؤتمر
@@ -91,11 +109,11 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 會議論文集
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_6670
     - c_5794
+    - c_6670
 broader_concepts:
     - c_c94f
 ---

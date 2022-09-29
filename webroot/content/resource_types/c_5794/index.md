@@ -45,12 +45,18 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: příspěvek na konferenci
+    - language_code: sr
+      language_name: српски
+      value: saopštenje sa konferencije
     - language_code: sl
       language_name: slovenščina
       value: članek na konfrenci
     - language_code: ru
       language_name: русский
       value: конференционный доклад
+    - language_code: sr-cyrl
+      language_name: српски
+      value: саопштење са конференције
     - language_code: ar
       language_name: العربية
       value: ورقة مؤتمر
@@ -103,6 +109,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: documento presentado en una conferencia
+    - language_code: sr
+      language_name: српски
+      value: objavljeno saopštenje sa konferencije
     - language_code: es
       language_name: español
       value: presentacion de congreso
@@ -115,6 +124,9 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: prispevek na konferenci
+    - language_code: sr
+      language_name: српски
+      value: rad sa konferencije
     - language_code: es
       language_name: español
       value: trabajo presentado en un congreso
@@ -127,6 +139,12 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: článek ve sborníku konference
+    - language_code: sr-cyrl
+      language_name: српски
+      value: објављено саопштење са конференције
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рад са конференције
     - language_code: ar
       language_name: العربية
       value: اوراق المؤتمر
@@ -139,7 +157,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 會議論文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

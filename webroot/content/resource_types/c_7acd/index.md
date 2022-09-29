@@ -18,11 +18,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: correcció d’errors
-    - language_code: fi
-      language_name: suomi
-      value: corrigenda
     - language_code: es
       language_name: español
+      value: corrigenda
+    - language_code: fi
+      language_name: suomi
       value: corrigenda
     - language_code: nl
       language_name: Nederlands
@@ -32,6 +32,12 @@ pref_labels:
       value: corrigendum
     - language_code: fr
       language_name: français
+      value: erratum
+    - language_code: sr
+      language_name: српски
+      value: erratum
+    - language_code: sr-cyrl
+      language_name: српски
       value: erratum
     - language_code: sl
       language_name: slovenščina
@@ -49,6 +55,12 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: correcció
+    - language_code: sr
+      language_name: српски
+      value: corrigendum
+    - language_code: sr-cyrl
+      language_name: српски
+      value: corrigendum
     - language_code: fi
       language_name: suomi
       value: errata
@@ -58,7 +70,13 @@ alt_labels:
     - language_code: es
       language_name: español
       value: fe de erratas
-date: 2021-07-19T00:00:00Z
+    - language_code: sr
+      language_name: српски
+      value: ispravka
+    - language_code: sr-cyrl
+      language_name: српски
+      value: исправка
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

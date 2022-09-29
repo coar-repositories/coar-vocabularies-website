@@ -29,6 +29,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: konferans çıktısı
+    - language_code: sr
+      language_name: српски
+      value: konferencijski prilog
     - language_code: fr
       language_name: français
       value: objet présenté à une conférence
@@ -41,6 +44,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: конференц-объект
+    - language_code: sr-cyrl
+      language_name: српски
+      value: конференцијски прилог
     - language_code: ja
       language_name: 日本語
       value: 会議資料
@@ -48,12 +54,12 @@ pref_labels:
       language_name: 中文
       value: 会议对象
 alt_labels: []
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18co
     - c_f744
     - R60J-J5BD
+    - c_18co
     - c_18cp
 broader_concepts:
     - c_18cf

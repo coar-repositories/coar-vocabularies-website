@@ -11,17 +11,17 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bibliografie
-    - language_code: pt
-      language_name: português
+    - language_code: fi
+      language_name: suomi
       value: bibliografia
     - language_code: ca
       language_name: català
       value: bibliografia
+    - language_code: pt
+      language_name: português
+      value: bibliografia
     - language_code: it
       language_name: italiano
-      value: bibliografia
-    - language_code: fi
-      language_name: suomi
       value: bibliografia
     - language_code: cs
       language_name: čeština
@@ -31,6 +31,9 @@ pref_labels:
       value: bibliografie
     - language_code: sl
       language_name: slovenščina
+      value: bibliografija
+    - language_code: sr
+      language_name: српски
       value: bibliografija
     - language_code: es
       language_name: español
@@ -47,6 +50,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: библиография
+    - language_code: sr-cyrl
+      language_name: српски
+      value: библиографија
     - language_code: ar
       language_name: العربية
       value: بيبليوغرافيا
@@ -78,7 +84,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 書目
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

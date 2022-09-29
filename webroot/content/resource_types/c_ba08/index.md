@@ -28,6 +28,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: note de lecture
+    - language_code: sr
+      language_name: српски
+      value: prikaz knjige
     - language_code: it
       language_name: italiano
       value: recensione di libro
@@ -46,6 +49,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: ressenya de llibre
+    - language_code: sr-cyrl
+      language_name: српски
+      value: приказ књиге
     - language_code: ru
       language_name: русский
       value: рецензия на книгу
@@ -113,7 +119,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 書評
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

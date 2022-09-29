@@ -12,6 +12,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: anket verisi
+    - language_code: sr
+      language_name: српски
+      value: anketni podaci
     - language_code: sl
       language_name: slovenščina
       value: anketni podatki
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: survey data
+    - language_code: sr-cyrl
+      language_name: српски
+      value: анкетни подаци
     - language_code: ru
       language_name: русский
       value: данные опроса
@@ -58,7 +64,7 @@ alt_labels:
     - language_code: fi
       language_name: suomi
       value: survey-aineisto
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

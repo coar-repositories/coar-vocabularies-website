@@ -29,6 +29,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: newspaper
+    - language_code: sr
+      language_name: српски
+      value: novine
     - language_code: es
       language_name: español
       value: periódico
@@ -41,6 +44,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: газета
+    - language_code: sr-cyrl
+      language_name: српски
+      value: новине
     - language_code: ja
       language_name: 日本語
       value: 新聞
@@ -51,7 +57,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časnik
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_998f

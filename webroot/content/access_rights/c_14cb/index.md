@@ -29,6 +29,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: nur Metadaten
+    - language_code: sr
+      language_name: српски
+      value: pristup ograničen na metapodatke
     - language_code: es
       language_name: español
       value: registro bibliográfico
@@ -44,6 +47,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: доступ к метаданным
+    - language_code: sr-cyrl
+      language_name: српски
+      value: приступ ограничен на метаподатке
     - language_code: ar
       language_name: العربية
       value: الوصول المحدود بالميتاداتا
@@ -90,7 +96,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: samo dostop do metapodatkov
-date: 2021-02-03T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

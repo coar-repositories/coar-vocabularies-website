@@ -15,11 +15,11 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: memorando
-    - language_code: cs
-      language_name: čeština
-      value: memorandum
     - language_code: nl
       language_name: Nederlands
+      value: memorandum
+    - language_code: en
+      language_name: English
       value: memorandum
     - language_code: it
       language_name: italiano
@@ -27,8 +27,11 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: memorandum
-    - language_code: en
-      language_name: English
+    - language_code: sr
+      language_name: српски
+      value: memorandum
+    - language_code: cs
+      language_name: čeština
       value: memorandum
     - language_code: ca
       language_name: català
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: mémo
+    - language_code: sr-cyrl
+      language_name: српски
+      value: меморандум
     - language_code: ru
       language_name: русский
       value: меморандум
@@ -58,11 +64,11 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Denkschrift
-    - language_code: pt
-      language_name: português
-      value: circular
     - language_code: es
       language_name: español
+      value: circular
+    - language_code: pt
+      language_name: português
       value: circular
     - language_code: es
       language_name: español
@@ -85,7 +91,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 備忘錄
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

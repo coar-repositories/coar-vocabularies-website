@@ -27,6 +27,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: patent de disseny
+    - language_code: sr
+      language_name: српски
+      value: patent za dizajn
     - language_code: sl
       language_name: slovenščina
       value: patent za oblikovanje
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: tasarım patenti
+    - language_code: sr-cyrl
+      language_name: српски
+      value: патент за дизајн
     - language_code: ru
       language_name: русский
       value: патент на образец
@@ -52,7 +58,7 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: tasarım tescili
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

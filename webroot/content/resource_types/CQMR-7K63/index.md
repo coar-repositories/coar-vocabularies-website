@@ -33,6 +33,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: recorded data
+    - language_code: sr
+      language_name: српски
+      value: snimljeni podaci
     - language_code: fi
       language_name: suomi
       value: tallennettu data
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: записанные данные
+    - language_code: sr-cyrl
+      language_name: српски
+      value: снимљени подаци
     - language_code: ja
       language_name: 日本語
       value: 記録データ
@@ -61,7 +67,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: zabeleženi podatki
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

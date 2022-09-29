@@ -33,6 +33,12 @@ pref_labels:
     - language_code: es
       language_name: español
       value: manuscrito
+    - language_code: sr
+      language_name: српски
+      value: rukopis
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рукопис
     - language_code: ru
       language_name: русский
       value: рукопись
@@ -52,10 +58,16 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: rokopis
+    - language_code: sr
+      language_name: српски
+      value: rukopisna građa
     - language_code: ru
       language_name: русский
       value: манускрипт
-date: 2021-07-19T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рукописна грађа
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

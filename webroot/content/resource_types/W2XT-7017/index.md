@@ -30,6 +30,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: simulacijski podatki
+    - language_code: sr
+      language_name: српски
+      value: simulacioni podaci
     - language_code: nl
       language_name: Nederlands
       value: simulatiedata
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: данные моделирования
+    - language_code: sr-cyrl
+      language_name: српски
+      value: симулациони подаци
     - language_code: ja
       language_name: 日本語
       value: シミュレーションデータ
@@ -49,10 +55,16 @@ pref_labels:
       language_name: 中文
       value: 模拟数据
 alt_labels:
+    - language_code: sr
+      language_name: српски
+      value: podaci dobijeni simulacijom
     - language_code: nl
       language_name: Nederlands
       value: simulatiegegevens
-date: 2021-07-19T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: подаци добијени симулацијом
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

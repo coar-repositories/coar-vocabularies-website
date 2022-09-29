@@ -33,6 +33,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: odlog javne objave
+    - language_code: sr
+      language_name: српски
+      value: odloženi otvoreni pristup
     - language_code: nl
       language_name: Nederlands
       value: onder embargo
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: доступ с эмбарго
+    - language_code: sr-cyrl
+      language_name: српски
+      value: одложени отворени приступ
     - language_code: ar
       language_name: العربية
       value: الوصول المحظور
@@ -85,7 +91,7 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: libre accès différé
-date: 2021-02-03T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

@@ -19,6 +19,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: eleştiri
+    - language_code: sr
+      language_name: српски
+      value: prikaz
     - language_code: it
       language_name: italiano
       value: recensione
@@ -37,15 +40,18 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: ressenya
-    - language_code: en
-      language_name: English
-      value: review
     - language_code: nl
       language_name: Nederlands
+      value: review
+    - language_code: en
+      language_name: English
       value: review
     - language_code: fr
       language_name: français
       value: synthèse
+    - language_code: sr-cyrl
+      language_name: српски
+      value: приказ
     - language_code: ru
       language_name: русский
       value: рецензия
@@ -80,14 +86,17 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: derleme
+    - language_code: sr
+      language_name: српски
+      value: kritički prikaz
     - language_code: it
       language_name: italiano
       value: rassegna
-    - language_code: es
-      language_name: español
-      value: recension
     - language_code: fr
       language_name: français
+      value: recension
+    - language_code: es
+      language_name: español
       value: recension
     - language_code: ca
       language_name: català
@@ -98,6 +107,9 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: recensão crítica
+    - language_code: sr
+      language_name: српски
+      value: recenzija
     - language_code: pt
       language_name: português
       value: resenha
@@ -107,6 +119,12 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: revisão
+    - language_code: sr-cyrl
+      language_name: српски
+      value: критички приказ
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рецензија
     - language_code: ar
       language_name: العربية
       value: نقد
@@ -125,12 +143,12 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 评审
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - D97F-VB57
-    - H9BQ-739P
     - c_ba08
+    - H9BQ-739P
 broader_concepts:
     - c_18cf
 ---

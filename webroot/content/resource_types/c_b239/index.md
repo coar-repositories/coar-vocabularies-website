@@ -33,6 +33,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: uvodnik
+    - language_code: sr
+      language_name: српски
+      value: uvodnik
     - language_code: nl
       language_name: Nederlands
       value: voorwoord
@@ -45,6 +48,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: редакционная
+    - language_code: sr-cyrl
+      language_name: српски
+      value: уводник
     - language_code: ar
       language_name: العربية
       value: افتتاحية
@@ -73,12 +79,18 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: presentació
+    - language_code: sr
+      language_name: српски
+      value: reč urednika
     - language_code: es
       language_name: español
       value: tribuna de opinión
     - language_code: fr
       language_name: français
       value: édito
+    - language_code: sr-cyrl
+      language_name: српски
+      value: реч уредника
     - language_code: zh
       language_name: 中文
       value: 社評
@@ -88,7 +100,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 社评
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

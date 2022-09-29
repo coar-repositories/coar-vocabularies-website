@@ -33,12 +33,18 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: presentazione a convegno
+    - language_code: sr
+      language_name: српски
+      value: prezentacija sa konferencije
     - language_code: fr
       language_name: français
       value: support de présentation à une conférence
     - language_code: ru
       language_name: русский
       value: конференционная презентация
+    - language_code: sr-cyrl
+      language_name: српски
+      value: презентација са конференције
     - language_code: ja
       language_name: 日本語
       value: 会議発表資料
@@ -55,7 +61,7 @@ alt_labels:
     - language_code: es
       language_name: español
       value: presentación
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

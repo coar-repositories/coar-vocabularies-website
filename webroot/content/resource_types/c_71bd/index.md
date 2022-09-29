@@ -37,6 +37,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: technische documentatie
+    - language_code: sr
+      language_name: српски
+      value: tehnička dokumentacija
     - language_code: sl
       language_name: slovenščina
       value: tehnična dokumentacija
@@ -49,6 +52,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: техническая документация
+    - language_code: sr-cyrl
+      language_name: српски
+      value: техничка документација
     - language_code: ar
       language_name: العربية
       value: وثائق تقنية
@@ -98,7 +104,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 技術資料
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

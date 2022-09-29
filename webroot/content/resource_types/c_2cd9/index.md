@@ -17,14 +17,17 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: aikakauslehti
+    - language_code: sr
+      language_name: српски
+      value: informativna revija
     - language_code: sl
       language_name: slovenščina
       value: informativna revija
-    - language_code: fr
-      language_name: français
-      value: magazine
     - language_code: en
       language_name: English
+      value: magazine
+    - language_code: fr
+      language_name: français
       value: magazine
     - language_code: ca
       language_name: català
@@ -38,6 +41,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: tijdschrift
+    - language_code: sr-cyrl
+      language_name: српски
+      value: информативна ревија
     - language_code: ru
       language_name: русский
       value: периодическое печатное издание
@@ -45,6 +51,9 @@ pref_labels:
       language_name: 日本語
       value: 雑誌
 alt_labels:
+    - language_code: sr
+      language_name: српски
+      value: magazin
     - language_code: nl
       language_name: Nederlands
       value: magazine
@@ -66,7 +75,16 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časopis
-date: 2021-07-19T00:00:00Z
+    - language_code: sr
+      language_name: српски
+      value: časopis
+    - language_code: sr-cyrl
+      language_name: српски
+      value: магазин
+    - language_code: sr-cyrl
+      language_name: српски
+      value: часопис
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

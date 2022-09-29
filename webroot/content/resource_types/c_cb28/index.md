@@ -36,12 +36,18 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: klinische studie data
+    - language_code: sr
+      language_name: српски
+      value: podaci iz kliničkih ispitivanja
     - language_code: sl
       language_name: slovenščina
       value: podatki kliničnih preskušanj
     - language_code: ru
       language_name: русский
       value: данные клинических испытаний
+    - language_code: sr-cyrl
+      language_name: српски
+      value: подаци из клиничких испитивања
     - language_code: zh
       language_name: 中文
       value: 临床试验数据
@@ -61,10 +67,16 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: klinično preskušanje
+    - language_code: sr
+      language_name: српски
+      value: podaci iz kliničkih studija
     - language_code: en
       language_name: English
       value: randomized control trial
-date: 2021-07-19T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: подаци из клиничких студија
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

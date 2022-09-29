@@ -18,6 +18,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: konferenční poster nezahrnutý ve sborníku
+    - language_code: sr
+      language_name: српски
+      value: neobjavljen poster sa konferencije
     - language_code: sl
       language_name: slovenščina
       value: poster
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: yayınlanmamış konferans posteri
+    - language_code: sr-cyrl
+      language_name: српски
+      value: необјављен постер са конференције
     - language_code: ru
       language_name: русский
       value: стендовый доклад не включенный в материалы конференции
@@ -67,7 +73,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 未發表在會議論文集中的海報
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

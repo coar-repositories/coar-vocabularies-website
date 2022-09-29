@@ -15,6 +15,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: aggregoitu tilastotieto
+    - language_code: sr
+      language_name: српски
+      value: agregirani podaci
     - language_code: sl
       language_name: slovenščina
       value: agregirani podatki
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: geaggregeerde data
+    - language_code: sr-cyrl
+      language_name: српски
+      value: агрегирани подаци
     - language_code: ru
       language_name: русский
       value: агрегированные данные
@@ -55,7 +61,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: združeni podatki
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

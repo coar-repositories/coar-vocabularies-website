@@ -21,6 +21,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: muu kausijulkaisu
+    - language_code: sr
+      language_name: српски
+      value: ostale periodične publikacije
     - language_code: sl
       language_name: slovenščina
       value: ostale serijske publikacije
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: другое периодическое издание
+    - language_code: sr-cyrl
+      language_name: српски
+      value: остале периодичне публикације
     - language_code: ja
       language_name: 日本語
       value: その他の逐次刊行物
@@ -49,7 +55,13 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: anders
-date: 2021-07-19T00:00:00Z
+    - language_code: sr
+      language_name: српски
+      value: ostala periodika
+    - language_code: sr-cyrl
+      language_name: српски
+      value: остала периодика
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

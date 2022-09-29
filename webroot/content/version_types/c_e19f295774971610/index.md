@@ -17,6 +17,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: herziene versie
+    - language_code: sr
+      language_name: српски
+      value: korigovana verzija
     - language_code: fi
       language_name: suomi
       value: korjattu julkaistu versio
@@ -38,6 +41,12 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: исправленная версия
+    - language_code: sr-cyrl
+      language_name: српски
+      value: коригована верзија
+    - language_code: zh
+      language_name: 中文
+      value: 作者修订稿
     - language_code: ja
       language_name: 日本語
       value: 訂正版
@@ -54,7 +63,10 @@ alt_labels:
     - language_code: es
       language_name: español
       value: versión publicada corregida
-date: 2018-07-01T00:00:00Z
+    - language_code: zh
+      language_name: 中文
+      value: 同行评审反馈修订稿
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

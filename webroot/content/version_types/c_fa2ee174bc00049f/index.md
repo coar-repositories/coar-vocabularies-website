@@ -23,6 +23,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: koevedos
+    - language_code: sr
+      language_name: српски
+      value: probna kopija
     - language_code: nl
       language_name: Nederlands
       value: proefdruk
@@ -35,6 +38,12 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: одобрен
+    - language_code: sr-cyrl
+      language_name: српски
+      value: пробна копија
+    - language_code: zh
+      language_name: 中文
+      value: 出版社版式稿
     - language_code: ja
       language_name: 日本語
       value: 校正版
@@ -60,6 +69,9 @@ alt_labels:
     - language_code: fi
       language_name: suomi
       value: oikovedos
+    - language_code: sr
+      language_name: српски
+      value: probni otisak
     - language_code: en
       language_name: English
       value: proof
@@ -84,7 +96,13 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: одобрены
-date: 2018-07-01T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: пробни отисак
+    - language_code: zh
+      language_name: 中文
+      value: 编辑校订稿、网络优先发布稿
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

@@ -22,6 +22,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksvoorstel
+    - language_code: sr
+      language_name: српски
+      value: predlog istraživačkog projekta
     - language_code: sl
       language_name: slovenščina
       value: predlog raziskave
@@ -49,6 +52,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: исследовательское предложение
+    - language_code: sr-cyrl
+      language_name: српски
+      value: предлог истраживачког пројекта
     - language_code: ar
       language_name: العربية
       value: اقتراح بحث
@@ -95,7 +101,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 研究計劃
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

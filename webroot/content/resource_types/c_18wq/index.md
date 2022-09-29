@@ -18,6 +18,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: diğer rapor türü
+    - language_code: sr
+      language_name: српски
+      value: druge vrste izveštaja
     - language_code: cs
       language_name: čeština
       value: jiná zpráva
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: sonstiger Report
+    - language_code: sr-cyrl
+      language_name: српски
+      value: друге врсте извештаја
     - language_code: ar
       language_name: العربية
       value: نوع آخر من التقرير
@@ -67,7 +73,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 其它報告
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

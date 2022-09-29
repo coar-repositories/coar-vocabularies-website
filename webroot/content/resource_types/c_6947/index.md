@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: https://schema.org/Blog
-    - type: Broad Match
       uri: http://purl.org/spar/fabio/WebContent
+    - type: Broad Match
+      uri: https://schema.org/Blog
     - type: Exact Match
       uri: http://purl.org/spar/fabio/BlogPost
 pref_labels:
@@ -42,9 +42,15 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: prispevek na blogu
+    - language_code: sr
+      language_name: српски
+      value: tekst na blogu
     - language_code: ru
       language_name: русский
       value: пост
+    - language_code: sr-cyrl
+      language_name: српски
+      value: текст на блогу
     - language_code: ja
       language_name: 日本語
       value: ブログ記事
@@ -67,7 +73,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: пост в блоге
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

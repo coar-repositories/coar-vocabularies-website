@@ -24,6 +24,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: research software
+    - language_code: sr
+      language_name: српски
+      value: softver za nauku
     - language_code: es
       language_name: español
       value: software de investigación
@@ -36,10 +39,19 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: исследовательское программное обеспечение
+    - language_code: sr-cyrl
+      language_name: српски
+      value: софтвер за науку
     - language_code: ja
       language_name: 日本語
       value: 研究用ソフトウェア
 alt_labels:
+    - language_code: sr
+      language_name: српски
+      value: istraživački softver
+    - language_code: sr
+      language_name: српски
+      value: naučni softver
     - language_code: ca
       language_name: català
       value: programari d’anàlisi
@@ -49,7 +61,13 @@ alt_labels:
     - language_code: fi
       language_name: suomi
       value: tutkimussovellus
-date: 2021-07-19T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: истраживачки софтвер
+    - language_code: sr-cyrl
+      language_name: српски
+      value: научни софтвер
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

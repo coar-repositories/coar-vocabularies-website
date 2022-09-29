@@ -18,6 +18,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: disseny
+    - language_code: sr
+      language_name: српски
+      value: dizajn
     - language_code: sl
       language_name: slovenščina
       value: oblikovanje
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: дизайн
+    - language_code: sr-cyrl
+      language_name: српски
+      value: дизајн
     - language_code: ja
       language_name: 日本語
       value: デザイン
@@ -46,7 +52,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: dizajn
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - BW7T-YM2G

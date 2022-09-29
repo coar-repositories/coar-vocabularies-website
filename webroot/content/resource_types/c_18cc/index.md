@@ -38,12 +38,18 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zvuk
+    - language_code: sr
+      language_name: српски
+      value: zvučni zapis
     - language_code: fi
       language_name: suomi
       value: ääni
     - language_code: ru
       language_name: русский
       value: звук
+    - language_code: sr-cyrl
+      language_name: српски
+      value: звучни запис
     - language_code: ar
       language_name: العربية
       value: صوت
@@ -72,7 +78,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 聲音
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - c_18cd

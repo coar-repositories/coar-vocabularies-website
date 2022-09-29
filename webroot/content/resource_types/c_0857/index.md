@@ -45,9 +45,15 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: mektup
+    - language_code: sr
+      language_name: српски
+      value: pismo
     - language_code: sl
       language_name: slovenščina
       value: pismo
+    - language_code: sr-cyrl
+      language_name: српски
+      value: писмо
     - language_code: ru
       language_name: русский
       value: письмо
@@ -85,7 +91,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 读者来信
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

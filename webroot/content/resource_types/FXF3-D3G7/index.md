@@ -30,6 +30,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: gecompileerde data
+    - language_code: sr
+      language_name: српски
+      value: kompilacija podataka
     - language_code: de
       language_name: Deutsch
       value: kompilierte Daten
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: yhdistetty data
+    - language_code: sr-cyrl
+      language_name: српски
+      value: компилација података
     - language_code: ru
       language_name: русский
       value: компилированные данные
@@ -48,8 +54,14 @@ pref_labels:
     - language_code: ja
       language_name: 日本語
       value: 編集データ
-alt_labels: []
-date: 2021-07-19T00:00:00Z
+alt_labels:
+    - language_code: sr
+      language_name: српски
+      value: kompilirani podaci
+    - language_code: sr-cyrl
+      language_name: српски
+      value: компилирани подаци
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -1,13 +1,14 @@
 ---
-version: "1.0"
+version: "1.1"
 current: false
 latest: true
 title: Access Rights
 description: The Access Rights vocabulary defines concepts to declare the access status of a resource. Multilingual labels regard regional distinctions in language and term.
-change_log: ""
+change_log: |
+    * Serbian translations added
 namespace: http://purl.org/coar/access_right/
 uri: http://purl.org/coar/access_right/scheme
-date: 2021-02-03T00:00:00Z
+date: 2022-09-29T00:00:00Z
 creators:
     - language: Spanish
       name: Alberto Apollaro
@@ -55,6 +56,8 @@ creators:
       name: Pedro Príncipe
     - language: German
       name: Jochen Schirrwagen
+    - language: Serbian
+      name: Milica Sevkusic
     - language: Japanese
       name: Tomoya Shiota
     - language: Russian
@@ -66,10 +69,9 @@ creators:
 contributors:
     - COAR Controlled Vocabularies Interest Group
 not_deprecated_concepts:
-    - c_14cb
-    - c_16ec
     - c_f1cf
+    - c_16ec
     - c_abf2
-layout: printable
+    - c_14cb
 ---
 

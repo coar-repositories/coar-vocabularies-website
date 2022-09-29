@@ -36,12 +36,18 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: kansainvälinen patenttihakemus
+    - language_code: sr
+      language_name: српски
+      value: patentna prijava
     - language_code: sl
       language_name: slovenščina
       value: patentna prijava
     - language_code: ru
       language_name: русский
       value: Заявка РСТ
+    - language_code: sr-cyrl
+      language_name: српски
+      value: патентна пријава
     - language_code: zh
       language_name: 中文
       value: 国际专利合作条约PCT申请
@@ -55,7 +61,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: tractat de cooperació en materia de patents
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -24,6 +24,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: protocolo de investigación
+    - language_code: sr
+      language_name: српски
+      value: protokol istraživanja
     - language_code: sl
       language_name: slovenščina
       value: protokol raziskave
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: протокол исследования
+    - language_code: sr-cyrl
+      language_name: српски
+      value: протокол истраживања
     - language_code: ja
       language_name: 日本語
       value: 研究プロトコル
@@ -52,7 +58,7 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: raziskovalni protokol
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

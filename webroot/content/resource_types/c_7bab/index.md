@@ -24,12 +24,18 @@ pref_labels:
     - language_code: en
       language_name: English
       value: software paper
+    - language_code: sr
+      language_name: српски
+      value: članak o računarskom programu
     - language_code: sl
       language_name: slovenščina
       value: članek o programski opremi
     - language_code: ru
       language_name: русский
       value: статья по программному обеспечению
+    - language_code: sr-cyrl
+      language_name: српски
+      value: чланак о рачунарском програму
     - language_code: ja
       language_name: 日本語
       value: ソフトウェア論文
@@ -46,13 +52,31 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: opis programske opreme
+    - language_code: sr
+      language_name: српски
+      value: opis računarskog programa
+    - language_code: sr
+      language_name: српски
+      value: opis softvera
     - language_code: fr
       language_name: français
       value: software paper
     - language_code: en
       language_name: English
       value: software tool article
-date: 2021-07-19T00:00:00Z
+    - language_code: sr
+      language_name: српски
+      value: članak o softveru
+    - language_code: sr-cyrl
+      language_name: српски
+      value: опис рачунарског програма
+    - language_code: sr-cyrl
+      language_name: српски
+      value: опис софтвера
+    - language_code: sr-cyrl
+      language_name: српски
+      value: чланак о софтверу
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

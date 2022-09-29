@@ -27,6 +27,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: patente de software
+    - language_code: sr
+      language_name: српски
+      value: patentirani softver
     - language_code: en
       language_name: English
       value: software patent
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: патент на программное обеспечение
+    - language_code: sr-cyrl
+      language_name: српски
+      value: патентирани софтвер
     - language_code: ja
       language_name: 日本語
       value: ソフトウェア特許
@@ -52,10 +58,16 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: octrooi op software
+    - language_code: sr
+      language_name: српски
+      value: softverski patent
+    - language_code: sr-cyrl
+      language_name: српски
+      value: софтверски патент
     - language_code: zh
       language_name: 中文
       value: 软件专利
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

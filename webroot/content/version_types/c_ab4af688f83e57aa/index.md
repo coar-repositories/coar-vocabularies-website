@@ -35,9 +35,18 @@ pref_labels:
     - language_code: es
       language_name: español
       value: versión final del autor
+    - language_code: sr
+      language_name: српски
+      value: verzija prihvaćena za objavljivanje
+    - language_code: sr-cyrl
+      language_name: српски
+      value: верзија прихваћена за објављивање
     - language_code: ru
       language_name: русский
       value: материал принятый к публикации
+    - language_code: zh
+      language_name: 中文
+      value: 作者投审稿
     - language_code: ja
       language_name: 日本語
       value: 出版社受理版
@@ -54,11 +63,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: manuscrito aceptado
-    - language_code: es
-      language_name: español
-      value: postprint
     - language_code: fr
       language_name: français
+      value: postprint
+    - language_code: es
+      language_name: español
       value: postprint
     - language_code: en
       language_name: English
@@ -66,6 +75,9 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: postpublication
+    - language_code: sr
+      language_name: српски
+      value: recenzirana verzija
     - language_code: ca
       language_name: català
       value: versió acceptada
@@ -81,13 +93,19 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: принятая к публикации рукопись
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рецензирана верзија
     - language_code: ru
       language_name: русский
       value: рукопись принятая к публикации
     - language_code: ru
       language_name: русский
       value: статья принятая к публикации
-date: 2018-07-01T00:00:00Z
+    - language_code: zh
+      language_name: 中文
+      value: 出版社受理稿、后印本稿
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

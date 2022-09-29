@@ -21,11 +21,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: transcriptie
-    - language_code: en
-      language_name: English
-      value: transcription
     - language_code: fr
       language_name: français
+      value: transcription
+    - language_code: en
+      language_name: English
       value: transcription
     - language_code: sl
       language_name: slovenščina
@@ -33,9 +33,15 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: transkripsiyon
+    - language_code: sr
+      language_name: српски
+      value: transkript
     - language_code: it
       language_name: italiano
       value: trascrizione
+    - language_code: sr-cyrl
+      language_name: српски
+      value: транскрипт
     - language_code: ru
       language_name: русский
       value: транскрипция
@@ -52,7 +58,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 誊写记录
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

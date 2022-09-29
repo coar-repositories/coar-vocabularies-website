@@ -22,6 +22,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: bakalářská práce
+    - language_code: sr
+      language_name: српски
+      value: diplomski rad
     - language_code: sl
       language_name: slovenščina
       value: diplomsko delo
@@ -49,6 +52,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: бакалаврская диссертация
+    - language_code: sr-cyrl
+      language_name: српски
+      value: дипломски рад
     - language_code: ar
       language_name: العربية
       value: رسالة بكالوريوس
@@ -104,7 +110,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 本科畢業論文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

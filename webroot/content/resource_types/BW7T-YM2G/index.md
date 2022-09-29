@@ -1,7 +1,7 @@
 ---
 title: layout design
 uri: http://purl.org/coar/resource_type/BW7T-YM2G
-description: 'Layout-design (topography) means the three-dimensional disposition, however expressed, of the interconnections of an integrated circuit, or such a three-dimensional disposition prepared for an integrated circuit intended for manufacture the elements of an integrated circuit (at least one of which is an active element) and of some or all. [Source: https://www.wipo.int/edocs/lexdocs/laws/en/hk/hk028en.pdf]'
+description: "Layout-design (topography) means the three-dimensional disposition, however expressed, of \nthe elements of an integrated circuit (at least one of which is an active element) and of some or all of the interconnections of an integrated circuit, or such a three-dimensional disposition prepared for \nan integrated circuit intended for manufacture [Source: https://www.wipo.int/edocs/lexdocs/laws/en/hk/hk028en.pdf]"
 deprecated: false
 layout: concept
 related: []
@@ -27,6 +27,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: schéma de configuration
+    - language_code: sr
+      language_name: српски
+      value: shema konfiguracije
     - language_code: es
       language_name: español
       value: topografía de productos semiconductores
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: компоновка
+    - language_code: sr-cyrl
+      language_name: српски
+      value: схема конфигурације
     - language_code: ja
       language_name: 日本語
       value: レイアウト設計
@@ -55,7 +61,7 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: макетирование
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

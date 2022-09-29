@@ -39,6 +39,12 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: pismo uredniku
+    - language_code: sr
+      language_name: српски
+      value: pismo uredniku
+    - language_code: sr-cyrl
+      language_name: српски
+      value: писмо уреднику
     - language_code: ru
       language_name: русский
       value: письмо редактору
@@ -88,6 +94,18 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: newsletter
+    - language_code: sr
+      language_name: српски
+      value: pismo redakciji
+    - language_code: sr
+      language_name: српски
+      value: pismo uredništvu
+    - language_code: sr-cyrl
+      language_name: српски
+      value: писмо редакцији
+    - language_code: sr-cyrl
+      language_name: српски
+      value: писмо уредништву
     - language_code: zh
       language_name: 中文
       value: 快報
@@ -97,7 +115,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 讀者來信
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

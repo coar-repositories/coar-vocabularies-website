@@ -39,9 +39,15 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: opazovalni podatki
+    - language_code: sr
+      language_name: српски
+      value: podaci prikupljeni posmatranjem
     - language_code: ru
       language_name: русский
       value: данные наблюдений
+    - language_code: sr-cyrl
+      language_name: српски
+      value: подаци прикупљени посматрањем
     - language_code: ja
       language_name: 日本語
       value: 観測データ
@@ -52,7 +58,7 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: dades d'observació
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -18,6 +18,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: informe de recerca
+    - language_code: sr
+      language_name: српски
+      value: izveštaj o istraživanju
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksrapport
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: výzkumná zpráva
+    - language_code: sr-cyrl
+      language_name: српски
+      value: извештај о истраживању
     - language_code: ru
       language_name: русский
       value: исследовательский отчет
@@ -106,7 +112,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 调研报告
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

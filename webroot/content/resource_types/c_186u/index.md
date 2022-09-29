@@ -9,6 +9,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Policy Report
+    - language_code: sr
+      language_name: српски
+      value: analiza politike
     - language_code: nl
       language_name: Nederlands
       value: beleidsrapport
@@ -42,6 +45,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zpráva k politice nebo strategii
+    - language_code: sr-cyrl
+      language_name: српски
+      value: анализа политике
     - language_code: ru
       language_name: русский
       value: отчет о политике
@@ -79,7 +85,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 政策報告
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

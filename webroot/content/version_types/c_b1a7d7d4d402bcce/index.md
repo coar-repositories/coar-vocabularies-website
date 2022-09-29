@@ -22,6 +22,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: auteurs versie
+    - language_code: sr
+      language_name: српски
+      value: autorski original
     - language_code: fi
       language_name: suomi
       value: käsikirjoitus
@@ -40,6 +43,12 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: авторский оригинал
+    - language_code: sr-cyrl
+      language_name: српски
+      value: ауторски оригинал
+    - language_code: zh
+      language_name: 中文
+      value: 作者手稿
     - language_code: ja
       language_name: 日本語
       value: 著者オリジナル版
@@ -80,7 +89,10 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: оригинал
-date: 2018-07-01T00:00:00Z
+    - language_code: zh
+      language_name: 中文
+      value: 论文二次审定稿、论文审定稿
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

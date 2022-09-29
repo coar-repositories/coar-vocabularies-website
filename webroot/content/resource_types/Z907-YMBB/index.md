@@ -30,6 +30,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: patente de plantas
+    - language_code: sr
+      language_name: српски
+      value: patentirana sorta
     - language_code: en
       language_name: English
       value: plant patent
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: патент на растение
+    - language_code: sr-cyrl
+      language_name: српски
+      value: патентирана сорта
     - language_code: zh
       language_name: 中文
       value: 品种专属权
@@ -49,7 +55,7 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: brevet végétal
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

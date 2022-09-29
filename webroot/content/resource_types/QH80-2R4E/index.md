@@ -30,6 +30,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: izvorna koda
+    - language_code: sr
+      language_name: српски
+      value: izvorni softverski kod
     - language_code: tr
       language_name: Türkçe
       value: kaynak kodu
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: source code
+    - language_code: sr-cyrl
+      language_name: српски
+      value: изворни софтверски код
     - language_code: ru
       language_name: русский
       value: исходный код
@@ -52,7 +58,7 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: brontekst
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

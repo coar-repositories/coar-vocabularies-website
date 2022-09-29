@@ -24,6 +24,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: interner Bericht
+    - language_code: sr
+      language_name: српски
+      value: interni izveštaj
     - language_code: sl
       language_name: slovenščina
       value: interno poročilo
@@ -39,6 +42,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: relatório interno
+    - language_code: sr-cyrl
+      language_name: српски
+      value: интерни извештај
     - language_code: ar
       language_name: العربية
       value: تقرير داخلي
@@ -58,7 +64,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 內部報告
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

@@ -36,12 +36,18 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: genomische data
+    - language_code: sr
+      language_name: српски
+      value: genomski podaci
     - language_code: sl
       language_name: slovenščina
       value: genomski podatki
     - language_code: ru
       language_name: русский
       value: геномные данные
+    - language_code: sr-cyrl
+      language_name: српски
+      value: геномски подаци
     - language_code: ja
       language_name: 日本語
       value: ゲノムデータ
@@ -49,7 +55,7 @@ pref_labels:
       language_name: 中文
       value: 基因组数据
 alt_labels: []
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

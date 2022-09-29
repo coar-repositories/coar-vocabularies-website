@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://schema.org/Dataset
-    - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Dataset
     - type: Exact Match
       uri: http://purl.org/spar/fabio/Dataset
+    - type: Exact Match
+      uri: https://schema.org/Dataset
     - type: Related Match
       uri: http://id.loc.gov/vocabulary/contentTypes/cod
 pref_labels:
@@ -44,6 +44,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: podatkovna zbirka
+    - language_code: sr
+      language_name: српски
+      value: skup podataka
     - language_code: fi
       language_name: suomi
       value: tutkimusaineisto
@@ -53,6 +56,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: набор данных
+    - language_code: sr-cyrl
+      language_name: српски
+      value: скуп података
     - language_code: ar
       language_name: العربية
       value: مجموعة بيانات
@@ -75,11 +81,11 @@ alt_labels:
     - language_code: en
       language_name: English
       value: data sets
-    - language_code: pt
-      language_name: português
-      value: dataset
     - language_code: ca
       language_name: català
+      value: dataset
+    - language_code: pt
+      language_name: português
       value: dataset
     - language_code: ca
       language_name: català
@@ -108,22 +114,22 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 资料组
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - 63NG-B465
-    - W2XT-7017
     - c_cb28
-    - 2H0M-X761
-    - FF4C-28RK
-    - NHD0-W6SY
-    - H41Y-FW7B
     - AM6W-6QAW
     - CQMR-7K63
     - A8F1-NPV9
     - DD58-GFSX
-    - FXF3-D3G7
+    - H41Y-FW7B
+    - W2XT-7017
     - ACF7-8YT9
+    - FXF3-D3G7
+    - NHD0-W6SY
+    - 2H0M-X761
+    - FF4C-28RK
+    - 63NG-B465
 broader_concepts: []
 ---
 

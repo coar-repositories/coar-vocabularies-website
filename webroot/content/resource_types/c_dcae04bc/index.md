@@ -20,6 +20,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: pregledni znanstveni članek
+    - language_code: sr
+      language_name: српски
+      value: pregledni članak
     - language_code: cs
       language_name: čeština
       value: přehledový článek
@@ -32,6 +35,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: обзорная статья
+    - language_code: sr-cyrl
+      language_name: српски
+      value: прегледни чланак
     - language_code: ar
       language_name: العربية
       value: مقال نقد
@@ -63,9 +69,21 @@ alt_labels:
     - language_code: en
       language_name: English
       value: journal commentary
+    - language_code: sr
+      language_name: српски
+      value: pregledni naučni članak
+    - language_code: sr
+      language_name: српски
+      value: pregledni rad
     - language_code: nl
       language_name: Nederlands
       value: recensie-artikel
+    - language_code: sr-cyrl
+      language_name: српски
+      value: прегледни научни чланак
+    - language_code: sr-cyrl
+      language_name: српски
+      value: прегледни рад
     - language_code: zh
       language_name: 中文
       value: 综述
@@ -78,7 +96,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 综述评论性论文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -20,6 +20,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: doktora tezi
+    - language_code: sr
+      language_name: српски
+      value: doktorska disertacija
     - language_code: sl
       language_name: slovenščina
       value: doktorska disertacija
@@ -44,6 +47,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: väitöskirja
+    - language_code: sr-cyrl
+      language_name: српски
+      value: докторска дисертација
     - language_code: ru
       language_name: русский
       value: докторская диссертация
@@ -96,7 +102,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 博士研究生畢業論文
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -21,6 +21,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: peerreview
+    - language_code: sr
+      language_name: српски
+      value: recenzija
     - language_code: it
       language_name: italiano
       value: revisione tra pari
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: évaluation par les pairs
+    - language_code: sr-cyrl
+      language_name: српски
+      value: рецензија
     - language_code: ru
       language_name: русский
       value: экспертная оценка
@@ -52,6 +58,9 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: hakem değerlendirmesi
+    - language_code: sr
+      language_name: српски
+      value: naučna ili stručna recenzija
     - language_code: ca
       language_name: català
       value: revisió d'experts
@@ -64,7 +73,10 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: validation par les pairs
-date: 2021-07-19T00:00:00Z
+    - language_code: sr-cyrl
+      language_name: српски
+      value: научна или стручна рецензија
+date: 2022-09-29T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

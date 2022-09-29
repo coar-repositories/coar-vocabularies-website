@@ -25,6 +25,9 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: periodikum
+    - language_code: sr
+      language_name: српски
+      value: periodična publikacija
     - language_code: ca
       language_name: català
       value: publicació en sèrie
@@ -43,6 +46,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: süreli yayın
+    - language_code: sr-cyrl
+      language_name: српски
+      value: периодична публикација
     - language_code: zh
       language_name: 中文
       value: 期刊
@@ -53,6 +59,9 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: fortlaufendes Sammelwerk
+    - language_code: sr
+      language_name: српски
+      value: periodika
     - language_code: pt
       language_name: português
       value: periódico
@@ -86,9 +95,18 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: seriale
+    - language_code: sr
+      language_name: српски
+      value: serijska publikacija
     - language_code: cs
       language_name: čeština
       value: časopis
+    - language_code: sr-cyrl
+      language_name: српски
+      value: периодика
+    - language_code: sr-cyrl
+      language_name: српски
+      value: серијска публикација
     - language_code: zh
       language_name: 中文
       value: 定期刊物
@@ -98,7 +116,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 連續出版刊物
-date: 2021-07-19T00:00:00Z
+date: 2022-09-29T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []
