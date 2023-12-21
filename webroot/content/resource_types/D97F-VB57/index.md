@@ -24,11 +24,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: commentary
-    - language_code: sr
-      language_name: српски
-      value: komentar
     - language_code: sl
       language_name: slovenščina
+      value: komentar
+    - language_code: sr
+      language_name: српски
       value: komentar
     - language_code: fi
       language_name: suomi
@@ -42,11 +42,11 @@ pref_labels:
     - language_code: sr-cyrl
       language_name: српски
       value: коментар
-    - language_code: ru
-      language_name: русский
-      value: комментарий
     - language_code: pt
       language_name: português
+      value: комментарий
+    - language_code: ru
+      language_name: русский
       value: комментарий
     - language_code: ja
       language_name: 日本語

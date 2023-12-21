@@ -104,17 +104,17 @@ alt_labels:
     - language_code: sr
       language_name: српски
       value: komentar
-    - language_code: pt
-      language_name: português
-      value: nota
-    - language_code: ca
-      language_name: català
-      value: nota
     - language_code: es
       language_name: español
       value: nota
+    - language_code: pt
+      language_name: português
+      value: nota
     - language_code: it
       language_name: italiano
+      value: nota
+    - language_code: ca
+      language_name: català
       value: nota
     - language_code: es
       language_name: español

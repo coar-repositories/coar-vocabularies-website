@@ -38,11 +38,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: ponencia
-    - language_code: sl
-      language_name: slovenščina
-      value: predavanje
     - language_code: sr
       language_name: српски
+      value: predavanje
+    - language_code: sl
+      language_name: slovenščina
       value: predavanje
     - language_code: cs
       language_name: čeština

@@ -32,13 +32,15 @@
         </ul>
 
         <h2>Other views</h2>
-        <p>
         <ul>
             <li><a href="/{{ .File.Dir }}printable">Single page for printing (.html)</a></li>
             <li><a href="/{{ .File.Dir }}{{ .Section }}.nt">RDF (.nt)</a></li>
-            <li><a href="/{{ .File.Dir }}{{ .Section }}_for_dspace.xml">DSpace Vocab file (.xml)</a></li>
+            {{ with .Resources.Match "*.xml"}}
+                {{ range . }}
+                    <li><a href="/{{ page.File.Dir }}{{ . }}">DSpace XML Vocab file (Language: {{ substr . -6 2 }})</a></li>
+                {{ end }}
+            {{ end }}
         </ul>
-        </p>
     </div>
     <div class="col">
         {{ with .Params.creators }}

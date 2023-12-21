@@ -11,29 +11,29 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bibliografie
-    - language_code: fi
-      language_name: suomi
+    - language_code: it
+      language_name: italiano
       value: bibliografia
     - language_code: ca
       language_name: català
       value: bibliografia
+    - language_code: fi
+      language_name: suomi
+      value: bibliografia
     - language_code: pt
       language_name: português
       value: bibliografia
-    - language_code: it
-      language_name: italiano
-      value: bibliografia
-    - language_code: cs
-      language_name: čeština
-      value: bibliografie
     - language_code: nl
       language_name: Nederlands
       value: bibliografie
-    - language_code: sl
-      language_name: slovenščina
-      value: bibliografija
+    - language_code: cs
+      language_name: čeština
+      value: bibliografie
     - language_code: sr
       language_name: српски
+      value: bibliografija
+    - language_code: sl
+      language_name: slovenščina
       value: bibliografija
     - language_code: es
       language_name: español

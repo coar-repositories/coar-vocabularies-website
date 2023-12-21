@@ -15,11 +15,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
-    - language_code: ca
-      language_name: català
-      value: informe
     - language_code: es
       language_name: español
+      value: informe
+    - language_code: ca
+      language_name: català
       value: informe
     - language_code: sr
       language_name: српски
@@ -33,11 +33,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: raportti
-    - language_code: nl
-      language_name: Nederlands
-      value: rapport
     - language_code: fr
       language_name: français
+      value: rapport
+    - language_code: nl
+      language_name: Nederlands
       value: rapport
     - language_code: it
       language_name: italiano

@@ -24,11 +24,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: muu
-    - language_code: sr
-      language_name: српски
-      value: ostalo
     - language_code: sl
       language_name: slovenščina
+      value: ostalo
+    - language_code: sr
+      language_name: српски
       value: ostalo
     - language_code: cs
       language_name: čeština

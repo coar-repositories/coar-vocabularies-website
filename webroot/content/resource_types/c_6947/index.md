@@ -33,11 +33,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: blogiteksti
-    - language_code: ca
-      language_name: català
-      value: entrada de blog
     - language_code: es
       language_name: español
+      value: entrada de blog
+    - language_code: ca
+      language_name: català
       value: entrada de blog
     - language_code: sl
       language_name: slovenščina

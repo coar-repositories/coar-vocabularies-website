@@ -23,11 +23,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: görüntü
-    - language_code: fr
-      language_name: français
-      value: image
     - language_code: en
       language_name: English
+      value: image
+    - language_code: fr
+      language_name: français
       value: image
     - language_code: pt
       language_name: português
@@ -47,11 +47,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: obraz
-    - language_code: sr
-      language_name: српски
-      value: slika
     - language_code: sl
       language_name: slovenščina
+      value: slika
+    - language_code: sr
+      language_name: српски
       value: slika
     - language_code: hu
       language_name: magyar

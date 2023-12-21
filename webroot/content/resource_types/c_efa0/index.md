@@ -92,11 +92,11 @@ alt_labels:
     - language_code: it
       language_name: italiano
       value: rassegna
-    - language_code: fr
-      language_name: français
-      value: recension
     - language_code: es
       language_name: español
+      value: recension
+    - language_code: fr
+      language_name: français
       value: recension
     - language_code: ca
       language_name: català

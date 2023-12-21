@@ -24,17 +24,17 @@ pref_labels:
     - language_code: en
       language_name: English
       value: map
-    - language_code: pt
-      language_name: português
-      value: mapa
     - language_code: ca
       language_name: català
       value: mapa
-    - language_code: cs
-      language_name: čeština
+    - language_code: pt
+      language_name: português
       value: mapa
     - language_code: es
       language_name: español
+      value: mapa
+    - language_code: cs
+      language_name: čeština
       value: mapa
     - language_code: sr
       language_name: српски

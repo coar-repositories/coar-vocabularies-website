@@ -69,11 +69,11 @@ pref_labels:
       language_name: 日本語
       value: 学術雑誌論文
 alt_labels:
-    - language_code: en
-      language_name: English
-      value: article
     - language_code: ca
       language_name: català
+      value: article
+    - language_code: en
+      language_name: English
       value: article
     - language_code: ca
       language_name: català

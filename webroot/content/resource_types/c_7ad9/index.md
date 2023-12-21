@@ -43,11 +43,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: webové sídlo
-    - language_code: nl
-      language_name: Nederlands
-      value: website
     - language_code: en
       language_name: English
+      value: website
+    - language_code: nl
+      language_name: Nederlands
       value: website
     - language_code: sr-cyrl
       language_name: српски
@@ -92,11 +92,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: pàgina web
-    - language_code: pt
-      language_name: português
-      value: página web
     - language_code: es
       language_name: español
+      value: página web
+    - language_code: pt
+      language_name: português
       value: página web
     - language_code: es
       language_name: español

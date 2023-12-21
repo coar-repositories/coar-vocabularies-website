@@ -53,6 +53,8 @@ creators:
       name: Yutaka Hayashi
 contributors:
     - COAR Controlled Vocabularies Interest Group
+languages:
+    - en
 not_deprecated_concepts:
     - c_db06
     - c_cb28

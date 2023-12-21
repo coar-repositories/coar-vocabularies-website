@@ -18,11 +18,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: ca
-      language_name: català
-      value: carta
     - language_code: es
       language_name: español
+      value: carta
+    - language_code: ca
+      language_name: català
       value: carta
     - language_code: pt
       language_name: português
@@ -45,11 +45,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: mektup
-    - language_code: sr
-      language_name: српски
-      value: pismo
     - language_code: sl
       language_name: slovenščina
+      value: pismo
+    - language_code: sr
+      language_name: српски
       value: pismo
     - language_code: sr-cyrl
       language_name: српски

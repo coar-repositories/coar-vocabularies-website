@@ -57,6 +57,25 @@ creators:
       name: Nathalie Vedovotto
 contributors:
     - COAR Controlled Vocabularies Interest Group
+languages:
+    - en
+    - de
+    - it
+    - fr
+    - ar
+    - nl
+    - tr
+    - es
+    - ca
+    - sl
+    - cs
+    - pt
+    - ja
+    - zh
+    - ru
+    - fi
+    - sr
+    - sr-cyrl
 not_deprecated_concepts:
     - c_ab4af688f83e57aa
     - c_dc82b40f9837b551

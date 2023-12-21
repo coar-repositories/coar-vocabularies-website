@@ -15,8 +15,8 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Video
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: sr
+      language_name: српски
       value: video
     - language_code: cs
       language_name: čeština
@@ -27,14 +27,14 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: video
-    - language_code: sr
-      language_name: српски
-      value: video
     - language_code: tr
       language_name: Türkçe
       value: video
     - language_code: fi
       language_name: suomi
+      value: video
+    - language_code: nl
+      language_name: Nederlands
       value: video
     - language_code: it
       language_name: italiano
@@ -42,14 +42,14 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: vidéo
-    - language_code: es
-      language_name: español
+    - language_code: ca
+      language_name: català
       value: vídeo
     - language_code: pt
       language_name: português
       value: vídeo
-    - language_code: ca
-      language_name: català
+    - language_code: es
+      language_name: español
       value: vídeo
     - language_code: sr-cyrl
       language_name: српски
@@ -67,11 +67,11 @@ pref_labels:
       language_name: 日本語
       value: 録画資料
 alt_labels:
-    - language_code: es
-      language_name: español
-      value: video
     - language_code: pt
       language_name: português
+      value: video
+    - language_code: es
+      language_name: español
       value: video
     - language_code: sr
       language_name: српски

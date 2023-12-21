@@ -29,23 +29,23 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: testo
-    - language_code: cs
-      language_name: čeština
+    - language_code: en
+      language_name: English
       value: text
     - language_code: ca
       language_name: català
       value: text
-    - language_code: en
-      language_name: English
+    - language_code: cs
+      language_name: čeština
       value: text
     - language_code: fr
       language_name: français
       value: texte
-    - language_code: pt
-      language_name: português
-      value: texto
     - language_code: es
       language_name: español
+      value: texto
+    - language_code: pt
+      language_name: português
       value: texto
     - language_code: sr-cyrl
       language_name: српски

@@ -26,14 +26,14 @@ pref_labels:
     - language_code: es
       language_name: español
       value: conjunto de datos
+    - language_code: it
+      language_name: italiano
+      value: dataset
     - language_code: nl
       language_name: Nederlands
       value: dataset
     - language_code: en
       language_name: English
-      value: dataset
-    - language_code: it
-      language_name: italiano
       value: dataset
     - language_code: cs
       language_name: čeština

@@ -30,11 +30,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: corrigendum
-    - language_code: fr
-      language_name: français
-      value: erratum
     - language_code: sr
       language_name: српски
+      value: erratum
+    - language_code: fr
+      language_name: français
       value: erratum
     - language_code: sr-cyrl
       language_name: српски
@@ -55,10 +55,10 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: correcció
-    - language_code: sr
+    - language_code: sr-cyrl
       language_name: српски
       value: corrigendum
-    - language_code: sr-cyrl
+    - language_code: sr
       language_name: српски
       value: corrigendum
     - language_code: fi

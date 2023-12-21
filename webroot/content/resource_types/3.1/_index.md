@@ -61,6 +61,25 @@ creators:
       name: Wilko Steinhoff
 contributors:
     - COAR Controlled Vocabularies Interest Group
+languages:
+    - en
+    - de
+    - it
+    - fr
+    - ar
+    - nl
+    - tr
+    - es
+    - ca
+    - sl
+    - cs
+    - pt
+    - ja
+    - zh
+    - ru
+    - fi
+    - sr
+    - sr-cyrl
 not_deprecated_concepts:
     - c_86bc
     - c_18op

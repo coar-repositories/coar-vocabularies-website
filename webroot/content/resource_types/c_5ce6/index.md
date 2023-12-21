@@ -30,23 +30,23 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: računarski program
+    - language_code: en
+      language_name: English
+      value: software
+    - language_code: nl
+      language_name: Nederlands
+      value: software
     - language_code: es
       language_name: español
       value: software
     - language_code: cs
       language_name: čeština
       value: software
-    - language_code: nl
-      language_name: Nederlands
-      value: software
     - language_code: pt
       language_name: português
       value: software
     - language_code: it
       language_name: italiano
-      value: software
-    - language_code: en
-      language_name: English
       value: software
     - language_code: tr
       language_name: Türkçe

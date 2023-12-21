@@ -37,11 +37,11 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: knjiga
-    - language_code: es
-      language_name: español
-      value: libro
     - language_code: it
       language_name: italiano
+      value: libro
+    - language_code: es
+      language_name: español
       value: libro
     - language_code: pt
       language_name: português
@@ -89,8 +89,8 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: livre
-    - language_code: ca
-      language_name: català
+    - language_code: it
+      language_name: italiano
       value: monografia
     - language_code: es
       language_name: español
@@ -98,8 +98,8 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: monografia
-    - language_code: it
-      language_name: italiano
+    - language_code: ca
+      language_name: català
       value: monografia
     - language_code: cs
       language_name: čeština

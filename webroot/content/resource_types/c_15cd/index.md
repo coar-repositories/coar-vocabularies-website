@@ -21,29 +21,29 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: brevetto
-    - language_code: nl
-      language_name: Nederlands
-      value: patent
-    - language_code: ca
-      language_name: català
-      value: patent
-    - language_code: en
-      language_name: English
-      value: patent
     - language_code: cs
       language_name: čeština
-      value: patent
-    - language_code: tr
-      language_name: Türkçe
       value: patent
     - language_code: sr
       language_name: српски
       value: patent
-    - language_code: es
-      language_name: español
-      value: patente
+    - language_code: en
+      language_name: English
+      value: patent
+    - language_code: ca
+      language_name: català
+      value: patent
+    - language_code: nl
+      language_name: Nederlands
+      value: patent
+    - language_code: tr
+      language_name: Türkçe
+      value: patent
     - language_code: pt
       language_name: português
+      value: patente
+    - language_code: es
+      language_name: español
       value: patente
     - language_code: fi
       language_name: suomi
