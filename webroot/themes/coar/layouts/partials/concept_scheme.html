@@ -33,11 +33,12 @@
 
         <h2>Other views</h2>
         <ul>
-            <li><a href="/{{ .File.Dir }}printable">Single page for printing (.html)</a></li>
-            <li><a href="/{{ .File.Dir }}{{ .Section }}.nt">RDF (.nt)</a></li>
+            <li><a href="/{{ .File.Dir }}printable">Single page for printing (HTML)</a></li>
+            <li><a href="/{{ .File.Dir }}{{ .Section }}.nt">RDF (NTriples)</a></li>
             {{ with .Resources.Match "*.xml"}}
                 {{ range . }}
-                    <li><a href="/{{ page.File.Dir }}{{ . }}">DSpace XML Vocab file (Language: {{ substr . -6 2 }})</a></li>
+                    {{ $languageCode := substr . 26 -4 }}
+                    <li><a href="/{{ page.File.Dir }}{{ . }}">DSpace XML Vocab file ({{ index site.Data.languages $languageCode }})</a></li>
                 {{ end }}
             {{ end }}
         </ul>
