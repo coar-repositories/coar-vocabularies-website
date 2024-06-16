@@ -37,7 +37,8 @@
             <li><a href="/{{ .File.Dir }}{{ .Section }}.nt">RDF (NTriples)</a></li>
             {{ with .Resources.Match "*.xml"}}
                 {{ range . }}
-                    {{ $languageCode := substr . 26 -4 }}
+                    {{ $fileNameSlice := strings.Split . "dspace_"}}
+                    {{ $languageCode := substr (index $fileNameSlice 1) 0 -4 }}
                     <li><a href="/{{ page.File.Dir }}{{ . }}">DSpace XML Vocab file ({{ index site.Data.languages $languageCode }})</a></li>
                 {{ end }}
             {{ end }}
