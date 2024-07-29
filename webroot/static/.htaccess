@@ -1,2 +1,1 @@
-AddCharset UTF-8 .nt
-AddCharset UTF-8 .xml
+AddDefaultCharset utf-8
