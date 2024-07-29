@@ -3,3 +3,4 @@ buildDrafts: false
 googleAnalytics: ""
 params:
   showDebugInfo: false
+  enableAnalytics: true
