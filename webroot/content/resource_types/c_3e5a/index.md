@@ -27,6 +27,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: contributo in rivista
+    - language_code: sr
+      language_name: српски
+      value: informativni prilog
     - language_code: sl
       language_name: slovenščina
       value: prispevek v reviji
@@ -36,6 +39,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: tijdschrift bijdrage
+    - language_code: sr-cyrl
+      language_name: српски
+      value: информативни прилог
     - language_code: ar
       language_name: العربية
       value: مساهمة في دورية
@@ -46,9 +52,6 @@ pref_labels:
       language_name: 中文
       value: 期刊文献
 alt_labels:
-    - language_code: it
-      language_name: italiano
-      value: articolo in rivista
     - language_code: es
       language_name: español
       value: articulo de prensa
@@ -64,6 +67,12 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de revista
+    - language_code: sr
+      language_name: српски
+      value: informativni prilog (u časopisu)
+    - language_code: sr-cyrl
+      language_name: српски
+      value: информативни прилог (у часопису)
     - language_code: ar
       language_name: العربية
       value: مقال في دورية
@@ -73,7 +82,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 期刊论文
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

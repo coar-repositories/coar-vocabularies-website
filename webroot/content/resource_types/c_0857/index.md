@@ -8,24 +8,35 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/ontology/bibo/Letter
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3803
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Letter
+      uri: http://purl.org/ontology/bibo/Letter
+    - type: Narrow Match
+      uri: http://purl.bioontology.org/ontology/MESH/D019531
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Brief
+    - language_code: sv
+      language_name: svenska
+      value: brev
+    - language_code: da
+      language_name: dansk
+      value: brev
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: es
-      language_name: español
-      value: carta
     - language_code: ca
       language_name: català
       value: carta
+    - language_code: es
+      language_name: español
+      value: carta
     - language_code: pt
       language_name: português
+      value: carta
+    - language_code: gl
+      language_name: galego
       value: carta
     - language_code: it
       language_name: italiano
@@ -42,6 +53,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: lettre
+    - language_code: hu
+      language_name: magyar
+      value: levél
     - language_code: tr
       language_name: Türkçe
       value: mektup
@@ -51,6 +65,15 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: pismo
+    - language_code: ro
+      language_name: română
+      value: scrisoare
+    - language_code: el
+      language_name: Ελληνικά
+      value: επιστολή
+    - language_code: uk
+      language_name: українська
+      value: лист
     - language_code: sr-cyrl
       language_name: српски
       value: писмо
@@ -66,6 +89,9 @@ pref_labels:
     - language_code: ja
       language_name: 日本語
       value: 短報
+    - language_code: ko
+      language_name: 한국어
+      value: 편지
 alt_labels:
     - language_code: de
       language_name: Deutsch
@@ -91,7 +117,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 读者来信
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

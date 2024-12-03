@@ -1,7 +1,7 @@
 ---
 version: "3.1"
 current: false
-latest: true
+latest: false
 title: Resource Types
 description: The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries.
 change_log: |-

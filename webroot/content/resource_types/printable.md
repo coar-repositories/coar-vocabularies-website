@@ -1,179 +1,218 @@
 ---
-version: "3.1"
+version: "3.2"
 current: true
 latest: true
 title: Resource Types
 description: The Resource Type vocabulary defines concepts to identify the genre of a resource. Such resources, like publications, research data, audio and video objects, are typically deposited in institutional and thematic repositories or published in ejournals. This vocabulary supports a hierarchical model that relates narrower and broader concepts. Multilingual labels regard regional distinctions in language and term. Concepts of this vocabulary are mapped with terms and concepts of similar vocabularies and dictionaries.
-change_log: |-
-    * Serbian translations added
-    * The *Dataset* top concept was expanded to include 13 sub-concepts: *aggregated data*, *clinical trial data*, *compiled data*, *encoded data*, *experimental data*, *genomic data*, *geospatial data*, *laboratory notebook*, *measurement and test data*, *observational data*, *recorded data*, *simulation data* and *survey data*.
-    * The *Patent* top concept was expanded to include 6 sub-concepts: *PCT application*, *design patent*, *plant patent*, *plant variety protection*, *software patent* and *utility model*.
-    * The *Design* top concept was expanded to include 2 sub-concepts: *industrial design* and *layout design*.
-    * The following concepts/sub-concepts were added: *source code*, *conference presentation*, *other periodical*, *research protocol*, *peer review*, *commentary*, *transcription* and *trademark*.
-    * The following concepts were removed from this version of the vocabulary:  *interview*, *report par*, *contribution to journal*, *internal report*, *other type of report*, *report to funding agency* and *periodical*. These concepts remains in the earlier versions of the vocabulary, and the PURL URIs continue to resolve.
+change_log: |
+    - The following new terms were added:
+      - archival collection
+      - artistic work
+      - collection
+      - court documents
+      - knowledge organization system
+      - knowledge synthesis protocol
+      - magazine article
+      - physical sample
+      - research instrument
+    - The definition for the term "video" was amended
+    - The following language translations were added:
+      - Danish
+      - Galician
+      - Greek
+      - Hungarian
+      - Korean
+      - Romanian
+      - Swedish
+      - Ukrainian
 namespace: http://purl.org/coar/resource_type/
 uri: http://purl.org/coar/resource_type/scheme
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 creators:
-    - language: Catalan
-      name: Cristina Azorín
-    - language: Spanish
-      name: Paola Azrilevich
-    - language: Spanish
-      name: Isabel Bernal
-    - language: Turkish
-      name: Gültekin Gürdal
-    - language: Arabic
-      name: Sawsan Habre
-    - language: Finnish
-      name: Juha Hakala
-    - language: Japanese
-      name: Yutaka Hayashi
-    - language: Turkish
-      name: Ilkay Holt
-    - language: Chinese
-      name: Nie Hua
-    - language: English
-      name: Hilary Jones
-    - language: Japanese
-      name: Tomoko Kataoka
-    - language: French
-      name: Laurence Le Borgne
-    - language: Chinese
-      name: Ku (Alan) Liping
-    - language: Catalan
-      name: Marina Losada
-    - language: Italian
-      name: Susanna Mornati
-    - language: Catalan
-      name: Brigit Nonó
-    - language: Slovenian
-      name: Milan Ojsteršek
-    - language: Portuguese
-      name: Pedro Príncipe
-    - language: Russian
-      name: Irina Razumova
-    - language: German
-      name: Jochen Schirrwagen
-    - language: Serbian
-      name: Milica Sevkusic
-    - language: Dutch
-      name: Wilko Steinhoff
+    - language: ""
+      name: Isabel Bernal, CSIC, Spain (Editorial Board Chair)
+    - language: ""
+      name: Joseph Cera, University of California-Berkeley, US
+    - language: ""
+      name: Mick Eadie, University of Glasgow, United Kingdom
+    - language: ""
+      name: Benedetta Gandolini, 4Science, Italy
+    - language: ""
+      name: Sebastiano Giorgi, UOC, Spain
+    - language: ""
+      name: Gültekin Gürdal, Izmir Institute of Technology Library, Turkey
+    - language: ""
+      name: Pierre Lasou, Université Laval, Canada
+    - language: ""
+      name: Yoo Young Lee, University of Ottawa, Canada
+    - language: ""
+      name: Ku (Alan) Liping, Chinese Academy of Science
+    - language: ""
+      name: Katharina Menhard, Technische Universität Graz, Austria
+    - language: ""
+      name: Gretchen Neidhardt, Northwestern University, United States
+    - language: ""
+      name: Milan Ojsteršek, University of Maribor, Slovenia
+    - language: ""
+      name: Pedro Príncipe, Universidade do Minho, Portugal
+    - language: ""
+      name: Ellen Ramsey, COAR
+    - language: ""
+      name: Jochen Schirrwagen, Aachen University, Germany
+    - language: ""
+      name: Corinna Schneider, Technische Informationsbibliothek (TIB), Germany
+    - language: ""
+      name: Milica Sevkusic, EIFL Serbia
+    - language: ""
+      name: Kathleen Shearer, COAR
 contributors:
-    - COAR Controlled Vocabularies Interest Group
+    - Barbara Aristidou, Cyprus University of Technology, Cyprus
+    - Rawia Awadallah, Arab States Research and Education Network
+    - Aysen Binen, Izmir Institute of Technology, Turkey
+    - Jessica Byström, Chalmers University, Sweden
+    - Julie Gauthier, University of Montreal
+    - Diana Furcila Mihalache, FECYT, Spain
+    - Hyekyong Hwang, KISTI, Korea
+    - Krisztina Korosi, University Library of Corvinus University of Budapest, Hungary
+    - Iryna Kuchma, EIFL, Ukraine
+    - Christian Lacroix, University of Montreal
+    - Petra Magnusson, Chalmers University, Sweden
+    - George Macgregor, University of Glasgow, UK
+    - Antonia Nicolaou, Cyprus University of Technology, Cyprus
+    - Carmen Posse, University Library of Santiago de Compostela, Spain
+    - Irina Razumova, COAR
+    - Sa-kwang Song, KISTI, Korea
+    - Paul Walk, Antleaf, UK
 languages:
-    - en
-    - de
-    - it
-    - fr
     - ar
-    - nl
-    - tr
-    - es
     - ca
-    - sl
     - cs
-    - pt
-    - ja
-    - zh
-    - ru
+    - da
+    - de
+    - el
+    - en
+    - es
     - fi
+    - fr
+    - gl
+    - hu
+    - it
+    - ja
+    - ko
+    - nl
+    - pt
+    - ro
+    - ru
+    - sl
     - sr
+    - sv
     - sr-cyrl
+    - tr
+    - uk
+    - zh
 not_deprecated_concepts:
-    - c_86bc
-    - c_18op
-    - c_15cd
-    - R60J-J5BD
-    - c_0640
-    - c_cb28
-    - 2H0M-X761
-    - c_baaf
-    - D97F-VB57
-    - W2XT-7017
-    - c_5794
-    - c_7877
-    - c_f744
-    - FXF3-D3G7
-    - AM6W-6QAW
-    - c_2f33
-    - FF4C-28RK
-    - c_12cd
-    - c_71bd
-    - 542X-3S04
-    - c_998f
-    - H41Y-FW7B
-    - c_18cd
-    - c_18wz
-    - c_1843
-    - c_c94f
-    - c_e059
-    - c_7ad9
-    - A8F1-NPV9
-    - c_8042
-    - c_18cc
-    - c_bdcc
-    - c_18cp
-    - c_12ce
-    - c_e9a0
-    - H9BQ-739P
-    - c_18cw
-    - QX5C-AR31
-    - c_3248
-    - c_0857
-    - c_2cd9
-    - GPQ7-G5VE
-    - C53B-JCY5
-    - c_18gh
-    - SB3Y-W4EH
-    - c_beb9
-    - c_18cf
-    - c_18ws
-    - c_ab20
-    - c_2fe3
-    - c_ba08
-    - c_816b
-    - c_8a7e
-    - 9DKX-KSAF
+    - JBNF-DYAD
     - BW7T-YM2G
-    - c_c950
+    - c_2f33
+    - A8F1-NPV9
+    - F8RT-TJK0
+    - H9BQ-739P
+    - FXF3-D3G7
+    - C53B-JCY5
+    - AM6W-6QAW
+    - 43KC-T6DC
+    - YZ1N-ZFT9
+    - c_0640
+    - c_18cc
+    - QH80-2R4E
+    - MW8G-3CR8
+    - R60J-J5BD
+    - c_18ws
+    - 542X-3S04
+    - c_12ce
+    - c_3248
+    - YC9F-HGCF
+    - c_15cd
+    - 2H0M-X761
+    - c_e9a0
+    - c_93fc
+    - 1YTN-RJZE
+    - c_2df8fbb1
+    - c_f744
+    - GPQ7-G5VE
+    - c_998f
+    - c_393c
+    - c_ba08
+    - c_8544
+    - c_baaf
+    - H41Y-FW7B
+    - c_18cp
+    - c_7ad9
+    - GSZA-Y7V7
+    - c_ddb1
+    - c_7bab
+    - c_dcae04bc
+    - c_e059
+    - S7R1-K5P0
+    - RMP5-3GQ6
+    - c_8042
+    - c_18cw
+    - c_8a7e
+    - c_18wz
+    - c_beb9
+    - c_18co
+    - c_18op
+    - c_12cd
+    - SB3Y-W4EH
+    - Z907-YMBB
+    - c_12cc
+    - DD58-GFSX
+    - c_186u
+    - c_5794
+    - c_71bd
+    - FF4C-28RK
+    - c_0857
+    - c_18cd
+    - c_ecc8
+    - c_86bc
+    - c_b239
+    - c_7a1f
+    - c_db06
+    - c_c94f
+    - D97F-VB57
+    - c_816b
+    - 9DKX-KSAF
+    - c_46ec
+    - c_cb28
     - c_c513
     - c_efa0
-    - NHD0-W6SY
-    - c_ddb1
-    - c_12cc
-    - 63NG-B465
-    - c_6670
-    - c_dcae04bc
-    - 6NC7-GK9S
-    - c_7bab
-    - c_7acd
-    - c_db06
-    - Z907-YMBB
-    - c_b239
-    - c_0040
-    - YZ1N-ZFT9
-    - QH80-2R4E
-    - c_186u
-    - c_6501
+    - c_bdcc
+    - c_2fe3
     - c_1162
-    - c_ecc8
-    - DD58-GFSX
+    - c_0040
+    - c_6670
+    - c_c950
+    - c_1843
+    - DX5J-TA9R
+    - c_2cd9
+    - 63NG-B465
+    - NHD0-W6SY
+    - W2XT-7017
     - H6QP-SC1X
-    - c_93fc
-    - JBNF-DYAD
-    - MW8G-3CR8
-    - c_46ec
     - c_545b
-    - c_7a1f
-    - CQMR-7K63
-    - c_6947
-    - c_18co
+    - 8KJG-QS0Y
+    - c_7acd
+    - c_7877
     - c_5ce6
+    - c_6947
+    - c_18cf
+    - 6NC7-GK9S
+    - CQMR-7K63
+    - QX5C-AR31
     - ACF7-8YT9
-    - c_393c
-    - c_8544
-    - c_2df8fbb1
+    - c_ab20
+    - c_18gh
+    - c_6501
 layout: printable
 ---
 

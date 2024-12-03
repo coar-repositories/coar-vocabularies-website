@@ -50,9 +50,12 @@
             <ul>
                 {{ range . }}
                     {{ $creatorString := .name }}
-                    {{ if ne .language "" }}
-                        {{ $creatorString = print .name " (" .language " translation)"}}
-                    {{end }}
+                      {{ with .language }}
+                        {{ $creatorString = print $creatorString " (" . " translation)" }}
+                      {{ end }}
+{{/*                    {{ if ne .language "" }}*/}}
+{{/*                        {{ $creatorString = print .name " (" .language " translation)"}}*/}}
+{{/*                    {{end }}*/}}
                     <li>{{ $creatorString }}</li>
                 {{ end }}
             </ul>

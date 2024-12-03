@@ -19,15 +19,24 @@ pref_labels:
     - language_code: es
       language_name: español
       value: documentación técnica
+    - language_code: gl
+      language_name: galego
+      value: documentación técnica
     - language_code: it
       language_name: italiano
       value: documentazione tecnica
     - language_code: pt
       language_name: português
       value: documentação técnica
+    - language_code: ro
+      language_name: română
+      value: documentație tehnică
     - language_code: fr
       language_name: français
       value: manuel technique
+    - language_code: hu
+      language_name: magyar
+      value: műszaki dokumentáció
     - language_code: en
       language_name: English
       value: technical documentation
@@ -49,21 +58,36 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tekninen dokumentaatio
+    - language_code: da
+      language_name: dansk
+      value: teknisk dokumentation
+    - language_code: sv
+      language_name: svenska
+      value: teknisk dokumentation
+    - language_code: el
+      language_name: Ελληνικά
+      value: τεχνική τεκμηρίωση
     - language_code: ru
       language_name: русский
       value: техническая документация
     - language_code: sr-cyrl
       language_name: српски
       value: техничка документација
+    - language_code: uk
+      language_name: українська
+      value: технічна документація
     - language_code: ar
       language_name: العربية
-      value: وثائق تقنية
+      value: وثائق فنية
     - language_code: zh
       language_name: 中文
       value: 技术资料
     - language_code: ja
       language_name: 日本語
       value: 技術文書
+    - language_code: ko
+      language_name: 한국어
+      value: 기술문서
 alt_labels:
     - language_code: de
       language_name: Deutsch
@@ -88,7 +112,7 @@ alt_labels:
       value: manuale tecnico
     - language_code: ar
       language_name: العربية
-      value: كتيب
+      value: وثائق تقنية
     - language_code: zh
       language_name: 中文
       value: 技术文档
@@ -104,7 +128,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 技術資料
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

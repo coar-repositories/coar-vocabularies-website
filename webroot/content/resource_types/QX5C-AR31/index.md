@@ -61,7 +61,7 @@ alt_labels:
     - language_code: sr-cyrl
       language_name: српски
       value: остала периодика
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

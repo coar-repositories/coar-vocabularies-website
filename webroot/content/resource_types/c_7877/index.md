@@ -5,8 +5,10 @@ description: 'A work that reports on the results of a research study to evaluate
 deprecated: false
 layout: concept
 related:
+    - type: Broad Match
+      uri: https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/resourceTypeGeneral/#studyregistration
     - type: Related Match
-      uri: http://purl.org/spar/fabio/ClinicalCaseReport
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2502
 pref_labels:
     - language_code: tr
       language_name: Türkçe
@@ -20,15 +22,30 @@ pref_labels:
     - language_code: es
       language_name: español
       value: estudio clínico
+    - language_code: gl
+      language_name: galego
+      value: estudo clínico
+    - language_code: pt
+      language_name: português
+      value: estudo clínico
     - language_code: fi
       language_name: suomi
       value: kliininen tutkimus
+    - language_code: hu
+      language_name: magyar
+      value: klinikai vizsgálat
     - language_code: de
       language_name: Deutsch
       value: klinische Studie
     - language_code: nl
       language_name: Nederlands
       value: klinische studie
+    - language_code: da
+      language_name: dansk
+      value: klinisk rapport
+    - language_code: sv
+      language_name: svenska
+      value: klinisk studie
     - language_code: sr
       language_name: српски
       value: klinička studija
@@ -38,26 +55,47 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: studio clinico
+    - language_code: ro
+      language_name: română
+      value: studiu clinic
     - language_code: fr
       language_name: français
       value: étude clinique
+    - language_code: el
+      language_name: Ελληνικά
+      value: κλινική μελέτη
     - language_code: ru
       language_name: русский
       value: клиническое исследование
     - language_code: sr-cyrl
       language_name: српски
       value: клиничка студија
+    - language_code: uk
+      language_name: українська
+      value: клінічне дослідження
+    - language_code: ar
+      language_name: العربية
+      value: دراسة سريرية
+    - language_code: zh
+      language_name: 中文
+      value: 临床研究
+    - language_code: ja
+      language_name: 日本語
+      value: 臨床研究
+    - language_code: ko
+      language_name: 한국어
+      value: 임상 연구
 alt_labels:
+    - language_code: pt
+      language_name: português
+      value: ensaio clínico
     - language_code: fr
       language_name: français
       value: essai clinique
     - language_code: nl
       language_name: Nederlands
       value: klinisch onderzoek
-    - language_code: ja
-      language_name: 日本語
-      value: 臨床研究
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

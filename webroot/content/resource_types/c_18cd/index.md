@@ -11,6 +11,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: composició musical
+    - language_code: gl
+      language_name: galego
+      value: composición musical
     - language_code: es
       language_name: español
       value: composición musical
@@ -23,6 +26,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: composição musical
+    - language_code: ro
+      language_name: română
+      value: compoziţie muzicală
     - language_code: cs
       language_name: čeština
       value: hudební skladba
@@ -32,6 +38,12 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: musikalische Komposition
+    - language_code: sv
+      language_name: svenska
+      value: musikalisk komposition
+    - language_code: da
+      language_name: dansk
+      value: musikværk
     - language_code: nl
       language_name: Nederlands
       value: muzikale compositie
@@ -47,9 +59,18 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: sävellys
+    - language_code: hu
+      language_name: magyar
+      value: zenei alkotás
+    - language_code: el
+      language_name: Ελληνικά
+      value: μουσική σύνθεση
     - language_code: sr-cyrl
       language_name: српски
       value: музичка композиција
+    - language_code: uk
+      language_name: українська
+      value: музичний твір
     - language_code: ru
       language_name: русский
       value: музыкальное произведение
@@ -62,6 +83,9 @@ pref_labels:
     - language_code: ja
       language_name: 日本語
       value: 音楽
+    - language_code: ko
+      language_name: 한국어
+      value: 음악
 alt_labels:
     - language_code: de
       language_name: Deutsch
@@ -75,6 +99,9 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: hudební kompozice
+    - language_code: da
+      language_name: dansk
+      value: komposition
     - language_code: es
       language_name: español
       value: obra de musica
@@ -108,7 +135,10 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 音樂作品
-date: 2022-09-29T00:00:00Z
+    - language_code: ko
+      language_name: 한국어
+      value: 음악작품
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

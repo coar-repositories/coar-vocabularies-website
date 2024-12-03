@@ -116,7 +116,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 連續出版刊物
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts: []
 broader_concepts: []

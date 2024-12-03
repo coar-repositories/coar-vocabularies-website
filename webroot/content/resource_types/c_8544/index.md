@@ -6,7 +6,7 @@ deprecated: false
 layout: concept
 related:
     - type: Narrow Match
-      uri: http://purl.org/spar/fabio/LectureNotes
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3776
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -20,6 +20,15 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ders
+    - language_code: hu
+      language_name: magyar
+      value: előadás átirata
+    - language_code: da
+      language_name: dansk
+      value: foredrag
+    - language_code: sv
+      language_name: svenska
+      value: föreläsning
     - language_code: en
       language_name: English
       value: lecture
@@ -38,18 +47,30 @@ pref_labels:
     - language_code: es
       language_name: español
       value: ponencia
-    - language_code: sr
-      language_name: српски
-      value: predavanje
     - language_code: sl
       language_name: slovenščina
       value: predavanje
+    - language_code: sr
+      language_name: српски
+      value: predavanje
+    - language_code: ro
+      language_name: română
+      value: prelegere
     - language_code: cs
       language_name: čeština
       value: přednáška
+    - language_code: gl
+      language_name: galego
+      value: relatorio
+    - language_code: el
+      language_name: Ελληνικά
+      value: διάλεξη
     - language_code: ru
       language_name: русский
       value: лекция
+    - language_code: uk
+      language_name: українська
+      value: лекція
     - language_code: sr-cyrl
       language_name: српски
       value: предавање
@@ -62,6 +83,9 @@ pref_labels:
     - language_code: zh
       language_name: 中文
       value: 讲座
+    - language_code: ko
+      language_name: 한국어
+      value: 강연
 alt_labels:
     - language_code: es
       language_name: español
@@ -75,15 +99,27 @@ alt_labels:
     - language_code: es
       language_name: español
       value: conferencia academica
+    - language_code: gl
+      language_name: galego
+      value: conferencia académica
     - language_code: es
       language_name: español
       value: conferencia académica
     - language_code: es
       language_name: español
       value: conferencia magistral
+    - language_code: ro
+      language_name: română
+      value: conferinţă
     - language_code: pt
       language_name: português
       value: conferência
+    - language_code: ro
+      language_name: română
+      value: curs
+    - language_code: ro
+      language_name: română
+      value: discurs
     - language_code: es
       language_name: español
       value: disertacion
@@ -96,6 +132,9 @@ alt_labels:
     - language_code: en
       language_name: English
       value: lectures
+    - language_code: ro
+      language_name: română
+      value: lecție
     - language_code: pt
       language_name: português
       value: lição
@@ -105,9 +144,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: preleção
-    - language_code: ar
-      language_name: العربية
-      value: محاضرات
     - language_code: zh
       language_name: 中文
       value: 演講
@@ -123,7 +159,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 讲课
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

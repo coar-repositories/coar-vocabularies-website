@@ -4,7 +4,11 @@ uri: http://purl.org/coar/resource_type/c_2df8fbb1
 description: A research article is a primary source, that is, it reports the methods and results of an original study performed by the authors. (adapted from http://apus.libanswers.com/faq/2324)
 deprecated: false
 layout: concept
-related: []
+related:
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Article
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5233
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -15,9 +19,27 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: article de recerca
+    - language_code: fr
+      language_name: français
+      value: article de recherche
+    - language_code: ro
+      language_name: română
+      value: articol de cercetare
+    - language_code: gl
+      language_name: galego
+      value: artigo de investigación
+    - language_code: pt
+      language_name: português
+      value: artigo original
     - language_code: es
       language_name: español
       value: artículo original
+    - language_code: da
+      language_name: dansk
+      value: forskningsartikel
+    - language_code: sv
+      language_name: svenska
+      value: forskningsartikel
     - language_code: sr
       language_name: српски
       value: naučni članak
@@ -30,12 +52,21 @@ pref_labels:
     - language_code: en
       language_name: English
       value: research article
+    - language_code: hu
+      language_name: magyar
+      value: szakcikk
     - language_code: fi
       language_name: suomi
       value: tutkimusartikkeli
     - language_code: sl
       language_name: slovenščina
       value: znanstveni članek
+    - language_code: el
+      language_name: Ελληνικά
+      value: ερευνητικό άρθρο
+    - language_code: uk
+      language_name: українська
+      value: наукова стаття
     - language_code: ru
       language_name: русский
       value: научная статья
@@ -44,20 +75,23 @@ pref_labels:
       value: научни чланак
     - language_code: ar
       language_name: العربية
-      value: مقال بحث
+      value: مقال بحثي
     - language_code: zh
       language_name: 中文
       value: 原创研究文章
     - language_code: ja
       language_name: 日本語
       value: 原著論文
+    - language_code: ko
+      language_name: 한국어
+      value: 원저 논문
 alt_labels:
     - language_code: ca
       language_name: català
       value: article científic
     - language_code: fr
       language_name: français
-      value: article de recherche
+      value: article scientifique
     - language_code: es
       language_name: español
       value: articulo cientifico
@@ -67,6 +101,12 @@ alt_labels:
     - language_code: es
       language_name: español
       value: articulo original
+    - language_code: pt
+      language_name: português
+      value: artigo científico
+    - language_code: pt
+      language_name: português
+      value: artigo de investigação
     - language_code: es
       language_name: español
       value: artículo científico
@@ -91,10 +131,16 @@ alt_labels:
     - language_code: ru
       language_name: русский
       value: публикация в научном журнале
+    - language_code: ar
+      language_name: العربية
+      value: مقالة بحثية
     - language_code: zh
       language_name: 中文
       value: 原创研究论文
-date: 2022-09-29T00:00:00Z
+    - language_code: ko
+      language_name: 한국어
+      value: 연구 논문
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

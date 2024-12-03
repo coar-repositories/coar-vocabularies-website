@@ -7,8 +7,8 @@ layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
-    - type: Exact Match
-      uri: http://purl.org/spar/fabio/GrantApplicationDocument
+    - type: Related Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3400
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -16,6 +16,15 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: araştırma önerisi
+    - language_code: da
+      language_name: dansk
+      value: forsknings-forslag
+    - language_code: sv
+      language_name: svenska
+      value: forskningsförslag
+    - language_code: hu
+      language_name: magyar
+      value: kutatási terv
     - language_code: cs
       language_name: čeština
       value: návrh výzkumného projektu
@@ -31,6 +40,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: projet de recherche
+    - language_code: gl
+      language_name: galego
+      value: proposta de investigación
     - language_code: pt
       language_name: português
       value: proposta de investigação
@@ -43,12 +55,21 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: propuesta de recerca
+    - language_code: ro
+      language_name: română
+      value: propunere de cercetare
     - language_code: en
       language_name: English
       value: research proposal
     - language_code: fi
       language_name: suomi
       value: tutkimusehdotus
+    - language_code: el
+      language_name: Ελληνικά
+      value: ερευνητική πρόταση
+    - language_code: uk
+      language_name: українська
+      value: дослідницька пропозиція
     - language_code: ru
       language_name: русский
       value: исследовательское предложение
@@ -57,17 +78,23 @@ pref_labels:
       value: предлог истраживачког пројекта
     - language_code: ar
       language_name: العربية
-      value: اقتراح بحث
+      value: مقترح بحثي
     - language_code: ja
       language_name: 日本語
       value: 研究計画書
     - language_code: zh
       language_name: 中文
       value: 研究计划
+    - language_code: ko
+      language_name: 한국어
+      value: 연구 계획서
 alt_labels:
     - language_code: pt
       language_name: português
       value: proposta de projeto
+    - language_code: gl
+      language_name: galego
+      value: proposta de proxecto
     - language_code: it
       language_name: italiano
       value: proposta di ricerca
@@ -101,7 +128,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 研究計劃
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

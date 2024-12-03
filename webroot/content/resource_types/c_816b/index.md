@@ -8,7 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Preprint
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4866
+    - type: Exact Match
+      uri: http://purl.org/datacite/v4.4/Preprint
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -19,20 +21,32 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo preliminar
-    - language_code: fi
-      language_name: suomi
-      value: preprint
-    - language_code: pt
-      language_name: português
-      value: preprint
-    - language_code: sr
-      language_name: српски
-      value: preprint
+    - language_code: ro
+      language_name: română
+      value: pre-tipărire
     - language_code: nl
       language_name: Nederlands
       value: preprint
     - language_code: en
       language_name: English
+      value: preprint
+    - language_code: da
+      language_name: dansk
+      value: preprint
+    - language_code: pt
+      language_name: português
+      value: preprint
+    - language_code: hu
+      language_name: magyar
+      value: preprint
+    - language_code: sr
+      language_name: српски
+      value: preprint
+    - language_code: fi
+      language_name: suomi
+      value: preprint
+    - language_code: sv
+      language_name: svenska
       value: preprint
     - language_code: fr
       language_name: français
@@ -40,15 +54,27 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: publicació preliminar
+    - language_code: gl
+      language_name: galego
+      value: versión enviada
     - language_code: tr
       language_name: Türkçe
       value: ön baskı
+    - language_code: el
+      language_name: Ελληνικά
+      value: προεκτύπωση
     - language_code: ru
       language_name: русский
       value: препринт
     - language_code: sr-cyrl
       language_name: српски
       value: препринт
+    - language_code: uk
+      language_name: українська
+      value: препринт
+    - language_code: ar
+      language_name: العربية
+      value: طبعة أولية
     - language_code: ja
       language_name: 日本語
       value: プレプリント
@@ -77,11 +103,14 @@ alt_labels:
     - language_code: es
       language_name: español
       value: borrador
-    - language_code: it
-      language_name: italiano
+    - language_code: gl
+      language_name: galego
       value: preprint
     - language_code: es
       language_name: español
+      value: preprint
+    - language_code: it
+      language_name: italiano
       value: preprint
     - language_code: es
       language_name: español
@@ -95,7 +124,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 先印本
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

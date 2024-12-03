@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/MovingImage
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4212
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/MovingImage
+      uri: http://purl.org/dc/dcmitype/MovingImage
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -31,9 +31,15 @@ pref_labels:
     - language_code: es
       language_name: español
       value: imagen dinámica
+    - language_code: ro
+      language_name: română
+      value: imagine în mișcare
     - language_code: ca
       language_name: català
       value: imatge en moviment
+    - language_code: gl
+      language_name: galego
+      value: imaxe en movemento
     - language_code: it
       language_name: italiano
       value: immagine dinamica
@@ -43,18 +49,30 @@ pref_labels:
     - language_code: en
       language_name: English
       value: moving image
+    - language_code: hu
+      language_name: magyar
+      value: mozgókép
     - language_code: cs
       language_name: čeština
       value: pohyblivý obraz
     - language_code: sr
       language_name: српски
       value: pokretne slike
+    - language_code: sv
+      language_name: svenska
+      value: rörlig bild
+    - language_code: el
+      language_name: Ελληνικά
+      value: κινούμενες εικόνες
     - language_code: ru
       language_name: русский
       value: движущееся изображение
     - language_code: sr-cyrl
       language_name: српски
       value: покретне слике
+    - language_code: uk
+      language_name: українська
+      value: рухоме зображення
     - language_code: ar
       language_name: العربية
       value: صورة متحركة
@@ -64,6 +82,9 @@ pref_labels:
     - language_code: zh
       language_name: 中文
       value: 运动图像
+    - language_code: ko
+      language_name: 한국어
+      value: 동영상
 alt_labels:
     - language_code: en
       language_name: English
@@ -77,6 +98,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: imagen en movimiento
+    - language_code: ro
+      language_name: română
+      value: imagine dinamică
     - language_code: ar
       language_name: العربية
       value: سمعي بصري
@@ -89,7 +113,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 運動圖像
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_12ce

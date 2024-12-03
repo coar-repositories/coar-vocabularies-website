@@ -6,7 +6,9 @@ description: |-
     [Source: Adapted from https://products.abc-clio.com/ODLIS/odlis_n.aspx]
 deprecated: false
 layout: concept
-related: []
+related:
+    - type: Broad Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4227
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -14,9 +16,18 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: hudební zápis
+    - language_code: hu
+      language_name: magyar
+      value: kotta
     - language_code: en
       language_name: English
       value: musical notation
+    - language_code: da
+      language_name: dansk
+      value: musikalsk notation
+    - language_code: sv
+      language_name: svenska
+      value: musiknotation
     - language_code: nl
       language_name: Nederlands
       value: muzieknotatie
@@ -29,12 +40,18 @@ pref_labels:
     - language_code: es
       language_name: español
       value: notación musical
+    - language_code: gl
+      language_name: galego
+      value: notación musical
     - language_code: it
       language_name: italiano
       value: notazione musicale
     - language_code: pt
       language_name: português
       value: notação musical
+    - language_code: ro
+      language_name: română
+      value: notație muzicală
     - language_code: sl
       language_name: slovenščina
       value: note
@@ -47,6 +64,12 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: partition
+    - language_code: el
+      language_name: Ελληνικά
+      value: μουσική σημειογραφία
+    - language_code: uk
+      language_name: українська
+      value: ноти
     - language_code: ru
       language_name: русский
       value: нотная запись
@@ -69,12 +92,18 @@ alt_labels:
     - language_code: en
       language_name: English
       value: music notation
+    - language_code: sv
+      language_name: svenska
+      value: musikalier
     - language_code: es
       language_name: español
       value: notacion musical
     - language_code: nl
       language_name: Nederlands
       value: notenschrift
+    - language_code: sv
+      language_name: svenska
+      value: notskrift
     - language_code: cs
       language_name: čeština
       value: noty
@@ -84,11 +113,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: partition musicale
-    - language_code: es
-      language_name: español
-      value: partitura
     - language_code: pt
       language_name: português
+      value: partitura
+    - language_code: es
+      language_name: español
       value: partitura
     - language_code: ar
       language_name: العربية
@@ -96,7 +125,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 樂譜
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

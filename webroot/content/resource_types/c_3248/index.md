@@ -8,9 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/eprint/type/Book
     - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2277
+    - type: Exact Match
       uri: http://purl.org/eprint/type/BookItem
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/BookChapter
+      uri: http://purl.org/datacite/v4.4/BookChapter
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -18,15 +20,27 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: boekdeel
+    - language_code: da
+      language_name: dansk
+      value: bogsektion
+    - language_code: sv
+      language_name: svenska
+      value: bokkapitel
     - language_code: en
       language_name: English
       value: book part
+    - language_code: ro
+      language_name: română
+      value: capitol de carte
     - language_code: it
       language_name: italiano
       value: capitolo di libro
     - language_code: ca
       language_name: català
       value: capítol de llibre
+    - language_code: gl
+      language_name: galego
+      value: capítulo de libro
     - language_code: es
       language_name: español
       value: capítulo de libro
@@ -42,6 +56,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: kitap bölümü
+    - language_code: hu
+      language_name: magyar
+      value: könyvrészlet
     - language_code: sl
       language_name: slovenščina
       value: poglavje v knjigi
@@ -51,9 +68,15 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: část knihy
+    - language_code: el
+      language_name: Ελληνικά
+      value: μέρος του βιβλίου
     - language_code: sr-cyrl
       language_name: српски
       value: поглавље у књизи
+    - language_code: uk
+      language_name: українська
+      value: розділ книги
     - language_code: ru
       language_name: русский
       value: часть книги
@@ -66,13 +89,16 @@ pref_labels:
     - language_code: zh
       language_name: 中文
       value: 章节
+    - language_code: ko
+      language_name: 한국어
+      value: 도서(부분)
 alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Buchkapitel
-    - language_code: en
-      language_name: English
-      value: book chapter
+    - language_code: da
+      language_name: dansk
+      value: bog kapitel
     - language_code: es
       language_name: español
       value: capitulo de libro
@@ -82,12 +108,6 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: chapitre de livre
-    - language_code: en
-      language_name: English
-      value: chapter
-    - language_code: en
-      language_name: English
-      value: chapter in book
     - language_code: cs
       language_name: čeština
       value: kapitola v knize
@@ -121,7 +141,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 章節
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

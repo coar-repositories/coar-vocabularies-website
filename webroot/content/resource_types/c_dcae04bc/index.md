@@ -5,15 +5,41 @@ description: 'A review article is a secondary source, that is, it is written abo
 deprecated: false
 layout: concept
 related:
+    - type: Broad Match
+      uri: http://purl.org/eprint/type/JournalArticle
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Article
+    - type: Broad Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5310
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/ReviewArticle
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5287
+    - type: Narrow Match
+      uri: http://purl.bioontology.org/ontology/MESH/D016454
 pref_labels:
+    - language_code: fr
+      language_name: français
+      value: article de synthèse
+    - language_code: ro
+      language_name: română
+      value: articol de reviziune
+    - language_code: gl
+      language_name: galego
+      value: artigo de revisión
+    - language_code: pt
+      language_name: português
+      value: artigo de revisão
     - language_code: es
       language_name: español
       value: artículo de revisión
+    - language_code: tr
+      language_name: Türkçe
+      value: derleme makale
     - language_code: fi
       language_name: suomi
       value: katsausartikkeli
+    - language_code: da
+      language_name: dansk
+      value: litteraturgennemgang
     - language_code: nl
       language_name: Nederlands
       value: overzichtsartikel
@@ -29,31 +55,46 @@ pref_labels:
     - language_code: en
       language_name: English
       value: review article
+    - language_code: hu
+      language_name: magyar
+      value: szakirodalmi áttekintő cikk
     - language_code: de
       language_name: Deutsch
       value: Übersichtsartikel
+    - language_code: sv
+      language_name: svenska
+      value: översiktsartikel
+    - language_code: el
+      language_name: Ελληνικά
+      value: άρθρο κριτικής
     - language_code: ru
       language_name: русский
       value: обзорная статья
+    - language_code: uk
+      language_name: українська
+      value: оглядова стаття
     - language_code: sr-cyrl
       language_name: српски
       value: прегледни чланак
     - language_code: ar
       language_name: العربية
-      value: مقال نقد
+      value: مقال مراجعة
     - language_code: ja
       language_name: 日本語
       value: レビュー論文
     - language_code: zh
       language_name: 中文
       value: 综述文章
+    - language_code: ko
+      language_name: 한국어
+      value: 리뷰 논문
 alt_labels:
     - language_code: ca
       language_name: català
       value: article de revisió
-    - language_code: fr
-      language_name: français
-      value: article de synthèse
+    - language_code: ro
+      language_name: română
+      value: articol de analiză
     - language_code: es
       language_name: español
       value: articulo de reseña
@@ -63,12 +104,6 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de reseña
-    - language_code: tr
-      language_name: Türkçe
-      value: derleme makale
-    - language_code: en
-      language_name: English
-      value: journal commentary
     - language_code: sr
       language_name: српски
       value: pregledni naučni članak
@@ -96,7 +131,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 综述评论性论文
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

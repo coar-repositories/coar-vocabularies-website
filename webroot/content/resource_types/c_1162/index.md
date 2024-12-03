@@ -8,11 +8,17 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Related Match
-      uri: http://purl.org/spar/fabio/LegalOpinion
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3790
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Urteilsanmerkung
+    - language_code: ro
+      language_name: română
+      value: adnotare legală
+    - language_code: da
+      language_name: dansk
+      value: anmærkning
     - language_code: nl
       language_name: Nederlands
       value: annotatie
@@ -22,6 +28,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: annotation
+    - language_code: sv
+      language_name: svenska
+      value: annotering
     - language_code: sr
       language_name: српски
       value: anotacija
@@ -43,6 +52,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: nota de jurisprudencia
+    - language_code: gl
+      language_name: galego
+      value: nota de xurisprudencia
     - language_code: cs
       language_name: čeština
       value: právní komentář rozsudku nebo rozhodnutí
@@ -55,22 +67,40 @@ pref_labels:
     - language_code: sr-cyrl
       language_name: српски
       value: анотација
+    - language_code: uk
+      language_name: українська
+      value: анотація
     - language_code: ar
       language_name: العربية
-      value: شرح
+      value: تعليق توضيحي
     - language_code: zh
       language_name: 中文
       value: 标注
     - language_code: ja
       language_name: 日本語
       value: 注釈
+    - language_code: ko
+      language_name: 한국어
+      value: 주석
 alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Entscheidungsanmerkung
+    - language_code: ro
+      language_name: română
+      value: adnotare
     - language_code: it
       language_name: italiano
       value: annotazione
+    - language_code: hu
+      language_name: magyar
+      value: annotáció
+    - language_code: sl
+      language_name: slovenščina
+      value: anotacija
+    - language_code: gl
+      language_name: galego
+      value: anotación
     - language_code: es
       language_name: español
       value: anotación
@@ -89,11 +119,11 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: dipnot
-    - language_code: pt
-      language_name: português
-      value: glosa
     - language_code: es
       language_name: español
+      value: glosa
+    - language_code: pt
+      language_name: português
       value: glosa
     - language_code: ca
       language_name: català
@@ -104,24 +134,21 @@ alt_labels:
     - language_code: sr
       language_name: српски
       value: komentar
-    - language_code: es
-      language_name: español
-      value: nota
-    - language_code: pt
-      language_name: português
-      value: nota
     - language_code: it
       language_name: italiano
+      value: nota
+    - language_code: es
+      language_name: español
       value: nota
     - language_code: ca
       language_name: català
       value: nota
+    - language_code: pt
+      language_name: português
+      value: nota
     - language_code: es
       language_name: español
       value: nota a un texto de jurisprudencia
-    - language_code: en
-      language_name: English
-      value: note to a legal judgment
     - language_code: sl
       language_name: slovenščina
       value: opomba
@@ -131,6 +158,9 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: zaznamba
+    - language_code: el
+      language_name: Ελληνικά
+      value: σχόλιο
     - language_code: sr-cyrl
       language_name: српски
       value: белешка
@@ -155,7 +185,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 诠释
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

@@ -1,12 +1,14 @@
 ---
 title: conference poster
 uri: http://purl.org/coar/resource_type/c_6670
-description: 'A display poster, published within a conference proceeding, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: Adapted http://purl.org/spar/fabio/ConferencePoster]'
+description: 'A display poster, published within a conference proceeding, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event. [Source: Adapted https://sparontologies.github.io/fabio/current/fabio.html#d4e2648]'
 deprecated: false
 layout: concept
 related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2648
     - type: Exact Match
       uri: http://purl.org/eprint/type/ConferencePoster
 pref_labels:
@@ -22,9 +24,21 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: konferans posteri
+    - language_code: da
+      language_name: dansk
+      value: konference plakat
+    - language_code: hu
+      language_name: magyar
+      value: konferencia poszter
+    - language_code: sv
+      language_name: svenska
+      value: konferensposter
     - language_code: fr
       language_name: français
       value: poster dans une conférence
+    - language_code: ro
+      language_name: română
+      value: poster de conferinţă
     - language_code: it
       language_name: italiano
       value: poster in congresso
@@ -46,12 +60,21 @@ pref_labels:
     - language_code: es
       language_name: español
       value: póster de congreso
+    - language_code: gl
+      language_name: galego
+      value: póster de congreso
     - language_code: pt
       language_name: português
       value: póster em conferência
+    - language_code: el
+      language_name: Ελληνικά
+      value: αφίσα συνεδρίου
     - language_code: sr-cyrl
       language_name: српски
       value: постер са конференције
+    - language_code: uk
+      language_name: українська
+      value: стендова доповідь
     - language_code: ru
       language_name: русский
       value: стендовый доклад
@@ -64,10 +87,16 @@ pref_labels:
     - language_code: zh
       language_name: 中文
       value: 会议集里的会议海报/会议板报
+    - language_code: ko
+      language_name: 한국어
+      value: 학술대회 포스터
 alt_labels:
     - language_code: es
       language_name: español
       value: cartel
+    - language_code: da
+      language_name: dansk
+      value: konference poster
     - language_code: it
       language_name: italiano
       value: poster
@@ -92,9 +121,6 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: póster em congresso
-    - language_code: ar
-      language_name: العربية
-      value: ملصق
     - language_code: zh
       language_name: 中文
       value: 会议墙报
@@ -104,7 +130,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 會議牆報
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

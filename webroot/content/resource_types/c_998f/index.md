@@ -8,9 +8,6 @@ related:
     - type: Broad Match
       uri: https://schema.org/Article
 pref_labels:
-    - language_code: tr
-      language_name: Türkçe
-      value: Gazete kupürü
     - language_code: de
       language_name: Deutsch
       value: Zeitungsartikel
@@ -20,15 +17,33 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: article de journal
+    - language_code: ro
+      language_name: română
+      value: articol de ziar
     - language_code: it
       language_name: italiano
       value: articolo di giornale
+    - language_code: pt
+      language_name: português
+      value: artigo de jornal
+    - language_code: gl
+      language_name: galego
+      value: artigo de periódico
+    - language_code: sv
+      language_name: svenska
+      value: artikel i dags-/nyhetstidning
     - language_code: es
       language_name: español
       value: artículo de periódico
+    - language_code: da
+      language_name: dansk
+      value: avisartikel
     - language_code: nl
       language_name: Nederlands
       value: krantenartikel
+    - language_code: tr
+      language_name: Türkçe
+      value: köşe yazısı
     - language_code: en
       language_name: English
       value: newspaper article
@@ -38,15 +53,30 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: sanomalehtiartikkeli
+    - language_code: hu
+      language_name: magyar
+      value: újságcikk
     - language_code: sl
       language_name: slovenščina
       value: članek v časopisu
+    - language_code: el
+      language_name: Ελληνικά
+      value: άρθρο εφημερίδας
     - language_code: ru
       language_name: русский
       value: газетная статья
     - language_code: sr-cyrl
       language_name: српски
       value: новински чланак
+    - language_code: uk
+      language_name: українська
+      value: стаття в газеті
+    - language_code: ar
+      language_name: العربية
+      value: مقال في صحيفة
+    - language_code: zh
+      language_name: 中文
+      value: 报纸文章
     - language_code: ja
       language_name: 日本語
       value: 新聞記事
@@ -72,7 +102,7 @@ alt_labels:
     - language_code: sr-cyrl
       language_name: српски
       value: чланак у новинама
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

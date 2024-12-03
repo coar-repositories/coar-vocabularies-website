@@ -6,11 +6,13 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Image
+    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
     - type: Exact Match
-      uri: http://id.loc.gov/vocabulary/contentTypes/sti
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/StillImage
+      uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
@@ -29,9 +31,15 @@ pref_labels:
     - language_code: es
       language_name: español
       value: imagen fija
+    - language_code: ro
+      language_name: română
+      value: imagine statică
     - language_code: ca
       language_name: català
       value: imatge fixa
+    - language_code: gl
+      language_name: galego
+      value: imaxe fixa
     - language_code: it
       language_name: italiano
       value: immagine fissa
@@ -50,24 +58,36 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: still-kuva
+    - language_code: da
+      language_name: dansk
+      value: stillbillede
     - language_code: nl
       language_name: Nederlands
       value: stilstaandbeeld
+    - language_code: hu
+      language_name: magyar
+      value: állókép
     - language_code: ru
       language_name: русский
       value: неподвижное изображение
+    - language_code: uk
+      language_name: українська
+      value: нерухоме зображення
     - language_code: sr-cyrl
       language_name: српски
       value: статична слика
     - language_code: ar
       language_name: العربية
-      value: صورة ثابته
+      value: صورة ثابتة
     - language_code: zh
       language_name: 中文
       value: 静态图像
     - language_code: ja
       language_name: 日本語
       value: 静止画
+    - language_code: ko
+      language_name: 한국어
+      value: 정지영상
 alt_labels:
     - language_code: nl
       language_name: Nederlands
@@ -78,12 +98,18 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: imagem fixa
+    - language_code: ro
+      language_name: română
+      value: imagine fixă
     - language_code: ca
       language_name: català
       value: imatge estàtica
     - language_code: sr
       language_name: српски
       value: statična vizuelna predstava
+    - language_code: sv
+      language_name: svenska
+      value: stillbild
     - language_code: sr-cyrl
       language_name: српски
       value: статична визуелна представа
@@ -96,7 +122,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 靜止圖像
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

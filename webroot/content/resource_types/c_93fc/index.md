@@ -8,31 +8,48 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Report
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4866
     - type: Exact Match
       uri: http://purl.org/eprint/type/Report
+    - type: Exact Match
+      uri: http://purl.org/datacite/v4.4/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
+    - language_code: ca
+      language_name: català
+      value: informe
     - language_code: es
       language_name: español
       value: informe
-    - language_code: ca
-      language_name: català
+    - language_code: gl
+      language_name: galego
       value: informe
     - language_code: sr
       language_name: српски
       value: izveštaj
+    - language_code: hu
+      language_name: magyar
+      value: jelentés
     - language_code: sl
       language_name: slovenščina
       value: poročilo
     - language_code: tr
       language_name: Türkçe
       value: rapor
+    - language_code: ro
+      language_name: română
+      value: raport
     - language_code: fi
       language_name: suomi
       value: raportti
+    - language_code: sv
+      language_name: svenska
+      value: rapport
+    - language_code: da
+      language_name: dansk
+      value: rapport
     - language_code: fr
       language_name: français
       value: rapport
@@ -51,6 +68,12 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: zpráva
+    - language_code: el
+      language_name: Ελληνικά
+      value: έκθεση
+    - language_code: uk
+      language_name: українська
+      value: звіт
     - language_code: sr-cyrl
       language_name: српски
       value: извештај
@@ -73,12 +96,18 @@ alt_labels:
     - language_code: es
       language_name: español
       value: estudio
+    - language_code: gl
+      language_name: galego
+      value: estudo
     - language_code: es
       language_name: español
       value: memoria
     - language_code: en
       language_name: English
       value: paper
+    - language_code: ro
+      language_name: română
+      value: referat
     - language_code: es
       language_name: español
       value: relacion
@@ -106,17 +135,18 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 调研报告
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18gh
-    - c_18wz
-    - c_18op
-    - YZ1N-ZFT9
-    - c_186u
     - c_18ws
-    - c_7877
     - c_ab20
+    - DX5J-TA9R
+    - c_18gh
+    - c_18op
+    - c_186u
+    - c_7877
+    - c_18wz
+    - YZ1N-ZFT9
 broader_concepts:
     - c_18cf
 ---

@@ -6,7 +6,9 @@ description: |-
     Source: http://purl.org/dc/dcmitype/InteractiveResource
 deprecated: false
 layout: concept
-related: []
+related:
+    - type: Exact Match
+      uri: http://purl.org/datacite/v4.4/InteractiveResource
 pref_labels:
     - language_code: tr
       language_name: Türkçe
@@ -20,6 +22,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: interaktiivinen resurssi
+    - language_code: sv
+      language_name: svenska
+      value: interaktiv resurs
     - language_code: de
       language_name: Deutsch
       value: interaktive Ressource
@@ -29,6 +34,12 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: interaktivní zdroj
+    - language_code: da
+      language_name: dansk
+      value: interaktivt materiale
+    - language_code: hu
+      language_name: magyar
+      value: interaktív forrás
     - language_code: ca
       language_name: català
       value: recurs interactiu
@@ -41,6 +52,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: ressource interactive
+    - language_code: ro
+      language_name: română
+      value: resursă interactivă
     - language_code: it
       language_name: italiano
       value: risorsa interattiva
@@ -50,31 +64,46 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: интерактивный ресурс
+    - language_code: uk
+      language_name: українська
+      value: інтерактивний ресурс
     - language_code: ar
       language_name: العربية
-      value: مورد تفاعلي
+      value: مصدر تفاعلي
     - language_code: ja
       language_name: 日本語
       value: インタラクティブリソース
     - language_code: zh
       language_name: 中文
       value: 互动资源
+    - language_code: ko
+      language_name: 한국어
+      value: 인터렉티브 리소스
 alt_labels:
     - language_code: it
       language_name: italiano
       value: contributo a convegno
+    - language_code: da
+      language_name: dansk
+      value: interaktiv ressource
     - language_code: sr
       language_name: српски
       value: interaktivni resurs
     - language_code: sl
       language_name: slovenščina
       value: interaktivni vir
+    - language_code: gl
+      language_name: galego
+      value: recurso interactivo
     - language_code: pt
       language_name: português
       value: recurso interactivo
     - language_code: sr-cyrl
       language_name: српски
       value: интерактивни ресурс
+    - language_code: ar
+      language_name: العربية
+      value: مورد تفاعلي
     - language_code: zh
       language_name: 中文
       value: 互動資源
@@ -84,7 +113,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 交互式资源
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
     - c_7ad9

@@ -12,14 +12,17 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: bilgi notu
+    - language_code: hu
+      language_name: magyar
+      value: emlékeztető
     - language_code: pt
       language_name: português
       value: memorando
-    - language_code: it
-      language_name: italiano
-      value: memorandum
-    - language_code: cs
-      language_name: čeština
+    - language_code: gl
+      language_name: galego
+      value: memorando
+    - language_code: sv
+      language_name: svenska
       value: memorandum
     - language_code: sl
       language_name: slovenščina
@@ -27,11 +30,20 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: memorandum
-    - language_code: en
-      language_name: English
+    - language_code: it
+      language_name: italiano
       value: memorandum
     - language_code: nl
       language_name: Nederlands
+      value: memorandum
+    - language_code: cs
+      language_name: čeština
+      value: memorandum
+    - language_code: ro
+      language_name: română
+      value: memorandum
+    - language_code: en
+      language_name: English
       value: memorandum
     - language_code: ca
       language_name: català
@@ -45,11 +57,20 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: mémo
-    - language_code: ru
-      language_name: русский
+    - language_code: da
+      language_name: dansk
+      value: notat
+    - language_code: el
+      language_name: Ελληνικά
+      value: μνημόνιο
+    - language_code: uk
+      language_name: українська
       value: меморандум
     - language_code: sr-cyrl
       language_name: српски
+      value: меморандум
+    - language_code: ru
+      language_name: русский
       value: меморандум
     - language_code: ar
       language_name: العربية
@@ -79,6 +100,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: comunicado
+    - language_code: da
+      language_name: dansk
+      value: memorandum
     - language_code: fr
       language_name: français
       value: memorandum
@@ -91,7 +115,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 備忘錄
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []
 broader_concepts:

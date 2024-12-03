@@ -8,11 +8,17 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/spar/fabio/Book
+      uri: http://purl.org/datacite/v4.4/Book
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2263
     - type: Exact Match
       uri: http://purl.org/eprint/type/Book
     - type: Narrow Match
+      uri: http://purl.org/datacite/v4.4/BookChapter
+    - type: Narrow Match
       uri: http://purl.org/eprint/type/BookReview
+    - type: Narrow Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2300
     - type: Related Match
       uri: https://schema.org/Book
 pref_labels:
@@ -22,9 +28,18 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: boek
+    - language_code: da
+      language_name: dansk
+      value: bog
+    - language_code: sv
+      language_name: svenska
+      value: bok
     - language_code: en
       language_name: English
       value: book
+    - language_code: ro
+      language_name: română
+      value: carte
     - language_code: fi
       language_name: suomi
       value: kirja
@@ -37,14 +52,23 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: knjiga
+    - language_code: hu
+      language_name: magyar
+      value: könyv
     - language_code: it
       language_name: italiano
+      value: libro
+    - language_code: gl
+      language_name: galego
       value: libro
     - language_code: es
       language_name: español
       value: libro
     - language_code: pt
       language_name: português
+      value: livro
+    - language_code: pl
+      language_name: polski
       value: livro
     - language_code: ca
       language_name: català
@@ -55,6 +79,12 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: ouvrage
+    - language_code: el
+      language_name: Ελληνικά
+      value: βιβλίο
+    - language_code: uk
+      language_name: українська
+      value: книга
     - language_code: ru
       language_name: русский
       value: книга
@@ -70,6 +100,9 @@ pref_labels:
     - language_code: ja
       language_name: 日本語
       value: 図書
+    - language_code: ko
+      language_name: 한국어
+      value: 도서
 alt_labels:
     - language_code: de
       language_name: Deutsch
@@ -89,17 +122,17 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: livre
-    - language_code: it
-      language_name: italiano
-      value: monografia
     - language_code: es
       language_name: español
       value: monografia
-    - language_code: pt
-      language_name: português
-      value: monografia
     - language_code: ca
       language_name: català
+      value: monografia
+    - language_code: it
+      language_name: italiano
+      value: monografia
+    - language_code: pt
+      language_name: português
       value: monografia
     - language_code: cs
       language_name: čeština
@@ -143,7 +176,7 @@ alt_labels:
     - language_code: zh
       language_name: 中文
       value: 書
-date: 2022-09-29T00:00:00Z
+date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_3248
