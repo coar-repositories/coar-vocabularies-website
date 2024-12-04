@@ -10,9 +10,9 @@ related:
     - type: Exact Match
       uri: http://purl.org/datacite/v4.4/ConferencePaper
     - type: Exact Match
-      uri: http://purl.org/eprint/type/ConferencePaper
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2635
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/ConferencePaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -29,11 +29,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: comunicació de congrés
-    - language_code: gl
-      language_name: galego
-      value: comunicación de congreso
     - language_code: es
       language_name: español
+      value: comunicación de congreso
+    - language_code: gl
+      language_name: galego
       value: comunicación de congreso
     - language_code: it
       language_name: italiano

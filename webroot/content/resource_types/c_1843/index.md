@@ -50,11 +50,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: otros
-    - language_code: pt
-      language_name: português
-      value: outros
     - language_code: gl
       language_name: galego
+      value: outros
+    - language_code: pt
+      language_name: português
       value: outros
     - language_code: de
       language_name: Deutsch

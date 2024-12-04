@@ -19,11 +19,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: data management plan
-    - language_code: da
-      language_name: dansk
-      value: data management plan
     - language_code: nl
       language_name: Nederlands
+      value: data management plan
+    - language_code: da
+      language_name: dansk
       value: data management plan
     - language_code: sv
       language_name: svenska

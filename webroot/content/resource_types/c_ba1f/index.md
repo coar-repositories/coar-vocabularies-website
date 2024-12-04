@@ -6,11 +6,11 @@ deprecated: true
 layout: concept
 related:
     - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Report
+    - type: Broad Match
       uri: http://purl.org/eprint/type/Report
     - type: Broad Match
       uri: http://www.eurocris.org/ontologies/semcerif/1.3#Report
-    - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Report
     - type: Exact Match
       uri: http://purl.org/info:eu-repo/#semantics/reportPart
 pref_labels:

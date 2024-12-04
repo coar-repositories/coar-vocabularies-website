@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/datacite/v4.4/Dataset
     - type: Related Match
-      uri: http://purl.bioontology.org/ontology/MESH/D005842
-    - type: Related Match
       uri: http://purl.dataone.org/odo/SALMON_00000675
+    - type: Related Match
+      uri: http://purl.bioontology.org/ontology/MESH/D005842
 pref_labels:
     - language_code: de
       language_name: Deutsch

@@ -13,11 +13,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Konfernzschrift
-    - language_code: gl
-      language_name: galego
-      value: actas de congreso
     - language_code: es
       language_name: español
+      value: actas de congreso
+    - language_code: gl
+      language_name: galego
       value: actas de congreso
     - language_code: fr
       language_name: français

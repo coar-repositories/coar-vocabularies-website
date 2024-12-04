@@ -6,15 +6,15 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/datacite/v4.4/Dataset
+      uri: https://schema.org/Dataset
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2865
-    - type: Exact Match
-      uri: https://schema.org/Dataset
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Dataset
     - type: Exact Match
       uri: http://purl.bioontology.org/ontology/MESH/D064886
+    - type: Exact Match
+      uri: http://purl.org/datacite/v4.4/Dataset
     - type: Narrow Match
       uri: https://id.loc.gov/vocabulary/contentTypes/cod.html
     - type: Related Match
@@ -38,14 +38,14 @@ pref_labels:
     - language_code: gl
       language_name: galego
       value: conxunto de datos
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: it
+      language_name: italiano
       value: dataset
     - language_code: sv
       language_name: svenska
       value: dataset
-    - language_code: it
-      language_name: italiano
+    - language_code: nl
+      language_name: Nederlands
       value: dataset
     - language_code: en
       language_name: English
@@ -111,11 +111,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: dades de recerca
-    - language_code: pt
-      language_name: português
-      value: dataset
     - language_code: ca
       language_name: català
+      value: dataset
+    - language_code: pt
+      language_name: português
       value: dataset
     - language_code: fr
       language_name: français
@@ -159,18 +159,18 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - CQMR-7K63
-    - DD58-GFSX
-    - H41Y-FW7B
-    - W2XT-7017
     - ACF7-8YT9
-    - NHD0-W6SY
-    - A8F1-NPV9
-    - FF4C-28RK
     - FXF3-D3G7
+    - 2H0M-X761
+    - FF4C-28RK
+    - DD58-GFSX
     - AM6W-6QAW
     - c_cb28
-    - 2H0M-X761
+    - H41Y-FW7B
+    - NHD0-W6SY
+    - CQMR-7K63
+    - A8F1-NPV9
+    - W2XT-7017
     - 63NG-B465
 broader_concepts: []
 ---

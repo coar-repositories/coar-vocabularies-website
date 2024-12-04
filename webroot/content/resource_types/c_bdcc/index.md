@@ -116,11 +116,11 @@ alt_labels:
     - language_code: gl
       language_name: galego
       value: tese de máster
-    - language_code: ca
-      language_name: català
-      value: tesina
     - language_code: es
       language_name: español
+      value: tesina
+    - language_code: ca
+      language_name: català
       value: tesina
     - language_code: es
       language_name: español

@@ -17,11 +17,11 @@ pref_labels:
     - language_code: ro
       language_name: română
       value: articol despre software
-    - language_code: pt
-      language_name: português
-      value: artigo de software
     - language_code: gl
       language_name: galego
+      value: artigo de software
+    - language_code: pt
+      language_name: português
       value: artigo de software
     - language_code: es
       language_name: español
@@ -32,11 +32,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: ohjelmistoa kuvaava artikkeli
-    - language_code: da
-      language_name: dansk
-      value: software artikel
     - language_code: nl
       language_name: Nederlands
+      value: software artikel
+    - language_code: da
+      language_name: dansk
       value: software artikel
     - language_code: en
       language_name: English

@@ -8,9 +8,9 @@ related:
     - type: Narrow Match
       uri: https://dictionary.casrai.org/Text_Interview
     - type: Narrow Match
-      uri: https://dictionary.casrai.org/Broadcast_Interview
-    - type: Narrow Match
       uri: https://scigraph.springernature.com/things/technical-article-types/interview
+    - type: Narrow Match
+      uri: https://dictionary.casrai.org/Broadcast_Interview
 pref_labels:
     - language_code: tr
       language_name: Türkçe
@@ -21,11 +21,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: entrevista
-    - language_code: nl
-      language_name: Nederlands
-      value: interview
     - language_code: en
       language_name: English
+      value: interview
+    - language_code: nl
+      language_name: Nederlands
       value: interview
     - language_code: it
       language_name: italiano

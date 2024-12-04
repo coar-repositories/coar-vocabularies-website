@@ -14,11 +14,11 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: brev til redaktøren
-    - language_code: es
-      language_name: español
-      value: carta al director
     - language_code: ca
       language_name: català
+      value: carta al director
+    - language_code: es
+      language_name: español
       value: carta al director
     - language_code: gl
       language_name: galego
@@ -38,11 +38,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: kirje päätoimittajalle
-    - language_code: en
-      language_name: English
-      value: letter to the editor
     - language_code: sv
       language_name: svenska
+      value: letter to the editor
+    - language_code: en
+      language_name: English
       value: letter to the editor
     - language_code: it
       language_name: italiano
@@ -53,11 +53,11 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: levél a szerkesztőnek
-    - language_code: sr
-      language_name: српски
-      value: pismo uredniku
     - language_code: sl
       language_name: slovenščina
+      value: pismo uredniku
+    - language_code: sr
+      language_name: српски
       value: pismo uredniku
     - language_code: ro
       language_name: română

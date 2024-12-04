@@ -11,9 +11,6 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Kunstwerk
-    - language_code: it
-      language_name: italiano
-      value: Materiale artistico
     - language_code: ro
       language_name: română
       value: activitate artistică
@@ -26,6 +23,9 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: kunstnerisk værk
+    - language_code: it
+      language_name: italiano
+      value: materiale artistico
     - language_code: hu
       language_name: magyar
       value: művészeti alkotás
@@ -53,9 +53,6 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: œuvre artistique
-    - language_code: el
-      language_name: Ελληνικά
-      value: καλλιτεχνικό έργο
     - language_code: ru
       language_name: русский
       value: произведение искусства
@@ -81,12 +78,6 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Kunstobjekt
-    - language_code: it
-      language_name: italiano
-      value: Oggetto d'arte
-    - language_code: it
-      language_name: italiano
-      value: Opera d'arte
     - language_code: pt
       language_name: português
       value: criação artística
@@ -99,6 +90,12 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: obra artística
+    - language_code: it
+      language_name: italiano
+      value: oggetto d'arte
+    - language_code: it
+      language_name: italiano
+      value: opera d'arte
     - language_code: es
       language_name: español
       value: trabajo artístico

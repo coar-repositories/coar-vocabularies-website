@@ -8,11 +8,11 @@ related:
     - type: Narrow Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5735
     - type: Narrow Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5645
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5828
     - type: Narrow Match
       uri: https://bioportal.bioontology.org/ontologies/MESH?p=classes&conceptid=D016437
     - type: Narrow Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5828
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5645
     - type: Narrow Match
       uri: https://vocabs.acdh.oeaw.ac.at/archecategory/model/controlledVocabulary
 pref_labels:

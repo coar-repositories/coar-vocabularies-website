@@ -29,11 +29,11 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: föreläsning
-    - language_code: en
-      language_name: English
-      value: lecture
     - language_code: nl
       language_name: Nederlands
+      value: lecture
+    - language_code: en
+      language_name: English
       value: lecture
     - language_code: it
       language_name: italiano

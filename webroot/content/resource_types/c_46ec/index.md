@@ -118,9 +118,9 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_7a1f
     - c_db06
     - c_bdcc
+    - c_7a1f
 broader_concepts:
     - c_18cf
 ---

@@ -11,11 +11,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Kommentar
-    - language_code: gl
-      language_name: galego
-      value: comentario
     - language_code: es
       language_name: español
+      value: comentario
+    - language_code: gl
+      language_name: galego
       value: comentario
     - language_code: ro
       language_name: română
@@ -35,11 +35,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: commentary
-    - language_code: sr
-      language_name: српски
-      value: komentar
     - language_code: sl
       language_name: slovenščina
+      value: komentar
+    - language_code: sr
+      language_name: српски
       value: komentar
     - language_code: sv
       language_name: svenska
@@ -68,11 +68,11 @@ pref_labels:
     - language_code: uk
       language_name: українська
       value: коментар
-    - language_code: pt
-      language_name: português
-      value: комментарий
     - language_code: ru
       language_name: русский
+      value: комментарий
+    - language_code: pt
+      language_name: português
       value: комментарий
     - language_code: ar
       language_name: العربية

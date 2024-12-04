@@ -37,11 +37,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: notació musical
-    - language_code: es
-      language_name: español
-      value: notación musical
     - language_code: gl
       language_name: galego
+      value: notación musical
+    - language_code: es
+      language_name: español
       value: notación musical
     - language_code: it
       language_name: italiano

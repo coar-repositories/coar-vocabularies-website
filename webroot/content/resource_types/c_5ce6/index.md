@@ -35,20 +35,8 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: računarski program
-    - language_code: pt
-      language_name: português
-      value: software
     - language_code: ro
       language_name: română
-      value: software
-    - language_code: da
-      language_name: dansk
-      value: software
-    - language_code: es
-      language_name: español
-      value: software
-    - language_code: it
-      language_name: italiano
       value: software
     - language_code: gl
       language_name: galego
@@ -58,6 +46,18 @@ pref_labels:
       value: software
     - language_code: nl
       language_name: Nederlands
+      value: software
+    - language_code: it
+      language_name: italiano
+      value: software
+    - language_code: da
+      language_name: dansk
+      value: software
+    - language_code: es
+      language_name: español
+      value: software
+    - language_code: pt
+      language_name: português
       value: software
     - language_code: cs
       language_name: čeština
@@ -147,8 +147,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_c950
     - QH80-2R4E
+    - c_c950
 broader_concepts: []
 ---
 

@@ -58,11 +58,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: webové sídlo
-    - language_code: en
-      language_name: English
-      value: website
     - language_code: nl
       language_name: Nederlands
+      value: website
+    - language_code: en
+      language_name: English
       value: website
     - language_code: sr-cyrl
       language_name: српски
@@ -107,11 +107,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: portal
-    - language_code: es
-      language_name: español
-      value: portal web
     - language_code: ca
       language_name: català
+      value: portal web
+    - language_code: es
+      language_name: español
       value: portal web
     - language_code: ca
       language_name: català

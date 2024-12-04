@@ -15,32 +15,32 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Literaturverzeichnis
-    - language_code: da
-      language_name: dansk
-      value: bibliografi
     - language_code: sv
       language_name: svenska
       value: bibliografi
-    - language_code: ca
-      language_name: català
-      value: bibliografia
+    - language_code: da
+      language_name: dansk
+      value: bibliografi
     - language_code: it
       language_name: italiano
       value: bibliografia
-    - language_code: fi
-      language_name: suomi
+    - language_code: ca
+      language_name: català
       value: bibliografia
     - language_code: pt
       language_name: português
       value: bibliografia
+    - language_code: fi
+      language_name: suomi
+      value: bibliografia
+    - language_code: ro
+      language_name: română
+      value: bibliografie
     - language_code: nl
       language_name: Nederlands
       value: bibliografie
     - language_code: cs
       language_name: čeština
-      value: bibliografie
-    - language_code: ro
-      language_name: română
       value: bibliografie
     - language_code: sr
       language_name: српски

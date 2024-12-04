@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/eprint/type/BookReview
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2300
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/BookReview
 pref_labels:
     - language_code: de
       language_name: Deutsch

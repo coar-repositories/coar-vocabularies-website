@@ -10,9 +10,9 @@ related:
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2277
     - type: Exact Match
-      uri: http://purl.org/eprint/type/BookItem
-    - type: Exact Match
       uri: http://purl.org/datacite/v4.4/BookChapter
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/BookItem
 pref_labels:
     - language_code: de
       language_name: Deutsch

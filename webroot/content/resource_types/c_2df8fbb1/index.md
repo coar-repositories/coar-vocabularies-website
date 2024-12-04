@@ -34,11 +34,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo original
-    - language_code: da
-      language_name: dansk
-      value: forskningsartikel
     - language_code: sv
       language_name: svenska
+      value: forskningsartikel
+    - language_code: da
+      language_name: dansk
       value: forskningsartikel
     - language_code: sr
       language_name: српски

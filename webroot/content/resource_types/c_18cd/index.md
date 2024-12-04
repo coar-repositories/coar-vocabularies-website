@@ -11,11 +11,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: composició musical
-    - language_code: gl
-      language_name: galego
-      value: composición musical
     - language_code: es
       language_name: español
+      value: composición musical
+    - language_code: gl
+      language_name: galego
       value: composición musical
     - language_code: fr
       language_name: français

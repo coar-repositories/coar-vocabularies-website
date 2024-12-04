@@ -6,13 +6,13 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Image
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Image
-    - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Image
     - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:

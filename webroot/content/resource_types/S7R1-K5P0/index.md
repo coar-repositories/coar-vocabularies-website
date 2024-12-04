@@ -3,7 +3,7 @@ title: physical sample
 uri: http://purl.org/coar/resource_type/S7R1-K5P0
 description: |-
     Physical samples include biological specimens, rock or mineral specimens, soil or sediment cores, plants and seeds, water quality samples, archaeological artefacts, or DNA and human tissue samples. Samples may be used in analyses and can be destroyed in this process, whereas specimens are preserved curated objects that can be continuously studied.
-    Source: Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf
+    Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf
 deprecated: false
 layout: concept
 related:
@@ -55,9 +55,6 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: échantillon
-    - language_code: el
-      language_name: Ελληνικά
-      value: φυσικό δείγμα
     - language_code: ru
       language_name: русский
       value: физический образец

@@ -38,11 +38,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: revisione tra pari
-    - language_code: gl
-      language_name: galego
-      value: revisión por pares
     - language_code: es
       language_name: español
+      value: revisión por pares
+    - language_code: gl
+      language_name: galego
       value: revisión por pares
     - language_code: pt
       language_name: português

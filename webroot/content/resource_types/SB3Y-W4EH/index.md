@@ -9,14 +9,14 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Internationale Patentanmeldung
-    - language_code: gl
-      language_name: galego
-      value: PCT
     - language_code: es
       language_name: español
       value: PCT
     - language_code: ca
       language_name: català
+      value: PCT
+    - language_code: gl
+      language_name: galego
       value: PCT
     - language_code: en
       language_name: English

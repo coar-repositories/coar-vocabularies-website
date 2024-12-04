@@ -23,11 +23,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: dati compilati
-    - language_code: es
-      language_name: español
-      value: datos compilados
     - language_code: gl
       language_name: galego
+      value: datos compilados
+    - language_code: es
+      language_name: español
       value: datos compilados
     - language_code: tr
       language_name: Türkçe

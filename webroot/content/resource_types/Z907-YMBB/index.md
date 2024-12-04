@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4551
-    - type: Broad Match
       uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43358
+    - type: Broad Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4551
     - type: Exact Match
       uri: http://purl.jp/bio/4/id/200906022454899687
 pref_labels:

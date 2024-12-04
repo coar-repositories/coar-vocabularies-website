@@ -14,11 +14,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: araştırma cihazı
-    - language_code: sv
-      language_name: svenska
-      value: forskningsinstrument
     - language_code: da
       language_name: dansk
+      value: forskningsinstrument
+    - language_code: sv
+      language_name: svenska
       value: forskningsinstrument
     - language_code: ro
       language_name: română
@@ -87,11 +87,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: instrumentació científica
-    - language_code: gl
-      language_name: galego
-      value: instrumentación científica
     - language_code: es
       language_name: español
+      value: instrumentación científica
+    - language_code: gl
+      language_name: galego
       value: instrumentación científica
     - language_code: pt
       language_name: português

@@ -37,11 +37,11 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: patente de software
-    - language_code: gl
-      language_name: galego
-      value: patente de software
     - language_code: es
       language_name: español
+      value: patente de software
+    - language_code: gl
+      language_name: galego
       value: patente de software
     - language_code: sr
       language_name: српски

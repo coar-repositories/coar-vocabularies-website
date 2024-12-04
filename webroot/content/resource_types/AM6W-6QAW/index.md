@@ -20,11 +20,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: dati codificati
-    - language_code: gl
-      language_name: galego
-      value: datos codificados
     - language_code: es
       language_name: español
+      value: datos codificados
+    - language_code: gl
+      language_name: galego
       value: datos codificados
     - language_code: fr
       language_name: français

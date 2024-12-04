@@ -90,10 +90,10 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_f744
-    - R60J-J5BD
-    - c_18cp
     - c_18co
+    - c_f744
+    - c_18cp
+    - R60J-J5BD
 broader_concepts:
     - c_18cf
 ---

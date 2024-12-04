@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: https://schema.org/MediaObject
     - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3436
+    - type: Exact Match
       uri: http://purl.org/datacite/v4.4/Image
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Image
-    - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3436
     - type: Narrow Match
       uri: http://purl.org/dc/dcmitype/StillImage
 pref_labels:
@@ -98,17 +98,17 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: beeldmateriaal
+    - language_code: gl
+      language_name: galego
+      value: figura
+    - language_code: pt
+      language_name: português
+      value: figura
     - language_code: es
       language_name: español
       value: figura
     - language_code: ca
       language_name: català
-      value: figura
-    - language_code: pt
-      language_name: português
-      value: figura
-    - language_code: gl
-      language_name: galego
       value: figura
     - language_code: ro
       language_name: română
@@ -143,8 +143,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_ecc8
     - c_8a7e
+    - c_ecc8
 broader_concepts: []
 ---
 

@@ -15,20 +15,23 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: emlékeztető
-    - language_code: pt
-      language_name: português
-      value: memorando
     - language_code: gl
       language_name: galego
       value: memorando
-    - language_code: sv
-      language_name: svenska
-      value: memorandum
-    - language_code: sl
-      language_name: slovenščina
+    - language_code: pt
+      language_name: português
+      value: memorando
+    - language_code: ro
+      language_name: română
       value: memorandum
     - language_code: sr
       language_name: српски
+      value: memorandum
+    - language_code: sv
+      language_name: svenska
+      value: memorandum
+    - language_code: en
+      language_name: English
       value: memorandum
     - language_code: it
       language_name: italiano
@@ -39,11 +42,8 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: memorandum
-    - language_code: ro
-      language_name: română
-      value: memorandum
-    - language_code: en
-      language_name: English
+    - language_code: sl
+      language_name: slovenščina
       value: memorandum
     - language_code: ca
       language_name: català
@@ -66,11 +66,11 @@ pref_labels:
     - language_code: uk
       language_name: українська
       value: меморандум
-    - language_code: sr-cyrl
-      language_name: српски
-      value: меморандум
     - language_code: ru
       language_name: русский
+      value: меморандум
+    - language_code: sr-cyrl
+      language_name: српски
       value: меморандум
     - language_code: ar
       language_name: العربية
@@ -85,11 +85,11 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Denkschrift
-    - language_code: pt
-      language_name: português
-      value: circular
     - language_code: es
       language_name: español
+      value: circular
+    - language_code: pt
+      language_name: português
       value: circular
     - language_code: es
       language_name: español

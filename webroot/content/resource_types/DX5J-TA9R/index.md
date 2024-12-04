@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5605
-    - type: Broad Match
       uri: http://purl.bioontology.org/ontology/MESH/D000078182
+    - type: Broad Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5605
 pref_labels:
     - language_code: de
       language_name: Deutsch

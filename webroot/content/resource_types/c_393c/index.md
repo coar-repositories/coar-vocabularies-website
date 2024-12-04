@@ -58,11 +58,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: työnkulku
-    - language_code: en
-      language_name: English
-      value: workflow
     - language_code: nl
       language_name: Nederlands
+      value: workflow
+    - language_code: en
+      language_name: English
       value: workflow
     - language_code: el
       language_name: Ελληνικά
@@ -104,17 +104,17 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: flux opérationnel
-    - language_code: cs
-      language_name: čeština
-      value: procedura
     - language_code: sr
       language_name: српски
       value: procedura
-    - language_code: pt
-      language_name: português
-      value: workflow
+    - language_code: cs
+      language_name: čeština
+      value: procedura
     - language_code: it
       language_name: italiano
+      value: workflow
+    - language_code: pt
+      language_name: português
       value: workflow
     - language_code: sr-cyrl
       language_name: српски

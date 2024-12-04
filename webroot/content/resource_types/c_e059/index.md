@@ -1,7 +1,7 @@
 ---
 title: learning object
 uri: http://purl.org/coar/resource_type/c_e059
-description: 'A digital resource that can be reused to enhance teaching and learning. [Source: https://icas-ca.org/archive/projects/coerc/oer-glossary]'
+description: 'A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://purl.org/dc/dcmitype/InteractiveResource]'
 deprecated: false
 layout: concept
 related:
@@ -59,9 +59,6 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Öğrenim nesnesi
-    - language_code: el
-      language_name: Ελληνικά
-      value: μαθησιακό αντικείμενο
     - language_code: uk
       language_name: українська
       value: навчальний об'єкт

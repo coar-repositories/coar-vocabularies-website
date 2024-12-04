@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.bioontology.org/ontology/MESH/D058028
-    - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5170
     - type: Broad Match
       uri: http://purl.org/datacite/v4.4/Report
+    - type: Broad Match
+      uri: http://purl.bioontology.org/ontology/MESH/D058028
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -18,11 +18,11 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: araştırma raporu
-    - language_code: da
-      language_name: dansk
-      value: forskningsrapport
     - language_code: sv
       language_name: svenska
+      value: forskningsrapport
+    - language_code: da
+      language_name: dansk
       value: forskningsrapport
     - language_code: es
       language_name: español

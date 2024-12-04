@@ -8,23 +8,23 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
+      uri: http://purl.org/datacite/v4.4/Report
+    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4866
     - type: Exact Match
       uri: http://purl.org/eprint/type/Report
-    - type: Exact Match
-      uri: http://purl.org/datacite/v4.4/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Bericht
+    - language_code: gl
+      language_name: galego
+      value: informe
     - language_code: ca
       language_name: català
       value: informe
     - language_code: es
       language_name: español
-      value: informe
-    - language_code: gl
-      language_name: galego
       value: informe
     - language_code: sr
       language_name: српски
@@ -44,17 +44,17 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: raportti
-    - language_code: sv
-      language_name: svenska
-      value: rapport
-    - language_code: da
-      language_name: dansk
+    - language_code: nl
+      language_name: Nederlands
       value: rapport
     - language_code: fr
       language_name: français
       value: rapport
-    - language_code: nl
-      language_name: Nederlands
+    - language_code: da
+      language_name: dansk
+      value: rapport
+    - language_code: sv
+      language_name: svenska
       value: rapport
     - language_code: it
       language_name: italiano
@@ -138,15 +138,15 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_18ws
-    - c_ab20
-    - DX5J-TA9R
-    - c_18gh
-    - c_18op
     - c_186u
     - c_7877
+    - c_18op
+    - c_18gh
+    - c_ab20
     - c_18wz
+    - c_18ws
     - YZ1N-ZFT9
+    - DX5J-TA9R
 broader_concepts:
     - c_18cf
 ---

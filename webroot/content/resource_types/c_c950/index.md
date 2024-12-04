@@ -44,11 +44,11 @@ pref_labels:
     - language_code: ro
       language_name: română
       value: software de cercetare
-    - language_code: es
-      language_name: español
-      value: software de investigación
     - language_code: gl
       language_name: galego
+      value: software de investigación
+    - language_code: es
+      language_name: español
       value: software de investigación
     - language_code: it
       language_name: italiano

@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5183
-    - type: Broad Match
       uri: http://purl.org/datacite/v4.4/Report
+    - type: Broad Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5183
 pref_labels:
     - language_code: de
       language_name: Deutsch

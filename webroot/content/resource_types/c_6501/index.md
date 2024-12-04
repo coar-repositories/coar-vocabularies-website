@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: https://schema.org/Article
     - type: Exact Match
-      uri: http://purl.org/eprint/type/JournalArticle
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3646
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/JournalArticle
     - type: Narrow Match
       uri: http://purl.bioontology.org/ontology/MESH/D016428
     - type: Related Match
@@ -33,11 +33,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: articolo de rivista
-    - language_code: pt
-      language_name: português
-      value: artigo
     - language_code: gl
       language_name: galego
+      value: artigo
+    - language_code: pt
+      language_name: português
       value: artigo
     - language_code: es
       language_name: español
@@ -124,11 +124,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: articulo cientifico
-    - language_code: gl
-      language_name: galego
-      value: artigo científico
     - language_code: pt
       language_name: português
+      value: artigo científico
+    - language_code: gl
+      language_name: galego
       value: artigo científico
     - language_code: pt
       language_name: português
@@ -187,11 +187,11 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_dcae04bc
-    - c_2df8fbb1
-    - c_7bab
-    - c_7acd
     - c_beb9
+    - c_2df8fbb1
+    - c_7acd
+    - c_dcae04bc
+    - c_7bab
 broader_concepts:
     - c_0640
 ---
