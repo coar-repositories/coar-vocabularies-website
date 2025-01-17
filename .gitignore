@@ -6,4 +6,5 @@
 .idea
 
 /webroot/.hugo_build.lock
-/public
+/webroot/public/**.*
+!/webroot/public/.keep
