@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Collection
-    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Collection
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Collection
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -16,23 +16,29 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: acervo arquivístico
+    - language_code: nl
+      language_name: Nederlands
+      value: archiefcollectie
     - language_code: en
       language_name: English
       value: archival collection
     - language_code: hu
       language_name: magyar
       value: archív állomány
-    - language_code: sl
-      language_name: slovenščina
-      value: arhivska zbirka
     - language_code: sr
       language_name: српски
       value: arhivska zbirka
-    - language_code: sv
-      language_name: svenska
-      value: arkivsamling
+    - language_code: sl
+      language_name: slovenščina
+      value: arhivska zbirka
+    - language_code: fi
+      language_name: suomi
+      value: arkistokokoelma
     - language_code: da
       language_name: dansk
+      value: arkivsamling
+    - language_code: sv
+      language_name: svenska
       value: arkivsamling
     - language_code: tr
       language_name: Türkçe

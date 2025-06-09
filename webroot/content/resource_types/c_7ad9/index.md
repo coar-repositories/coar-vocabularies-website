@@ -149,11 +149,11 @@ alt_labels:
     - language_code: en
       language_name: English
       value: webpage
-    - language_code: da
-      language_name: dansk
-      value: website
     - language_code: pt
       language_name: português
+      value: website
+    - language_code: da
+      language_name: dansk
       value: website
     - language_code: sr-cyrl
       language_name: српски

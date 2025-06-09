@@ -38,11 +38,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: protocollo di ricerca
-    - language_code: gl
-      language_name: galego
-      value: protocolo de investigación
     - language_code: es
       language_name: español
+      value: protocolo de investigación
+    - language_code: gl
+      language_name: galego
       value: protocolo de investigación
     - language_code: pt
       language_name: português

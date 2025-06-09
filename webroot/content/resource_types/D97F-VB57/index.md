@@ -11,11 +11,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Kommentar
-    - language_code: es
-      language_name: español
-      value: comentario
     - language_code: gl
       language_name: galego
+      value: comentario
+    - language_code: es
+      language_name: español
       value: comentario
     - language_code: ro
       language_name: română

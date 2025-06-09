@@ -8,13 +8,13 @@ related:
     - type: Exact Match
       uri: https://schema.org/Dataset
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2865
+      uri: http://purl.org/datacite/v4.4/Dataset
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/Dataset
     - type: Exact Match
       uri: http://purl.bioontology.org/ontology/MESH/D064886
     - type: Exact Match
-      uri: http://purl.org/datacite/v4.4/Dataset
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2865
     - type: Narrow Match
       uri: https://id.loc.gov/vocabulary/contentTypes/cod.html
     - type: Related Match
@@ -38,17 +38,17 @@ pref_labels:
     - language_code: gl
       language_name: galego
       value: conxunto de datos
-    - language_code: it
-      language_name: italiano
+    - language_code: en
+      language_name: English
       value: dataset
     - language_code: sv
       language_name: svenska
       value: dataset
+    - language_code: it
+      language_name: italiano
+      value: dataset
     - language_code: nl
       language_name: Nederlands
-      value: dataset
-    - language_code: en
-      language_name: English
       value: dataset
     - language_code: da
       language_name: dansk
@@ -123,11 +123,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: grup de dades
-    - language_code: es
-      language_name: español
-      value: grupo de datos
     - language_code: gl
       language_name: galego
+      value: grupo de datos
+    - language_code: es
+      language_name: español
       value: grupo de datos
     - language_code: it
       language_name: italiano
@@ -159,19 +159,19 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - ACF7-8YT9
-    - FXF3-D3G7
-    - 2H0M-X761
-    - FF4C-28RK
     - DD58-GFSX
-    - AM6W-6QAW
-    - c_cb28
-    - H41Y-FW7B
-    - NHD0-W6SY
-    - CQMR-7K63
     - A8F1-NPV9
-    - W2XT-7017
+    - ACF7-8YT9
+    - NHD0-W6SY
     - 63NG-B465
+    - CQMR-7K63
+    - FXF3-D3G7
+    - AM6W-6QAW
+    - W2XT-7017
+    - FF4C-28RK
+    - 2H0M-X761
+    - H41Y-FW7B
+    - c_cb28
 broader_concepts: []
 ---
 

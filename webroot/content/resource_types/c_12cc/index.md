@@ -49,11 +49,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: material cartogràfic
-    - language_code: pt
-      language_name: português
-      value: material cartográfico
     - language_code: es
       language_name: español
+      value: material cartográfico
+    - language_code: pt
+      language_name: português
       value: material cartográfico
     - language_code: gl
       language_name: galego

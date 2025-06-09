@@ -38,11 +38,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: capítol de llibre
-    - language_code: gl
-      language_name: galego
-      value: capítulo de libro
     - language_code: es
       language_name: español
+      value: capítulo de libro
+    - language_code: gl
+      language_name: galego
       value: capítulo de libro
     - language_code: pt
       language_name: português

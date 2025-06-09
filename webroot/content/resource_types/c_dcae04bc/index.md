@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
+      uri: http://purl.org/eprint/type/JournalArticle
+    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Article
     - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5310
-    - type: Broad Match
-      uri: http://purl.org/eprint/type/JournalArticle
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5287
     - type: Narrow Match

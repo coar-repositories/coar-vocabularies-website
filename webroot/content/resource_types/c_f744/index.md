@@ -6,13 +6,13 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2662
-    - type: Exact Match
       uri: http://purl.org/datacite/v4.4/ConferenceProceeding
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2662
 pref_labels:
     - language_code: de
       language_name: Deutsch
-      value: Konfernzschrift
+      value: Konferenzschrift
     - language_code: es
       language_name: español
       value: actas de congreso
@@ -149,8 +149,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_5794
     - c_6670
+    - c_5794
 broader_concepts:
     - c_c94f
 ---

@@ -92,11 +92,11 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: interaktivni vir
-    - language_code: pt
-      language_name: português
-      value: recurso interactivo
     - language_code: gl
       language_name: galego
+      value: recurso interactivo
+    - language_code: pt
+      language_name: português
       value: recurso interactivo
     - language_code: sr-cyrl
       language_name: српски

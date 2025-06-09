@@ -27,6 +27,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: coleção
+    - language_code: nl
+      language_name: Nederlands
+      value: collectie
     - language_code: fr
       language_name: français
       value: collection
@@ -42,17 +45,20 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: gyűjtemény
+    - language_code: fi
+      language_name: suomi
+      value: kokoelma
     - language_code: sl
       language_name: slovenščina
       value: kolekcija
     - language_code: tr
       language_name: Türkçe
       value: koleksiyon
-    - language_code: da
-      language_name: dansk
-      value: samling
     - language_code: sv
       language_name: svenska
+      value: samling
+    - language_code: da
+      language_name: dansk
       value: samling
     - language_code: sr
       language_name: српски
@@ -82,20 +88,20 @@ pref_labels:
       language_name: 한국어
       value: 컬렉션
 alt_labels:
-    - language_code: es
-      language_name: español
-      value: acervo
     - language_code: pt
       language_name: português
+      value: acervo
+    - language_code: es
+      language_name: español
       value: acervo
     - language_code: sr
       language_name: српски
       value: kolekcija
-    - language_code: es
-      language_name: español
-      value: repertorio
     - language_code: gl
       language_name: galego
+      value: repertorio
+    - language_code: es
+      language_name: español
       value: repertorio
     - language_code: sl
       language_name: slovenščina
@@ -109,8 +115,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - 1YTN-RJZE
     - YC9F-HGCF
+    - 1YTN-RJZE
 broader_concepts: []
 ---
 

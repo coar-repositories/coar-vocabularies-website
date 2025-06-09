@@ -39,19 +39,19 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: düzeltme
-    - language_code: pt
-      language_name: português
-      value: errata
     - language_code: sv
       language_name: svenska
+      value: errata
+    - language_code: pt
+      language_name: português
       value: errata
     - language_code: fr
       language_name: français
       value: erratum
-    - language_code: sr-cyrl
+    - language_code: sr
       language_name: српски
       value: erratum
-    - language_code: sr
+    - language_code: sr-cyrl
       language_name: српски
       value: erratum
     - language_code: hu
@@ -94,10 +94,10 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: corrigenda
-    - language_code: sr-cyrl
+    - language_code: sr
       language_name: српски
       value: corrigendum
-    - language_code: sr
+    - language_code: sr-cyrl
       language_name: српски
       value: corrigendum
     - language_code: fi

@@ -1,7 +1,9 @@
 ---
 title: learning object
 uri: http://purl.org/coar/resource_type/c_e059
-description: 'A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://purl.org/dc/dcmitype/InteractiveResource]'
+description: |-
+    A digital resource that can be reused to enhance teaching and learning.
+    Source https://icas-ca.org/archive/projects/coerc/oer-glossary/
 deprecated: false
 layout: concept
 related:

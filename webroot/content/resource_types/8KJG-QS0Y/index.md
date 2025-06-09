@@ -29,11 +29,11 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: instrument de recherche
-    - language_code: gl
-      language_name: galego
-      value: instrumento de investigación
     - language_code: es
       language_name: español
+      value: instrumento de investigación
+    - language_code: gl
+      language_name: galego
       value: instrumento de investigación
     - language_code: pt
       language_name: português
@@ -44,6 +44,9 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: kutatási eszköz
+    - language_code: nl
+      language_name: Nederlands
+      value: onderzoeksinstrument
     - language_code: sl
       language_name: slovenščina
       value: raziskovalno orodje
@@ -53,6 +56,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: strumentazione
+    - language_code: fi
+      language_name: suomi
+      value: tutkimusväline
     - language_code: el
       language_name: Ελληνικά
       value: ερευνητικό εργαλείο

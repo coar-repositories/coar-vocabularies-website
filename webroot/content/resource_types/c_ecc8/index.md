@@ -12,9 +12,9 @@ related:
     - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
-    - type: Exact Match
       uri: http://purl.org/dc/dcmitype/StillImage
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
 pref_labels:
     - language_code: de
       language_name: Deutsch

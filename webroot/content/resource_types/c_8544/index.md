@@ -29,11 +29,11 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: föreläsning
-    - language_code: nl
-      language_name: Nederlands
-      value: lecture
     - language_code: en
       language_name: English
+      value: lecture
+    - language_code: nl
+      language_name: Nederlands
       value: lecture
     - language_code: it
       language_name: italiano
@@ -99,11 +99,11 @@ alt_labels:
     - language_code: es
       language_name: español
       value: conferencia academica
-    - language_code: gl
-      language_name: galego
-      value: conferencia académica
     - language_code: es
       language_name: español
+      value: conferencia académica
+    - language_code: gl
+      language_name: galego
       value: conferencia académica
     - language_code: es
       language_name: español

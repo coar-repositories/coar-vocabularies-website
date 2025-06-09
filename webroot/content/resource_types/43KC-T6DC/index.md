@@ -11,6 +11,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Zeitschriftenartikel
+    - language_code: fi
+      language_name: suomi
+      value: aikakauslehtiartikkeli
     - language_code: ca
       language_name: català
       value: article de divulgació
@@ -44,6 +47,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: magazine article
+    - language_code: nl
+      language_name: Nederlands
+      value: tijdschriftartikel
     - language_code: sl
       language_name: slovenščina
       value: časopisni članek

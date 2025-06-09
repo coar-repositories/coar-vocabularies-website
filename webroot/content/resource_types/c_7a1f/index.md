@@ -10,7 +10,7 @@ related:
 pref_labels:
     - language_code: de
       language_name: Deutsch
-      value: Masterarbeit
+      value: Abschlussarbeit (Bachelor)
     - language_code: en
       language_name: English
       value: bachelor thesis
@@ -83,7 +83,7 @@ pref_labels:
 alt_labels:
     - language_code: de
       language_name: Deutsch
-      value: Abschlussarbeit (Bachelor)
+      value: Bachelorarbeit
     - language_code: hu
       language_name: magyar
       value: alapszakos szakdolgozat

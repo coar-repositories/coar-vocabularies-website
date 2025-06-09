@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/ontology/bibo/Document
-    - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
+    - type: Broad Match
+      uri: http://purl.org/ontology/bibo/Document
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -98,11 +98,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: documentation technique
-    - language_code: ca
-      language_name: català
-      value: manual
     - language_code: es
       language_name: español
+      value: manual
+    - language_code: ca
+      language_name: català
       value: manual
     - language_code: pt
       language_name: português

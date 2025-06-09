@@ -24,14 +24,14 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: logo
-    - language_code: gl
-      language_name: galego
-      value: marca
     - language_code: pt
       language_name: português
       value: marca
     - language_code: es
       language_name: español
+      value: marca
+    - language_code: gl
+      language_name: galego
       value: marca
     - language_code: it
       language_name: italiano

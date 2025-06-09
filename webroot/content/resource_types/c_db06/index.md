@@ -40,11 +40,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: proefschrift
-    - language_code: gl
-      language_name: galego
-      value: tese de doutoramento
     - language_code: pt
       language_name: português
+      value: tese de doutoramento
+    - language_code: gl
+      language_name: galego
       value: tese de doutoramento
     - language_code: it
       language_name: italiano

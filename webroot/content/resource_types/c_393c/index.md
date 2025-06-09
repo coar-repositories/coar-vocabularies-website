@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e6123
-    - type: Exact Match
       uri: http://purl.org/datacite/v4.4/Workflow
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e6123
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -58,11 +58,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: työnkulku
-    - language_code: nl
-      language_name: Nederlands
-      value: workflow
     - language_code: en
       language_name: English
+      value: workflow
+    - language_code: nl
+      language_name: Nederlands
       value: workflow
     - language_code: el
       language_name: Ελληνικά
@@ -110,11 +110,11 @@ alt_labels:
     - language_code: cs
       language_name: čeština
       value: procedura
-    - language_code: it
-      language_name: italiano
-      value: workflow
     - language_code: pt
       language_name: português
+      value: workflow
+    - language_code: it
+      language_name: italiano
       value: workflow
     - language_code: sr-cyrl
       language_name: српски

@@ -174,7 +174,8 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_e059" label="Lernobjekt">
       <hasNote>
-        <![CDATA[A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://purl.org/dc/dcmitype/InteractiveResource]]]>
+        <![CDATA[A digital resource that can be reused to enhance teaching and learning.
+Source https://icas-ca.org/archive/projects/coerc/oer-glossary/]]>
       </hasNote>
     </node>
     <node id="c_1843" label="sonstige">
@@ -184,7 +185,10 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_15cd" label="Patent">
       <hasNote>
-        <![CDATA[A patent or patent application.]]>
+        <![CDATA[A set of exclusive rights granted by law to applicants for inventions that are
+new, non-obvious and commercially applicable. A patent is valid for a limited
+period (generally 20 years), during which time patent holders can commercially
+exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]]]>
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="Internationale Patentanmeldung">
@@ -311,7 +315,7 @@ Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf
                 <![CDATA[A set of slides containing text, tables or figures, designed to communicate ideas or research results, for projection and viewing by an audience at a conference, symposium, seminar, lecture, workshop or other gatherings. [Source: Adapted from hhttps://sparontologies.github.io/fabio/current/fabio.html#d4e4880]]]>
               </hasNote>
             </node>
-            <node id="c_f744" label="Konfernzschrift">
+            <node id="c_f744" label="Konferenzschrift">
               <hasNote>
                 <![CDATA[Conference proceedings is the official record of a conference meeting. It is a collection of documents which corresponds to the presentations given at the conference. It may include additional content. [Source: http://www.ieee.org/documents/confprocdefined.pdf ]]]>
               </hasNote>
@@ -523,7 +527,7 @@ Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf
             <![CDATA[A book authored by a student containing a formal presentations of research outputs submitted for examination in completion of a course of study at an institution of higher education, to fulfil the requirements for an academic degree. Also known as a dissertation. [Source: https://sparontologies.github.io/fabio/current/fabio.html#d4e5748]]]>
           </hasNote>
           <isComposedBy>
-            <node id="c_7a1f" label="Masterarbeit">
+            <node id="c_7a1f" label="Abschlussarbeit (Bachelor)">
               <hasNote>
                 <![CDATA[A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree. [Source: https://sparontologies.github.io/fabio/current/fabio.html#d4e2181]]]>
               </hasNote>

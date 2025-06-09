@@ -22,14 +22,14 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: szöveg
+    - language_code: nl
+      language_name: Nederlands
+      value: tekst
     - language_code: sr
       language_name: српски
       value: tekst
     - language_code: da
       language_name: dansk
-      value: tekst
-    - language_code: nl
-      language_name: Nederlands
       value: tekst
     - language_code: fi
       language_name: suomi
@@ -37,20 +37,20 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: testo
-    - language_code: sv
-      language_name: svenska
-      value: text
-    - language_code: cs
-      language_name: čeština
+    - language_code: ro
+      language_name: română
       value: text
     - language_code: ca
       language_name: català
       value: text
+    - language_code: cs
+      language_name: čeština
+      value: text
+    - language_code: sv
+      language_name: svenska
+      value: text
     - language_code: en
       language_name: English
-      value: text
-    - language_code: ro
-      language_name: română
       value: text
     - language_code: fr
       language_name: français
@@ -67,14 +67,14 @@ pref_labels:
     - language_code: el
       language_name: Ελληνικά
       value: κείμενο
+    - language_code: sr-cyrl
+      language_name: српски
+      value: текст
     - language_code: ru
       language_name: русский
       value: текст
     - language_code: uk
       language_name: українська
-      value: текст
-    - language_code: sr-cyrl
-      language_name: српски
       value: текст
     - language_code: ar
       language_name: العربية
@@ -101,27 +101,27 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_0857
-    - c_8544
-    - 6NC7-GK9S
-    - c_0640
-    - c_efa0
     - c_8042
-    - c_46ec
-    - c_c94f
-    - c_2f33
+    - 6NC7-GK9S
     - c_baaf
-    - c_86bc
+    - c_c94f
+    - c_efa0
+    - c_2cd9
+    - c_0857
+    - c_18cw
+    - c_8544
+    - c_0640
     - c_816b
     - c_2fe3
     - c_93fc
-    - c_6947
-    - c_71bd
-    - c_2cd9
-    - c_1162
+    - c_2f33
     - c_0040
+    - c_6947
     - QX5C-AR31
-    - c_18cw
+    - c_46ec
+    - c_1162
+    - c_71bd
+    - c_86bc
 broader_concepts: []
 ---
 

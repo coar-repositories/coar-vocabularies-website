@@ -6,15 +6,15 @@ deprecated: false
 layout: concept
 related:
     - type: Narrow Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5735
-    - type: Narrow Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5828
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5645
     - type: Narrow Match
       uri: https://bioportal.bioontology.org/ontologies/MESH?p=classes&conceptid=D016437
     - type: Narrow Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5645
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5828
     - type: Narrow Match
       uri: https://vocabs.acdh.oeaw.ac.at/archecategory/model/controlledVocabulary
+    - type: Narrow Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5735
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -22,6 +22,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: bilgi organizasyon sistemi
+    - language_code: nl
+      language_name: Nederlands
+      value: kennissysteem
     - language_code: en
       language_name: English
       value: knowledge organization system
@@ -55,6 +58,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: système d'organisation des connaissances
+    - language_code: fi
+      language_name: suomi
+      value: tiedonhallintajärjestelmä
     - language_code: hu
       language_name: magyar
       value: tudásszervezési rendszerek

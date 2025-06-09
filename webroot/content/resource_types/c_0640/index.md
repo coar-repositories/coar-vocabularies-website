@@ -122,11 +122,11 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: revista académica
-    - language_code: pt
-      language_name: português
-      value: revista científica
     - language_code: es
       language_name: español
+      value: revista científica
+    - language_code: pt
+      language_name: português
       value: revista científica
     - language_code: fr
       language_name: français

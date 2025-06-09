@@ -21,17 +21,17 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: bibliografi
-    - language_code: it
-      language_name: italiano
+    - language_code: pt
+      language_name: português
       value: bibliografia
     - language_code: ca
       language_name: català
       value: bibliografia
-    - language_code: pt
-      language_name: português
-      value: bibliografia
     - language_code: fi
       language_name: suomi
+      value: bibliografia
+    - language_code: it
+      language_name: italiano
       value: bibliografia
     - language_code: ro
       language_name: română

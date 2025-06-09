@@ -2,7 +2,7 @@ languageCode: "en-gb"
 uglyURLs: false
 title: "Controlled Vocabularies for Repositories"
 enableRobotsTXT: true
-disableKinds: ["RSS","taxonomy","taxonomyTerm"]
+disableKinds: ["RSS","taxonomy"]
 metaDataFormat: "yaml"
 theme: "coar"
 enableGitInfo: false

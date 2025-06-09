@@ -33,11 +33,11 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: szakdolgozat
-    - language_code: pt
-      language_name: português
-      value: tese
     - language_code: gl
       language_name: galego
+      value: tese
+    - language_code: pt
+      language_name: português
       value: tese
     - language_code: ca
       language_name: català
@@ -119,8 +119,8 @@ date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
     - c_db06
-    - c_bdcc
     - c_7a1f
+    - c_bdcc
 broader_concepts:
     - c_18cf
 ---

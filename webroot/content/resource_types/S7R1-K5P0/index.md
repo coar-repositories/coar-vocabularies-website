@@ -31,6 +31,12 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: fysiskt prov
+    - language_code: fi
+      language_name: suomi
+      value: fyysinen näyte
+    - language_code: nl
+      language_name: Nederlands
+      value: monster
     - language_code: ca
       language_name: català
       value: mostra física
@@ -83,6 +89,9 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: carotte de sondage
+    - language_code: nl
+      language_name: Nederlands
+      value: proefmonster
     - language_code: ro
       language_name: română
       value: prototip

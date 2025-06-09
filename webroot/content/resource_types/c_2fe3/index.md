@@ -38,11 +38,11 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: novine
-    - language_code: es
-      language_name: español
-      value: periódico
     - language_code: gl
       language_name: galego
+      value: periódico
+    - language_code: es
+      language_name: español
       value: periódico
     - language_code: fi
       language_name: suomi

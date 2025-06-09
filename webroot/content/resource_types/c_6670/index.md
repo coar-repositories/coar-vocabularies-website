@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
     - type: Exact Match
-      uri: http://purl.org/eprint/type/ConferencePoster
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2648
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/ConferencePoster
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -42,11 +42,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: poster in congresso
-    - language_code: sl
-      language_name: slovenščina
-      value: poster na konferenci
     - language_code: cs
       language_name: čeština
+      value: poster na konferenci
+    - language_code: sl
+      language_name: slovenščina
       value: poster na konferenci
     - language_code: sr
       language_name: српски
@@ -57,11 +57,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: pòster de congrés
-    - language_code: gl
-      language_name: galego
-      value: póster de congreso
     - language_code: es
       language_name: español
+      value: póster de congreso
+    - language_code: gl
+      language_name: galego
       value: póster de congreso
     - language_code: pt
       language_name: português

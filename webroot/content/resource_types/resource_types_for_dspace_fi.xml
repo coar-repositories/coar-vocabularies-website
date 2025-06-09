@@ -4,7 +4,7 @@ UMinho Schema: https://github.com/DSpace/DSpace/blob/main/dspace/config/controll
 Initial example: https://github.com/4Science/DSpace/blob/dspace-cris-7/dspace/config/controlled-vocabularies/types.xml-->
 <node id="http://purl.org/coar/resource_type/scheme" label="Resource Types">
   <isComposedBy>
-    <node id="F8RT-TJK0" label="artistic work">
+    <node id="F8RT-TJK0" label="taiteellinen teos">
       <hasNote>
         <![CDATA[A work of visual arts and performing arts, including musical works; dramatic works; pantomimes and choreographic works; motion picture and other audiovisual works; pictorial, graphic, sculptural and architectural works. Adapted from Law Insider: https://www.lawinsider.com/dictionary/artistic-works]]>
       </hasNote>
@@ -21,17 +21,17 @@ Initial example: https://github.com/4Science/DSpace/blob/dspace-cris-7/dspace/co
         </node>
       </isComposedBy>
     </node>
-    <node id="RMP5-3GQ6" label="collection">
+    <node id="RMP5-3GQ6" label="kokoelma">
       <hasNote>
         <![CDATA[An aggregation of resources, which may encompass collections of one resourceType as well as those of mixed types. A collection is described as a group; its parts may also be separately described. https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/resourceTypeGeneral/#collection]]>
       </hasNote>
       <isComposedBy>
-        <node id="YC9F-HGCF" label="archival collection">
+        <node id="YC9F-HGCF" label="arkistokokoelma">
           <hasNote>
             <![CDATA[A collection of historical records and primary source documents. Documents may be tangible or digital. Adapted from “archive (groupings)” in Getty AAT: https://www.getty.edu/vow/AATFullDisplay?find=maiolica&logic=AND&note=&subjectid=300375748]]>
           </hasNote>
         </node>
-        <node id="1YTN-RJZE" label="court documents">
+        <node id="1YTN-RJZE" label="oikeudenkäyntiasiakirjat">
           <hasNote>
             <![CDATA[A set of judicial proceedings that record, physically or digitally, and in an orderly fashion, the development of a process or procedural actions so that they may be recorded and examined by the parties. This would include the set of judicial proceedings and any item within that set as a physical or electronic court document. Adapted from https://dpej.rae.es/lema/expediente-judicial with input from https://www.supremecourt.gov/case_documents.aspx]]>
           </hasNote>
@@ -167,14 +167,15 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
         </node>
       </isComposedBy>
     </node>
-    <node id="GSZA-Y7V7" label="knowledge organization system">
+    <node id="GSZA-Y7V7" label="tiedonhallintajärjestelmä">
       <hasNote>
         <![CDATA[All types of schemes for organizing information and promoting knowledge management. Knowledge organization systems include classification schemes that organize materials at a general level (such as books on a shelf), subject headings that provide more detailed access, and authority files that control variant versions of key information (such as geographic names and personal names). They also include less-traditional schemes, such as semantic artifacts, semantic networks and ontologies. https://www.clir.org/pubs/reports/pub91/1knowledge/]]>
       </hasNote>
     </node>
     <node id="c_e059" label="oppimateriaali">
       <hasNote>
-        <![CDATA[A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://purl.org/dc/dcmitype/InteractiveResource]]]>
+        <![CDATA[A digital resource that can be reused to enhance teaching and learning.
+Source https://icas-ca.org/archive/projects/coerc/oer-glossary/]]>
       </hasNote>
     </node>
     <node id="c_1843" label="muu">
@@ -184,7 +185,10 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_15cd" label="patentti">
       <hasNote>
-        <![CDATA[A patent or patent application.]]>
+        <![CDATA[A set of exclusive rights granted by law to applicants for inventions that are
+new, non-obvious and commercially applicable. A patent is valid for a limited
+period (generally 20 years), during which time patent holders can commercially
+exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]]]>
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="kansainvälinen patenttihakemus">
@@ -219,13 +223,13 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
         </node>
       </isComposedBy>
     </node>
-    <node id="S7R1-K5P0" label="physical sample">
+    <node id="S7R1-K5P0" label="fyysinen näyte">
       <hasNote>
         <![CDATA[Physical samples include biological specimens, rock or mineral specimens, soil or sediment cores, plants and seeds, water quality samples, archaeological artefacts, or DNA and human tissue samples. Samples may be used in analyses and can be destroyed in this process, whereas specimens are preserved curated objects that can be continuously studied.
 Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf]]>
       </hasNote>
     </node>
-    <node id="8KJG-QS0Y" label="research instrument">
+    <node id="8KJG-QS0Y" label="tutkimusväline">
       <hasNote>
         <![CDATA[A device, tool or apparatus used to obtain, measure and/or analyze data. Source https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/resourceTypeGeneral/#instrument]]>
       </hasNote>
@@ -394,7 +398,7 @@ Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf
             <![CDATA[A popular interest periodical usually containing articles on a variety of topics, written by various authors in a nonscholarly style or a trade publication, unlike a consumer publication, covers a specific topic for people who work in that particular field or industry. [Source: Adapted from https://www.thebalance.com/what-is-a-trade-publication-exactly-2316039 and http://www.abc-clio.com/ODLIS/odlis_m.aspx]]]>
           </hasNote>
           <isComposedBy>
-            <node id="43KC-T6DC" label="magazine article">
+            <node id="43KC-T6DC" label="aikakauslehtiartikkeli">
               <hasNote>
                 <![CDATA[An Item appearing in a magazine (a general interest or specific focus periodical). This item is often shorter in length, is submitted by in-house and external authors. Adapted from MAGAZINE Definition & Meaning - Black's Law Dictionary (thelawdictionary.org)]]>
               </hasNote>
@@ -449,7 +453,7 @@ Source: 23 Things Physical Samples https://eprints.gla.ac.uk/309016/1/309016.pdf
                 <![CDATA[A formal statement describing how research data will be managed and documented throughout a research project and the terms regarding the subsequent deposit of the data with a data repository for long-term management and preservation. [Source: https://casrai.org/rdm-glossary]]]>
               </hasNote>
             </node>
-            <node id="DX5J-TA9R" label="knowledge synthesis protocol">
+            <node id="DX5J-TA9R" label="systemaattisen katsauksen protokolla">
               <hasNote>
                 <![CDATA[In the context of systematic reviews and meta-analyses, a protocol is a document that presents an explicit plan for a systematic review. The protocol details the rationale and a priori methodological and analytical approach of the review. https://www.bmj.com/content/349/bmj.g7647]]>
               </hasNote>

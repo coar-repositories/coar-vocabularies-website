@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/WorkingPaper
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e6136
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/WorkingPaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -48,20 +48,20 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: työpaperi
+    - language_code: en
+      language_name: English
+      value: working paper
     - language_code: sv
       language_name: svenska
       value: working paper
-    - language_code: nl
-      language_name: Nederlands
-      value: working paper
-    - language_code: en
-      language_name: English
+    - language_code: it
+      language_name: italiano
       value: working paper
     - language_code: pt
       language_name: português
       value: working paper
-    - language_code: it
-      language_name: italiano
+    - language_code: nl
+      language_name: Nederlands
       value: working paper
     - language_code: tr
       language_name: Türkçe

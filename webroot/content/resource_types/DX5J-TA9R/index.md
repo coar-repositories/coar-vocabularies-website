@@ -16,6 +16,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: bilgi sentezi protokolü
+    - language_code: nl
+      language_name: Nederlands
+      value: kennissynthese protocol
     - language_code: en
       language_name: English
       value: knowledge synthesis protocol
@@ -46,6 +49,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: protocolo de síntesis del conocimiento
+    - language_code: fi
+      language_name: suomi
+      value: systemaattisen katsauksen protokolla
     - language_code: da
       language_name: dansk
       value: systematisk protokol

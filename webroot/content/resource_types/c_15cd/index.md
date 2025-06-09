@@ -1,7 +1,11 @@
 ---
 title: patent
 uri: http://purl.org/coar/resource_type/c_15cd
-description: A patent or patent application.
+description: |-
+    A set of exclusive rights granted by law to applicants for inventions that are
+    new, non-obvious and commercially applicable. A patent is valid for a limited
+    period (generally 20 years), during which time patent holders can commercially
+    exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]
 deprecated: false
 layout: concept
 related:
@@ -15,44 +19,44 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Patent
-    - language_code: ro
-      language_name: română
-      value: brevet
     - language_code: fr
       language_name: français
+      value: brevet
+    - language_code: ro
+      language_name: română
       value: brevet
     - language_code: it
       language_name: italiano
       value: brevetto
-    - language_code: sv
-      language_name: svenska
-      value: patent
-    - language_code: nl
-      language_name: Nederlands
-      value: patent
-    - language_code: da
-      language_name: dansk
-      value: patent
     - language_code: tr
       language_name: Türkçe
-      value: patent
-    - language_code: cs
-      language_name: čeština
-      value: patent
-    - language_code: sr
-      language_name: српски
       value: patent
     - language_code: en
       language_name: English
       value: patent
+    - language_code: sr
+      language_name: српски
+      value: patent
+    - language_code: cs
+      language_name: čeština
+      value: patent
     - language_code: ca
       language_name: català
       value: patent
-    - language_code: es
-      language_name: español
-      value: patente
+    - language_code: da
+      language_name: dansk
+      value: patent
+    - language_code: nl
+      language_name: Nederlands
+      value: patent
+    - language_code: sv
+      language_name: svenska
+      value: patent
     - language_code: pt
       language_name: português
+      value: patente
+    - language_code: es
+      language_name: español
       value: patente
     - language_code: gl
       language_name: galego
@@ -66,14 +70,14 @@ pref_labels:
     - language_code: el
       language_name: Ελληνικά
       value: ευρεσιτεχνία
-    - language_code: ru
-      language_name: русский
-      value: патент
     - language_code: uk
       language_name: українська
       value: патент
     - language_code: sr-cyrl
       language_name: српски
+      value: патент
+    - language_code: ru
+      language_name: русский
       value: патент
     - language_code: ar
       language_name: العربية
@@ -112,12 +116,12 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - C53B-JCY5
-    - MW8G-3CR8
-    - Z907-YMBB
-    - GPQ7-G5VE
-    - 9DKX-KSAF
     - SB3Y-W4EH
+    - C53B-JCY5
+    - GPQ7-G5VE
+    - MW8G-3CR8
+    - 9DKX-KSAF
+    - Z907-YMBB
 broader_concepts: []
 ---
 

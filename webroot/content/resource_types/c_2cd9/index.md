@@ -17,11 +17,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: aikakauslehti
-    - language_code: sr
-      language_name: српски
-      value: informativna revija
     - language_code: sl
       language_name: slovenščina
+      value: informativna revija
+    - language_code: sr
+      language_name: српски
       value: informativna revija
     - language_code: sv
       language_name: svenska
@@ -32,11 +32,11 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: magazin
-    - language_code: en
-      language_name: English
-      value: magazine
     - language_code: fr
       language_name: français
+      value: magazine
+    - language_code: en
+      language_name: English
       value: magazine
     - language_code: ca
       language_name: català

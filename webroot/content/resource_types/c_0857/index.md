@@ -8,35 +8,35 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/ontology/bibo/Letter
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3803
+    - type: Exact Match
+      uri: http://purl.org/ontology/bibo/Letter
     - type: Narrow Match
       uri: http://purl.bioontology.org/ontology/MESH/D019531
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Brief
-    - language_code: da
-      language_name: dansk
-      value: brev
     - language_code: sv
       language_name: svenska
+      value: brev
+    - language_code: da
+      language_name: dansk
       value: brev
     - language_code: nl
       language_name: Nederlands
       value: brief
-    - language_code: gl
-      language_name: galego
-      value: carta
-    - language_code: ca
-      language_name: català
+    - language_code: es
+      language_name: español
       value: carta
     - language_code: pt
       language_name: português
       value: carta
-    - language_code: es
-      language_name: español
+    - language_code: ca
+      language_name: català
+      value: carta
+    - language_code: gl
+      language_name: galego
       value: carta
     - language_code: it
       language_name: italiano

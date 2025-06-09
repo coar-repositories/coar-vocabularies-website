@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43358
-    - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4551
+    - type: Broad Match
+      uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43358
     - type: Exact Match
       uri: http://purl.jp/bio/4/id/200906022454899687
 pref_labels:
@@ -39,14 +39,14 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: patent de plantes
+    - language_code: es
+      language_name: español
+      value: patente de plantas
     - language_code: gl
       language_name: galego
       value: patente de plantas
     - language_code: pt
       language_name: português
-      value: patente de plantas
-    - language_code: es
-      language_name: español
       value: patente de plantas
     - language_code: sr
       language_name: српски

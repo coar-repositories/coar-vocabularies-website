@@ -174,7 +174,8 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_e059" label="nastavni materijal">
       <hasNote>
-        <![CDATA[A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments. [Source: http://purl.org/dc/dcmitype/InteractiveResource]]]>
+        <![CDATA[A digital resource that can be reused to enhance teaching and learning.
+Source https://icas-ca.org/archive/projects/coerc/oer-glossary/]]>
       </hasNote>
     </node>
     <node id="c_1843" label="ostalo">
@@ -184,7 +185,10 @@ Source: http://purl.org/dc/dcmitype/InteractiveResource]]>
     </node>
     <node id="c_15cd" label="patent">
       <hasNote>
-        <![CDATA[A patent or patent application.]]>
+        <![CDATA[A set of exclusive rights granted by law to applicants for inventions that are
+new, non-obvious and commercially applicable. A patent is valid for a limited
+period (generally 20 years), during which time patent holders can commercially
+exploit their inventions on an exclusive basis. [Source: https://www.wipo.int/edocs/pubdocs/en/wipo_pub_943_2018.pdf]]]>
       </hasNote>
       <isComposedBy>
         <node id="SB3Y-W4EH" label="patentna prijava">

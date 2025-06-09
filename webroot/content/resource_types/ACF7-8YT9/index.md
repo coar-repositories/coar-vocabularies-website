@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Dataset
-    - type: Broad Match
       uri: https://vocabs.lter-europe.net/elter_cl/en/page/10016
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Dataset
 pref_labels:
     - language_code: en
       language_name: English
@@ -46,11 +46,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: dati aggregati
-    - language_code: es
-      language_name: español
-      value: datos agregados
     - language_code: gl
       language_name: galego
+      value: datos agregados
+    - language_code: es
+      language_name: español
       value: datos agregados
     - language_code: fr
       language_name: français

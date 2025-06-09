@@ -6,13 +6,13 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5915
-    - type: Broad Match
-      uri: https://schema.org/Blog
+      uri: http://purl.bioontology.org/ontology/MESH/D000069520
     - type: Broad Match
       uri: http://purl.org/spar/fabio/WebContent
     - type: Broad Match
-      uri: http://purl.bioontology.org/ontology/MESH/D000069520
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5915
+    - type: Broad Match
+      uri: https://schema.org/Blog
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2248
 pref_labels:
@@ -34,11 +34,11 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: artigo de blogue
-    - language_code: nl
-      language_name: Nederlands
-      value: blog post
     - language_code: en
       language_name: English
+      value: blog post
+    - language_code: nl
+      language_name: Nederlands
       value: blog post
     - language_code: hu
       language_name: magyar
@@ -55,11 +55,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: entrada de blog
-    - language_code: gl
-      language_name: galego
-      value: entrada de blog
     - language_code: ca
       language_name: català
+      value: entrada de blog
+    - language_code: gl
+      language_name: galego
       value: entrada de blog
     - language_code: sl
       language_name: slovenščina

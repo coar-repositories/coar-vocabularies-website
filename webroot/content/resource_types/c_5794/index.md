@@ -29,11 +29,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: comunicació de congrés
-    - language_code: es
-      language_name: español
-      value: comunicación de congreso
     - language_code: gl
       language_name: galego
+      value: comunicación de congreso
+    - language_code: es
+      language_name: español
       value: comunicación de congreso
     - language_code: it
       language_name: italiano
