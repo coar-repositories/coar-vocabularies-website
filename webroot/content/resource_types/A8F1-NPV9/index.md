@@ -40,6 +40,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: genomidata
+    - language_code: az
+      language_name: azərbaycan
+      value: genomik məlumatlar
     - language_code: tr
       language_name: Türkçe
       value: genomik veri

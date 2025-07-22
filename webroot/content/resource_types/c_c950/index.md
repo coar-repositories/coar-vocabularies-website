@@ -56,6 +56,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tutkimusohjelmisto
+    - language_code: az
+      language_name: azərbaycan
+      value: tədqiqat proqramı
     - language_code: el
       language_name: Ελληνικά
       value: ερευνητικό λογισμικό

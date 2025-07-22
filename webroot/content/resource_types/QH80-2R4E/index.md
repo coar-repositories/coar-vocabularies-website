@@ -56,6 +56,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: lähdekoodi
+    - language_code: az
+      language_name: azərbaycan
+      value: mənbə kodu
     - language_code: en
       language_name: English
       value: source code

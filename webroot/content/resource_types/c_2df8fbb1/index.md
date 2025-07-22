@@ -58,6 +58,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tutkimusartikkeli
+    - language_code: az
+      language_name: azərbaycan
+      value: tədqiqat məqaləsi
     - language_code: sl
       language_name: slovenščina
       value: znanstveni članek

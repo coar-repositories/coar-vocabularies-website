@@ -17,14 +17,14 @@ pref_labels:
     - language_code: gl
       language_name: galego
       value: deseño
+    - language_code: en
+      language_name: English
+      value: design
     - language_code: sv
       language_name: svenska
       value: design
     - language_code: it
       language_name: italiano
-      value: design
-    - language_code: en
-      language_name: English
       value: design
     - language_code: es
       language_name: español
@@ -35,6 +35,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: dizajn
+    - language_code: az
+      language_name: azərbaycan
+      value: dizayn
     - language_code: da
       language_name: dansk
       value: formgivning
@@ -62,11 +65,11 @@ pref_labels:
     - language_code: el
       language_name: Ελληνικά
       value: σχεδίαση
-    - language_code: ru
-      language_name: русский
-      value: дизайн
     - language_code: uk
       language_name: українська
+      value: дизайн
+    - language_code: ru
+      language_name: русский
       value: дизайн
     - language_code: sr-cyrl
       language_name: српски
@@ -93,8 +96,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - BW7T-YM2G
     - JBNF-DYAD
+    - BW7T-YM2G
 broader_concepts: []
 ---
 

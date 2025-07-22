@@ -17,11 +17,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: aikakauslehti
-    - language_code: sl
-      language_name: slovenščina
-      value: informativna revija
     - language_code: sr
       language_name: српски
+      value: informativna revija
+    - language_code: sl
+      language_name: slovenščina
       value: informativna revija
     - language_code: sv
       language_name: svenska
@@ -32,11 +32,14 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: magazin
-    - language_code: fr
-      language_name: français
-      value: magazine
+    - language_code: az
+      language_name: azərbaycan
+      value: magazin jurnalı
     - language_code: en
       language_name: English
+      value: magazine
+    - language_code: fr
+      language_name: français
       value: magazine
     - language_code: ca
       language_name: català
@@ -84,11 +87,11 @@ alt_labels:
     - language_code: sr
       language_name: српски
       value: magazin
-    - language_code: nl
-      language_name: Nederlands
-      value: magazine
     - language_code: pt
       language_name: português
+      value: magazine
+    - language_code: nl
+      language_name: Nederlands
       value: magazine
     - language_code: es
       language_name: español
@@ -111,6 +114,9 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: časopis
+    - language_code: az
+      language_name: azərbaycan
+      value: əyləncəli jurnal
     - language_code: sr-cyrl
       language_name: српски
       value: магазин

@@ -43,6 +43,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: posneti podatki
+    - language_code: az
+      language_name: azərbaycan
+      value: qeydə alınmış məlumat
     - language_code: en
       language_name: English
       value: recorded data

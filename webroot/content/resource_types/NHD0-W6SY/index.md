@@ -50,6 +50,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksdata
+    - language_code: az
+      language_name: azərbaycan
+      value: sorğu məlumatları
     - language_code: en
       language_name: English
       value: survey data
@@ -96,6 +99,9 @@ alt_labels:
     - language_code: nl
       language_name: Nederlands
       value: onderzoeksgegevens
+    - language_code: az
+      language_name: azərbaycan
+      value: sorğu datası
     - language_code: fi
       language_name: suomi
       value: survey-aineisto

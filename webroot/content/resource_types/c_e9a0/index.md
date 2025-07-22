@@ -22,6 +22,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: interaktiivinen resurssi
+    - language_code: az
+      language_name: azərbaycan
+      value: interaktiv resurs
     - language_code: sv
       language_name: svenska
       value: interaktiv resurs
@@ -92,11 +95,11 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: interaktivni vir
-    - language_code: gl
-      language_name: galego
-      value: recurso interactivo
     - language_code: pt
       language_name: português
+      value: recurso interactivo
+    - language_code: gl
+      language_name: galego
       value: recurso interactivo
     - language_code: sr-cyrl
       language_name: српски

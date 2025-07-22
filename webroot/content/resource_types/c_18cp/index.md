@@ -54,6 +54,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: neobjavljeno saopštenje sa konferencije
+    - language_code: az
+      language_name: azərbaycan
+      value: nəşr olunmamış konfrans materialı
     - language_code: sv
       language_name: svenska
       value: paper ej i proceeding

@@ -6,20 +6,20 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
+      uri: http://purl.bioontology.org/ontology/MESH/D020471
+    - type: Exact Match
       uri: http://purl.org/ontology/bibo/Collection
     - type: Exact Match
       uri: http://www.w3.org/ns/prov#Collection
-    - type: Exact Match
-      uri: http://purl.bioontology.org/ontology/MESH/D020471
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Sammlung
-    - language_code: es
-      language_name: español
-      value: colección
     - language_code: gl
       language_name: galego
+      value: colección
+    - language_code: es
+      language_name: español
       value: colección
     - language_code: ro
       language_name: română
@@ -30,11 +30,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: collectie
-    - language_code: fr
-      language_name: français
-      value: collection
     - language_code: en
       language_name: English
+      value: collection
+    - language_code: fr
+      language_name: français
       value: collection
     - language_code: it
       language_name: italiano
@@ -54,6 +54,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: koleksiyon
+    - language_code: az
+      language_name: azərbaycan
+      value: kolleksiya
     - language_code: sv
       language_name: svenska
       value: samling

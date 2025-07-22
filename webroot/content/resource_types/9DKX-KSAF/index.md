@@ -17,6 +17,9 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: bruksmodell
+    - language_code: az
+      language_name: azərbaycan
+      value: faydalı model
     - language_code: tr
       language_name: Türkçe
       value: faydalı model

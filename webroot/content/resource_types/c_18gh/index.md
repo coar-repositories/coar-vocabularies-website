@@ -11,11 +11,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: informe tècnic
-    - language_code: gl
-      language_name: galego
-      value: informe técnico
     - language_code: es
       language_name: español
+      value: informe técnico
+    - language_code: gl
+      language_name: galego
       value: informe técnico
     - language_code: hu
       language_name: magyar
@@ -62,6 +62,9 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: teknisk rapport
+    - language_code: az
+      language_name: azərbaycan
+      value: texniki hesabat
     - language_code: el
       language_name: Ελληνικά
       value: τεχνική έκθεση

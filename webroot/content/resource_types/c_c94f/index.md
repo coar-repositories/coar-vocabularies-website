@@ -41,6 +41,9 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: konferensbidrag
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans materialı
     - language_code: ro
       language_name: română
       value: materiale de conferință
@@ -78,6 +81,9 @@ pref_labels:
       language_name: 한국어
       value: 회의자료
 alt_labels:
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans buraxılışı
     - language_code: ro
       language_name: română
       value: materiale din conferință
@@ -90,10 +96,10 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_f744
+    - R60J-J5BD
     - c_18co
     - c_18cp
-    - R60J-J5BD
+    - c_f744
 broader_concepts:
     - c_18cf
 ---

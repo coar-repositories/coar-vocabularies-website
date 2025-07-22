@@ -9,6 +9,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Sortenschutz
+    - language_code: az
+      language_name: azərbaycan
+      value: bitki müxtəlifliyinin qorunması
     - language_code: tr
       language_name: Türkçe
       value: bitki çeşitliliğini koruma

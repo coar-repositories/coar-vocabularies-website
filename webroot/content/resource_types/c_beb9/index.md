@@ -29,11 +29,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo de datos
-    - language_code: it
-      language_name: italiano
-      value: data paper
     - language_code: en
       language_name: English
+      value: data paper
+    - language_code: it
+      language_name: italiano
       value: data paper
     - language_code: da
       language_name: dansk
@@ -44,6 +44,9 @@ pref_labels:
     - language_code: ro
       language_name: română
       value: document de date
+    - language_code: az
+      language_name: azərbaycan
+      value: rəqəmsal məlumatlı məqalə
     - language_code: fi
       language_name: suomi
       value: tutkimusaineistoa kuvaava artikkeli
@@ -102,15 +105,18 @@ alt_labels:
     - language_code: en
       language_name: English
       value: data descriptor
-    - language_code: pt
-      language_name: português
-      value: data paper
     - language_code: nl
       language_name: Nederlands
+      value: data paper
+    - language_code: pt
+      language_name: português
       value: data paper
     - language_code: sr
       language_name: српски
       value: opis skupa podataka
+    - language_code: az
+      language_name: azərbaycan
+      value: rəqəmsal içərikli məqalə
     - language_code: sl
       language_name: slovenščina
       value: članek o podatkovnem naboru

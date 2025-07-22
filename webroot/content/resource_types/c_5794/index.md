@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Event
     - type: Exact Match
-      uri: http://purl.org/datacite/v4.4/ConferencePaper
+      uri: http://purl.org/eprint/type/ConferencePaper
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2635
     - type: Exact Match
-      uri: http://purl.org/eprint/type/ConferencePaper
+      uri: http://purl.org/datacite/v4.4/ConferencePaper
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -29,11 +29,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: comunicació de congrés
-    - language_code: gl
-      language_name: galego
-      value: comunicación de congreso
     - language_code: es
       language_name: español
+      value: comunicación de congreso
+    - language_code: gl
+      language_name: galego
       value: comunicación de congreso
     - language_code: it
       language_name: italiano
@@ -53,6 +53,9 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: konferenceoplæg
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans sənədi
     - language_code: hu
       language_name: magyar
       value: kutatási jelentés konferenciaközleményben

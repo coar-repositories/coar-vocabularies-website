@@ -33,6 +33,9 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: konferensposter
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans afişası
     - language_code: fr
       language_name: français
       value: poster dans une conférence
@@ -42,11 +45,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: poster in congresso
-    - language_code: cs
-      language_name: čeština
-      value: poster na konferenci
     - language_code: sl
       language_name: slovenščina
+      value: poster na konferenci
+    - language_code: cs
+      language_name: čeština
       value: poster na konferenci
     - language_code: sr
       language_name: српски
@@ -97,6 +100,9 @@ alt_labels:
     - language_code: da
       language_name: dansk
       value: konference poster
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans posteri
     - language_code: it
       language_name: italiano
       value: poster

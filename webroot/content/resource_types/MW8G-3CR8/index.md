@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Software
-    - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4551
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Software
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -34,11 +34,11 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: patent za programsko opremo
-    - language_code: pt
-      language_name: português
-      value: patente de software
     - language_code: gl
       language_name: galego
+      value: patente de software
+    - language_code: pt
+      language_name: português
       value: patente de software
     - language_code: es
       language_name: español
@@ -46,6 +46,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: patentirani softver
+    - language_code: az
+      language_name: azərbaycan
+      value: proqram təminatı patenti
     - language_code: en
       language_name: English
       value: software patent

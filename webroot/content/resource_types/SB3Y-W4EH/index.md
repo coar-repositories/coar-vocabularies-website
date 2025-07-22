@@ -9,14 +9,14 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Internationale Patentanmeldung
-    - language_code: ca
-      language_name: català
+    - language_code: gl
+      language_name: galego
       value: PCT
     - language_code: es
       language_name: español
       value: PCT
-    - language_code: gl
-      language_name: galego
+    - language_code: ca
+      language_name: català
       value: PCT
     - language_code: en
       language_name: English
@@ -27,6 +27,9 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: PCT bejelentési kérelem
+    - language_code: az
+      language_name: azərbaycan
+      value: PCT tətbiqi
     - language_code: ko
       language_name: 한국어
       value: PCT 출원
@@ -85,6 +88,9 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: Patent İşbirliği Anlaşması başvurusu
+    - language_code: az
+      language_name: azərbaycan
+      value: Patent Əməkdaşlığı Müqaviləsi tətbiqi
     - language_code: ca
       language_name: català
       value: aplicació del PCT

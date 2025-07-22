@@ -20,6 +20,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: bachelorscriptie
+    - language_code: az
+      language_name: azərbaycan
+      value: bakalavr dissertasiyası
     - language_code: cs
       language_name: čeština
       value: bakalářská práce

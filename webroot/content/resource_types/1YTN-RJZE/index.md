@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.bioontology.org/ontology/MESH/D016418
-    - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3790
+    - type: Broad Match
+      uri: http://purl.bioontology.org/ontology/MESH/D016418
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -43,6 +43,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: gerechtelijke documenten
+    - language_code: az
+      language_name: azərbaycan
+      value: hüquqi sənədlər
     - language_code: fi
       language_name: suomi
       value: oikeudenkäyntiasiakirjat

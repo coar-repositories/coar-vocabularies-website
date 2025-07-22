@@ -41,6 +41,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: luento
+    - language_code: az
+      language_name: azərbaycan
+      value: mühazirə
     - language_code: pt
       language_name: português
       value: palestra

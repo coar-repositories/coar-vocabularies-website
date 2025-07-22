@@ -43,20 +43,23 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: kartographisches Material
+    - language_code: az
+      language_name: azərbaycan
+      value: kartoqrafik material
     - language_code: ro
       language_name: română
       value: material cartografic
     - language_code: ca
       language_name: català
       value: material cartogràfic
-    - language_code: es
-      language_name: español
+    - language_code: gl
+      language_name: galego
       value: material cartográfico
     - language_code: pt
       language_name: português
       value: material cartográfico
-    - language_code: gl
-      language_name: galego
+    - language_code: es
+      language_name: español
       value: material cartográfico
     - language_code: fr
       language_name: français

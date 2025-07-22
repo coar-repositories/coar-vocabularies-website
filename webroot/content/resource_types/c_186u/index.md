@@ -19,6 +19,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: beleidsrapport
+    - language_code: az
+      language_name: azərbaycan
+      value: hüquqi sənədlərin hesabatı
     - language_code: it
       language_name: italiano
       value: informativa politica

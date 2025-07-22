@@ -11,11 +11,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: composició musical
-    - language_code: es
-      language_name: español
-      value: composición musical
     - language_code: gl
       language_name: galego
+      value: composición musical
+    - language_code: es
+      language_name: español
       value: composición musical
     - language_code: fr
       language_name: français
@@ -44,6 +44,9 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: musikværk
+    - language_code: az
+      language_name: azərbaycan
+      value: musiqili kompozisiya
     - language_code: nl
       language_name: Nederlands
       value: muzikale compositie

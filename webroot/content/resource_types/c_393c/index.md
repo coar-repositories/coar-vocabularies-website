@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: http://purl.org/datacite/v4.4/Workflow
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e6123
+    - type: Exact Match
+      uri: http://purl.org/datacite/v4.4/Workflow
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -43,6 +43,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: iş akışı
+    - language_code: az
+      language_name: azərbaycan
+      value: iş axını; iş prosesi
     - language_code: hu
       language_name: magyar
       value: munkafolyamat leírása

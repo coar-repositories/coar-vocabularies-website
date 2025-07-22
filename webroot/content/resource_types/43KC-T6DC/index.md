@@ -35,6 +35,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: artículo de magacín
+    - language_code: az
+      language_name: azərbaycan
+      value: jurnal məqaləsi
     - language_code: da
       language_name: dansk
       value: magasinartikel

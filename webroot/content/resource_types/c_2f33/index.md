@@ -8,17 +8,17 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/datacite/v4.4/Book
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2263
     - type: Exact Match
       uri: http://purl.org/eprint/type/Book
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2263
-    - type: Narrow Match
-      uri: http://purl.org/eprint/type/BookReview
+      uri: http://purl.org/datacite/v4.4/Book
     - type: Narrow Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2300
     - type: Narrow Match
       uri: http://purl.org/datacite/v4.4/BookChapter
+    - type: Narrow Match
+      uri: http://purl.org/eprint/type/BookReview
     - type: Related Match
       uri: https://schema.org/Book
 pref_labels:
@@ -43,6 +43,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: kirja
+    - language_code: az
+      language_name: azərbaycan
+      value: kitab
     - language_code: tr
       language_name: Türkçe
       value: kitap
@@ -55,14 +58,14 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: könyv
-    - language_code: gl
-      language_name: galego
+    - language_code: it
+      language_name: italiano
       value: libro
     - language_code: es
       language_name: español
       value: libro
-    - language_code: it
-      language_name: italiano
+    - language_code: gl
+      language_name: galego
       value: libro
     - language_code: pt
       language_name: português

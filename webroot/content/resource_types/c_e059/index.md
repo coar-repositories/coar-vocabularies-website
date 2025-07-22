@@ -61,6 +61,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: Öğrenim nesnesi
+    - language_code: az
+      language_name: azərbaycan
+      value: öyrənmə obyekti
     - language_code: uk
       language_name: українська
       value: навчальний об'єкт

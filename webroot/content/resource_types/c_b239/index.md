@@ -18,17 +18,17 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Vorwort
+    - language_code: es
+      language_name: español
+      value: editorial
     - language_code: gl
       language_name: galego
       value: editorial
-    - language_code: en
-      language_name: English
+    - language_code: ca
+      language_name: català
       value: editorial
     - language_code: ro
       language_name: română
-      value: editorial
-    - language_code: es
-      language_name: español
       value: editorial
     - language_code: sv
       language_name: svenska
@@ -36,8 +36,8 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: editorial
-    - language_code: ca
-      language_name: català
+    - language_code: en
+      language_name: English
       value: editorial
     - language_code: it
       language_name: italiano
@@ -45,6 +45,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: pääkirjoitus
+    - language_code: az
+      language_name: azərbaycan
+      value: redaksiya
     - language_code: da
       language_name: dansk
       value: redaktionel
@@ -97,14 +100,14 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de fondo
-    - language_code: pt
-      language_name: português
-      value: editorial de revista
     - language_code: es
       language_name: español
       value: editorial de revista
     - language_code: ca
       language_name: català
+      value: editorial de revista
+    - language_code: pt
+      language_name: português
       value: editorial de revista
     - language_code: sv
       language_name: svenska

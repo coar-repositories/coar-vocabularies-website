@@ -29,6 +29,9 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: designskydd
+    - language_code: az
+      language_name: azərbaycan
+      value: dizayn patenti
     - language_code: hu
       language_name: magyar
       value: formatervezési minta

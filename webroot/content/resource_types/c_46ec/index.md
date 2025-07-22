@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5748
-    - type: Exact Match
       uri: http://purl.org/eprint/type/Thesis
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5748
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -39,11 +39,11 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: tese
-    - language_code: ca
-      language_name: català
-      value: tesi
     - language_code: it
       language_name: italiano
+      value: tesi
+    - language_code: ca
+      language_name: català
       value: tesi
     - language_code: es
       language_name: español
@@ -54,6 +54,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: teza
+    - language_code: az
+      language_name: azərbaycan
+      value: tezis
     - language_code: ro
       language_name: română
       value: teză
@@ -94,6 +97,9 @@ alt_labels:
     - language_code: sr
       language_name: српски
       value: disertacija
+    - language_code: az
+      language_name: azərbaycan
+      value: dissertasiya
     - language_code: fr
       language_name: français
       value: mémoire de thèse

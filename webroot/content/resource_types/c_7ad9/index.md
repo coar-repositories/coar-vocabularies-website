@@ -25,11 +25,11 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: site web
-    - language_code: gl
-      language_name: galego
-      value: sitio web
     - language_code: es
       language_name: español
+      value: sitio web
+    - language_code: gl
+      language_name: galego
       value: sitio web
     - language_code: it
       language_name: italiano
@@ -43,6 +43,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: veb-sajt
+    - language_code: az
+      language_name: azərbaycan
+      value: vebsayt
     - language_code: fi
       language_name: suomi
       value: verkkosivusto
@@ -58,11 +61,11 @@ pref_labels:
     - language_code: cs
       language_name: čeština
       value: webové sídlo
-    - language_code: nl
-      language_name: Nederlands
-      value: website
     - language_code: en
       language_name: English
+      value: website
+    - language_code: nl
+      language_name: Nederlands
       value: website
     - language_code: sr-cyrl
       language_name: српски
@@ -116,11 +119,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: pàgina web
-    - language_code: pt
-      language_name: português
-      value: página web
     - language_code: es
       language_name: español
+      value: página web
+    - language_code: pt
+      language_name: português
       value: página web
     - language_code: es
       language_name: español
@@ -149,11 +152,11 @@ alt_labels:
     - language_code: en
       language_name: English
       value: webpage
-    - language_code: pt
-      language_name: português
-      value: website
     - language_code: da
       language_name: dansk
+      value: website
+    - language_code: pt
+      language_name: português
       value: website
     - language_code: sr-cyrl
       language_name: српски

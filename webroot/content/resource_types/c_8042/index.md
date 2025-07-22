@@ -36,6 +36,9 @@ pref_labels:
     - language_code: gl
       language_name: galego
       value: documento de traballo
+    - language_code: az
+      language_name: azərbaycan
+      value: iş sənədi
     - language_code: hu
       language_name: magyar
       value: műhelytanulmány
@@ -48,20 +51,20 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: työpaperi
-    - language_code: en
-      language_name: English
+    - language_code: nl
+      language_name: Nederlands
       value: working paper
     - language_code: sv
       language_name: svenska
+      value: working paper
+    - language_code: en
+      language_name: English
       value: working paper
     - language_code: it
       language_name: italiano
       value: working paper
     - language_code: pt
       language_name: português
-      value: working paper
-    - language_code: nl
-      language_name: Nederlands
       value: working paper
     - language_code: tr
       language_name: Türkçe

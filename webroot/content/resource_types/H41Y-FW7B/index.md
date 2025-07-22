@@ -44,6 +44,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: laboratorium-notitieboek
+    - language_code: az
+      language_name: azərbaycan
+      value: laboratoriya qeydləri
     - language_code: en
       language_name: English
       value: laboratory notebook

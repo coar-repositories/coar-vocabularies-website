@@ -63,6 +63,9 @@ pref_labels:
     - language_code: ro
       language_name: română
       value: rectificare
+    - language_code: az
+      language_name: azərbaycan
+      value: redaktə
     - language_code: el
       language_name: Ελληνικά
       value: παρόραμα
@@ -100,6 +103,9 @@ alt_labels:
     - language_code: sr-cyrl
       language_name: српски
       value: corrigendum
+    - language_code: az
+      language_name: azərbaycan
+      value: düzəliş
     - language_code: fi
       language_name: suomi
       value: errata

@@ -20,6 +20,9 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: artistiek werk
+    - language_code: az
+      language_name: azərbaycan
+      value: incəsənət nümunəsi
     - language_code: sv
       language_name: svenska
       value: konstnärligt arbete
@@ -32,14 +35,14 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: művészeti alkotás
+    - language_code: ca
+      language_name: català
+      value: obra artística
     - language_code: gl
       language_name: galego
       value: obra artística
     - language_code: es
       language_name: español
-      value: obra artística
-    - language_code: ca
-      language_name: català
       value: obra artística
     - language_code: tr
       language_name: Türkçe
@@ -84,6 +87,9 @@ alt_labels:
     - language_code: de
       language_name: Deutsch
       value: Kunstobjekt
+    - language_code: az
+      language_name: azərbaycan
+      value: bədii əsər
     - language_code: pt
       language_name: português
       value: criação artística

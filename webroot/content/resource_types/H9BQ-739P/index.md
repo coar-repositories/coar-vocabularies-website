@@ -17,6 +17,9 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: avaluació d'experts
+    - language_code: az
+      language_name: azərbaycan
+      value: ekspert dəyərləndirməsi
     - language_code: ro
       language_name: română
       value: evaluare inter pares
@@ -38,11 +41,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: revisione tra pari
-    - language_code: gl
-      language_name: galego
-      value: revisión por pares
     - language_code: es
       language_name: español
+      value: revisión por pares
+    - language_code: gl
+      language_name: galego
       value: revisión por pares
     - language_code: pt
       language_name: português

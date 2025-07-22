@@ -16,6 +16,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: bilgi sentezi protokolü
+    - language_code: az
+      language_name: azərbaycan
+      value: biliyin sintezi protokolu
     - language_code: nl
       language_name: Nederlands
       value: kennissynthese protocol

@@ -8,11 +8,11 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/ontology/bibo/Journal
-    - type: Exact Match
       uri: http://purl.org/datacite/v4.4/Journal
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e3613
+    - type: Exact Match
+      uri: http://purl.org/ontology/bibo/Journal
     - type: Narrow Match
       uri: http://purl.org/eprint/type/JournalArticle
 pref_labels:
@@ -25,17 +25,20 @@ pref_labels:
     - language_code: en
       language_name: English
       value: journal
+    - language_code: az
+      language_name: azərbaycan
+      value: jurnal
     - language_code: cs
       language_name: čeština
       value: odborné periodikum
     - language_code: gl
       language_name: galego
       value: revista
-    - language_code: pt
-      language_name: português
-      value: revista
     - language_code: es
       language_name: español
+      value: revista
+    - language_code: pt
+      language_name: português
       value: revista
     - language_code: ca
       language_name: català
@@ -158,9 +161,9 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_545b
     - c_b239
     - c_6501
+    - c_545b
 broader_concepts:
     - c_18cf
 ---

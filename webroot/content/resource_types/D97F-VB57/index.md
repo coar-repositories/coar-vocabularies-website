@@ -56,23 +56,26 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: opinió
+    - language_code: az
+      language_name: azərbaycan
+      value: rəy
     - language_code: tr
       language_name: Türkçe
       value: yorum
     - language_code: el
       language_name: Ελληνικά
       value: σχολιασμός
-    - language_code: sr-cyrl
-      language_name: српски
-      value: коментар
     - language_code: uk
       language_name: українська
       value: коментар
-    - language_code: ru
-      language_name: русский
-      value: комментарий
+    - language_code: sr-cyrl
+      language_name: српски
+      value: коментар
     - language_code: pt
       language_name: português
+      value: комментарий
+    - language_code: ru
+      language_name: русский
       value: комментарий
     - language_code: ar
       language_name: العربية

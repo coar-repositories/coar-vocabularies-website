@@ -59,6 +59,9 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: kísérleti adatok
+    - language_code: az
+      language_name: azərbaycan
+      value: sınaq məlumatları
     - language_code: el
       language_name: Ελληνικά
       value: πειραματικά δεδομένα
@@ -83,7 +86,10 @@ pref_labels:
     - language_code: ko
       language_name: 한국어
       value: 실험 데이터
-alt_labels: []
+alt_labels:
+    - language_code: az
+      language_name: azərbaycan
+      value: eksperimental məlumatlar
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts: []

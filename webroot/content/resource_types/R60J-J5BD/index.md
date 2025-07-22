@@ -37,17 +37,20 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: konferenssiesitelmä
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans təqdimatı
     - language_code: sl
       language_name: slovenščina
       value: predstavitev na konferenci
     - language_code: ca
       language_name: català
       value: presentació a congrés
-    - language_code: es
-      language_name: español
-      value: presentación de congreso
     - language_code: gl
       language_name: galego
+      value: presentación de congreso
+    - language_code: es
+      language_name: español
       value: presentación de congreso
     - language_code: it
       language_name: italiano

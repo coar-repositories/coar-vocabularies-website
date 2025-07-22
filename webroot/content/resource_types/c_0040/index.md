@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4043
-    - type: Exact Match
       uri: http://purl.bioontology.org/ontology/MESH/D020486
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4043
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -25,11 +25,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: manoscritto
-    - language_code: en
-      language_name: English
-      value: manuscript
     - language_code: nl
       language_name: Nederlands
+      value: manuscript
+    - language_code: en
+      language_name: English
       value: manuscript
     - language_code: ro
       language_name: română
@@ -40,11 +40,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: manuscrit
-    - language_code: gl
-      language_name: galego
-      value: manuscrito
     - language_code: es
       language_name: español
+      value: manuscrito
+    - language_code: gl
+      language_name: galego
       value: manuscrito
     - language_code: pt
       language_name: português
@@ -58,14 +58,17 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: rukopis
+    - language_code: az
+      language_name: azərbaycan
+      value: əlyazma
     - language_code: el
       language_name: Ελληνικά
       value: χειρόγραφο
-    - language_code: uk
-      language_name: українська
-      value: рукопис
     - language_code: sr-cyrl
       language_name: српски
+      value: рукопис
+    - language_code: uk
+      language_name: українська
       value: рукопис
     - language_code: ru
       language_name: русский
@@ -73,11 +76,11 @@ pref_labels:
     - language_code: ar
       language_name: العربية
       value: مخطوطة
-    - language_code: ja
-      language_name: 日本語
-      value: 手稿
     - language_code: zh
       language_name: 中文
+      value: 手稿
+    - language_code: ja
+      language_name: 日本語
       value: 手稿
     - language_code: ko
       language_name: 한국어

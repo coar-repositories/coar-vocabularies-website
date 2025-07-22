@@ -39,6 +39,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: donnée géospatiale
+    - language_code: az
+      language_name: azərbaycan
+      value: geoməkan məlumatları
     - language_code: sr
       language_name: српски
       value: geoprostorni podaci

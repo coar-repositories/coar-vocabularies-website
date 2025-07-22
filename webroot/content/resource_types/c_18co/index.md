@@ -32,6 +32,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: neobjavljen poster sa konferencije
+    - language_code: az
+      language_name: azərbaycan
+      value: nəşr olunmamış konfrans afişası
     - language_code: sl
       language_name: slovenščina
       value: poster

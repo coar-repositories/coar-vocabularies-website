@@ -56,6 +56,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ölçüm ve test verisi
+    - language_code: az
+      language_name: azərbaycan
+      value: ölçüm və test məlumatları
     - language_code: el
       language_name: Ελληνικά
       value: δεδομένα μετρήσεων και δοκιμών

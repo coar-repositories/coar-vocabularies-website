@@ -6,35 +6,23 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/dc/dcmitype/MovingImage
-    - type: Broad Match
       uri: https://schema.org/Movie
+    - type: Broad Match
+      uri: http://purl.org/dc/dcmitype/MovingImage
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4212
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Video
-    - language_code: ro
-      language_name: română
-      value: video
-    - language_code: sr
-      language_name: српски
-      value: video
-    - language_code: en
-      language_name: English
-      value: video
-    - language_code: nl
-      language_name: Nederlands
-      value: video
     - language_code: fi
       language_name: suomi
       value: video
-    - language_code: sv
-      language_name: svenska
+    - language_code: ro
+      language_name: română
       value: video
-    - language_code: it
-      language_name: italiano
+    - language_code: nl
+      language_name: Nederlands
       value: video
     - language_code: tr
       language_name: Türkçe
@@ -42,11 +30,26 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: video
+    - language_code: sr
+      language_name: српски
+      value: video
     - language_code: sl
       language_name: slovenščina
       value: video
+    - language_code: az
+      language_name: azərbaycan
+      value: video
+    - language_code: sv
+      language_name: svenska
+      value: video
     - language_code: cs
       language_name: čeština
+      value: video
+    - language_code: it
+      language_name: italiano
+      value: video
+    - language_code: en
+      language_name: English
       value: video
     - language_code: hu
       language_name: magyar
@@ -54,17 +57,17 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: vidéo
-    - language_code: ca
-      language_name: català
-      value: vídeo
-    - language_code: pt
-      language_name: português
-      value: vídeo
     - language_code: es
       language_name: español
       value: vídeo
+    - language_code: ca
+      language_name: català
+      value: vídeo
     - language_code: gl
       language_name: galego
+      value: vídeo
+    - language_code: pt
+      language_name: português
       value: vídeo
     - language_code: sr-cyrl
       language_name: српски

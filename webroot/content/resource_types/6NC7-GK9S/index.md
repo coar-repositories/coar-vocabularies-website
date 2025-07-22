@@ -29,11 +29,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: transcriptie
-    - language_code: fr
-      language_name: français
-      value: transcription
     - language_code: en
       language_name: English
+      value: transcription
+    - language_code: fr
+      language_name: français
       value: transcription
     - language_code: pt
       language_name: português
@@ -41,6 +41,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: transkripcija
+    - language_code: az
+      language_name: azərbaycan
+      value: transkripsiya
     - language_code: tr
       language_name: Türkçe
       value: transkripsiyon

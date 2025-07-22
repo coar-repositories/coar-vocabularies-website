@@ -23,11 +23,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: dati compilati
-    - language_code: es
-      language_name: español
-      value: datos compilados
     - language_code: gl
       language_name: galego
+      value: datos compilados
+    - language_code: es
+      language_name: español
       value: datos compilados
     - language_code: tr
       language_name: Türkçe
@@ -53,6 +53,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: sestavljeni podatki
+    - language_code: az
+      language_name: azərbaycan
+      value: tərtib edilmiş məlumatlar
     - language_code: fi
       language_name: suomi
       value: yhdistetty data

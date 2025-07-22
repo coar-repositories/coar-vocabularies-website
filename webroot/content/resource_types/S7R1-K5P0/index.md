@@ -19,6 +19,9 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: fizikai minta
+    - language_code: az
+      language_name: azərbaycan
+      value: fiziki nümunə
     - language_code: tr
       language_name: Türkçe
       value: fiziksel numune
@@ -37,11 +40,11 @@ pref_labels:
     - language_code: nl
       language_name: Nederlands
       value: monster
-    - language_code: ca
-      language_name: català
-      value: mostra física
     - language_code: gl
       language_name: galego
+      value: mostra física
+    - language_code: ca
+      language_name: català
       value: mostra física
     - language_code: ro
       language_name: română

@@ -41,17 +41,20 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: megfigyelési adatok
+    - language_code: az
+      language_name: azərbaycan
+      value: müşahidə məlumatları
     - language_code: nl
       language_name: Nederlands
       value: observatiedata
     - language_code: en
       language_name: English
       value: observational data
-    - language_code: da
-      language_name: dansk
-      value: observationsdata
     - language_code: sv
       language_name: svenska
+      value: observationsdata
+    - language_code: da
+      language_name: dansk
       value: observationsdata
     - language_code: sl
       language_name: slovenščina

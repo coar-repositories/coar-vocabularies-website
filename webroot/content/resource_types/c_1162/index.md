@@ -19,14 +19,17 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: anmærkning
+    - language_code: az
+      language_name: azərbaycan
+      value: annotasiya
     - language_code: nl
       language_name: Nederlands
       value: annotatie
-    - language_code: en
-      language_name: English
-      value: annotation
     - language_code: fr
       language_name: français
+      value: annotation
+    - language_code: en
+      language_name: English
       value: annotation
     - language_code: sv
       language_name: svenska
@@ -98,11 +101,11 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: anotacija
-    - language_code: es
-      language_name: español
-      value: anotación
     - language_code: gl
       language_name: galego
+      value: anotación
+    - language_code: es
+      language_name: español
       value: anotación
     - language_code: pt
       language_name: português
@@ -119,11 +122,11 @@ alt_labels:
     - language_code: tr
       language_name: Türkçe
       value: dipnot
-    - language_code: pt
-      language_name: português
-      value: glosa
     - language_code: es
       language_name: español
+      value: glosa
+    - language_code: pt
+      language_name: português
       value: glosa
     - language_code: it
       language_name: italiano

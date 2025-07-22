@@ -51,6 +51,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: ticari marka
+    - language_code: az
+      language_name: azərbaycan
+      value: ticari marka
     - language_code: en
       language_name: English
       value: trademark

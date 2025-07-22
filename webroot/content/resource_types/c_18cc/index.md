@@ -47,6 +47,9 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: suono
+    - language_code: az
+      language_name: azərbaycan
+      value: səs
     - language_code: sl
       language_name: slovenščina
       value: zvočni zapis

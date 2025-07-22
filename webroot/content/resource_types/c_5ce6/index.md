@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Software
-    - type: Broad Match
       uri: https://schema.org/SoftwareApplication
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Software
     - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/cop
     - type: Exact Match
@@ -32,9 +32,21 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: programska oprema
+    - language_code: az
+      language_name: azərbaycan
+      value: proqram təminatı
     - language_code: sr
       language_name: српски
       value: računarski program
+    - language_code: da
+      language_name: dansk
+      value: software
+    - language_code: pt
+      language_name: português
+      value: software
+    - language_code: en
+      language_name: English
+      value: software
     - language_code: es
       language_name: español
       value: software
@@ -44,9 +56,6 @@ pref_labels:
     - language_code: ro
       language_name: română
       value: software
-    - language_code: pt
-      language_name: português
-      value: software
     - language_code: nl
       language_name: Nederlands
       value: software
@@ -55,12 +64,6 @@ pref_labels:
       value: software
     - language_code: cs
       language_name: čeština
-      value: software
-    - language_code: en
-      language_name: English
-      value: software
-    - language_code: da
-      language_name: dansk
       value: software
     - language_code: hu
       language_name: magyar
@@ -74,6 +77,9 @@ pref_labels:
     - language_code: ru
       language_name: русский
       value: программное обеспечение
+    - language_code: uk
+      language_name: українська
+      value: програмне забезпечення
     - language_code: sr-cyrl
       language_name: српски
       value: рачунарски програм
@@ -111,11 +117,11 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: programa informàtic
-    - language_code: pt
-      language_name: português
-      value: programa informático
     - language_code: es
       language_name: español
+      value: programa informático
+    - language_code: pt
+      language_name: português
       value: programa informático
     - language_code: it
       language_name: italiano
@@ -147,8 +153,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - c_c950
     - QH80-2R4E
+    - c_c950
 broader_concepts: []
 ---
 

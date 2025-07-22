@@ -28,6 +28,9 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: musiknotation
+    - language_code: az
+      language_name: azərbaycan
+      value: musiqi notu
     - language_code: nl
       language_name: Nederlands
       value: muzieknotatie
@@ -113,11 +116,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: partition musicale
-    - language_code: pt
-      language_name: português
-      value: partitura
     - language_code: es
       language_name: español
+      value: partitura
+    - language_code: pt
+      language_name: português
       value: partitura
     - language_code: ar
       language_name: العربية

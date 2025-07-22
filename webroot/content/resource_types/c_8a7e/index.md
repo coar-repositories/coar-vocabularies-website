@@ -22,6 +22,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: hareketli görüntü
+    - language_code: az
+      language_name: azərbaycan
+      value: hərəkətli şəkil
     - language_code: fr
       language_name: français
       value: image animée

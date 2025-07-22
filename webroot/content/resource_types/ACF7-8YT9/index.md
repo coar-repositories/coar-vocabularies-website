@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: https://vocabs.lter-europe.net/elter_cl/en/page/10016
-    - type: Broad Match
       uri: http://purl.org/datacite/v4.4/Dataset
+    - type: Broad Match
+      uri: https://vocabs.lter-europe.net/elter_cl/en/page/10016
 pref_labels:
     - language_code: en
       language_name: English
@@ -46,11 +46,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: dati aggregati
-    - language_code: gl
-      language_name: galego
-      value: datos agregados
     - language_code: es
       language_name: español
+      value: datos agregados
+    - language_code: gl
+      language_name: galego
       value: datos agregados
     - language_code: fr
       language_name: français
@@ -61,6 +61,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: toplanmış veri
+    - language_code: az
+      language_name: azərbaycan
+      value: ümumiləşdirilmiş məlumatlar
     - language_code: el
       language_name: Ελληνικά
       value: συγκεντρωτικά δεδομένα
@@ -92,6 +95,9 @@ alt_labels:
     - language_code: sl
       language_name: slovenščina
       value: izpeljani podatki
+    - language_code: az
+      language_name: azərbaycan
+      value: toplanmış məlumatlar
     - language_code: sl
       language_name: slovenščina
       value: združeni podatki

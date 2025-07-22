@@ -28,6 +28,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: kirja-arvostelu
+    - language_code: az
+      language_name: azərbaycan
+      value: kitab icmalı
     - language_code: tr
       language_name: Türkçe
       value: kitap eleştirisi
@@ -116,6 +119,9 @@ alt_labels:
     - language_code: pt
       language_name: português
       value: ficha de leitura
+    - language_code: az
+      language_name: azərbaycan
+      value: kitab tənqidi
     - language_code: fr
       language_name: français
       value: recension d'ouvrage

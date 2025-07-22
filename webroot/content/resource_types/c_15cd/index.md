@@ -12,54 +12,57 @@ related:
     - type: Broad Match
       uri: http://purl.org/dc/dcmitype/Text
     - type: Exact Match
-      uri: http://purl.org/eprint/type/Patent
-    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e4551
+    - type: Exact Match
+      uri: http://purl.org/eprint/type/Patent
 pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Patent
-    - language_code: fr
-      language_name: français
-      value: brevet
     - language_code: ro
       language_name: română
+      value: brevet
+    - language_code: fr
+      language_name: français
       value: brevet
     - language_code: it
       language_name: italiano
       value: brevetto
-    - language_code: tr
-      language_name: Türkçe
-      value: patent
-    - language_code: en
-      language_name: English
-      value: patent
-    - language_code: sr
-      language_name: српски
-      value: patent
-    - language_code: cs
-      language_name: čeština
-      value: patent
-    - language_code: ca
-      language_name: català
-      value: patent
     - language_code: da
       language_name: dansk
       value: patent
     - language_code: nl
       language_name: Nederlands
       value: patent
+    - language_code: tr
+      language_name: Türkçe
+      value: patent
+    - language_code: cs
+      language_name: čeština
+      value: patent
+    - language_code: az
+      language_name: azərbaycan
+      value: patent
+    - language_code: ca
+      language_name: català
+      value: patent
+    - language_code: en
+      language_name: English
+      value: patent
     - language_code: sv
       language_name: svenska
       value: patent
+    - language_code: sr
+      language_name: српски
+      value: patent
+    - language_code: gl
+      language_name: galego
+      value: patente
     - language_code: pt
       language_name: português
       value: patente
     - language_code: es
       language_name: español
-      value: patente
-    - language_code: gl
-      language_name: galego
       value: patente
     - language_code: fi
       language_name: suomi
@@ -70,14 +73,14 @@ pref_labels:
     - language_code: el
       language_name: Ελληνικά
       value: ευρεσιτεχνία
-    - language_code: uk
-      language_name: українська
-      value: патент
     - language_code: sr-cyrl
       language_name: српски
       value: патент
     - language_code: ru
       language_name: русский
+      value: патент
+    - language_code: uk
+      language_name: українська
       value: патент
     - language_code: ar
       language_name: العربية
@@ -118,10 +121,10 @@ isTopConcept: true
 narrower_concepts:
     - SB3Y-W4EH
     - C53B-JCY5
-    - GPQ7-G5VE
     - MW8G-3CR8
-    - 9DKX-KSAF
     - Z907-YMBB
+    - 9DKX-KSAF
+    - GPQ7-G5VE
 broader_concepts: []
 ---
 

@@ -19,6 +19,9 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: dissertação de mestrado
+    - language_code: az
+      language_name: azərbaycan
+      value: magistr dissertasiyası
     - language_code: sl
       language_name: slovenščina
       value: magistrsko delo

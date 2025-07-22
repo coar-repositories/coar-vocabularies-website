@@ -26,6 +26,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: autre
+    - language_code: az
+      language_name: azərbaycan
+      value: başqa
     - language_code: tr
       language_name: Türkçe
       value: diğer
@@ -35,11 +38,11 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: muu
-    - language_code: sl
-      language_name: slovenščina
-      value: ostalo
     - language_code: sr
       language_name: српски
+      value: ostalo
+    - language_code: sl
+      language_name: slovenščina
       value: ostalo
     - language_code: cs
       language_name: čeština
@@ -50,11 +53,11 @@ pref_labels:
     - language_code: es
       language_name: español
       value: otros
-    - language_code: gl
-      language_name: galego
-      value: outros
     - language_code: pt
       language_name: português
+      value: outros
+    - language_code: gl
+      language_name: galego
       value: outros
     - language_code: de
       language_name: Deutsch

@@ -53,6 +53,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: kodlanmış veri
+    - language_code: az
+      language_name: azərbaycan
+      value: kodlaşdırılmış məlumatlar
     - language_code: fi
       language_name: suomi
       value: koodattu data

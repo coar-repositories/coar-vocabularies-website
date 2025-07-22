@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Dataset
-    - type: Broad Match
       uri: https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/resourceTypeGeneral/#studyregistration
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Dataset
 pref_labels:
     - language_code: en
       language_name: English
@@ -43,6 +43,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: klinik deney verisi
+    - language_code: az
+      language_name: azərbaycan
+      value: klinik sınaq məlumatları
     - language_code: hu
       language_name: magyar
       value: klinikai vizsgálati adatok

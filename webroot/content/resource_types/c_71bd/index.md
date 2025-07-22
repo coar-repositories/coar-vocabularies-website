@@ -16,11 +16,11 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: documentació tècnica
-    - language_code: gl
-      language_name: galego
-      value: documentación técnica
     - language_code: es
       language_name: español
+      value: documentación técnica
+    - language_code: gl
+      language_name: galego
       value: documentación técnica
     - language_code: it
       language_name: italiano
@@ -64,6 +64,9 @@ pref_labels:
     - language_code: sv
       language_name: svenska
       value: teknisk dokumentation
+    - language_code: az
+      language_name: azərbaycan
+      value: texniki sənədləşmə
     - language_code: el
       language_name: Ελληνικά
       value: τεχνική τεκμηρίωση
@@ -98,11 +101,11 @@ alt_labels:
     - language_code: fr
       language_name: français
       value: documentation technique
-    - language_code: es
-      language_name: español
-      value: manual
     - language_code: ca
       language_name: català
+      value: manual
+    - language_code: es
+      language_name: español
       value: manual
     - language_code: pt
       language_name: português

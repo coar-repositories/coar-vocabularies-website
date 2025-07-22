@@ -44,6 +44,9 @@ pref_labels:
     - language_code: es
       language_name: español
       value: periódico
+    - language_code: az
+      language_name: azərbaycan
+      value: qəzet
     - language_code: fi
       language_name: suomi
       value: sanomalehti

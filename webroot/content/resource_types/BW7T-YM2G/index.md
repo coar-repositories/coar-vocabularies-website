@@ -20,11 +20,11 @@ pref_labels:
     - language_code: en
       language_name: English
       value: layout design
-    - language_code: da
-      language_name: dansk
-      value: layout design
     - language_code: ro
       language_name: română
+      value: layout design
+    - language_code: da
+      language_name: dansk
       value: layout design
     - language_code: it
       language_name: italiano
@@ -59,6 +59,9 @@ pref_labels:
     - language_code: hu
       language_name: magyar
       value: térbeli elrendezés
+    - language_code: az
+      language_name: azərbaycan
+      value: tərtibati dizayn
     - language_code: el
       language_name: Ελληνικά
       value: σχεδιασμός διάταξης

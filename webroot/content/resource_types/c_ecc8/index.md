@@ -6,15 +6,15 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/dc/dcmitype/Image
-    - type: Broad Match
       uri: http://purl.org/datacite/v4.4/Image
+    - type: Broad Match
+      uri: http://purl.org/dc/dcmitype/Image
+    - type: Exact Match
+      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
     - type: Exact Match
       uri: http://id.loc.gov/vocabulary/contentTypes/sti
     - type: Exact Match
       uri: http://purl.org/dc/dcmitype/StillImage
-    - type: Exact Match
-      uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5482
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -22,6 +22,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: hareketsiz görüntü
+    - language_code: az
+      language_name: azərbaycan
+      value: hərəkətsiz şəkil
     - language_code: fr
       language_name: français
       value: image fixe

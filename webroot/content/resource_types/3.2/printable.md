@@ -17,6 +17,7 @@ change_log: |
       - research instrument
     - The definition for the term "video" was amended
     - The following language translations were added:
+      - Azerbaijani
       - Danish
       - Galician
       - Greek
@@ -75,7 +76,9 @@ contributors:
     - Jessica Byström, Chalmers University, Sweden
     - Julie Gauthier, University of Montreal, Canada
     - Diana Furcila Mihalache, FECYT, Spain
+    - Khayala Hajiyeva, Azerbaijan Technical University, Azerbaijan
     - Hyekyong Hwang, KISTI, Korea
+    - Iltifat Ibrahimov, Azerbaijan Technical University, Azerbaijan
     - Krisztina Korosi, University Library of Corvinus University of Budapest, Hungary
     - Iryna Kuchma, EIFL, Ukraine
     - Christian Lacroix, University of Montreal, Canada
@@ -90,6 +93,7 @@ contributors:
     - Paul Walk, Antleaf, UK
 languages:
     - ar
+    - az
     - ca
     - cs
     - da
@@ -116,108 +120,108 @@ languages:
     - uk
     - zh
 not_deprecated_concepts:
-    - 6NC7-GK9S
-    - c_bdcc
-    - c_71bd
-    - 1YTN-RJZE
-    - FF4C-28RK
-    - c_93fc
-    - GSZA-Y7V7
-    - RMP5-3GQ6
-    - 2H0M-X761
-    - c_8a7e
-    - D97F-VB57
-    - c_12ce
-    - AM6W-6QAW
-    - c_db06
-    - c_8544
-    - c_2fe3
     - FXF3-D3G7
-    - c_816b
-    - c_0857
-    - c_18wz
-    - c_186u
-    - ACF7-8YT9
-    - c_efa0
-    - c_e9a0
-    - NHD0-W6SY
-    - c_18cd
-    - Z907-YMBB
-    - c_0640
-    - QX5C-AR31
-    - H41Y-FW7B
-    - c_5794
-    - c_3248
-    - c_2f33
-    - c_7acd
-    - CQMR-7K63
-    - c_ecc8
-    - c_c513
-    - c_ddb1
-    - c_18cp
-    - c_393c
-    - c_baaf
-    - 8KJG-QS0Y
-    - c_18gh
-    - c_dcae04bc
-    - c_18ws
-    - c_6670
-    - c_2cd9
-    - c_5ce6
-    - 9DKX-KSAF
-    - c_18op
-    - c_7ad9
-    - S7R1-K5P0
-    - QH80-2R4E
-    - 43KC-T6DC
-    - c_e059
-    - c_7bab
-    - c_b239
-    - c_998f
-    - 63NG-B465
-    - c_ab20
-    - c_c950
-    - c_cb28
-    - MW8G-3CR8
-    - c_86bc
-    - c_7877
-    - DD58-GFSX
-    - c_12cd
-    - c_15cd
-    - c_18cw
-    - c_12cc
-    - YC9F-HGCF
-    - c_1162
-    - R60J-J5BD
-    - c_6501
-    - JBNF-DYAD
-    - c_18cc
+    - H6QP-SC1X
     - c_545b
-    - c_46ec
-    - W2XT-7017
+    - c_71bd
+    - c_baaf
+    - H41Y-FW7B
+    - c_dcae04bc
+    - c_0040
+    - 8KJG-QS0Y
+    - c_3248
     - SB3Y-W4EH
+    - RMP5-3GQ6
+    - c_12cc
+    - 63NG-B465
+    - AM6W-6QAW
+    - c_c513
+    - c_998f
+    - D97F-VB57
+    - QH80-2R4E
+    - 542X-3S04
+    - c_18cw
+    - c_ecc8
+    - c_6670
+    - c_ba08
+    - c_7acd
+    - A8F1-NPV9
     - c_8042
-    - c_1843
+    - GPQ7-G5VE
+    - c_186u
+    - c_2fe3
+    - c_7ad9
+    - YC9F-HGCF
+    - c_2df8fbb1
+    - c_18op
+    - c_b239
+    - c_e9a0
+    - QX5C-AR31
+    - 9DKX-KSAF
+    - c_18cf
+    - 1YTN-RJZE
+    - c_816b
+    - F8RT-TJK0
+    - c_ddb1
+    - 2H0M-X761
+    - c_15cd
+    - ACF7-8YT9
+    - c_6501
+    - c_efa0
+    - FF4C-28RK
+    - c_18wz
+    - JBNF-DYAD
+    - C53B-JCY5
     - c_18co
     - c_f744
-    - c_6947
-    - H6QP-SC1X
+    - NHD0-W6SY
+    - 43KC-T6DC
     - c_beb9
-    - DX5J-TA9R
-    - A8F1-NPV9
-    - YZ1N-ZFT9
-    - 542X-3S04
-    - H9BQ-739P
-    - c_2df8fbb1
-    - c_7a1f
-    - c_0040
-    - c_18cf
-    - c_c94f
-    - c_ba08
-    - F8RT-TJK0
-    - C53B-JCY5
-    - GPQ7-G5VE
+    - c_18cc
     - BW7T-YM2G
+    - H9BQ-739P
+    - c_86bc
+    - c_5ce6
+    - c_0857
+    - DD58-GFSX
+    - c_1843
+    - c_18ws
+    - c_93fc
+    - c_18gh
+    - c_12cd
+    - c_1162
+    - c_46ec
+    - W2XT-7017
+    - c_0640
+    - Z907-YMBB
+    - c_12ce
+    - R60J-J5BD
+    - c_393c
+    - DX5J-TA9R
+    - c_7a1f
+    - c_cb28
+    - CQMR-7K63
+    - c_8544
+    - c_6947
+    - c_e059
+    - c_2f33
+    - YZ1N-ZFT9
+    - MW8G-3CR8
+    - S7R1-K5P0
+    - c_c94f
+    - c_8a7e
+    - c_db06
+    - c_bdcc
+    - 6NC7-GK9S
+    - GSZA-Y7V7
+    - c_2cd9
+    - c_c950
+    - c_7bab
+    - c_18cp
+    - c_5794
+    - c_7877
+    - c_18cd
+    - c_ab20
 layout: printable
 ---
 

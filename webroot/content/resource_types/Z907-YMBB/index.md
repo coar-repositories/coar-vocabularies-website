@@ -15,6 +15,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Pflanzenpatent
+    - language_code: az
+      language_name: azərbaycan
+      value: bitki patenti
     - language_code: tr
       language_name: Türkçe
       value: bitki patenti
@@ -39,14 +42,14 @@ pref_labels:
     - language_code: ca
       language_name: català
       value: patent de plantes
+    - language_code: pt
+      language_name: português
+      value: patente de plantas
     - language_code: es
       language_name: español
       value: patente de plantas
     - language_code: gl
       language_name: galego
-      value: patente de plantas
-    - language_code: pt
-      language_name: português
       value: patente de plantas
     - language_code: sr
       language_name: српски

@@ -50,6 +50,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: novinski članak
+    - language_code: az
+      language_name: azərbaycan
+      value: qəzet məqaləsi
     - language_code: fi
       language_name: suomi
       value: sanomalehtiartikkeli

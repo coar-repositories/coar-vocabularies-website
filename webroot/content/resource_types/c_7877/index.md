@@ -22,15 +22,18 @@ pref_labels:
     - language_code: es
       language_name: español
       value: estudio clínico
-    - language_code: gl
-      language_name: galego
-      value: estudo clínico
     - language_code: pt
       language_name: português
+      value: estudo clínico
+    - language_code: gl
+      language_name: galego
       value: estudo clínico
     - language_code: fi
       language_name: suomi
       value: kliininen tutkimus
+    - language_code: az
+      language_name: azərbaycan
+      value: klinik araşdırma
     - language_code: hu
       language_name: magyar
       value: klinikai vizsgálat

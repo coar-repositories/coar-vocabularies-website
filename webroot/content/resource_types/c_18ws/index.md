@@ -8,9 +8,9 @@ related:
     - type: Broad Match
       uri: http://purl.bioontology.org/ontology/MESH/D058028
     - type: Broad Match
-      uri: http://purl.org/datacite/v4.4/Report
-    - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5170
+    - type: Broad Match
+      uri: http://purl.org/datacite/v4.4/Report
 pref_labels:
     - language_code: de
       language_name: Deutsch
@@ -63,6 +63,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tutkimusraportti
+    - language_code: az
+      language_name: azərbaycan
+      value: tədqiqat hesabatı
     - language_code: cs
       language_name: čeština
       value: výzkumná zpráva

@@ -13,11 +13,11 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Konferenzschrift
-    - language_code: es
-      language_name: español
-      value: actas de congreso
     - language_code: gl
       language_name: galego
+      value: actas de congreso
+    - language_code: es
+      language_name: español
       value: actas de congreso
     - language_code: fr
       language_name: français
@@ -52,6 +52,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: konferenssijulkaisu
+    - language_code: az
+      language_name: azərbaycan
+      value: konfrans materialları
     - language_code: ro
       language_name: română
       value: lucrarile conferinţei
@@ -149,8 +152,8 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_6670
     - c_5794
+    - c_6670
 broader_concepts:
     - c_c94f
 ---

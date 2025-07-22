@@ -6,15 +6,15 @@ deprecated: false
 layout: concept
 related:
     - type: Exact Match
-      uri: https://schema.org/Dataset
-    - type: Exact Match
       uri: http://purl.org/datacite/v4.4/Dataset
-    - type: Exact Match
-      uri: http://purl.org/dc/dcmitype/Dataset
     - type: Exact Match
       uri: http://purl.bioontology.org/ontology/MESH/D064886
     - type: Exact Match
+      uri: https://schema.org/Dataset
+    - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e2865
+    - type: Exact Match
+      uri: http://purl.org/dc/dcmitype/Dataset
     - type: Narrow Match
       uri: https://id.loc.gov/vocabulary/contentTypes/cod.html
     - type: Related Match
@@ -38,14 +38,14 @@ pref_labels:
     - language_code: gl
       language_name: galego
       value: conxunto de datos
-    - language_code: en
-      language_name: English
-      value: dataset
     - language_code: sv
       language_name: svenska
       value: dataset
     - language_code: it
       language_name: italiano
+      value: dataset
+    - language_code: en
+      language_name: English
       value: dataset
     - language_code: nl
       language_name: Nederlands
@@ -74,6 +74,9 @@ pref_labels:
     - language_code: tr
       language_name: Türkçe
       value: veri seti
+    - language_code: az
+      language_name: azərbaycan
+      value: verilənlər toplusu
     - language_code: el
       language_name: Ελληνικά
       value: σύνολο δεδομένων
@@ -111,11 +114,14 @@ alt_labels:
     - language_code: ca
       language_name: català
       value: dades de recerca
-    - language_code: ca
-      language_name: català
+    - language_code: az
+      language_name: azərbaycan
       value: dataset
     - language_code: pt
       language_name: português
+      value: dataset
+    - language_code: ca
+      language_name: català
       value: dataset
     - language_code: fr
       language_name: français
@@ -159,19 +165,19 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: true
 narrower_concepts:
-    - DD58-GFSX
-    - A8F1-NPV9
+    - FXF3-D3G7
+    - W2XT-7017
+    - 63NG-B465
     - ACF7-8YT9
     - NHD0-W6SY
-    - 63NG-B465
-    - CQMR-7K63
-    - FXF3-D3G7
-    - AM6W-6QAW
-    - W2XT-7017
     - FF4C-28RK
-    - 2H0M-X761
-    - H41Y-FW7B
+    - CQMR-7K63
+    - DD58-GFSX
     - c_cb28
+    - A8F1-NPV9
+    - H41Y-FW7B
+    - AM6W-6QAW
+    - 2H0M-X761
 broader_concepts: []
 ---
 

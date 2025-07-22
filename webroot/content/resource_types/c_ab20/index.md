@@ -19,12 +19,15 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: data management plan
-    - language_code: nl
-      language_name: Nederlands
-      value: data management plan
     - language_code: en
       language_name: English
       value: data management plan
+    - language_code: nl
+      language_name: Nederlands
+      value: data management plan
+    - language_code: az
+      language_name: azərbaycan
+      value: data menecment planı
     - language_code: sv
       language_name: svenska
       value: datahanteringsplan
@@ -89,6 +92,9 @@ alt_labels:
     - language_code: da
       language_name: dansk
       value: datahåndteringsplan
+    - language_code: az
+      language_name: azərbaycan
+      value: məlumatların idarə edilməsi planı
     - language_code: sl
       language_name: slovenščina
       value: načrt upravljanja s podatki

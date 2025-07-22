@@ -64,6 +64,9 @@ pref_labels:
     - language_code: fi
       language_name: suomi
       value: tutkimusehdotus
+    - language_code: az
+      language_name: azərbaycan
+      value: tədqiqat təklifi
     - language_code: el
       language_name: Ελληνικά
       value: ερευνητική πρόταση

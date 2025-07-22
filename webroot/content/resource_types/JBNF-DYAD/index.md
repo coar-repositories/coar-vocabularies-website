@@ -56,6 +56,9 @@ pref_labels:
     - language_code: fr
       language_name: français
       value: schéma industriel
+    - language_code: az
+      language_name: azərbaycan
+      value: sənaye dizaynı
     - language_code: fi
       language_name: suomi
       value: tuotesuunnnitelma

@@ -6,11 +6,11 @@ deprecated: false
 layout: concept
 related:
     - type: Broad Match
-      uri: http://purl.org/eprint/type/JournalArticle
-    - type: Broad Match
       uri: http://purl.org/ontology/bibo/Article
     - type: Broad Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5310
+    - type: Broad Match
+      uri: http://purl.org/eprint/type/JournalArticle
     - type: Exact Match
       uri: https://sparontologies.github.io/fabio/current/fabio.html#d4e5287
     - type: Narrow Match
@@ -40,6 +40,9 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: litteraturgennemgang
+    - language_code: az
+      language_name: azərbaycan
+      value: məqalə dəyərləndirilməsi
     - language_code: nl
       language_name: Nederlands
       value: overzichtsartikel
@@ -104,6 +107,9 @@ alt_labels:
     - language_code: es
       language_name: español
       value: artículo de reseña
+    - language_code: az
+      language_name: azərbaycan
+      value: məqaləyə baxış
     - language_code: sr
       language_name: српски
       value: pregledni naučni članak

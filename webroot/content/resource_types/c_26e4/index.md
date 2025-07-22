@@ -6,11 +6,11 @@ deprecated: true
 layout: concept
 related:
     - type: Narrow Match
+      uri: https://dictionary.casrai.org/Broadcast_Interview
+    - type: Narrow Match
       uri: https://dictionary.casrai.org/Text_Interview
     - type: Narrow Match
       uri: https://scigraph.springernature.com/things/technical-article-types/interview
-    - type: Narrow Match
-      uri: https://dictionary.casrai.org/Broadcast_Interview
 pref_labels:
     - language_code: tr
       language_name: Türkçe

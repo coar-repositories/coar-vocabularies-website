@@ -52,6 +52,9 @@ pref_labels:
     - language_code: da
       language_name: dansk
       value: simuleringsdata
+    - language_code: az
+      language_name: azərbaycan
+      value: simulyasiya məlumatı
     - language_code: tr
       language_name: Türkçe
       value: simülasyon verisi

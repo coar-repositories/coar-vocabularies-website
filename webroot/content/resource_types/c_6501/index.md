@@ -21,6 +21,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: Zeitschriftenaufsatz
+    - language_code: az
+      language_name: azərbaycan
+      value: akademik jurnal məqaləsi
     - language_code: fr
       language_name: français
       value: article
@@ -33,11 +36,11 @@ pref_labels:
     - language_code: it
       language_name: italiano
       value: articolo de rivista
-    - language_code: gl
-      language_name: galego
-      value: artigo
     - language_code: pt
       language_name: português
+      value: artigo
+    - language_code: gl
+      language_name: galego
       value: artigo
     - language_code: es
       language_name: español
@@ -187,11 +190,11 @@ alt_labels:
 date: 2024-12-03T00:00:00Z
 isTopConcept: false
 narrower_concepts:
-    - c_7acd
-    - c_beb9
-    - c_dcae04bc
     - c_2df8fbb1
+    - c_7acd
     - c_7bab
+    - c_dcae04bc
+    - c_beb9
 broader_concepts:
     - c_0640
 ---
