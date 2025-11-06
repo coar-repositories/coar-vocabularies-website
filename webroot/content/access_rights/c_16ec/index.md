@@ -41,6 +41,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: omejen dostop
+    - language_code: cs
+      language_name: čeština
+      value: omezený přístup
     - language_code: fi
       language_name: suomi
       value: rajoitettu saatavuus

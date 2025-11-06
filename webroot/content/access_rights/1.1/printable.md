@@ -40,6 +40,8 @@ creators:
       name: Hilary Jones
     - language: Japanese
       name: Tomoko Kataoka
+    - language: Czech
+      name: Pavel Kotlík
     - language: French
       name: Laurence Le Borgne
     - language: Chinese

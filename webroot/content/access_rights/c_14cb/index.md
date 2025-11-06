@@ -29,6 +29,9 @@ pref_labels:
     - language_code: de
       language_name: Deutsch
       value: nur Metadaten
+    - language_code: cs
+      language_name: čeština
+      value: pouze metadata
     - language_code: sr
       language_name: српски
       value: pristup ograničen na metapodatke

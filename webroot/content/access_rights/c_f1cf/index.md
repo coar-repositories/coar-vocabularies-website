@@ -36,6 +36,9 @@ pref_labels:
     - language_code: sr
       language_name: српски
       value: odloženi otvoreni pristup
+    - language_code: cs
+      language_name: čeština
+      value: odložené zpřístupnění
     - language_code: nl
       language_name: Nederlands
       value: onder embargo

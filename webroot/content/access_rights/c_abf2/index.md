@@ -6,9 +6,9 @@ deprecated: false
 layout: concept
 related:
     - type: Related Match
-      uri: https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public
-    - type: Related Match
       uri: http://purl.org/eprint/accessRights/OpenAccess
+    - type: Related Match
+      uri: https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public
 pref_labels:
     - language_code: es
       language_name: español
@@ -40,6 +40,9 @@ pref_labels:
     - language_code: en
       language_name: English
       value: open access
+    - language_code: cs
+      language_name: čeština
+      value: otevřený přístup
     - language_code: sr
       language_name: српски
       value: otvoreni pristup
