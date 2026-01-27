@@ -5,3 +5,6 @@
 # GoLand (IDE) artefacts
 .idea
 
+/webroot/public/
+/webroot/resources/
+/webroot/.hugo_build.lock
