@@ -8,7 +8,7 @@ Initial example: https://github.com/4Science/DSpace/blob/dspace-cris-7/dspace/co
       <hasNote>
         <![CDATA[Embargoed access refers to a resource that is metadata only access until released for open access on a certain date. Embargoes can be required by publishers and funders policies, or set by the author (e.g such as in the case of theses and dissertations).]]></hasNote>
     </node>
-    <node id="c_14cb" label="alleen metadata beschikbaar">
+    <node id="c_14cb" label="toegang beperkt tot metadata">
       <hasNote>
         <![CDATA[Metadata only access refers to a resource in which access is limited to metadata only. The resource itself is described by the metadata, but neither is directly available through the system or platform nor can be referenced to an open access copy in an external journal or trustworthy archive.]]></hasNote>
     </node>

@@ -90,9 +90,9 @@ languages:
     - sr
     - sr-cyrl
 not_deprecated_concepts:
-    - c_f1cf
-    - c_16ec
-    - c_abf2
     - c_14cb
+    - c_abf2
+    - c_16ec
+    - c_f1cf
 ---
 

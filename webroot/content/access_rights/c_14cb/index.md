@@ -20,9 +20,6 @@ pref_labels:
     - language_code: pt
       language_name: português
       value: acesso a metadados
-    - language_code: nl
-      language_name: Nederlands
-      value: alleen metadata beschikbaar
     - language_code: en
       language_name: English
       value: metadata only access
@@ -44,6 +41,9 @@ pref_labels:
     - language_code: sl
       language_name: slovenščina
       value: samo metapodatki
+    - language_code: nl
+      language_name: Nederlands
+      value: toegang beperkt tot metadata
     - language_code: fi
       language_name: suomi
       value: vain metadata saatavissa
@@ -86,7 +86,7 @@ alt_labels:
       value: acesso limitado a metadados
     - language_code: nl
       language_name: Nederlands
-      value: alleen metadata
+      value: alleen metadata beschikbaar
     - language_code: fr
       language_name: français
       value: libre accès aux seules métadonnées
