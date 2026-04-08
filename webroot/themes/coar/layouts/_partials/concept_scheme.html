@@ -39,7 +39,7 @@
                 {{ range . }}
                     {{ $fileNameSlice := strings.Split . "dspace_"}}
                     {{ $languageCode := substr (index $fileNameSlice 1) 0 -4 }}
-                    <li><a href="/{{ page.File.Dir }}{{ . }}">DSpace XML Vocab file ({{ index site.Data.languages $languageCode }})</a></li>
+                    <li><a href="/{{ page.File.Dir }}{{ . }}">DSpace XML Vocab file ({{ index hugo.Data.languages $languageCode }})</a></li>
                 {{ end }}
             {{ end }}
         </ul>

@@ -7,4 +7,4 @@
 /webroot/.hugo_build.lock
 /webroot/public/
 !/webroot/public/.keep
-
+/.run/

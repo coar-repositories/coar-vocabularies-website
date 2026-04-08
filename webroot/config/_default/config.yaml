@@ -1,4 +1,4 @@
-languageCode: "en-gb"
+locale: "en-gb"
 uglyURLs: false
 title: "Controlled Vocabularies for Repositories"
 enableRobotsTXT: true
